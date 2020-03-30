@@ -1,1 +1,742 @@
-{}
+{
+  "common": {
+    "see_all": "Смотреть всё",
+    "sign_in": "Войти",
+    "sign_up": "Регистрация",
+    "accept": "Принять",
+    "cancel": "Отменить",
+    "save": "Сохранить",
+    "more": "Больше",
+    "close": "Закрыть",
+    "back": "Назад",
+    "continue": "Продолжить",
+    "skip": "Пропустить",
+    "next": "Далее",
+    "ban": "Забанить",
+    "read_more": "Читать дальше",
+    "block": "Заблокировать",
+    "unblock": "Разблокировать",
+    "follow": "Подписаться",
+    "following": "Подписан?",
+    "unfollow": "Отписаться",
+    "all": "Все",
+    "search": "Поиск",
+    "search_placeholder": "Поиск...",
+    "equity_value_commun": "Капитализация в Commun",
+    "counters": {
+      "follower": "Подписчик",
+      "follower_plural": "Подписчики",
+      "following": "Подписан",
+      "community": "Сообщество",
+      "community_plural": "Сообщества",
+      "post": "Пост",
+      "post_plural": "Посты",
+      "leader": "Лидер",
+      "leader_plural": "Лидеры",
+      "member": "Участник",
+      "member_plural": "Участники",
+      "friend": "Друг",
+      "friend_plural": "Друзья",
+      "point": "Поинт",
+      "point_plural": "Поинты"
+    }
+  },
+  "header": {
+    "buy_commun": "Купить Commun",
+    "how_it_works": "Как это работает?",
+    "log_in": "Войти",
+    "sign_up": "Регистрация"
+  },
+
+  "sidebar": {
+    "my_feed": "Моя лента",
+    "trending": "В тренде",
+    "wallet": "Кошелек",
+    "discovery": "Обзор",
+    "management": "Управление",
+    "communities": "Сообщества",
+    "new_post": "Новый пост"
+  },
+
+  "footer": {
+    "user_agreement": "Пользовательское соглашение",
+    "privacy_policy": "Политика приватности",
+    "cookies_policy": "Политика Cookies",
+    "blockchain_disclaimer": "Отказ от ответственности",
+    "whitepaper": "Whitepaper"
+  },
+
+  "components": {
+    "blacklist": {
+      "title": "Черный список",
+      "tabs": {
+        "users": "Пользователи",
+        "communities": "Сообщества"
+      },
+      "users_blacklist": {
+        "no_found": "Нет заблокированных пользователей"
+      },
+      "communities_blacklist": {
+        "no_found": "Нет заблокированных сообществ"
+      }
+    },
+    "settings": {
+      "logout": "Выйти",
+      "general": {
+        "title": "Общие",
+        "language": "Язык интерфейса",
+        "nsfw": {
+          "hide": "Всегда скрывать",
+          "warn": "Всегда предупреждать",
+          "show": "Всегда показывать"
+        }
+      },
+      "notifications_settings": {
+        "title": "Онлайн уведомления",
+        "switchers": {
+          "upvote": "Апвоут",
+          "reply": "Ответы",
+          "mention": "Упоминания",
+          "subscribe": "Подписки",
+          "rewards": "Награды",
+          "transfers": "Переводы"
+        }
+      },
+      "keys": {
+        "copy": "Скопировать ключ",
+        "active": {
+          "title": "Активный ключ",
+          "description": "Позволяет переводить поинты"
+        },
+        "owner": {
+          "title": "Ключ владельца",
+          "description": "Полный доступ"
+        }
+      }
+    },
+    "wallet": {
+      "tabs": {
+        "my_points": "Мои поинты",
+        "history": "История"
+      },
+      "my_points": {
+        "my_points": "Мои поинты",
+        "send_points": "Отправить поинты",
+        "search_points": "Найти поинты",
+        "no_found": "Нет поинтов",
+        "no_found_desc": "Попробуй отправить или обменять"
+      },
+      "actions_panel": {
+        "send": "Отправить",
+        "sell": "Продать",
+        "buy": "Купить",
+        "convert": "Обменять"
+      },
+      "transfer_history": {
+        "title": "Истроия",
+        "filter": "Фильтр",
+        "empty": "История пуста",
+        "empty_desc": "Нет транзакций",
+        "no_found": "Транзакции не найдены",
+        "no_found_desc": "Попробуй отправить или обменять"
+      }
+    },
+    "leaderboard": {
+      "tabs": {
+        "proposals": "Предложения",
+        "reports": "Жалобы",
+        "posts": "Посты",
+        "comments": "Комментарии"
+      },
+      "proposals": {
+        "no_found": "Нет предложений",
+        "no_found_desc": "Сейчас нет предложений в сообществе"
+      },
+      "reports": {
+        "no_found": "Нет жалоб",
+        "no_found_desc": "Сейчас нет жалоб в сообществе"
+      }
+    },
+    "communities": {
+      "create": "Создать сообщество",
+      "no_found": "Нет сообществ",
+      "tabs": {
+        "discover": "Обзор",
+        "my_communities": "Мои сообщества",
+        "managed": "Управление"
+      }
+    },
+    "notifications": {
+      "title": "Уведомления",
+      "filters": "Фильтры (пока не готовы)"
+    },
+    "profile": {
+      "tabs": {
+        "posts": "Посты",
+        "comments": "Комментарии",
+        "communities": "Сообщества",
+        "my_communities": "Мои сообщества",
+        "followers": "Подписчики",
+        "following": "Подписки",
+        "referrals": "Рефералы"
+      },
+      "profile_header": {
+        "cover_updated": "Обложка обновлена",
+        "joined": "Подписан?",
+        "avatar_updated": "Аватар обновлен",
+        "not_available": "Профиль недоступен",
+        "send_points": "Отправить поинты"
+      },
+      "description": {
+        "edit_bio": "Изменить описание",
+        "add_bio": "Добавить описание"
+      },
+      "comments": {
+        "empty": "Нет комментариев",
+        "empty-desc": "Ты, наверное, еще не комментировал"
+      },
+      "followers": {
+        "empty": "У тебя нет подписчиков",
+        "empty-desc": "На тебя никто не подписан. Найди новых друзей или опубликуй новый пост.",
+        "create": "Создать новый пост"
+      },
+      "following": {
+        "empty": "Нет подписок",
+        "empty-desc": "Ты ни на кого не подписан"
+      },
+      "referrals": {
+        "empty": "Нет рефералов",
+        "empty-desc": "У тебя нет рефералов",
+        "no_found": "Ничего не найдено"
+      },
+      "user_communities": {
+        "empty": "Нет подписок",
+        "empty-desc": "Ты не подписан на сообщества",
+        "find": "Найти сообщества"
+      }
+    },
+    "community": {
+      "tabs": {
+        "posts": "Посты",
+        "leaders": "Лидеры",
+        "members": "Подписчики",
+        "description": "Описание",
+        "rules": "Правила",
+        "settings": "Настройки"
+      }
+    },
+    "onboarding": {
+      "sign_up": "Присоединяйся и получи 30 поинтов",
+      "sign_up-mobile": "Начни прямо сейчас и получи поинты!",
+      "desktopSlides": {
+        "first": {
+          "title": "Получай награды <br /> за посты и лайки",
+          "desc": "Создавай контент, голосуй за посты, участвуй в дисскуссиях<br /> и получай награды в Community Points.",
+          "progressBarText": "Участники получают награды <br />за посты и лайки"
+        },
+        "second": {
+          "title": "Тематические сообщества",
+          "desc": "Выбери свое сообщество и получай награды.<br /> Проще простого!",
+          "progressBarText": "Тематические<br /> сообщества"
+        },
+        "third": {
+          "title": "Социальная сеть <br />на основе блокчейна",
+          "desc": "Блокчейн дает возможность социальным сетям награждать своих пользователей и давать сообществам больше независимости.",
+          "progressBarText": "Социальная сеть <br />на основе блокчейна"
+        }
+      },
+      "mobileSlides": {
+        "first": {
+          "title": "Здесь тебя <br /><span>ждут<span class=»highlight»>награды</span></span><br />за твои <br />посты и <br />лайки."
+        },
+        "second": {
+          "title": "Выбери <br />your <br /><span class=»highlight»>тематическое</span> <br />сообщество"
+        },
+        "third": {
+          "title": "Социальная сеть на основе блокчейна"
+        }
+      }
+    },
+
+    "auth_block": {
+      "my_profile": "Мой профиль",
+      "wallet": "Кошелек",
+      "blacklist": "Черный список",
+      "settings": "Настройки",
+      "logout": "Выйти"
+    },
+    "entity_card_reports": {
+      "refuse": "Отменить бан",
+      "approve": "Подтвердить бан",
+      "approves": "Подтверждения",
+      "create": "Предложить бан",
+      "reports": "Жалобы"
+    },
+
+    "autocomplete_search": {
+      "text": "Все результаты"
+    },
+    "whats_new_opener": {
+      "text": "Что нового?"
+    },
+    "post_editor": {
+      "placeholder": "Что нового?"
+    },
+    "cookies": {
+      "text": "Данный сайт использует файлы cookies"
+    },
+    "empty_list": {
+      "text": "Ничего не найдено"
+    }
+  },
+
+  "modals": {
+    "avatar_edit": {
+      "title": "Сменить позицию",
+      "rotate": "Повернуть фото"
+    },
+    "become_leader": {
+      "title": "Стать лидером",
+      "url": "Ссылка на приветствие",
+      "become": "Стать лидером"
+    },
+    "choose_post_cover": {
+      "title": "Подготовить к публикации",
+      "send": "Пост"
+    },
+    "confirm": {
+      "title": "Подтверждение",
+      "text": "Уверен?"
+    },
+    "description_edit": {
+      "title": "Редактировать описание",
+      "description": "Описание",
+      "changes_lost": "Изменения будут потеряны. Продолжить?",
+      "reset": "Сбросить",
+      "create": "Создать предложение"
+    },
+    "feed_filters_mobile": {
+      "title": "Сортировать по"
+    },
+    "login": {
+      "title": "Войти",
+      "username": "Логин",
+      "password": "Пароль",
+      "error": "Ошибка: {{error}}",
+      "submit": "Войти",
+      "sign_up": "Нет аккаунта?"
+    },
+    "profile_about_edit": {
+      "title": "Редактировать описание",
+      "description": "Расскажи что-нибудь о себе",
+      "reset": "Сбросить",
+      "save": "Сохранить"
+    },
+    "profile_mobile_menu": {
+      "edit_bio": "Редактировать описание",
+      "send_points": "Отправить поинты"
+    },
+    "report": {
+      "title": "Пожалуйста, выбери проблему",
+      "report_field": "Жалоба",
+      "text": "Если кто-то находится в непосредственной опасности, пожалуйста, обратись в местные аварийные службы. Не жди.",
+      "send": "Отправить"
+    },
+    "rule_edit": {
+      "title": "Добавить правило",
+      "title-edit": "Редактировать правила",
+      "title_field": "Заголовок",
+      "description_field": "Описание",
+      "question": "Изменения будут потеряны. Продолжить?",
+      "submit": "Создать предложение"
+    },
+    "share": {
+      "title": "Поделиться"
+    },
+    "sign_up": {
+      "title": "Регистрация",
+      "title-oops": "Что-то пошло не так",
+      "can_close": "Регистрация не завершена. Данные не будут сохранены.",
+      "sign_in_text": "У тебя есть аккаунт?",
+      "sign_in": "Войти",
+      "errors": {
+        "too_many": "Слишком много попыток",
+        "try_again": "Код не пришел. Попробуй снова",
+        "try_later": "Попробуй позже",
+        "recaptcha_check": "Проверка не пройдена"
+      },
+      "attentionAfter": {
+        "title": "Внимание!",
+        "description": "Мы не храним мастер-пароли и не можем их восстановить.",
+        "text": "К сожалению, блокчейн не позволяет нам восстанавливать пароли. Пользователь должен хранить пароль в надежном месте, чтобы в любое время получить к нему доступ.<br /><br />Настоятельно рекомендуем сохранить пароль и сделать копию.",
+        "saved_it": "Сохранил",
+        "download": "Скачать PDF с паролем"
+      },
+      "attentionBefore": {
+        "title": "Внимание!",
+        "description": "Ты собираешься продолжить работу в расширенном режиме с мастер-паролем.",
+        "text": "После подтверждения будет сгенерирован 52-символьный крипто-пароль.<br />Пожалуйста, скопируй пароль или скачай файл PDF с паролем.<br />Мы не храним мастер-пароли и не можем их восстановить.<br /><br />Настоятельно рекомендуем сохранить пароль и сделать копию.",
+        "continue": "Продолжить с мастер-паролем"
+      },
+      "confirmation_code": {
+        "title": "Код подтверждения из SMS",
+        "resend": "Отправить код еще раз"
+      },
+      "confirm_password": {
+        "title": "Подтвердить пароль",
+        "description": "Введи пароль еще раз",
+        "errors": {
+          "same": "Пароли не совпадают"
+        }
+      },
+      "create_password": {
+        "title": "Создать пароль",
+        "description": "Мы не храним мастер-пароли и не можем их восстановить. <br /><span class=»bold»>Пожалуйста, сохрани пароль.</span>",
+        "use_password": "Использовать мастер-пароль",
+        "rules": {
+          "lower_case": "Строчные буквы",
+          "upper_case": "Заглавные буквы",
+          "number": "Числа",
+          "min_length": "Минимальная длина"
+        }
+      },
+      "create_username": {
+        "description": "Создать имя пользователя",
+        "username": "Имя пользователя"
+      },
+      "master_key": {
+        "title": "<span class=»bold»>Мастер-пароль</span><br />сгенерирован",
+        "title-custom": "<span class=»bold»>Пароль</span><br />создан",
+        "text": "Для входа необходим мастер-пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=»bold»>Береги его!</span>",
+        "text-custom": "Для входа необходим пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=»bold»>Береги его!</span>",
+        "master_password": "Мастер-пароль",
+        "retry": "Попробовать снова",
+        "download": "Скачать PDF",
+        "saved_it": "Сохранил"
+      },
+      "oauth": {
+        "continue": "Продолжить как <span class=\"name\">{{name}}</span>",
+        "sign_in_text": "У тебя есть аккаунт?",
+        "sign_in": "Войти"
+      },
+      "phone": {
+        "description": "Укажи номер телефона",
+        "phone_number": "Номер телефона",
+        "sign_in_text": "У тебя есть аккаунт?",
+        "sign_in": "Войти",
+        "errors": {
+          "unavailable": "Нам очень жаль, но твой регион не поддерживается."
+        }
+      },
+      "email": {
+        "placeholder": "Email",
+        "errors": {
+          "email_is_not_valid": "Электронный адрес недействителен"
+        }
+      },
+      "confirmation_code_email": {
+        "title": "Код подтверждения был выслан на электронную почту. Пожалуйста, введи код подтверждения",
+        "placeholder": "Код подтверждения",
+        "resend": "Выслать код подтверждения",
+        "errors": {
+          "enter_code": "Пожалуйста, введи код"
+        }
+      },
+      "registered": {
+        "description": "Укажи номер телефона",
+        "sign_in": "Логин"
+      },
+      "common": {
+        "passwordInput": {
+          "password": "Пароль"
+        },
+        "termsAgree": {
+          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=»blank»>Пользовательским соглашением</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=»_blank»>Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=»_blank»>Отказом от ответственности</a>"
+        }
+      }
+    },
+    "transfers": {
+      "convert_points": {
+        "title": "Обмен",
+        "convert": "Обменять",
+        "fee": "{{percent}}% сгорит",
+        "you_send": "Ты отправил",
+        "you_get": "Ты получил",
+        "rate": "Тариф"
+      },
+      "exchange_commun": {
+        "2fa": {
+          "text": "Пожалуйста, заверши покупку, введя 4-значный код в конце твоего недавнего описания оплаты",
+          "verify": "Подтвердить"
+        },
+        "address": {
+          "qr_code": "QR-код",
+          "send": "Отправить",
+          "tag": "Тег",
+          "address_field": "Адрес",
+          "copy": "Копировать"
+        },
+        "card": {
+          "title": "С карты",
+          "change_currency": "Изменить валюту",
+          "card_number": "Номер карты",
+          "exp_date": "Дата окончания",
+          "cvc": "CVC",
+          "address": "Платежный адрес",
+          "postal_code": "Платежный индекс",
+          "loading_acs": "Загрузка страницы ACS..."
+        },
+        "error": {
+          "description": "Платеж не прошел",
+          "repeat": "Повторить",
+          "errors": {
+            "1": "Неверный CVC",
+            "2": "Неверный индекс",
+            "3": "Неверный платежный адрес",
+            "4": "Неверно заполнены поля",
+            "5": "Транзакция отклонена банком.",
+            "6": "Только карты Visa или Mastercard принимаются сейчас",
+            "7": "Ошибка аутентификации 3DS",
+            "8": "Аутентификация 3DS не может быть выполнена",
+            "9": "Аутентификация 3DS была выполнена, но не завершена банком пользователя",
+            "default": "Мы работаем над устранением проблемы.<br />Приносим извинения за неудобства"
+          }
+        },
+        "select": {
+          "fee": "Коммисия",
+          "pay": "Сумма платежа",
+          "rate": "Тариф",
+          "you_send": "К отправке",
+          "amount": "Сумма",
+          "minimum_charge": "Минимальный платеж {{amount}} {{symbol}}",
+          "you_get": "Ты получишь",
+          "email": "Email",
+          "buy": "Купить Commun",
+          "errors": {
+            "email_format": ""
+          }
+        },
+        "success": {
+          "completed": "Обмен завершен",
+          "total_charged": "Итого"
+        },
+        "common": {
+          "billing_info": {
+            "title": "Покупка совершена",
+            "agree": "Нажимая Обменять, ты принимаешь {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer»>условия обслуживания.</a>"
+          },
+          "header": {
+            "buy": "Купить"
+          }
+        }
+      },
+      "history_filter": {
+        "title": "Фильтр",
+        "all": "Все",
+        "income": "Входящие",
+        "outcome": "Исходящие",
+        "type": "Тип",
+        "transfer": "Перевод",
+        "convert": "Обмен",
+        "rewards": "Награды",
+        "clear_all": "Очистить все"
+      },
+      "point_info": {
+        "title-mobile": "Отправить поинты"
+      },
+      "select_point": {
+        "title": "Поинты",
+        "search": "Искать поинты",
+        "no_found": "Нет поинтов",
+        "no_found_desc": "Попробуй отправить или обменять"
+      },
+      "select_recipient": {
+        "title": "Выбрать друга"
+      },
+      "select_token": {
+        "title": "Выбрать валюту",
+        "card": "Visa/Master Card",
+        "search": "Искать токены",
+        "no_found": "Нет токенов"
+      },
+      "send_points": {
+        "title": "Отправить",
+        "to": "Кому",
+        "select_user": "Выбрать пользователя",
+        "change_user": "Изменить пользователя",
+        "amount": "Сумма",
+        "hint": "Операция может занять некоторое время",
+        "send": "Отправить",
+        "fee_text": "{{percent}}% сгорит"
+      }
+    },
+    "view_bio": {
+      "title": "Профиль {{username}}"
+    },
+    "switch_to_app": {
+      "title": "Commun еще лучше в приложении",
+      "description": "Получи еще больше удовольствия от использования нашей социальной сети в своем мобильном.",
+      "continue": "Продолжить в приложении",
+      "sign_in": "Войти"
+    },
+    "onboarding_app_banner": {
+      "title": "<span class=\"highlight\">Commun</span> еще лучше в <span class=»highlight»>приложении</span>",
+      "text": "Попробуй сейчас и получи поинты",
+      "continue": "Перейти в приложение",
+      "sign_in": "Войти"
+    },
+    "onboarding_registration": {
+      "communities": {
+        "title": "Получи свои первые поинты",
+        "title-sign_up": "Войди для получения поинтов",
+        "text": "Подпишись на {{COMMUNITIES_AIRDROP_COUNT}} сообществ и получи свои первые Community Points",
+        "sign_in_text": "У тебя есть аккаунт?",
+        "sign_in": "Войти",
+        "sign_up": "Войди и получи поинты",
+        "finish": "Готово"
+      },
+      "download": {
+        "title": "<span class=»blue»>Скачай приложение</span><br />Удвой поинты",
+        "description": "Сразу после авторизации в приложении<br />Мы удвоим твои стартовые поинты"
+      },
+      "share": {
+        "title": "<span class=»share»>Поделись</span> with friends<br />Удвой поинты",
+        "description": "Получи 5% от покупок друзей<br />пришедших по твоей ссылке",
+        "share_link": "Поделиться ссылкой"
+      }
+    },
+    "onboarding_welcome": {
+      "welcome": {
+        "title": "Добро пожаловать<br />в <span class=\"blue\">Commun /</span>",
+        "description": "Социальная сеть на основе блокчейна, где ты получаешь <span class=»blue»>награды</span> за посты, комментарии и лайки."
+      },
+      "thematic": {
+        "title": "<span class=\"blue strong»>Тематические</span><br />сообщества",
+        "description": "Выбери сообщества и получай <br />be <span class=»blue»>награды</span> за активность"
+      },
+      "owned": {
+        "title": "<span class=»strong»>Принадлежит</span> пользователям",
+        "description": "Сообщества не имеют основателя<br />и полностью принадлежат пользователям",
+        "sign_up": "Начни и получи 30 поинтов",
+        "sign_in": "Войти"
+      },
+      "monetize": {
+        "title": "<span class=»strong»>Монетизируй</span><br />общение",
+        "description": "Создавай посты, комментируй, лайкай<br />и получай поинты сообществ"
+      }
+    }
+  },
+
+  "widgets": {
+    "get_first_points": {
+      "title": "Получи первые поинты",
+      "description": "Подпишись<br /> на 3 сообщества и получи приветсвенные поинты"
+    },
+    "airdrop": {
+      "first_line": "Твои",
+      "second_line": "подарочные поинты ждут!",
+      "text": "Жми на кнопку и <br/> получи Dank Meme's поинты!",
+      "get": "Получить"
+    },
+    "trending_communities": {
+      "title": "Популярные сообщества"
+    },
+    "leader_in": {
+      "title": "Лидер в"
+    },
+    "community_filter": {
+      "title": "Сообщества",
+      "clear": "Сбросить фильтр",
+      "no_found": "Ничего не найдено",
+      "empty": "Нет сообществ"
+    },
+    "following_you": {
+      "user_subscribed": "{{user}} подписался на тебя"
+    },
+    "friends": {
+      "title": "Друг",
+      "title_plural": "Друзья"
+    },
+    "get_points": {
+      "get": "Получить поинты",
+      "get-small": "Получить"
+    },
+    "invite": {
+      "text": "Активируй аккаунт и начни с первыми поинтами",
+      "start": "Начать"
+    },
+    "leader_management": {
+      "title": "Управление"
+    },
+    "leaders": {
+      "title": "Лидер",
+      "title_plural": "Лидеры"
+    },
+    "manage_community": {
+      "text": "Управлять"
+    },
+    "members": {
+      "title": "Участник",
+      "title_plural": "Участники"
+    },
+    "mobile_balance": {
+      "wallet": "Кошелек"
+    },
+    "user_communities": {
+      "title": "Сообщество",
+      "title_plural": "Сообщества"
+    },
+    "faq": {
+      "title": "Как использовать Commun?",
+      "description": "Как начать постить и монетизировать активность?",
+      "text": "Получай награды за <br /> посты, лайки и комментарии",
+      "big": {
+        "description": "Как начать постить и <br /> монетизировать активность",
+        "text": "Получай награды за посты, лайки и  <br /> комментарии. Жми “Начать” и узнай больше"
+      },
+      "start": "Начать"
+    },
+    "technical_works": {
+      "first_line": "Технические работы",
+      "bold_line": "скоро закончатся",
+      "text": "Мы работаем над сайтом <br /> и скоро он снова будет доступен",
+      "refresh": "Обновить",
+      "big": {
+        "text": "Спасибо за терпение! Мы работаем над сайтом и скоро он снова будет доступен",
+        "refresh": "Обновить страницу"
+      }
+    }
+  },
+
+  "filters": {
+    "type": {
+      "community": "Новое",
+      "new": "Новое",
+      "hot": "Горячее",
+      "subscriptions": "Новое",
+      "subscriptionsHot": "Горячее",
+      "subscriptionsPopular": "Популярное",
+      "topLikes": "Популярное",
+      "topComments": "Топ комментариев",
+      "topRewards": "Топ наградов"
+    },
+    "timeframe": {
+      "day": "За последние сутки",
+      "week": "За неделю",
+      "month": "За месяц",
+      "all": "За все время"
+    }
+  },
+
+  "post": {
+    "viewCount": "{{count}} вид",
+    "viewCount_plural": "{{count}} виды",
+    "commentsCount": "{{count}} комментарий",
+    "commentsCount_plural": "{{count}} комментарии"
+  },
+
+  "chain_errors": {
+    "cashout_window": "Голосование окончено",
+    "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "search": {
+    "tabs": {
+      "all": "All",
+      "users": "Users",
+      "communities": "Communities",
+      "posts": "Posts"
+    },
+    "types": {
+      "all": "All",
+      "users": "Users",
+      "communities": "Communities",
+      "posts": "Posts"
+    },
+    "trending_communities": "Trending Communities",
+    "empty_hint": "You can try to change the search query or go to feed",
+    "empty_hint_no_query": "Please enter search query or go to feed",
+    "go_to_feed": "Go to Feed",
+    "no_results": "No results",
+    "no_posts": "No posts are found"
+  }
+}

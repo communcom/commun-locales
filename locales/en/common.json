@@ -1,0 +1,755 @@
+{
+  "common": {
+    "see_all": "See all",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "save": "Save",
+    "delete": "Delete",
+    "more": "More",
+    "close": "Close",
+    "back": "Back",
+    "continue": "Continue",
+    "skip": "Skip",
+    "next": "Next",
+    "ban": "Ban",
+    "read_more": "Read more",
+    "block": "Block",
+    "unblock": "Unblock",
+    "follow": "Follow",
+    "following": "Following",
+    "unfollow": "Unfollow",
+    "all": "All",
+    "search": "Search",
+    "search_placeholder": "Search...",
+    "equity_value_commun": "Equity Value Commun",
+    "counters": {
+      "follower": "Follower",
+      "follower_plural": "Followers",
+      "following": "Following",
+      "community": "Community",
+      "community_plural": "Communities",
+      "post": "Post",
+      "post_plural": "Posts",
+      "leader": "Leader",
+      "leader_plural": "Leaders",
+      "member": "Member",
+      "member_plural": "Members",
+      "friend": "Friend",
+      "friend_plural": "Friends",
+      "point": "Point",
+      "point_plural": "Points"
+    }
+  },
+  "header": {
+    "buy_commun": "Buy Commun",
+    "how_it_works": "How it works?",
+    "log_in": "Log in",
+    "sign_up": "Sign up"
+  },
+
+  "sidebar": {
+    "my_feed": "My feed",
+    "trending": "Trending",
+    "wallet": "Wallet",
+    "discovery": "Discovery",
+    "management": "Management",
+    "communities": "Communities",
+    "new_post": "New post"
+  },
+
+  "footer": {
+    "user_agreement": "User Agreement",
+    "privacy_policy": "Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "blockchain_disclaimer": "Blockchain Disclaimer",
+    "whitepaper": "Whitepaper"
+  },
+
+  "components": {
+    "blacklist": {
+      "title": "Blacklist",
+      "tabs": {
+        "users": "Users",
+        "communities": "Communities"
+      },
+      "users_blacklist": {
+        "no_found": "No blocked users"
+      },
+      "communities_blacklist": {
+        "no_found": "No blocked communities"
+      }
+    },
+    "settings": {
+      "logout": "Logout",
+      "general": {
+        "title": "General",
+        "language": "Interface language",
+        "nsfw": {
+          "hide": "Always hide",
+          "warn": "Always alert",
+          "show": "Always show"
+        }
+      },
+      "notifications_settings": {
+        "title": "Online notifications",
+        "switchers": {
+          "upvote": "Upvote",
+          "reply": "Reply",
+          "mention": "Mention",
+          "subscribe": "Subscribe",
+          "rewards": "Rewards",
+          "transfers": "Transfers"
+        }
+      },
+      "keys": {
+        "copy": "Copy key",
+        "active": {
+          "title": "Active key",
+          "description": "Allows you to transfer points"
+        },
+        "owner": {
+          "title": "Owner key",
+          "description": "Full access"
+        }
+      }
+    },
+    "wallet": {
+      "tabs": {
+        "my_points": "My Points",
+        "history": "History"
+      },
+      "my_points": {
+        "my_points": "My points",
+        "send_points": "Send points",
+        "search_points": "Search points",
+        "no_found": "No points",
+        "no_found_desc": "Try to send or convert"
+      },
+      "actions_panel": {
+        "send": "Send",
+        "sell": "Sell",
+        "buy": "Buy",
+        "convert": "Convert"
+      },
+      "transfer_history": {
+        "title": "History",
+        "filter": "Filter",
+        "empty": "History empty",
+        "empty_desc": "No transactions",
+        "no_found": "No transactions found",
+        "no_found_desc": "Try to send or convert"
+      }
+    },
+    "leaderboard": {
+      "tabs": {
+        "proposals": "Proposals",
+        "reports": "Reports",
+        "posts": "Posts",
+        "comments": "Comments"
+      },
+      "proposals": {
+        "no_found": "No proposals",
+        "no_found_desc": "There are no suggestions in the community"
+      },
+      "reports": {
+        "no_found": "No reports",
+        "no_found_desc": "There are no reports in the community"
+      }
+    },
+    "communities": {
+      "create": "Create community",
+      "no_found": "No Communities",
+      "tabs": {
+        "discover": "Discover",
+        "my_communities": "My communities",
+        "managed": "Managed"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "filters": "Filters (not ready yet)"
+    },
+    "profile": {
+      "tabs": {
+        "posts": "Posts",
+        "comments": "Comments",
+        "communities": "Communities",
+        "my_communities": "My Communities",
+        "followers": "Followers",
+        "following": "Following",
+        "referrals": "Referrals"
+      },
+      "profile_header": {
+        "cover_updated": "Cover image updated",
+        "joined": "Joined",
+        "avatar_updated": "Avatar updated",
+        "not_available": "Profile is not available",
+        "send_points": "Send Points"
+      },
+      "description": {
+        "edit_bio": "Edit bio",
+        "add_bio": "Add bio"
+      },
+      "comments": {
+        "empty": "No Comments",
+        "empty-desc": "You haven't made any comments yet"
+      },
+      "followers": {
+        "empty": "No Followers",
+        "empty-desc": "You have not any following. You can find new friends or create new post.",
+        "create": "Create new post"
+      },
+      "following": {
+        "empty": "No Following",
+        "empty-desc": "You don't have any following"
+      },
+      "referrals": {
+        "empty": "No Referrals",
+        "empty-desc": "You don't have any referral users",
+        "no_found": "Nothing is found"
+      },
+      "user_communities": {
+        "empty": "No Subscriptions",
+        "empty-desc": "You have not subscribed to any community",
+        "find": "Find communities"
+      }
+    },
+    "community": {
+      "tabs": {
+        "posts": "Posts",
+        "leaders": "Leaders",
+        "members": "Members",
+        "description": "Description",
+        "rules": "Rules",
+        "settings": "Settings"
+      }
+    },
+    "onboarding": {
+      "sign_up": "Get started and get 30 Points",
+      "sign_up-mobile": "Start now and get points",
+      "desktopSlides": {
+        "first": {
+          "title": "Here you get rewards<br /> for your posts and likes",
+          "desc": "Create posts, vote for them, comment and discuss<br /> and receive rewards in Community Points",
+          "progressBarText": "People receive rewards <br />for their posts and likes"
+        },
+        "second": {
+          "title": "Thematic communities",
+          "desc": "Choose your community, and it will reward your actions.<br /> Easy as is!",
+          "progressBarText": "Thematic<br />communities"
+        },
+        "third": {
+          "title": "The blockchain-based<br /> social network",
+          "desc": "Thanks to the blockchain, It’s now possible for social networks to reward their users and provide autonomy to communities",
+          "progressBarText": "The blockchain-based <br />social network"
+        }
+      },
+      "mobileSlides": {
+        "first": {
+          "title": "Here you <br /><span>get <span class=\"highlight\">rewards</span></span><br />for your <br />posts and <br />likes"
+        },
+        "second": {
+          "title": "Choose <br />your <br /><span class=\"highlight\">thematic</span> <br />community"
+        },
+        "third": {
+          "title": "<span class=\"highlight\">Blockchain-</span> <br />based <br />social <br />network"
+        }
+      }
+    },
+
+    "auth_block": {
+      "my_profile": "My Profile",
+      "wallet": "Wallet",
+      "blacklist": "Blacklist",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "entity_card_reports": {
+      "refuse": "Refuse Ban",
+      "approve": "Approve Ban",
+      "approves": "Approves",
+      "create": "Create Ban Proposal",
+      "reports": "Reports"
+    },
+
+    "autocomplete_search": {
+      "text": "Show all results"
+    },
+    "whats_new_opener": {
+      "text": "What's new?"
+    },
+    "post_editor": {
+      "placeholder": "What's new?"
+    },
+    "cookies": {
+      "text": "This website uses cookies to improve your experience"
+    },
+    "empty_list": {
+      "text": "Nothing is found"
+    }
+  },
+
+  "menu": {
+    "common": {
+      "more_actions": "More Actions"
+    },
+    "post": {
+      "report": "Report",
+      "propose_ban": "Propose to ban",
+      "view_in_explorer": "View in Explorer"
+    }
+  },
+
+  "modals": {
+    "avatar_edit": {
+      "title": "Change position",
+      "rotate": "Rotate photo"
+    },
+    "become_leader": {
+      "title": "Become a leader",
+      "url": "Welcome post URL",
+      "become": "Become a leader"
+    },
+    "choose_post_cover": {
+      "title": "Prepare for publication",
+      "send": "Post"
+    },
+    "confirm": {
+      "title": "Confirmation",
+      "text": "Are you sure?"
+    },
+    "description_edit": {
+      "title": "Edit Description",
+      "description": "Description",
+      "changes_lost": "Changes will be lost, continue?",
+      "reset": "Reset",
+      "create": "Create proposal"
+    },
+    "feed_filters_mobile": {
+      "title": "Sort by"
+    },
+    "login": {
+      "title": "Sign in",
+      "username": "Username",
+      "password": "Password",
+      "error": "Error: {{error}}",
+      "submit": "Login",
+      "sign_up": "Don’t have an account?"
+    },
+    "profile_about_edit": {
+      "title": "Edit Bio",
+      "description": "Type something about you",
+      "reset": "Reset",
+      "save": "Save"
+    },
+    "profile_mobile_menu": {
+      "edit_bio": "Edit bio",
+      "send_points": "Send Points"
+    },
+    "report": {
+      "title": "Please select a problem",
+      "report_field": "Report",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
+    },
+    "rule_edit": {
+      "title": "Add rule",
+      "title-edit": "Rule editing",
+      "title_field": "Title",
+      "description_field": "Description",
+      "question": "Changes will be lost, continue?",
+      "submit": "Create proposal"
+    },
+    "share": {
+      "title": "Share"
+    },
+    "sign_up": {
+      "title": "Sign up",
+      "title-oops": "Oops",
+      "can_close": "You should complete registration, data can be missed otherwise.",
+      "sign_in_text": "Do you have account?",
+      "sign_in": "Sign in",
+      "errors": {
+        "too_many": "Too many retries",
+        "try_again": "Code didn't resend. Try again",
+        "try_later": "Try later",
+        "recaptcha_check": "Recaptcha check failed"
+      },
+      "attentionAfter": {
+        "title": "Attention",
+        "description": "We do not keep master passwords and have no opportunity to restore them.",
+        "text": "Unfortunately, blockchain doesn’t allow us to restore passwords. It means that it is a user’s responsibility to keep the password in a safe place to be able to access it anytime.<br /><br />We strongly recommend you to save your password and make its copy.",
+        "saved_it": "I saved it",
+        "download": "Download PDF with Password"
+      },
+      "attentionBefore": {
+        "title": "Attention",
+        "description": "You want to select the advanced mode and continue with the Master Password",
+        "text": "After confirmation, we'll generate for you a 52-character crypto password.<br />We suggest you copy this password or download a PDF file with it.<br />We do not keep Master Passwords and have no opportunity to restore them.<br /><br />We strongly recommend you to save your password and make its copy.",
+        "continue": "Continue with Master Password"
+      },
+      "confirmation_code": {
+        "title": "Enter verification code from SMS",
+        "resend": "Resend verification code"
+      },
+      "confirm_password": {
+        "title": "Confirm password",
+        "description": "Re-enter you password",
+        "errors": {
+          "same": "Password must be the same"
+        }
+      },
+      "create_password": {
+        "title": "Create password",
+        "description": "We do not keep passwords and have no opportunity to restore them. <br /><span class=\"bold\">Please save your password.</span>",
+        "use_password": "I want to use Master Password",
+        "rules": {
+          "lower_case": "Lower case",
+          "upper_case": "Upper case",
+          "number": "Number",
+          "min_length": "Min length"
+        }
+      },
+      "create_username": {
+        "description": "Create username",
+        "username": "Username"
+      },
+      "master_key": {
+        "title": "<span class=\"bold\">Master password</span><br />has been generated",
+        "title-custom": "<span class=\"bold\">Your password</span><br />has been created",
+        "text": "You need the master password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
+        "text-custom": "You need the password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
+        "master_password": "Master password",
+        "retry": "Retry",
+        "download": "Download PDF",
+        "saved_it": "I saved it"
+      },
+      "oauth": {
+        "continue": "Continue with <span class=\"name\">{{name}}</span>",
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in"
+      },
+      "phone": {
+        "description": "Enter your phone number",
+        "phone_number": "Phone number",
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in",
+        "errors": {
+          "unavailable": "Sorry but we don't support your region yet"
+        }
+      },
+      "email": {
+        "placeholder": "Email",
+        "errors": {
+          "email_is_not_valid": "Email address is not valid"
+        }
+      },
+      "confirmation_code_email": {
+        "title": "An email has been sent with the verification code. Please enter the code here",
+        "placeholder": "Verification code",
+        "resend": "Resend verification code",
+        "errors": {
+          "enter_code": "Please enter code"
+        }
+      },
+      "registered": {
+        "description": "Enter your phone number",
+        "sign_in": "Login"
+      },
+      "common": {
+        "passwordInput": {
+          "password": "Password"
+        },
+        "termsAgree": {
+          "text": "By clicking the “Sign up” button, you agree to the <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">User Agreement</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Privacy Policy</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Blockchain Disclaimer</a>"
+        }
+      }
+    },
+    "transfers": {
+      "convert_points": {
+        "title": "Convert",
+        "convert": "Convert",
+        "fee": "{{percent}}% will be burned",
+        "you_send": "You send",
+        "you_get": "You get",
+        "rate": "Rate"
+      },
+      "exchange_commun": {
+        "2fa": {
+          "text": "Please complete your purchase by entering the 4 character code at the end of your recent charge description",
+          "verify": "Verify"
+        },
+        "address": {
+          "qr_code": "QR code",
+          "send": "Send",
+          "tag": "Tag",
+          "address_field": "Address",
+          "copy": "Copy"
+        },
+        "card": {
+          "title": "From card",
+          "change_currency": "Change currency",
+          "card_number": "Card number",
+          "exp_date": "Exp.date",
+          "cvc": "CVC",
+          "address": "Billing address",
+          "postal_code": "Billing postal code",
+          "loading_acs": "Loading ACS Page..."
+        },
+        "error": {
+          "description": "The payment is not made",
+          "repeat": "Repeat",
+          "errors": {
+            "1": "CVC error",
+            "2": "Postal code error",
+            "3": "Billing address error",
+            "4": "Other incorrect field(s)",
+            "5": "Transaction declined by bank.",
+            "6": "Only Visa or Mastercard accepted right now",
+            "7": "3DS authentication failure",
+            "8": "3DS authentication could not be performed",
+            "9": "3DS authentication was performed but not completed by user's bank",
+            "default": "We are working on this problem.<br />We apologize for the inconvenience"
+          }
+        },
+        "select": {
+          "fee": "Carbon Fee",
+          "pay": "You Pay",
+          "rate": "Rate",
+          "you_send": "You send",
+          "amount": "Amount",
+          "minimum_charge": "Minimum charge is {{amount}} {{symbol}}",
+          "you_get": "You get",
+          "email": "Email",
+          "buy": "Buy Commun",
+          "errors": {
+            "email_format": ""
+          }
+        },
+        "success": {
+          "completed": "Conversion completed",
+          "total_charged": "Total charged"
+        },
+        "common": {
+          "billing_info": {
+            "title": "The purchase is made by",
+            "agree": "By clicking Convert, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
+          },
+          "header": {
+            "buy": "Buy"
+          }
+        }
+      },
+      "history_filter": {
+        "title": "Filter",
+        "all": "All",
+        "income": "Income",
+        "outcome": "Outcome",
+        "type": "Type",
+        "transfer": "Transfer",
+        "convert": "Convert",
+        "rewards": "Rewards",
+        "clear_all": "Clear all"
+      },
+      "point_info": {
+        "title-mobile": "Send points"
+      },
+      "select_point": {
+        "title": "Points",
+        "search": "Search points",
+        "no_found": "No points",
+        "no_found_desc": "Try to send or convert"
+      },
+      "select_recipient": {
+        "title": "Choose friend"
+      },
+      "select_token": {
+        "title": "Choose Currency",
+        "card": "Visa/Master Card",
+        "search": "Search tokens",
+        "no_found": "No tokens"
+      },
+      "send_points": {
+        "title": "Send",
+        "to": "To",
+        "select_user": "Select user",
+        "change_user": "Change user",
+        "amount": "Amount",
+        "hint": "This transaction may take some time",
+        "send": "Send",
+        "fee_text": "{{percent}}% will be burned"
+      }
+    },
+    "view_bio": {
+      "title": "{{username}}'s bio"
+    },
+    "switch_to_app": {
+      "title": "Commun is Better on the App",
+      "description": "Designed for the best experience of self-governed social network on your mobile",
+      "continue": "Continue with App",
+      "sign_in": "Sign in"
+    },
+    "onboarding_app_banner": {
+      "title": "<span class=\"highlight\">Commun</span> is better on the <span class=\"highlight\">App</span>",
+      "text": "Try it now and get points",
+      "continue": "Switch to the App",
+      "sign_in": "Sign in"
+    },
+    "onboarding_registration": {
+      "communities": {
+        "title": "Get you first points",
+        "title-sign_up": "Sign up to get you first points",
+        "text": "Subscribe to at least {{COMMUNITIES_AIRDROP_COUNT}} communities and get your first Community Points",
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in",
+        "sign_up": "Sign up and get points",
+        "finish": "Finish"
+      },
+      "download": {
+        "title": "<span class=\"blue\">Download App</span><br />Double your points",
+        "description": "Right after you authorize in the App<br />We double your welcome points"
+      },
+      "share": {
+        "title": "<span class=\"share\">Share</span> with friends<br />Double your points",
+        "description": "You will also receive 5% of purchases<br />of friends who came via your link",
+        "share_link": "Share link"
+      }
+    },
+    "onboarding_welcome": {
+      "welcome": {
+        "title": "Welcome<br />to <span class=\"blue\">Commun /</span>",
+        "description": "Blockchain-based social network where you get <span class=\"blue\">rewards</span> for posts, comments and likes"
+      },
+      "thematic": {
+        "title": "<span class=\"blue strong\">Thematic</span><br />communities",
+        "description": "Choose communities of interest and <br />be <span class=\"blue\">rewarded</span> for your actions"
+      },
+      "owned": {
+        "title": "<span class=\"strong\">Owned</span> by users",
+        "description": "Communities have no single owner<br />and fully belong to its members",
+        "sign_up": "Start and get 30 Points",
+        "sign_in": "Sign in"
+      },
+      "monetize": {
+        "title": "<span class=\"strong\">Monetize</span><br />your socializing",
+        "description": "Create posts, comments, like<br />and get Community Points"
+      }
+    }
+  },
+
+  "widgets": {
+    "get_first_points": {
+      "title": "Get you first points",
+      "description": "Sign up and subscribe<br /> to the first 3 communities and get welcome points"
+    },
+    "airdrop": {
+      "first_line": "Your",
+      "second_line": "gift Points are waiting!",
+      "text": "Just click on the button and <br/> get Dank Meme's points!",
+      "get": "Get"
+    },
+    "trending_communities": {
+      "title": "Trending communities"
+    },
+    "leader_in": {
+      "title": "Leader in"
+    },
+    "community_filter": {
+      "title": "Communities",
+      "clear": "Clear filter",
+      "no_found": "Nothing is found",
+      "empty": "No communities"
+    },
+    "following_you": {
+      "user_subscribed": "{{user}} subscribed to you"
+    },
+    "friends": {
+      "title": "Friend",
+      "title_plural": "Friends"
+    },
+    "get_points": {
+      "get": "Get Points",
+      "get-small": "Get"
+    },
+    "invite": {
+      "text": "Activate your account and start with first points",
+      "start": "Start"
+    },
+    "leader_management": {
+      "title": "Management"
+    },
+    "leaders": {
+      "title": "Leader",
+      "title_plural": "Leaders"
+    },
+    "manage_community": {
+      "text": "Manage"
+    },
+    "members": {
+      "title": "Member",
+      "title_plural": "Members"
+    },
+    "mobile_balance": {
+      "wallet": "Wallet"
+    },
+    "user_communities": {
+      "title": "Community",
+      "title_plural": "Communities"
+    },
+    "faq": {
+      "title": "How to use Commun?",
+      "description": "How to start posting and monetize your activities",
+      "text": "Get rewarded for your <br /> posts, likes, and comments",
+      "big": {
+        "description": "How to start posting and <br /> monetize your activities",
+        "text": "Get rewarded for your posts, likes, and <br /> comments. Press “Start” to learn more"
+      },
+      "start": "Start"
+    },
+    "technical_works": {
+      "first_line": "Technical works",
+      "bold_line": "in progress",
+      "text": "We are doing some work on <br /> the site and will be back shortly",
+      "refresh": "Refresh",
+      "big": {
+        "text": "Thank you for being patient. We are doing some work on the site and will be back shortly",
+        "refresh": "Refresh page"
+      }
+    }
+  },
+
+  "filters": {
+    "type": {
+      "community": "New",
+      "new": "New",
+      "hot": "Hot",
+      "subscriptions": "New",
+      "subscriptionsHot": "Hot",
+      "subscriptionsPopular": "Popular",
+      "topLikes": "Popular",
+      "topComments": "Top comments",
+      "topRewards": "Top rewards"
+    },
+    "timeframe": {
+      "day": "Past 24 hours",
+      "week": "Past Week",
+      "month": "Past Month",
+      "all": "All Time"
+    }
+  },
+
+  "post": {
+    "viewCount": "{{count}} view",
+    "viewCount_plural": "{{count}} views",
+    "commentsCount": "{{count}} comment",
+    "commentsCount_plural": "{{count}} comments"
+  },
+
+  "chain_errors": {
+    "cashout_window": "The time for voting is over",
+    "incorrect_delegate_proxy_level": "Cannot delegate to this user"
+  }
+}

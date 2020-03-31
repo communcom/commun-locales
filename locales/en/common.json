@@ -16,6 +16,7 @@
     "next": "Next",
     "ban": "Ban",
     "read_more": "Read more",
+    "learn_more": "Learn more",
     "block": "Block",
     "unblock": "Unblock",
     "follow": "Follow",
@@ -105,6 +106,7 @@
         }
       },
       "keys": {
+        "title": "Keys",
         "copy": "Copy key",
         "active": {
           "title": "Active key",
@@ -113,6 +115,10 @@
         "owner": {
           "title": "Owner key",
           "description": "Full access"
+        },
+        "messages": {
+          "copied": "Key was copied to clipboard!",
+          "copy_failed": "Copy to clipboard failed!"
         }
       }
     },
@@ -738,6 +744,49 @@
       "week": "Past Week",
       "month": "Past Month",
       "all": "All Time"
+    }
+  },
+
+  "tooltips": {
+    "common": {
+      "close": "Close tooltip",
+      "dont_show": "Don’t show this again"
+    },
+    "choose_community": {
+      "title": "Choose community",
+      "desc": "Choose community in which you want to create a post"
+    },
+    "feed_onboarding": {
+      "types": {
+        "vote": {
+          "title": "Rewards for likes",
+          "desc": "Yes, you get rewards for likes as well, and they have more value than you think! By upvoting posts you let it be successful and rewarded."
+        },
+        "comments": {
+          "title": "Rewards for comments",
+          "desc": "Comments get rewards too! Discuss and get more rewards!"
+        },
+        "share": {
+          "title": "Share your post",
+          "desc": "Great, your post is successfully published! Share it with your friends to get more rewards!"
+        },
+        "reward": {
+          "title": "What does it mean?",
+          "desc": "Wow, this post will be rewarded! <br /> Do you want to get rewards too? Create a post - it’s the best way to get them!"
+        }
+      }
+    },
+    "first_like": {
+      "desc": "If you hold Points of this Community and this post will get to the “Top 10 of the day”, then you and the author would get more points as the reward.",
+      "learn_more": "Learn more about reward"
+    },
+    "not_ready": {
+      "title": "Coming soon",
+      "desc": "This feature will be available soon."
+    },
+    "reward_for_post": {
+      "title": "How do I get rewards for my posts?",
+      "desc": "After you publish the post, community members will have {{hours}} hours to like or dislike it. If your post reaches the Top 10 posts of the day, you will be rewarded."
     }
   },
 

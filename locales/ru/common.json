@@ -270,6 +270,7 @@
       "logout": "Выйти"
     },
     "entity_card_reports": {
+      "ban": "Забанить",
       "refuse": "Отменить бан",
       "approve": "Подтвердить бан",
       "approves": "Подтверждения",
@@ -432,8 +433,11 @@
       },
       "email": {
         "placeholder": "Email",
+        "description": "Укажи электронный адрес",
         "errors": {
-          "email_is_not_valid": "Электронный адрес недействителен"
+          "email_is_not_valid": "Электронный адрес недействителен",
+          "enter_your_email": "Укажи электронный адрес",
+          "account_already_exists": "Аккаунт с этим электронным адресом уже существует"
         }
       },
       "confirmation_code_email": {
@@ -441,7 +445,8 @@
         "placeholder": "Код подтверждения",
         "resend": "Выслать код подтверждения",
         "errors": {
-          "enter_code": "Пожалуйста, введи код"
+          "enter_code": "Пожалуйста, введи код",
+          "invalid_code": "Неверный код подтверждения"
         }
       },
       "registered": {

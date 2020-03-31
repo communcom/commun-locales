@@ -1,5 +1,7 @@
 {
   "common": {
+    "feed": "Feed",
+    "my_feed": "My Feed",
     "see_all": "See all",
     "sign_in": "Sign in",
     "sign_up": "Sign up",

@@ -156,6 +156,9 @@
       },
       "points_grid": {
         "on_hold": "{{quantity}} on hold"
+      },
+      "history_list": {
+        "transaction": "Transaction"
       }
     },
     "leaderboard": {

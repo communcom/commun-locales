@@ -153,6 +153,9 @@
       },
       "points_grid": {
         "on_hold": "{{quantity}} заморожено"
+      },
+      "history_list": {
+        "transaction": "Транзакция"
       }
     },
     "leaderboard": {

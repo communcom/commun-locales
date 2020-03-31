@@ -25,6 +25,10 @@
     "following": "Following",
     "unfollow": "Unfollow",
     "all": "All",
+    "token": "Token",
+    "token_plural": "Tokens",
+    "point": "Point",
+    "point_plural": "Points",
     "search": "Search",
     "search_placeholder": "Search...",
     "equity_value_commun": "Equity Value Commun",
@@ -149,6 +153,9 @@
         "empty_desc": "No transactions",
         "no_found": "No transactions found",
         "no_found_desc": "Try to send or convert"
+      },
+      "points_grid": {
+        "on_hold": "{{quantity}} on hold"
       }
     },
     "leaderboard": {
@@ -424,7 +431,15 @@
       },
       "create_username": {
         "description": "Create username",
-        "username": "Username"
+        "username": "Username",
+        "hints": [
+          "The number of characters must not exceed 32",
+          "Uppercase letters in the username are not allowed",
+          "Valid characters: letters, numbers, hyphen",
+          "The hyphen character cannot be at the beginning or at the end of the username",
+          "The user name may contain a \"dot\" character",
+          "The presence of two \"dot\" characters in a row is not valid"
+        ]
       },
       "master_key": {
         "title": "<span class=\"bold\">Master password</span><br />has been generated",
@@ -469,7 +484,7 @@
         }
       },
       "registered": {
-        "description": "Enter your phone number",
+        "description": "It looks like you are registered",
         "sign_in": "Login"
       },
       "common": {

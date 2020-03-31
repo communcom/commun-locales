@@ -133,7 +133,7 @@
         "convert": "Обменять"
       },
       "transfer_history": {
-        "title": "Истроия",
+        "title": "История",
         "filter": "Фильтр",
         "empty": "История пуста",
         "empty_desc": "Нет транзакций",
@@ -168,7 +168,7 @@
     },
     "notifications": {
       "title": "Уведомления",
-      "filters": "Фильтры (пока не готовы)"
+      "filters": "Фильтры (в разработке)"
     },
     "profile": {
       "tabs": {
@@ -201,8 +201,8 @@
         "create": "Создать новый пост"
       },
       "following": {
-        "empty": "Нет подписок",
-        "empty-desc": "Ты ни на кого не подписан"
+        "empty": "Нет подписчиков",
+        "empty-desc": "На тебя никто не подписан"
       },
       "referrals": {
         "empty": "Нет рефералов",
@@ -226,12 +226,12 @@
       }
     },
     "onboarding": {
-      "sign_up": "Присоединяйся и получи 30 поинтов",
+      "sign_up": "Начни и получи 30 поинтов",
       "sign_up-mobile": "Начни прямо сейчас и получи поинты!",
       "desktopSlides": {
         "first": {
           "title": "Получай награды <br /> за посты и лайки",
-          "desc": "Создавай контент, голосуй за посты, участвуй в дисскуссиях<br /> и получай награды в Community Points.",
+          "desc": "Создавай контент, голосуй за посты, участвуй в дискуссиях<br /> и получай в награду поинты сообществ.",
           "progressBarText": "Участники получают награды <br />за посты и лайки"
         },
         "second": {
@@ -415,7 +415,7 @@
         "saved_it": "Сохранил"
       },
       "oauth": {
-        "continue": "Продолжить как <span class=\"name\">{{name}}</span>",
+        "continue": "Использовать <span class=\"name\">{{name}}</span>",
         "sign_in_text": "У тебя есть аккаунт?",
         "sign_in": "Войти"
       },
@@ -455,7 +455,7 @@
           "password": "Пароль"
         },
         "termsAgree": {
-          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=»blank»>Пользовательским соглашением</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=»_blank»>Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=»_blank»>Отказом от ответственности</a>"
+          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=»blank»>Пользовательским соглашением</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=»_blank»>Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=»_blank»>Отказом от ответственности</a>"
         }
       }
     },
@@ -464,9 +464,9 @@
         "title": "Обмен",
         "convert": "Обменять",
         "fee": "{{percent}}% сгорит",
-        "you_send": "Ты отправил",
-        "you_get": "Ты получил",
-        "rate": "Тариф"
+        "you_send": "Отправить",
+        "you_get": "Получить",
+        "rate": "Курс"
       },
       "exchange_commun": {
         "2fa": {
@@ -507,9 +507,9 @@
           }
         },
         "select": {
-          "fee": "Коммисия",
+          "fee": "Комисия",
           "pay": "Сумма платежа",
-          "rate": "Тариф",
+          "rate": "Курс",
           "you_send": "К отправке",
           "amount": "Сумма",
           "minimum_charge": "Минимальный платеж {{amount}} {{symbol}}",
@@ -616,7 +616,7 @@
       },
       "thematic": {
         "title": "<span class=\"blue strong»>Тематические</span><br />сообщества",
-        "description": "Выбери сообщества и получай <br />be <span class=»blue»>награды</span> за активность"
+        "description": "Выбирай сообщества и получай <br /><span class=»blue»>награды</span> за активность"
       },
       "owned": {
         "title": "<span class=»strong»>Принадлежит</span> пользователям",
@@ -634,7 +634,7 @@
   "widgets": {
     "get_first_points": {
       "title": "Получи первые поинты",
-      "description": "Подпишись<br /> на 3 сообщества и получи приветсвенные поинты"
+      "description": "Подпишись<br /> на 3 сообщества и получи приветственные поинты"
     },
     "airdrop": {
       "first_line": "Твои",
@@ -703,7 +703,7 @@
     "technical_works": {
       "first_line": "Технические работы",
       "bold_line": "скоро закончатся",
-      "text": "Мы работаем над сайтом <br /> и скоро он снова будет доступен",
+      "text": "Мы работаем над сайтом, <br /> и скоро он снова будет доступен",
       "refresh": "Обновить",
       "big": {
         "text": "Спасибо за терпение! Мы работаем над сайтом и скоро он снова будет доступен",

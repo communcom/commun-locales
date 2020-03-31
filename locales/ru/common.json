@@ -562,7 +562,7 @@
         "common": {
           "billing_info": {
             "title": "Покупка совершена",
-            "agree": "Нажимая Обменять, ты принимаешь {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer»>условия обслуживания.</a>"
+            "agree": "Нажимая Обменять, ты принимаешь {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условия обслуживания.</a>"
           },
           "header": {
             "buy": "Купить"

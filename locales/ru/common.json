@@ -1,5 +1,6 @@
 {
   "common": {
+    "retry": "Попробовать снова",
     "feed": "Лента",
     "my_feed": "Моя лента",
     "see_all": "Смотреть всё",
@@ -307,6 +308,10 @@
     },
     "empty_list": {
       "text": "Ничего не найдено"
+    },
+    "post_list": {
+      "no_found": "Нет постов",
+      "no_found_desc": "Ты еще не сделал ни одного поста"
     }
   },
 
@@ -669,6 +674,7 @@
       }
     }
   },
+
   "widgets": {
     "get_first_points": {
       "title": "Получи первые поинты",
@@ -750,6 +756,7 @@
       }
     }
   },
+
   "filters": {
     "type": {
       "community": "Новое",
@@ -774,6 +781,7 @@
       "popularity": "По популярности"
     }
   },
+
   "tooltips": {
     "common": {
       "close": "Закрыть",
@@ -816,14 +824,16 @@
       "desc": "После публикации поста у участников сообщества есть {{hours}} часов для лайков и дизлайков. Если твой пост попадет в ТОП-10 дня, ты получишь награду."
     }
   },
+
   "post": {
     "viewCount": "{{count}} вид",
     "viewCount_plural": "{{count}} виды",
     "commentsCount": "{{count}} комментарий",
     "commentsCount_plural": "{{count}} комментарии"
   },
+
   "chain_errors": {
     "cashout_window": "Голосование окончено",
     "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
-  }
+  },
 }

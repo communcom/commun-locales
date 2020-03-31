@@ -1,5 +1,6 @@
 {
   "common": {
+    "retry": "Retry",
     "feed": "Feed",
     "my_feed": "My Feed",
     "see_all": "See all",
@@ -9,6 +10,7 @@
     "cancel": "Cancel",
     "edit": "Edit",
     "save": "Save",
+    "remove": "Remove",
     "delete": "Delete",
     "more": "More",
     "close": "Close",
@@ -278,8 +280,31 @@
       }
     },
 
+    "proposal_card": {
+      "apply": "Apply",
+      "refuse": "Refuse",
+      "accept": "Accept",
+      "accept_and_apply": "Accept and apply",
+      "add_rule": "Add rule",
+      "update_rule": "Update rule",
+      "old_rule": "Old rule",
+      "remove_rule": "Remove rule",
+      "set_description": "Set description",
+      "update description": "Update description",
+      "old_description": "Old description",
+      "voted": "Voted",
+      "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",
+      "toastsMessages": {
+        "approved": "Approved",
+        "applied": "Proposal was applied"
+      }
+    },
     "comment": {
       "reply": "Reply"
+    },
+    "comments_block": {
+      "title": "Comments",
+      "empty": "No comments yet"
     },
     "auth_block": {
       "my_profile": "My Profile",
@@ -294,7 +319,19 @@
       "approve": "Approve Ban",
       "approves": "Approves",
       "create": "Create Ban Proposal",
-      "reports": "Reports"
+      "reports": "Reports",
+      "toastsMessages": {
+        "post_banned": "Post banned"
+      }
+    },
+    "leader_row": {
+      "vote": "Vote",
+      "voted": "Voted",
+      "inactive": "inactive",
+      "toastsMessages": {
+        "success_vote": "Successfully voted",
+        "canceled_vote": "Vote canceled"
+      }
     },
 
     "autocomplete_search": {
@@ -311,6 +348,24 @@
     },
     "empty_list": {
       "text": "Nothing is found"
+    },
+    "empty_content_holder": {
+      "notifications": {
+        "title": "No notifications",
+        "desc": "You haven't got any notifications yet"
+      },
+      "comments": {
+        "title": "No comments",
+        "desc": "You haven't made any comments yet"
+      },
+      "points": {
+        "title": "Your wallet is Empty",
+        "desc": "Get your first point COMMUN, which can be converted for other points you may want to hold"
+      }
+    },
+    "post_list": {
+      "no_found": "No posts",
+      "no_found_desc": "You haven't made any posts yet"
     }
   },
 
@@ -348,7 +403,25 @@
       "description": "Description",
       "changes_lost": "Changes will be lost, continue?",
       "reset": "Reset",
-      "create": "Create proposal"
+      "create": "Create proposal",
+      "toastsMessages": {
+        "proposal_created": "Proposal created"
+      }
+    },
+    "cover_avatar": {
+      "toastsMessages": {
+        "avatar_updated": "Avatar updated"
+      }
+    },
+    "cover_image": {
+      "edit_photo": "Edit photo",
+      "delete_photo": "Delete photo",
+      "choose": "Choose another photo",
+      "drag_to_move": "Drag to move cover photo",
+      "toastsMessages": {
+        "image_deleted": "Cover successfully deleted",
+        "image_updated": "Cover image updated"
+      }
     },
     "feed_filters_mobile": {
       "title": "Sort by"
@@ -383,7 +456,10 @@
       "title_field": "Title",
       "description_field": "Description",
       "question": "Changes will be lost, continue?",
-      "submit": "Create proposal"
+      "submit": "Create proposal",
+      "toastsMessages": {
+        "created": "Proposal created"
+      }
     },
     "share": {
       "title": "Share"
@@ -509,7 +585,11 @@
         "fee": "{{percent}}% will be burned",
         "you_send": "You send",
         "you_get": "You get",
-        "rate": "Rate"
+        "rate": "Rate",
+        "toastsMessages": {
+          "success": "Convert is successful",
+          "failed": "Convert is failed"
+        }
       },
       "exchange_commun": {
         "2fa": {
@@ -521,7 +601,11 @@
           "send": "Send",
           "tag": "Tag",
           "address_field": "Address",
-          "copy": "Copy"
+          "copy": "Copy",
+          "toastsMessages": {
+            "copied": "Address was copied",
+            "copy_failed": "Unable to copy address"
+          }
         },
         "card": {
           "title": "From card",
@@ -614,7 +698,11 @@
         "amount": "Amount",
         "hint": "This transaction may take some time",
         "send": "Send",
-        "fee_text": "{{percent}}% will be burned"
+        "fee_text": "{{percent}}% will be burned",
+        "toastsMessages": {
+          "success": "Transfer is successful",
+          "failed": "Transfer is failed"
+        }
       }
     },
     "view_bio": {
@@ -683,7 +771,10 @@
       "first_line": "Your",
       "second_line": "gift Points are waiting!",
       "text": "Just click on the button and <br/> get Dank Meme's points!",
-      "get": "Get"
+      "get": "Get",
+      "toastsMessages": {
+        "claim_received": "Claim received"
+      }
     },
     "trending_communities": {
       "title": "Trending communities"
@@ -717,7 +808,11 @@
     },
     "leaders": {
       "title": "Leader",
-      "title_plural": "Leaders"
+      "title_plural": "Leaders",
+      "claim": "Claim leader’s rewards",
+      "toastsMessages": {
+        "claimed": "Leadership payouts successfully claimed"
+      }
     },
     "manage_community": {
       "text": "Manage"
@@ -833,5 +928,23 @@
   "chain_errors": {
     "cashout_window": "The time for voting is over",
     "incorrect_delegate_proxy_level": "Cannot delegate to this user"
+  },
+
+  "toastsMessages": {
+    "success": "Success",
+    "community": {
+      "unfollowed": "Community unfollowed",
+      "followed": "Community followed"
+    },
+    "user": {
+      "unfollowed": "User unfollowed",
+      "followed": "User followed"
+    },
+    "proposal": {
+      "created": "Proposal created"
+    },
+    "report": {
+      "sent": "Report successfully sent"
+    }
   }
 }

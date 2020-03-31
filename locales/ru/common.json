@@ -264,10 +264,10 @@
       },
       "mobileSlides": {
         "first": {
-          "title": "Здесь тебя <br /><span>ждут<span class=»highlight»>награды</span></span><br />за твои <br />посты и <br />лайки."
+          "title": "Здесь тебя <br /><span>ждут<span class=\"highlight\">награды</span></span><br />за твои <br />посты и <br />лайки."
         },
         "second": {
-          "title": "Выбери <br />your <br /><span class=»highlight»>тематическое</span> <br />сообщество"
+          "title": "Выбери <br />your <br /><span class=\"highlight\">тематическое</span> <br />сообщество"
         },
         "third": {
           "title": "Социальная сеть на основе блокчейна"
@@ -418,7 +418,7 @@
       },
       "create_password": {
         "title": "Создать пароль",
-        "description": "Мы не храним мастер-пароли и не можем их восстановить. <br /><span class=»bold»>Пожалуйста, сохрани пароль.</span>",
+        "description": "Мы не храним мастер-пароли и не можем их восстановить. <br /><span class=\"bold\">Пожалуйста, сохрани пароль.</span>",
         "use_password": "Использовать мастер-пароль",
         "rules": {
           "lower_case": "Строчные буквы",
@@ -440,10 +440,10 @@
         ]
       },
       "master_key": {
-        "title": "<span class=»bold»>Мастер-пароль</span><br />сгенерирован",
-        "title-custom": "<span class=»bold»>Пароль</span><br />создан",
-        "text": "Для входа необходим мастер-пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=»bold»>Береги его!</span>",
-        "text-custom": "Для входа необходим пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=»bold»>Береги его!</span>",
+        "title": "<span class=\"bold\">Мастер-пароль</span><br />сгенерирован",
+        "title-custom": "<span class=\"bold\">Пароль</span><br />создан",
+        "text": "Для входа необходим мастер-пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=\"bold\">Береги его!</span>",
+        "text-custom": "Для входа необходим пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=\"bold\">Береги его!</span>",
         "master_password": "Мастер-пароль",
         "retry": "Попробовать снова",
         "download": "Скачать PDF",
@@ -490,7 +490,7 @@
           "password": "Пароль"
         },
         "termsAgree": {
-          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=»blank»>Пользовательским соглашением</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=»_blank»>Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=»_blank»>Отказом от ответственности</a>"
+          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"blank\">Пользовательским соглашением</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Отказом от ответственности</a>"
         }
       }
     },
@@ -619,7 +619,7 @@
       "sign_in": "Войти"
     },
     "onboarding_app_banner": {
-      "title": "<span class=\"highlight\">Commun</span> еще лучше в <span class=»highlight»>приложении</span>",
+      "title": "<span class=\"highlight\">Commun</span> еще лучше в <span class=\"highlight\">приложении</span>",
       "text": "Попробуй сейчас и получи поинты",
       "continue": "Перейти в приложение",
       "sign_in": "Войти"
@@ -635,11 +635,11 @@
         "finish": "Готово"
       },
       "download": {
-        "title": "<span class=»blue»>Скачай приложение</span><br />Удвой поинты",
+        "title": "<span class=\"blue\">Скачай приложение</span><br />Удвой поинты",
         "description": "Сразу после авторизации в приложении<br />Мы удвоим твои стартовые поинты"
       },
       "share": {
-        "title": "<span class=»share»>Поделись</span> with friends<br />Удвой поинты",
+        "title": "<span class=\"share\">Поделись</span> с друзьями<br />Удвой поинты",
         "description": "Получи 5% от покупок друзей<br />пришедших по твоей ссылке",
         "share_link": "Поделиться ссылкой"
       }
@@ -647,20 +647,20 @@
     "onboarding_welcome": {
       "welcome": {
         "title": "Добро пожаловать<br />в <span class=\"blue\">Commun /</span>",
-        "description": "Социальная сеть на основе блокчейна, где ты получаешь <span class=»blue»>награды</span> за посты, комментарии и лайки."
+        "description": "Социальная сеть на основе блокчейна, где ты получаешь <span class=\"blue\">награды</span> за посты, комментарии и лайки."
       },
       "thematic": {
-        "title": "<span class=\"blue strong»>Тематические</span><br />сообщества",
-        "description": "Выбирай сообщества и получай <br /><span class=»blue»>награды</span> за активность"
+        "title": "<span class=\"blue strong\">Тематические</span><br />сообщества",
+        "description": "Выбирай сообщества и получай <br /><span class=\"blue\">награды</span> за активность"
       },
       "owned": {
-        "title": "<span class=»strong»>Принадлежит</span> пользователям",
+        "title": "<span class=\"strong\">Принадлежит</span> пользователям",
         "description": "Сообщества не имеют основателя<br />и полностью принадлежат пользователям",
         "sign_up": "Начни и получи 30 поинтов",
         "sign_in": "Войти"
       },
       "monetize": {
-        "title": "<span class=»strong»>Монетизируй</span><br />общение",
+        "title": "<span class=\"strong\">Монетизируй</span><br />общение",
         "description": "Создавай посты, комментируй, лайкай<br />и получай поинты сообществ"
       }
     }

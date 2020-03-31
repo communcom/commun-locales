@@ -443,8 +443,11 @@
       },
       "email": {
         "placeholder": "Email",
+        "description": "Enter your email address",
         "errors": {
-          "email_is_not_valid": "Email address is not valid"
+          "email_is_not_valid": "Email address is not valid",
+          "enter_your_email": "Enter your email address",
+          "account_already_exists": "Account with this email already exists"
         }
       },
       "confirmation_code_email": {
@@ -452,7 +455,8 @@
         "placeholder": "Verification code",
         "resend": "Resend verification code",
         "errors": {
-          "enter_code": "Please enter code"
+          "enter_code": "Please enter code",
+          "invalid_code": "Wrong activation code"
         }
       },
       "registered": {

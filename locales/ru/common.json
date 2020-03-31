@@ -266,6 +266,7 @@
       "logout": "Выйти"
     },
     "entity_card_reports": {
+      "ban": "Забанить",
       "refuse": "Отменить бан",
       "approve": "Подтвердить бан",
       "approves": "Подтверждения",

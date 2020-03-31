@@ -274,6 +274,7 @@
       "logout": "Logout"
     },
     "entity_card_reports": {
+      "ban": "Ban",
       "refuse": "Refuse Ban",
       "approve": "Approve Ban",
       "approves": "Approves",

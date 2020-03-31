@@ -278,6 +278,9 @@
       }
     },
 
+    "comment": {
+      "reply": "Reply"
+    },
     "auth_block": {
       "my_profile": "My Profile",
       "wallet": "Wallet",
@@ -769,6 +772,11 @@
       "week": "Past Week",
       "month": "Past Month",
       "all": "All Time"
+    },
+    "sortBy": {
+      "time": "Oldest",
+      "timeDesc": "Newest",
+      "popularity": "Popularity"
     }
   },
 

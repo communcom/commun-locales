@@ -835,5 +835,5 @@
   "chain_errors": {
     "cashout_window": "Голосование окончено",
     "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
-  },
+  }
 }

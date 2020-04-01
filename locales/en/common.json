@@ -1079,6 +1079,13 @@
   },
 
   "utils": {
+    "post_time": {
+      "now": "Now",
+      "seconds": "s",
+      "minutes": "m",
+      "hours": "h",
+      "days": "d"
+    },
     "normalize_time": {
       "now": "now",
       "m_ago": "m ago",

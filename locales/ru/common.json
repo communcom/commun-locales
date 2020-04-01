@@ -835,5 +835,20 @@
   "chain_errors": {
     "cashout_window": "Голосование окончено",
     "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
+  },
+
+  "utils": {
+    "post_time": {
+      "now": "Сейчас",
+      "seconds": "с",
+      "minutes": "м",
+      "hours": "ч",
+      "days": "д"
+    },
+    "normalize_time": {
+      "now": "сейчас",
+      "m_ago": "м назад",
+      "h_ago": "ч назад"
+    }
   }
 }

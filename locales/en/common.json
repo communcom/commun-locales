@@ -10,9 +10,11 @@
     "cancel": "Cancel",
     "edit": "Edit",
     "save": "Save",
+    "create": "Create",
     "remove": "Remove",
     "delete": "Delete",
     "more": "More",
+    "open": "Open",
     "close": "Close",
     "back": "Back",
     "continue": "Continue",
@@ -78,6 +80,14 @@
   },
 
   "components": {
+    "search": {
+      "specific_results": {
+        "enter": "Please enter search query",
+        "hint": "You can try to change the search query or go to feed",
+        "no_found": "No results",
+        "go_feed": "Go to Feed"
+      }
+    },
     "blacklist": {
       "title": "Blacklist",
       "tabs": {
@@ -159,6 +169,13 @@
       "points_grid": {
         "on_hold": "{{quantity}} on hold"
       },
+      "points_list": {
+        "on_hold": "{{quantity}} on hold"
+      },
+      "users_layout": {
+        "no_found": "No users",
+        "no_found_desc": "No users found"
+      },
       "history_list": {
         "transaction": "Transaction"
       }
@@ -177,15 +194,33 @@
       "reports": {
         "no_found": "No reports",
         "no_found_desc": "There are no reports in the community"
+      },
+      "cover_change": {
+        "new_cover": "New cover",
+        "old_cover": "Old cover",
+        "no_cover": "No cover"
+      },
+      "avatar_change": {
+        "new_avatar": "New avatar",
+        "old_avatar": "Old avatar",
+        "no_avatar": "No avatar"
       }
     },
     "communities": {
       "create": "Create community",
-      "no_found": "No Communities",
+      "no_found": "No communities",
+      "find": "Find communities",
       "tabs": {
         "discover": "Discover",
         "my_communities": "My communities",
         "managed": "Managed"
+      },
+      "my_communities": {
+        "no_found": "No Subscriptions",
+        "no_found_desc": "You have not subscribed to any community"
+      },
+      "manage": {
+        "no_found_desc": "You do not manage any communities"
       }
     },
     "notifications": {
@@ -245,6 +280,27 @@
         "description": "Description",
         "rules": "Rules",
         "settings": "Settings"
+      },
+      "leaders": {
+        "leaders": "Leaders",
+        "nominees": "Nominees",
+        "become": "Become a Leader",
+        "stop": "Stop be a leader",
+        "no_found": "Nothing is found",
+        "empty": "No Leaders",
+        "empty_desc": "Be the first community leader"
+      },
+      "description": {
+        "no_found": "No description",
+        "no_found_dsc": "Community hasn't description"
+      },
+      "members": {
+        "no_found": "No subscribers"
+      },
+      "rules": {
+        "rules": "Rules",
+        "new_rule": "New rule",
+        "invalid_format": "Invalid rules format"
       }
     },
     "onboarding": {
@@ -277,6 +333,26 @@
         "third": {
           "title": "<span class=\"highlight\">Blockchain-</span> <br />based <br />social <br />network"
         }
+      }
+    },
+
+    "notifications_window": {
+      "title": "Notifications"
+    },
+    "notification": {
+      "reply": "left a comment{{shortText}}",
+      "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
+      "upvote": "liked your {{entityType}}",
+      "subscribe": "is following you",
+      "reward": "You've got {{amount}} {{communityName}} points",
+      "transfer": {
+        "received": "You received",
+        "sent_you": "sent you"
+      },
+      "referralRegistrationBonus": "You received a referral bonus for the registration of",
+      "referralPurchaseBonus": {
+        "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
+        "last": "'s purchase"
       }
     },
 
@@ -332,6 +408,11 @@
         "success_vote": "Successfully voted",
         "canceled_vote": "Vote canceled"
       }
+    },
+    "choose_community": {
+      "select": "Choose community",
+      "no_found": "Nothing is found",
+      "empty": "No communities"
     },
 
     "autocomplete_search": {
@@ -432,7 +513,13 @@
       "password": "Password",
       "error": "Error: {{error}}",
       "submit": "Login",
-      "sign_up": "Don’t have an account?"
+      "sign_up": "Don’t have an account?",
+      "errors": {
+        "invalid": "Invalid login or password"
+      },
+      "toastsMessages": {
+        "recaptcha_failed": "'Recaptcha check failed'"
+      }
     },
     "profile_about_edit": {
       "title": "Edit Bio",
@@ -493,6 +580,15 @@
         "title": "Enter verification code from SMS",
         "resend": "Resend verification code"
       },
+      "confirmation_code_email": {
+        "title": "An email has been sent with the verification code. Please enter the code here",
+        "placeholder": "Verification code",
+        "resend": "Resend verification code",
+        "errors": {
+          "enter_code": "Please enter code",
+          "invalid_code": "Wrong activation code"
+        }
+      },
       "confirm_password": {
         "title": "Confirm password",
         "description": "Re-enter you password",
@@ -523,6 +619,15 @@
           "The presence of two \"dot\" characters in a row is not valid"
         ]
       },
+      "email": {
+        "placeholder": "Email",
+        "description": "Enter your email address",
+        "errors": {
+          "email_is_not_valid": "Email address is not valid",
+          "enter_your_email": "Enter your email address",
+          "account_already_exists": "Account with this email already exists"
+        }
+      },
       "master_key": {
         "title": "<span class=\"bold\">Master password</span><br />has been generated",
         "title-custom": "<span class=\"bold\">Your password</span><br />has been created",
@@ -543,26 +648,17 @@
         "phone_number": "Phone number",
         "sign_in_text": "Do you have account?",
         "sign_in": "Sign in",
+        "country_chooser": {
+          "choose_country": "Choose country",
+          "no_code": "No code",
+          "no_country": "No country",
+          "no_found": "There's no matches found"
+        },
+        "toastsMessages": {
+          "recaptcha_failed": "'Recaptcha check failed'"
+        },
         "errors": {
           "unavailable": "Sorry but we don't support your region yet"
-        }
-      },
-      "email": {
-        "placeholder": "Email",
-        "description": "Enter your email address",
-        "errors": {
-          "email_is_not_valid": "Email address is not valid",
-          "enter_your_email": "Enter your email address",
-          "account_already_exists": "Account with this email already exists"
-        }
-      },
-      "confirmation_code_email": {
-        "title": "An email has been sent with the verification code. Please enter the code here",
-        "placeholder": "Verification code",
-        "resend": "Resend verification code",
-        "errors": {
-          "enter_code": "Please enter code",
-          "invalid_code": "Wrong activation code"
         }
       },
       "registered": {
@@ -586,6 +682,10 @@
         "you_send": "You send",
         "you_get": "You get",
         "rate": "Rate",
+        "buy_point_item": {
+          "buy": "Buy",
+          "balance": "Balance"
+        },
         "toastsMessages": {
           "success": "Convert is successful",
           "failed": "Convert is failed"
@@ -643,6 +743,10 @@
           "you_get": "You get",
           "email": "Email",
           "buy": "Buy Commun",
+          "sell_token_item": {
+            "use": "Use",
+            "card": "Visa/Master card"
+          },
           "errors": {
             "email_format": ""
           }
@@ -882,7 +986,8 @@
     },
     "choose_community": {
       "title": "Choose community",
-      "desc": "Choose community in which you want to create a post"
+      "desc": "Choose community in which you want to create a post",
+      "close": "Close tooltip"
     },
     "feed_onboarding": {
       "types": {
@@ -945,6 +1050,39 @@
     },
     "report": {
       "sent": "Report successfully sent"
+    }
+  },
+
+  "validations": {
+    "amount": {
+      "on_hold": "{{quantity}} on hold",
+      "insufficient_funds": "Insufficient funds: you have {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Amount is more than supply: {{supply}}",
+      "more_than_decs": "No more than {{decs}} decimal places",
+      "invalid_format": "Invalid format",
+      "enter_amount": "Enter amount",
+      "less_than_minimal": "Amount is less than minimal: {{minAmount}}",
+      "less_than_0": "Amount is less than 0",
+      "more_than_max": "Amount is more than {{maxAmount}}"
+    },
+    "username": {
+      "is_empty": "Username is empty",
+      "invalid_symbols": "Username may contain only lower case letters, digits, dots or dashes",
+      "start_with": "Username should start with a letter",
+      "too_short": "Username should contain at least 3 symbols",
+      "too_long": "Username is too long. 32 symbols are maximum",
+      "several_dots": "Username may contain only one dot in a row",
+      "several_dashes": "Username may contain only one dash in a row",
+      "invalid_sequences": "Username may contain only one dot or one dash in a row",
+      "ends_with": "Username should end with a letter or a digit"
+    }
+  },
+
+  "utils": {
+    "normalize_time": {
+      "now": "now",
+      "m_ago": "m ago",
+      "h_ago": "h ago"
     }
   }
 }

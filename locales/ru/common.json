@@ -357,8 +357,8 @@
       },
       "referralRegistrationBonus": "Получены реферальные бонусы за регистрацию",
       "referralPurchaseBonus": {
-        "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от",
-        "last": "покупки"
+        "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
+        "last": ""
       }
     },
 

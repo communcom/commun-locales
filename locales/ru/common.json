@@ -72,6 +72,7 @@
   "sidebar": {
     "my_feed": "Моя лента",
     "trending": "В тренде",
+    "hot": "Горячее",
     "wallet": "Кошелек",
     "discovery": "Обзор",
     "management": "Управление",
@@ -933,7 +934,7 @@
     },
     "user_communities": {
       "title_0": "Сообщества",
-      "title_1": "Сообщества"
+      "title_1": "Сообщества",
       "title_2": "Сообществ"
     },
     "faq": {

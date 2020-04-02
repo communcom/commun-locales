@@ -956,6 +956,7 @@
   },
 
   "filters": {
+    "title": "Filters",
     "sort": "Sort",
     "type": {
       "community": "New",

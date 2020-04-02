@@ -10,7 +10,9 @@
     "cancel": "Отменить",
     "edit": "Редактировать",
     "save": "Сохранить",
+    "done": "Done",
     "create": "Создать",
+    "update": "Обновить",
     "remove": "Переместить",
     "delete": "Удалить",
     "more": "Больше",
@@ -184,7 +186,15 @@
         "no_found_desc": "Пользователи не найдены"
       },
       "history_list": {
-        "transaction": "Транзакция"
+        "transaction": "Транзакция",
+        "referralRegisterBonus": "You received a referral bonus for the registration of",
+        "referralPurchaseBonus": {
+          "first": "You received {{percent}} of",
+          "last": "'s purchase"
+        },
+        "refill": "Refill",
+        "reward": "Reward",
+        "leader_reward": "Leader Reward"
       }
     },
     "leaderboard": {
@@ -305,9 +315,12 @@
         "no_found": "Нет подписчиков"
       },
       "rules": {
-        "rules": "Правила",
+        "title": "Правила",
         "new_rule": "Нет правил",
         "invalid_format": "Неверный формат правил"
+      },
+      "community_header": {
+        "created": "Created {{date}}"
       }
     },
     "onboarding": {
@@ -347,10 +360,10 @@
       "title": "Уведомления"
     },
     "notification": {
-      "reply": "прокомментировали{{shortText}}",
-      "mention": "упомянули тебя в  {{entityType}}: “{{shortText}}”",
-      "upvote": "лайкнули тебя {{entityType}}",
-      "subscribe": "подписались на тебя",
+      "reply": "прокомментировал{{shortText}}",
+      "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
+      "upvote": "лайкнул твой {{entityType}}",
+      "subscribe": "подписался на тебя",
       "reward": "Получено {{amount}} поинтов {{communityName}}",
       "transfer": {
         "received": "Получено",
@@ -363,6 +376,39 @@
       }
     },
 
+    "dropzone": {
+      "toastsMessages": {
+        "failed": "Image uploading failed",
+        "unsupported": "Unsupported file type",
+        "too_big": "Too big file, max allowed size is {{size}} MB"
+      }
+    },
+    "editor": {
+      "comment_editor": {
+        "placeholder": "Add a comment...",
+        "placeholder-mobile": "Comment..."
+      }
+    },
+    "comment_form": {
+      "add_file": "Add file",
+      "send": "Send",
+      "sign_up_send": "Sign up and send",
+      "toastsMessages": {
+        "posting_failed": "Comment posting is failed"
+      }
+    },
+    "post_form": {
+      "you": "You",
+      "post": "Post",
+      "sign_up_post": "Sign up and post",
+      "article": "Article",
+      "aria_article": "Create the article",
+      "aria_nsfw": "Add this tag if your post has any NSFW content",
+      "aria_add_image": "Add an image",
+      "toastsMessages": {
+        "post_failed": "Post submitting is failed"
+      }
+    },
     "proposal_card": {
       "apply": "Применить",
       "refuse": "Отказаться",
@@ -383,7 +429,11 @@
       }
     },
     "comment": {
-      "reply": "Ответить"
+      "reply": "Ответить",
+      "comment_body": {
+        "deleted": "Comment was deleted",
+        "invalid_format": "Invalid comment format"
+      }
     },
     "comments_block": {
       "title": "Комментарии",
@@ -454,6 +504,13 @@
     "post_list": {
       "no_found": "Нет постов",
       "no_found_desc": "Ты еще не сделал ни одного поста"
+    },
+    "vote_panel": {
+      "cancel": "Cancel vote",
+      "vote_up": "Vote Up",
+      "vote_down": "Vote Down",
+      "cant_cancel_own": "Can't cancel vote on own publication",
+      "cant_down_own": "Can't down vote your own publications"
     }
   },
 
@@ -462,13 +519,16 @@
       "more_actions": "Больше действий"
     },
     "post": {
-      "report": "Репорт",
+      "report": "Пожаловаться",
       "propose_ban": "Предложение на бан",
       "view_in_explorer": "Посмотреть в Explorer"
     }
   },
 
   "modals": {
+    "confirm_dialog": {
+      "blocked": "You have blocked this user. Do you want unblock and follow?"
+    },
     "avatar_edit": {
       "title": "Сменить позицию",
       "rotate": "Повернуть фото"
@@ -497,7 +557,11 @@
       }
     },
     "cover_avatar": {
+      "edit": "Edit photo",
+      "delete": "Delete photo",
+      "upload_avatar": "Upload new avatar image",
       "toastsMessages": {
+        "proposal_created": "Proposal for avatar changing has created",
         "avatar_updated": "Аватар обновлен"
       }
     },
@@ -506,10 +570,16 @@
       "delete_photo": "Удалить фото",
       "choose": "Выбрать другое фото",
       "drag_to_move": "Перетащи фото сюда",
+      "upload_cover": "Upload new cover image",
       "toastsMessages": {
+        "proposal_created": "Proposal for cover changing has created",
         "image_deleted": "Обложка удалена",
         "image_updated": "Обложка обновлена"
       }
+    },
+    "share_block": {
+      "copy": "Copy",
+      "share": "Share"
     },
     "feed_filters_mobile": {
       "title": "Сортировать по"
@@ -565,6 +635,7 @@
       "sign_in_text": "У тебя есть аккаунт?",
       "sign_in": "Войти",
       "errors": {
+        "fill_cell": "You should fill every ceil.",
         "too_many": "Слишком много попыток",
         "try_again": "Код не пришел. Попробуй снова",
         "try_later": "Попробуй позже",
@@ -665,6 +736,10 @@
           "recaptcha_failed": "'Проверка не пройдена'"
         },
         "errors": {
+          "choose_country": "Choose you country",
+          "enter_phone": "Enter phone number",
+          "too_short_phone": "Too short phone number",
+          "invalid_phone": "Invalid phone number",
           "unavailable": "Нам очень жаль, но твой регион не поддерживается."
         }
       },
@@ -904,7 +979,8 @@
     },
     "get_points": {
       "get": "Получить поинты",
-      "get-small": "Получить"
+      "get-small": "Получить",
+      "balance": "{{communityName}} balance"
     },
     "invite": {
       "text": "Активируй аккаунт и начни с первыми поинтами",
@@ -1085,6 +1161,20 @@
     }
   },
 
+  "reports": {
+    "spam": "Спам",
+    "harassment": "Домогательство",
+    "nudity": "Нагота",
+    "violence": "Насилие",
+    "falsenews": "Ложные новости",
+    "terrorism": "Терроризм",
+    "breakscommunityrules": "Это нарушает правила сообщества",
+    "hatespeech": "Ненависть",
+    "unauthorizedsales": "Несанкционированные продажи",
+    "abuse": "Попытка оскорбления",
+    "other": "Другое"
+  },
+
   "utils": {
     "post_time": {
       "now": "Сейчас",
@@ -1097,6 +1187,11 @@
       "now": "сейчас",
       "m_ago": "м назад",
       "h_ago": "ч назад"
+    },
+    "images": {
+      "upload_failed": "Image uploading failed",
+      "only_images": "Please insert only image files",
+      "too_big": "Too big file, max allowed size is {{size}} MB"
     }
   }
 }

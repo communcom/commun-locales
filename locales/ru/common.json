@@ -8,8 +8,13 @@
     "sign_up": "Регистрация",
     "accept": "Принять",
     "cancel": "Отменить",
+    "edit": "Edit",
     "save": "Сохранить",
+    "create": "Create",
+    "remove": "Remove",
+    "delete": "Delete",
     "more": "Больше",
+    "open": "Open",
     "close": "Закрыть",
     "back": "Назад",
     "continue": "Продолжить",
@@ -34,21 +39,28 @@
     "search_placeholder": "Поиск...",
     "equity_value_commun": "Капитализация в Commun",
     "counters": {
-      "follower": "Подписчик",
-      "follower_plural": "Подписчики",
+      "follower_0": "Подписчик",
+      "follower_1": "Подписчика",
+      "follower_2": "Подписчиков",
       "following": "Подписан",
-      "community": "Сообщество",
-      "community_plural": "Сообщества",
-      "post": "Пост",
-      "post_plural": "Посты",
-      "leader": "Лидер",
-      "leader_plural": "Лидеры",
-      "member": "Участник",
-      "member_plural": "Участники",
-      "friend": "Друг",
-      "friend_plural": "Друзья",
-      "point": "Поинт",
-      "point_plural": "Поинты"
+      "community_0": "Сообщество",
+      "community_1": "Сообщества",
+      "community_2": "Сообществ",
+      "post_0": "Пост",
+      "post_1": "Поста",
+      "post_2": "Постов",
+      "leader_0": "Лидер",
+      "leader_1": "Лидера",
+      "leader_2": "Лидеров",
+      "member_0": "Участник",
+      "member_1": "Участника",
+      "member_2": "Участников",
+      "friend_0": "Друг",
+      "friend_1": "Друга",
+      "friend_2": "Друзей",
+      "point_0": "Поинт",
+      "point_1": "Поинта",
+      "point_3": "Поинтов"
     }
   },
   "header": {
@@ -74,6 +86,14 @@
     "whitepaper": "Whitepaper"
   },
   "components": {
+    "search": {
+      "specific_results": {
+        "enter": "Please enter search query",
+        "hint": "You can try to change the search query or go to feed",
+        "no_found": "No results",
+        "go_feed": "Go to Feed"
+      }
+    },
     "blacklist": {
       "title": "Черный список",
       "tabs": {
@@ -155,6 +175,13 @@
       "points_grid": {
         "on_hold": "{{quantity}} заморожено"
       },
+      "points_list": {
+        "on_hold": "{{quantity}} on hold"
+      },
+      "users_layout": {
+        "no_found": "No users",
+        "no_found_desc": "No users found"
+      },
       "history_list": {
         "transaction": "Транзакция"
       }
@@ -173,15 +200,33 @@
       "reports": {
         "no_found": "Нет жалоб",
         "no_found_desc": "Сейчас нет жалоб в сообществе"
+      },
+      "cover_change": {
+        "new_cover": "New cover",
+        "old_cover": "Old cover",
+        "no_cover": "No cover"
+      },
+      "avatar_change": {
+        "new_avatar": "New avatar",
+        "old_avatar": "Old avatar",
+        "no_avatar": "No avatar"
       }
     },
     "communities": {
       "create": "Создать сообщество",
       "no_found": "Нет сообществ",
+      "find": "Find communities",
       "tabs": {
         "discover": "Обзор",
         "my_communities": "Мои сообщества",
         "managed": "Управление"
+      },
+      "my_communities": {
+        "no_found": "No Subscriptions",
+        "no_found_desc": "You have not subscribed to any community"
+      },
+      "manage": {
+        "no_found_desc": "You do not manage any communities"
       }
     },
     "notifications": {
@@ -241,6 +286,27 @@
         "description": "Описание",
         "rules": "Правила",
         "settings": "Настройки"
+      },
+      "leaders": {
+        "leaders": "Leaders",
+        "nominees": "Nominees",
+        "become": "Become a Leader",
+        "stop": "Stop be a leader",
+        "no_found": "Nothing is found",
+        "empty": "No Leaders",
+        "empty_desc": "Be the first community leader"
+      },
+      "description": {
+        "no_found": "No description",
+        "no_found_dsc": "Community hasn't description"
+      },
+      "members": {
+        "no_found": "No subscribers"
+      },
+      "rules": {
+        "rules": "Rules",
+        "new_rule": "New rule",
+        "invalid_format": "Invalid rules format"
       }
     },
     "onboarding": {
@@ -276,8 +342,51 @@
       }
     },
 
+    "notifications_window": {
+      "title": "Notifications"
+    },
+    "notification": {
+      "reply": "left a comment{{shortText}}",
+      "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
+      "upvote": "liked your {{entityType}}",
+      "subscribe": "is following you",
+      "reward": "You've got {{amount}} {{communityName}} points",
+      "transfer": {
+        "received": "You received",
+        "sent_you": "sent you"
+      },
+      "referralRegistrationBonus": "You received a referral bonus for the registration of",
+      "referralPurchaseBonus": {
+        "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
+        "last": "'s purchase"
+      }
+    },
+
+    "proposal_card": {
+      "apply": "Apply",
+      "refuse": "Refuse",
+      "accept": "Accept",
+      "accept_and_apply": "Accept and apply",
+      "add_rule": "Add rule",
+      "update_rule": "Update rule",
+      "old_rule": "Old rule",
+      "remove_rule": "Remove rule",
+      "set_description": "Set description",
+      "update description": "Update description",
+      "old_description": "Old description",
+      "voted": "Voted",
+      "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",
+      "toastsMessages": {
+        "approved": "Approved",
+        "applied": "Proposal was applied"
+      }
+    },
     "comment": {
       "reply": "Ответить"
+    },
+    "comments_block": {
+      "title": "Comments",
+      "empty": "No comments yet"
     },
     "auth_block": {
       "my_profile": "Мой профиль",
@@ -292,8 +401,26 @@
       "approve": "Подтвердить бан",
       "approves": "Подтверждения",
       "create": "Предложить бан",
-      "reports": "Жалобы"
+      "reports": "Жалобы",
+      "toastsMessages": {
+        "post_banned": "Post banned"
+      }
     },
+    "leader_row": {
+      "vote": "Vote",
+      "voted": "Voted",
+      "inactive": "inactive",
+      "toastsMessages": {
+        "success_vote": "Successfully voted",
+        "canceled_vote": "Vote canceled"
+      }
+    },
+    "choose_community": {
+      "select": "Choose community",
+      "no_found": "Nothing is found",
+      "empty": "No communities"
+    },
+
     "autocomplete_search": {
       "text": "Все результаты"
     },
@@ -308,6 +435,20 @@
     },
     "empty_list": {
       "text": "Ничего не найдено"
+    },
+    "empty_content_holder": {
+      "notifications": {
+        "title": "No notifications",
+        "desc": "You haven't got any notifications yet"
+      },
+      "comments": {
+        "title": "No comments",
+        "desc": "You haven't made any comments yet"
+      },
+      "points": {
+        "title": "Your wallet is Empty",
+        "desc": "Get your first point COMMUN, which can be converted for other points you may want to hold"
+      }
     },
     "post_list": {
       "no_found": "Нет постов",
@@ -349,7 +490,25 @@
       "description": "Описание",
       "changes_lost": "Изменения будут потеряны. Продолжить?",
       "reset": "Сбросить",
-      "create": "Создать предложение"
+      "create": "Создать предложение",
+      "toastsMessages": {
+        "proposal_created": "Proposal created"
+      }
+    },
+    "cover_avatar": {
+      "toastsMessages": {
+        "avatar_updated": "Avatar updated"
+      }
+    },
+    "cover_image": {
+      "edit_photo": "Edit photo",
+      "delete_photo": "Delete photo",
+      "choose": "Choose another photo",
+      "drag_to_move": "Drag to move cover photo",
+      "toastsMessages": {
+        "image_deleted": "Cover successfully deleted",
+        "image_updated": "Cover image updated"
+      }
     },
     "feed_filters_mobile": {
       "title": "Сортировать по"
@@ -360,7 +519,13 @@
       "password": "Пароль",
       "error": "Ошибка: {{error}}",
       "submit": "Войти",
-      "sign_up": "Нет аккаунта?"
+      "sign_up": "Нет аккаунта?",
+      "errors": {
+        "invalid": "Invalid login or password"
+      },
+      "toastsMessages": {
+        "recaptcha_failed": "'Recaptcha check failed'"
+      }
     },
     "profile_about_edit": {
       "title": "Редактировать описание",
@@ -384,7 +549,10 @@
       "title_field": "Заголовок",
       "description_field": "Описание",
       "question": "Изменения будут потеряны. Продолжить?",
-      "submit": "Создать предложение"
+      "submit": "Создать предложение",
+      "toastsMessages": {
+        "created": "Proposal created"
+      }
     },
     "share": {
       "title": "Поделиться"
@@ -418,6 +586,15 @@
         "title": "Код подтверждения из SMS",
         "resend": "Отправить код еще раз"
       },
+      "confirmation_code_email": {
+        "title": "Код подтверждения был выслан на электронную почту. Пожалуйста, введи код подтверждения",
+        "placeholder": "Код подтверждения",
+        "resend": "Выслать код подтверждения",
+        "errors": {
+          "enter_code": "Пожалуйста, введи код",
+          "invalid_code": "Неверный код подтверждения"
+        }
+      },
       "confirm_password": {
         "title": "Подтвердить пароль",
         "description": "Введи пароль еще раз",
@@ -448,6 +625,15 @@
           "Нельзя использовать в имени пользователя более одной точки"
         ]
       },
+      "email": {
+        "placeholder": "Email",
+        "description": "Укажи электронный адрес",
+        "errors": {
+          "email_is_not_valid": "Электронный адрес недействителен",
+          "enter_your_email": "Укажи электронный адрес",
+          "account_already_exists": "Аккаунт с этим электронным адресом уже существует"
+        }
+      },
       "master_key": {
         "title": "<span class=\"bold\">Мастер-пароль</span><br />сгенерирован",
         "title-custom": "<span class=\"bold\">Пароль</span><br />создан",
@@ -468,26 +654,17 @@
         "phone_number": "Номер телефона",
         "sign_in_text": "У тебя есть аккаунт?",
         "sign_in": "Войти",
+        "country_chooser": {
+          "choose_country": "Choose country",
+          "no_code": "No code",
+          "no_country": "No country",
+          "no_found": "There's no matches found"
+        },
+        "toastsMessages": {
+          "recaptcha_failed": "'Recaptcha check failed'"
+        },
         "errors": {
           "unavailable": "Нам очень жаль, но твой регион не поддерживается."
-        }
-      },
-      "email": {
-        "placeholder": "Email",
-        "description": "Укажи электронный адрес",
-        "errors": {
-          "email_is_not_valid": "Электронный адрес недействителен",
-          "enter_your_email": "Укажи электронный адрес",
-          "account_already_exists": "Аккаунт с этим электронным адресом уже существует"
-        }
-      },
-      "confirmation_code_email": {
-        "title": "Код подтверждения был выслан на электронную почту. Пожалуйста, введи код подтверждения",
-        "placeholder": "Код подтверждения",
-        "resend": "Выслать код подтверждения",
-        "errors": {
-          "enter_code": "Пожалуйста, введи код",
-          "invalid_code": "Неверный код подтверждения"
         }
       },
       "registered": {
@@ -510,7 +687,15 @@
         "fee": "{{percent}}% сгорит",
         "you_send": "Отправить",
         "you_get": "Получить",
-        "rate": "Курс"
+        "rate": "Курс",
+        "buy_point_item": {
+          "buy": "Buy",
+          "balance": "Balance"
+        },
+        "toastsMessages": {
+          "success": "Convert is successful",
+          "failed": "Convert is failed"
+        }
       },
       "exchange_commun": {
         "2fa": {
@@ -560,6 +745,10 @@
           "you_get": "Ты получишь",
           "email": "Email",
           "buy": "Купить Commun",
+          "sell_token_item": {
+            "use": "Use",
+            "card": "Visa/Master card"
+          },
           "errors": {
             "email_format": ""
           }
@@ -615,7 +804,11 @@
         "amount": "Сумма",
         "hint": "Операция может занять некоторое время",
         "send": "Отправить",
-        "fee_text": "{{percent}}% сгорит"
+        "fee_text": "{{percent}}% сгорит",
+        "toastsMessages": {
+          "success": "Transfer is successful",
+          "failed": "Transfer is failed"
+        }
       }
     },
     "view_bio": {
@@ -684,7 +877,10 @@
       "first_line": "Твои",
       "second_line": "подарочные поинты ждут!",
       "text": "Жми на кнопку и <br/> получи Dank Meme's поинты!",
-      "get": "Получить"
+      "get": "Получить",
+      "toastsMessages": {
+        "claim_received": "Claim received"
+      }
     },
     "trending_communities": {
       "title": "Популярные сообщества"
@@ -718,7 +914,11 @@
     },
     "leaders": {
       "title": "Лидер",
-      "title_plural": "Лидеры"
+      "title_plural": "Лидеры",
+      "claim": "Claim leader’s rewards",
+      "toastsMessages": {
+        "claimed": "Leadership payouts successfully claimed"
+      }
     },
     "manage_community": {
       "text": "Управлять"
@@ -732,8 +932,9 @@
       "wallet": "Кошелек"
     },
     "user_communities": {
-      "title": "Сообщество",
-      "title_plural": "Сообщества"
+      "title_0": "Сообщества",
+      "title_1": "Сообщества"
+      "title_2": "Сообществ"
     },
     "faq": {
       "title": "Как использовать Commun?",
@@ -789,7 +990,8 @@
     },
     "choose_community": {
       "title": "Выбрать сообщесто",
-      "desc": "Выбери сообщество, в котором хочешь оставить пост."
+      "desc": "Выбери сообщество, в котором хочешь оставить пост.",
+      "close": "Close tooltip"
     },
     "feed_onboarding": {
       "types": {
@@ -835,6 +1037,49 @@
   "chain_errors": {
     "cashout_window": "Голосование окончено",
     "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
+  },
+
+  "toastsMessages": {
+    "success": "Success",
+    "community": {
+      "unfollowed": "Community unfollowed",
+      "followed": "Community followed"
+    },
+    "user": {
+      "unfollowed": "User unfollowed",
+      "followed": "User followed"
+    },
+    "proposal": {
+      "created": "Proposal created"
+    },
+    "report": {
+      "sent": "Report successfully sent"
+    }
+  },
+
+  "validations": {
+    "amount": {
+      "on_hold": "{{quantity}} on hold",
+      "insufficient_funds": "Insufficient funds: you have {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Amount is more than supply: {{supply}}",
+      "more_than_decs": "No more than {{decs}} decimal places",
+      "invalid_format": "Invalid format",
+      "enter_amount": "Enter amount",
+      "less_than_minimal": "Amount is less than minimal: {{minAmount}}",
+      "less_than_0": "Amount is less than 0",
+      "more_than_max": "Amount is more than {{maxAmount}}"
+    },
+    "username": {
+      "is_empty": "Username is empty",
+      "invalid_symbols": "Username may contain only lower case letters, digits, dots or dashes",
+      "start_with": "Username should start with a letter",
+      "too_short": "Username should contain at least 3 symbols",
+      "too_long": "Username is too long. 32 symbols are maximum",
+      "several_dots": "Username may contain only one dot in a row",
+      "several_dashes": "Username may contain only one dash in a row",
+      "invalid_sequences": "Username may contain only one dot or one dash in a row",
+      "ends_with": "Username should end with a letter or a digit"
+    }
   },
 
   "utils": {

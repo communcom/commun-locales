@@ -323,6 +323,26 @@
         "created": "Created {{date}}"
       }
     },
+    "createCommunity": {
+      "tabs": {
+        "description": "Description",
+        "rules": "Rules"
+      },
+      "description": {
+        "choose_language": "Choose language",
+        "add_description": "Add description(optional)",
+        "description_placeholder": "Type something about community"
+      },
+      "rules": {
+        "title": "Rules",
+        "new_rule": "New rule",
+        "invalid_format": "Invalid rules format"
+      },
+      "create_community_header": {
+        "create": "Create community",
+        "community_name_placeholder": "Community name"
+      }
+    },
     "onboarding": {
       "sign_up": "Начни и получи 30 поинтов",
       "sign_up-mobile": "Начни прямо сейчас и получи поинты!",
@@ -941,6 +961,18 @@
         "title": "<span class=\"strong\">Монетизируй</span><br />общение",
         "description": "Создавай посты, комментируй, лайкай<br />и получай поинты сообществ"
       }
+    },
+    "create_community": {
+      "confirmation": "Confirmation",
+      "you_need": "You need <span className=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span className=\"big blue semibold\">Commun tokens</span> <br /> to create a community.",
+      "after_creating": "After creating a community:",
+      "burned_tokens": "<span className=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Commun tokens</span> <span className=\"blue semibold\">(10%)</span><br />",
+      "burned": "Will be burned for public goods",
+      "bounty_points": "<span className=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} points</span> <span className=\"blue semibold\">(10%)</span><br />",
+      "bounty": "Will be sent to the bounty service",
+      "transferred_points": "<span className=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span> <span className=\"blue semibold\">(80%)</span><br />",
+      "transferred": "Will be transferred to your wallet",
+      "not_enough": "It looks like you don't have enough<br />Commun tokens.<br /><span className=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span className=\"big blue semibold\">Commun tokens</span> <br />required to create a community"
     }
   },
 

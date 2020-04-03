@@ -189,8 +189,8 @@
         "transaction": "Транзакция",
         "referralRegisterBonus": "Получена награда за регистрацию",
         "referralPurchaseBonus": {
-          "first": "Получено {{percent}} от",
-          "last": " платежа"
+          "first": "Получено {{percent}} от платежа",
+          "last": ""
         },
         "refill": "Пополнение",
         "reward": "Награда",
@@ -320,7 +320,7 @@
         "invalid_format": "Неверный формат правил"
       },
       "community_header": {
-        "created": "Создать {{date}}"
+        "created": "Создано {{date}}"
       }
     },
     "onboarding": {
@@ -385,8 +385,8 @@
     },
     "editor": {
       "comment_editor": {
-        "placeholder": "Добавление комментария...",
-        "placeholder-mobile": "Комментарий..."
+        "placeholder": "Комментировать...",
+        "placeholder-mobile": "Комментировать..."
       }
     },
     "comment_form": {
@@ -506,11 +506,11 @@
       "no_found_desc": "Ты еще не сделал ни одного поста"
     },
     "vote_panel": {
-      "cancel": "Отменить голосование",
-      "vote_up": "Поднять голосование",
-      "vote_down": "Опустить голосование",
-      "cant_cancel_own": "Нельзя отменить голосование в этой публикации",
-      "cant_down_own": "Нельзя голосовать за собственные публикации"
+      "cancel": "Отменить",
+      "vote_up": "Лайк",
+      "vote_down": "Дизлайк",
+      "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
+      "cant_down_own": "Нельзя дизлайкать собственные публикации"
     }
   },
 

@@ -10,10 +10,10 @@
     "cancel": "Отменить",
     "edit": "Редактировать",
     "save": "Сохранить",
-    "done": "Done",
+    "done": "Готово",
     "create": "Создать",
     "update": "Обновить",
-    "remove": "Переместить",
+    "remove": "Удалить",
     "delete": "Удалить",
     "more": "Больше",
     "open": "Открыть",
@@ -187,14 +187,14 @@
       },
       "history_list": {
         "transaction": "Транзакция",
-        "referralRegisterBonus": "You received a referral bonus for the registration of",
+        "referralRegisterBonus": "Получена награда за регистрацию",
         "referralPurchaseBonus": {
-          "first": "You received {{percent}} of",
-          "last": "'s purchase"
+          "first": "Получено {{percent}} от платежа",
+          "last": ""
         },
-        "refill": "Refill",
-        "reward": "Reward",
-        "leader_reward": "Leader Reward"
+        "refill": "Пополнение",
+        "reward": "Награда",
+        "leader_reward": "Награда лидера"
       }
     },
     "leaderboard": {
@@ -226,7 +226,7 @@
     "communities": {
       "create": "Создать сообщество",
       "no_found": "Нет сообществ",
-      "find": "Найти сообщество",
+      "find": "Найти сообщества",
       "tabs": {
         "discover": "Обзор",
         "my_communities": "Мои сообщества",
@@ -267,25 +267,25 @@
       },
       "comments": {
         "empty": "Нет комментариев",
-        "empty-desc": "Похоже, ты еще ничего не комментировал."
+        "empty-desc": "Похоже, ты еще ничего не комментировал"
       },
       "followers": {
         "empty": "У тебя нет подписчиков",
-        "empty-desc": "На тебя никто не подписан. Найди новых друзей или опубликуй новый пост.",
+        "empty-desc": "На тебя никто не подписан. Найди новых друзей или опубликуй новый пост",
         "create": "Создать новый пост"
       },
       "following": {
         "empty": "Нет подписок",
-        "empty-desc": "Ты ни на кого не подписан."
+        "empty-desc": "Ты ни на кого не подписан"
       },
       "referrals": {
         "empty": "Нет рефералов",
-        "empty-desc": "У тебя нет рефералов.",
+        "empty-desc": "У тебя нет рефералов",
         "no_found": "Ничего не найдено"
       },
       "user_communities": {
         "empty": "Нет подписок",
-        "empty-desc": "Ты не подписан на сообщества.",
+        "empty-desc": "Ты не подписан на сообщества",
         "find": "Найти сообщества"
       }
     },
@@ -316,11 +316,11 @@
       },
       "rules": {
         "title": "Правила",
-        "new_rule": "Нет правил",
+        "new_rule": "Новое правило",
         "invalid_format": "Неверный формат правил"
       },
       "community_header": {
-        "created": "Created {{date}}"
+        "created": "Создано {{date}}"
       }
     },
     "createCommunity": {
@@ -398,35 +398,35 @@
 
     "dropzone": {
       "toastsMessages": {
-        "failed": "Image uploading failed",
-        "unsupported": "Unsupported file type",
-        "too_big": "Too big file, max allowed size is {{size}} MB"
+        "failed": "Не удалось загрузить изображение",
+        "unsupported": "Неправильный формат файла",
+        "too_big": "Слишком большой файл, максимальный допустимый размер {{size}} MB"
       }
     },
     "editor": {
       "comment_editor": {
-        "placeholder": "Add a comment...",
-        "placeholder-mobile": "Comment..."
+        "placeholder": "Комментировать...",
+        "placeholder-mobile": "Комментировать..."
       }
     },
     "comment_form": {
-      "add_file": "Add file",
-      "send": "Send",
-      "sign_up_send": "Sign up and send",
+      "add_file": "Прикрепить",
+      "send": "Отправить",
+      "sign_up_send": "Зарегистрироваться и отправить",
       "toastsMessages": {
-        "posting_failed": "Comment posting is failed"
+        "posting_failed": "Не удалось опубликовать комментарий"
       }
     },
     "post_form": {
-      "you": "You",
-      "post": "Post",
-      "sign_up_post": "Sign up and post",
-      "article": "Article",
-      "aria_article": "Create the article",
-      "aria_nsfw": "Add this tag if your post has any NSFW content",
-      "aria_add_image": "Add an image",
+      "you": "Ты",
+      "post": "Пост",
+      "sign_up_post": "Зарегистрироваться и опубликовать",
+      "article": "Статья",
+      "aria_article": "Создать статью",
+      "aria_nsfw": "Укажи, если статья содержит контент 18+",
+      "aria_add_image": "Добавить изображение",
       "toastsMessages": {
-        "post_failed": "Post submitting is failed"
+        "post_failed": "Сообщение не отправлено"
       }
     },
     "proposal_card": {
@@ -442,7 +442,7 @@
       "update description": "Редактировать описание",
       "old_description": "Старое описание",
       "voted": "Голосование",
-      "voted_text": "{{approvesCount}} с {{approvesNeed}} голосами",
+      "voted_text": "{{approvesCount}} из {{approvesNeed}} голосов",
       "toastsMessages": {
         "approved": "Принято",
         "applied": "Предложение применено"
@@ -451,8 +451,8 @@
     "comment": {
       "reply": "Ответить",
       "comment_body": {
-        "deleted": "Comment was deleted",
-        "invalid_format": "Invalid comment format"
+        "deleted": "Комментарий был удален",
+        "invalid_format": "Неверный формат комментария"
       }
     },
     "comments_block": {
@@ -526,11 +526,11 @@
       "no_found_desc": "Ты еще не сделал ни одного поста"
     },
     "vote_panel": {
-      "cancel": "Cancel vote",
-      "vote_up": "Vote Up",
-      "vote_down": "Vote Down",
-      "cant_cancel_own": "Can't cancel vote on own publication",
-      "cant_down_own": "Can't down vote your own publications"
+      "cancel": "Отменить",
+      "vote_up": "Лайк",
+      "vote_down": "Дизлайк",
+      "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
+      "cant_down_own": "Нельзя дизлайкать собственные публикации"
     }
   },
 
@@ -547,7 +547,7 @@
 
   "modals": {
     "confirm_dialog": {
-      "blocked": "You have blocked this user. Do you want unblock and follow?"
+      "blocked": "Пользователь заблокирован. Хочешь разблокировать и подписаться?"
     },
     "avatar_edit": {
       "title": "Сменить позицию",
@@ -577,11 +577,11 @@
       }
     },
     "cover_avatar": {
-      "edit": "Edit photo",
-      "delete": "Delete photo",
-      "upload_avatar": "Upload new avatar image",
+      "edit": "Редактировать фото",
+      "delete": "Удалить фото",
+      "upload_avatar": "Загрузить новый аватар",
       "toastsMessages": {
-        "proposal_created": "Proposal for avatar changing has created",
+        "proposal_created": "Предложение по смене аватара создано",
         "avatar_updated": "Аватар обновлен"
       }
     },
@@ -590,16 +590,16 @@
       "delete_photo": "Удалить фото",
       "choose": "Выбрать другое фото",
       "drag_to_move": "Перетащи фото сюда",
-      "upload_cover": "Upload new cover image",
+      "upload_cover": "Загрузить новую обложку",
       "toastsMessages": {
-        "proposal_created": "Proposal for cover changing has created",
+        "proposal_created": "Предложение по смене обложки создано",
         "image_deleted": "Обложка удалена",
         "image_updated": "Обложка обновлена"
       }
     },
     "share_block": {
-      "copy": "Copy",
-      "share": "Share"
+      "copy": "Копировать",
+      "share": "Поделиться"
     },
     "feed_filters_mobile": {
       "title": "Сортировать по"
@@ -655,7 +655,7 @@
       "sign_in_text": "У тебя есть аккаунт?",
       "sign_in": "Войти",
       "errors": {
-        "fill_cell": "You should fill every ceil.",
+        "fill_cell": "Нужно заполнить все поля",
         "too_many": "Слишком много попыток",
         "try_again": "Код не пришел. Попробуй снова",
         "try_later": "Попробуй позже",
@@ -756,10 +756,10 @@
           "recaptcha_failed": "'Проверка не пройдена'"
         },
         "errors": {
-          "choose_country": "Choose you country",
-          "enter_phone": "Enter phone number",
-          "too_short_phone": "Too short phone number",
-          "invalid_phone": "Invalid phone number",
+          "choose_country": "Выбери страну",
+          "enter_phone": "Введи номер телефона",
+          "too_short_phone": "Слишком короткий номер телефона",
+          "invalid_phone": "Неверный номер телефона",
           "unavailable": "Нам очень жаль, но твой регион не поддерживается."
         }
       },
@@ -1030,7 +1030,7 @@
       }
     },
     "manage_community": {
-      "text": "Управлять"
+      "text": "Управление"
     },
     "members": {
       "title_0": "Участник",
@@ -1101,7 +1101,7 @@
     },
     "choose_community": {
       "title": "Выбрать сообщесто",
-      "desc": "Выбери сообщество, в котором хочешь оставить пост.",
+      "desc": "Выбери сообщество, в котором хочешь оставить пост",
       "close": "Закрыть"
     },
     "feed_onboarding": {
@@ -1130,7 +1130,7 @@
     },
     "not_ready": {
       "title": "В разработке",
-      "desc": "Эта возможность скоро будет доступна."
+      "desc": "Эта возможность скоро будет доступна"
     },
     "reward_for_post": {
       "title": "Как мне получить награды за мои посты?",
@@ -1221,9 +1221,9 @@
       "h_ago": "ч назад"
     },
     "images": {
-      "upload_failed": "Image uploading failed",
-      "only_images": "Please insert only image files",
-      "too_big": "Too big file, max allowed size is {{size}} MB"
+      "upload_failed": "Не удалось загрузить изображение",
+      "only_images": "Пожалуйста,используй только изображения",
+      "too_big": "Слишком большой файл, максимальный размер {{size}} MB"
     }
   }
 }

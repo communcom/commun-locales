@@ -746,6 +746,11 @@
       },
       "oauth": {
         "continue": "Continue with <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Continue with {{name}}",
+        "providers": {
+          "phone": "phone",
+          "email": "email"
+        },
         "sign_in_text": "Do you have account?",
         "sign_in": "Sign in"
       },

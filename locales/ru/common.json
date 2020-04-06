@@ -759,6 +759,11 @@
       },
       "oauth": {
         "continue": "Использовать <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Использовать {{name}}",
+        "providers": {
+          "phone": "телефон",
+          "email": "почту"
+        },
         "sign_in_text": "У тебя есть аккаунт?",
         "sign_in": "Войти"
       },

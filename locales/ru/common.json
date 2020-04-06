@@ -203,7 +203,7 @@
         "transaction": "Транзакция",
         "referralRegisterBonus": "Получена награда за регистрацию",
         "referralPurchaseBonus": {
-          "first": "Получено {{percent}} от платежа",
+          "first": "Получено {{percent}} от покупки",
           "last": ""
         },
         "refill": "Пополнение",
@@ -339,22 +339,22 @@
     },
     "createCommunity": {
       "tabs": {
-        "description": "Description",
-        "rules": "Rules"
+        "description": "Описание",
+        "rules": "Правила"
       },
       "description": {
-        "choose_language": "Choose language",
-        "add_description": "Add description(optional)",
-        "description_placeholder": "Type something about community"
+        "choose_language": "Выбрать язык",
+        "add_description": "Добавь описание(по желанию)",
+        "description_placeholder": "Напиши что-нибудь о сообществе"
       },
       "rules": {
-        "title": "Rules",
-        "new_rule": "New rule",
-        "invalid_format": "Invalid rules format"
+        "title": "Правила",
+        "new_rule": "Новое правило",
+        "invalid_format": "Неверный формат правила"
       },
       "create_community_header": {
-        "create": "Create community",
-        "community_name_placeholder": "Community name"
+        "create": "Создать сообщество",
+        "community_name_placeholder": "Название сообщества"
       }
     },
     "onboarding": {
@@ -429,7 +429,7 @@
     "comment_form": {
       "add_file": "Прикрепить",
       "send": "Отправить",
-      "sign_up_send": "Зарегистрироваться и отправить",
+      "sign_up_send": "Войти и отправить",
       "toastsMessages": {
         "posting_failed": "Не удалось опубликовать комментарий"
       }
@@ -437,7 +437,7 @@
     "post_form": {
       "you": "Ты",
       "post": "Пост",
-      "sign_up_post": "Зарегистрироваться и опубликовать",
+      "sign_up_post": "Войти и отправить",
       "article": "Статья",
       "aria_article": "Создать статью",
       "aria_nsfw": "Укажи, если статья содержит контент 18+",
@@ -550,8 +550,8 @@
       "cant_down_own": "Нельзя дизлайкать собственные публикации"
     },
     "nsfw_warning": {
-      "title": "NSFW content",
-      "text": "Are you sure?"
+      "title": "Контент 18+",
+      "text": "Продолжить?"
     }
   },
 
@@ -984,16 +984,16 @@
       }
     },
     "create_community": {
-      "confirmation": "Confirmation",
-      "you_need": "You need <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br /> to create a community.",
-      "after_creating": "After creating a community:",
-      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Commun tokens</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "burned": "Will be burned for public goods",
-      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "bounty": "Will be sent to the bounty service",
-      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(80%)</span><br />",
-      "transferred": "Will be transferred to your wallet",
-      "not_enough": "It looks like you don't have enough<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br />required to create a community"
+      "confirmation": "Подтверждение",
+      "you_need": "Для создания сообщества <br /> нужно <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> .",
+      "after_creating": "После создания сообщества:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} токенов Commun</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "burned": "сгорит",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} поинтов</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty": "будет переведено в сервис наград",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} поинтов</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred": "будет переведено в твой кошелек",
+      "not_enough": "Похоже, у тебя недостаточно<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> <br />для создания сообщества"
     }
   },
 
@@ -1033,7 +1033,7 @@
     "get_points": {
       "get": "Получить поинты",
       "get-small": "Получить",
-      "balance": "{{communityName}} balance"
+      "balance": "{{communityName}} баланс"
     },
     "invite": {
       "text": "Активируй аккаунт и начни с первыми поинтами",

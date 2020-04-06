@@ -83,6 +83,16 @@
   },
 
   "components": {
+    "post": {
+      "no_found": "Post is not found",
+      "no_found_desc": "Probably it was deleted",
+      "views_count": "{{count}} view",
+      "views_count_plural": "{{count}} views",
+      "comments_count": "{{count}} comment",
+      "comments_count_plural": "{{count}} comments",
+      "open_menu": "Open post's menu",
+      "aria_share_in_social": "Share in social networks"
+    },
     "search": {
       "specific_results": {
         "enter": "Please enter search query",
@@ -303,7 +313,7 @@
       },
       "description": {
         "no_found": "No description",
-        "no_found_dsc": "Community hasn't description"
+        "no_found_desc": "Community hasn't description"
       },
       "members": {
         "no_found": "No subscribers"
@@ -388,6 +398,9 @@
         "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
         "last": "'s purchase"
       }
+    },
+    "notification_counter": {
+      "title": "Notifications"
     },
 
     "dropzone": {
@@ -1133,13 +1146,6 @@
       "title": "How do I get rewards for my posts?",
       "desc": "After you publish the post, community members will have {{hours}} hours to like or dislike it. If your post reaches the Top 10 posts of the day, you will be rewarded."
     }
-  },
-
-  "post": {
-    "viewCount": "{{count}} view",
-    "viewCount_plural": "{{count}} views",
-    "commentsCount": "{{count}} comment",
-    "commentsCount_plural": "{{count}} comments"
   },
 
   "chain_errors": {

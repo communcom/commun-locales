@@ -81,6 +81,7 @@
     "communities": "Сообщества",
     "new_post": "Новый пост"
   },
+
   "footer": {
     "user_agreement": "Пользовательское соглашение",
     "privacy_policy": "Политика приватности",
@@ -88,7 +89,20 @@
     "blockchain_disclaimer": "Отказ от ответственности",
     "whitepaper": "Whitepaper"
   },
+
   "components": {
+    "post": {
+      "no_found": "Пост не найден",
+      "no_found_desc": "Возможно он был удален",
+      "views_count_0": "{{count}} просмотр",
+      "views_count_1": "{{count}} просмотра",
+      "views_count_2": "{{count}} просмотров",
+      "comments_count_0": "{{count}} комментарий",
+      "comments_count_1": "{{count}} комментария",
+      "comments_count_2": "{{count}} комментариев",
+      "open_menu": "Открыть меню поста",
+      "aria_share_in_social": "Поделиться в социальных сетях"
+    },
     "search": {
       "specific_results": {
         "enter": "Введи поисковый запрос",
@@ -309,7 +323,7 @@
       },
       "description": {
         "no_found": "Нет описания",
-        "no_found_dsc": "У сообщества нет описания"
+        "no_found_desc": "У сообщества нет описания"
       },
       "members": {
         "no_found": "Нет подписчиков"
@@ -394,6 +408,9 @@
         "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
         "last": ""
       }
+    },
+    "notification_counter": {
+      "title": "Уведомления"
     },
 
     "dropzone": {
@@ -531,6 +548,10 @@
       "vote_down": "Дизлайк",
       "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
       "cant_down_own": "Нельзя дизлайкать собственные публикации"
+    },
+    "nsfw_warning": {
+      "title": "NSFW content",
+      "text": "Are you sure?"
     }
   },
 
@@ -1136,13 +1157,6 @@
       "title": "Как мне получить награды за мои посты?",
       "desc": "После публикации поста у участников сообщества есть {{hours}} часов для лайков и дизлайков. Если твой пост попадет в ТОП-10 дня, ты получишь награду."
     }
-  },
-
-  "post": {
-    "viewCount": "{{count}} вид",
-    "viewCount_plural": "{{count}} виды",
-    "commentsCount": "{{count}} комментарий",
-    "commentsCount_plural": "{{count}} комментарии"
   },
 
   "chain_errors": {

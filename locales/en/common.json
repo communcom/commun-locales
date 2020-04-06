@@ -15,6 +15,7 @@
     "update": "Update",
     "remove": "Remove",
     "delete": "Delete",
+    "show": "Show",
     "more": "More",
     "open": "Open",
     "close": "Close",
@@ -190,6 +191,7 @@
         "no_found_desc": "No users found"
       },
       "history_list": {
+        "today": "Today",
         "transaction": "Transaction",
         "referralRegisterBonus": "You received a referral bonus for the registration of",
         "referralPurchaseBonus": {
@@ -539,12 +541,22 @@
       "vote_down": "Vote Down",
       "cant_cancel_own": "Can't cancel vote on own publication",
       "cant_down_own": "Can't down vote your own publications"
+    },
+    "nsfw_warning": {
+      "title": "Контент 18+",
+      "text": "Продолжить?"
+    },
+    "report_row": {
+      "this_is": "This is"
     }
   },
 
   "menu": {
     "common": {
       "more_actions": "More Actions"
+    },
+    "comment": {
+      "report": "Report"
     },
     "post": {
       "report": "Report",

@@ -15,6 +15,7 @@
     "update": "Обновить",
     "remove": "Удалить",
     "delete": "Удалить",
+    "show": "Показать",
     "more": "Больше",
     "open": "Открыть",
     "close": "Закрыть",
@@ -200,6 +201,7 @@
         "no_found_desc": "Пользователи не найдены"
       },
       "history_list": {
+        "today": "Сегодня",
         "transaction": "Транзакция",
         "referralRegisterBonus": "Получена награда за регистрацию",
         "referralPurchaseBonus": {
@@ -550,14 +552,20 @@
       "cant_down_own": "Нельзя дизлайкать собственные публикации"
     },
     "nsfw_warning": {
-      "title": "Контент 18+",
-      "text": "Продолжить?"
+      "title": "NSFW content",
+      "text": "Are you sure?"
+    },
+    "report_row": {
+      "this_is": "Это"
     }
   },
 
   "menu": {
     "common": {
       "more_actions": "Больше действий"
+    },
+    "comment": {
+      "report": "Пожаловаться"
     },
     "post": {
       "report": "Пожаловаться",

@@ -761,7 +761,11 @@
         "master_password": "Master password",
         "retry": "Retry",
         "download": "Download PDF",
-        "saved_it": "I saved it"
+        "saved_it": "I saved it",
+        "errors": {
+          "username_mismatch": "Username mismatch",
+          "userid_mismatch": "User id mismatch"
+        }
       },
       "oauth": {
         "continue": "Continue with <span class=\"name\">{{name}}</span>",
@@ -1182,7 +1186,8 @@
     },
     "sms": {
       "many_retries": "Too many retries, try later.",
-      "later": "Try send a little later."
+      "later": "Try send a little later.",
+      "cant": "Cannot send sms code"
     }
   },
 

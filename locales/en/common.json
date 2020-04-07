@@ -440,6 +440,11 @@
       }
     },
     "proposal_card": {
+      "ban_comment": "Ban comment",
+      "ban_post": "Ban post",
+      "not_implemented_type": "Proposal type{{type}} not implemented yet.",
+      "not_implemented_action": "Proposal for {{contract}}::{{action}} not implemented yet.",
+      "nothing": "Nothing is changed",
       "apply": "Apply",
       "refuse": "Refuse",
       "accept": "Accept",
@@ -543,8 +548,8 @@
       "cant_down_own": "Can't down vote your own publications"
     },
     "nsfw_warning": {
-      "title": "Контент 18+",
-      "text": "Продолжить?"
+      "title": "NSFW content",
+      "text": "Are you sure?"
     },
     "report_row": {
       "this_is": "This is"
@@ -567,7 +572,8 @@
 
   "modals": {
     "confirm_dialog": {
-      "blocked": "You have blocked this user. Do you want unblock and follow?"
+      "blocked_user": "You have blocked this user. Do you want unblock and follow?"
+      "blocked_community": "You have blocked this community. Do you want unblock and follow?"
     },
     "avatar_edit": {
       "title": "Change position",
@@ -1165,6 +1171,20 @@
     }
   },
 
+  "errors": {
+    "common": {
+      "unknown": "Unknown error",
+      "blockchain_error": "Blockchain internal error."
+    },
+    "username": {
+      "exists": "Username is already in use"
+    },
+    "sms": {
+      "many_retries": "Too many retries, try later.",
+      "later": "Try send a little later."
+    }
+  },
+
   "chain_errors": {
     "cashout_window": "The time for voting is over",
     "incorrect_delegate_proxy_level": "Cannot delegate to this user"
@@ -1209,7 +1229,7 @@
       "several_dots": "Username may contain only one dot in a row",
       "several_dashes": "Username may contain only one dash in a row",
       "invalid_sequences": "Username may contain only one dot or one dash in a row",
-      "ends_with": "Username should end with a letter or a digit"
+      "ends_with": "Username should end with a letter or a digit",
     }
   },
 

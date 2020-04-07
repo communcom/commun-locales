@@ -573,7 +573,7 @@
 
   "modals": {
     "confirm_dialog": {
-      "blocked_user": "You have blocked this user. Do you want unblock and follow?"
+      "blocked_user": "You have blocked this user. Do you want unblock and follow?",
       "blocked_community": "You have blocked this community. Do you want unblock and follow?"
     },
     "avatar_edit": {
@@ -1230,7 +1230,7 @@
       "several_dots": "Username may contain only one dot in a row",
       "several_dashes": "Username may contain only one dash in a row",
       "invalid_sequences": "Username may contain only one dot or one dash in a row",
-      "ends_with": "Username should end with a letter or a digit",
+      "ends_with": "Username should end with a letter or a digit"
     }
   },
 

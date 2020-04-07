@@ -1197,6 +1197,7 @@
       "exists": "Username is already in use"
     },
     "sms": {
+      "wrong": "Wrong activation code",
       "many_retries": "Too many retries, try later.",
       "later": "Try send a little later.",
       "cant": "Cannot send sms code"

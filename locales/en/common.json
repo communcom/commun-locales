@@ -558,6 +558,14 @@
     },
     "report_row": {
       "this_is": "This is"
+    },
+    "rewards_badge": {
+      "top": "Top",
+      "title": "This post is featured in Top",
+      "desc": "After a given time, it will get the reward",
+      "title-rewarded": "This post has been rewarded",
+      "desc-rewarded": "This publication was interesting for Community members",
+      "learn_more": "Learn more about reward"
     }
   },
 

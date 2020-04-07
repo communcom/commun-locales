@@ -192,16 +192,19 @@
       },
       "history_list": {
         "today": "Today",
-        "transaction": "Transaction",
-        "referralRegisterBonus": "You received a referral bonus for the registration of",
-        "referralPurchaseBonus": {
-          "first": "You received {{percent}}% of",
-          "last": "'s purchase"
-        },
         "refill": "Refill",
         "reward": "Reward",
-        "convert": "Convert",
-        "leader_reward": "Leader Reward"
+        "types": {
+          "transaction": "Transaction",
+          "referralRegisterBonus": "You received a referral bonus for the registration of",
+          "referralPurchaseBonus": {
+            "first": "You received {{percent}}% of",
+            "last": "'s purchase"
+          },
+          "convert": "Convert",
+          "like": "Curator reward",
+          "leader_reward": "Leader Reward"
+        }
       }
     },
     "leaderboard": {

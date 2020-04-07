@@ -202,16 +202,19 @@
       },
       "history_list": {
         "today": "Сегодня",
-        "transaction": "Транзакция",
-        "referralRegisterBonus": "Получена награда за регистрацию",
-        "referralPurchaseBonus": {
-          "first": "Получено {{percent}}% от покупки",
-          "last": ""
-        },
         "refill": "Пополнение",
         "reward": "Награда",
-        "convert": "Обмен",
-        "leader_reward": "Награда лидера"
+        "types": {
+          "transaction": "Транзакция",
+          "referralRegisterBonus": "Получена награда за регистрацию",
+          "referralPurchaseBonus": {
+            "first": "Получено {{percent}}% от покупки",
+            "last": ""
+          },
+          "convert": "Обмен",
+          "like": "Кураторская награда",
+          "leader_reward": "Лидерская награда"
+        }
       }
     },
     "leaderboard": {

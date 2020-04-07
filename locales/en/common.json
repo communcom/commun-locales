@@ -195,11 +195,12 @@
         "transaction": "Transaction",
         "referralRegisterBonus": "You received a referral bonus for the registration of",
         "referralPurchaseBonus": {
-          "first": "You received {{percent}} of",
+          "first": "You received {{percent}}% of",
           "last": "'s purchase"
         },
         "refill": "Refill",
         "reward": "Reward",
+        "convert": "Convert",
         "leader_reward": "Leader Reward"
       }
     },

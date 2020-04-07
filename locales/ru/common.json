@@ -440,7 +440,7 @@
     "post_form": {
       "you": "Ты",
       "post": "Опубликовать",
-      "sign_up_post": "Войти и опубликовать",
+      "sign_up_post": "Войти и отправить",
       "article": "Статья",
       "aria_article": "Создать статью",
       "aria_nsfw": "Укажи, если статья содержит контент 18+",
@@ -452,7 +452,7 @@
     "proposal_card": {
       "ban_comment": "Бан комментария",
       "ban_post": "Бан поста",
-      "not_implemented_type": "Предложение {{type}} не имплементировано.",
+      "not_implemented_type": "Предложение с такоим типом{{type}} не имплементировано.",
       "not_implemented_action": "Предложение для {{contract}}::{{action}} не имплементрировано.",
       "apply": "Применить",
       "refuse": "Отказаться",

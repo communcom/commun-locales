@@ -475,6 +475,10 @@
       "title": "Comments",
       "empty": "No comments yet"
     },
+    "comments_nested": {
+      "replies": "View {{comments}} more reply",
+      "replies_plural": "View {{comments}} more replies"
+    },
     "auth_block": {
       "my_profile": "My Profile",
       "wallet": "Wallet",

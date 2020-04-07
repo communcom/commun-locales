@@ -210,7 +210,7 @@
         },
         "refill": "Пополнение",
         "reward": "Награда",
-        "convert": "Конвертирование",
+        "convert": "Обмен",
         "leader_reward": "Награда лидера"
       }
     },
@@ -482,6 +482,11 @@
     "comments_block": {
       "title": "Комментарии",
       "empty": "Нет комментариев"
+    },
+    "comments_nested": {
+      "replies_0": "Показать еще {{comments}} ответ",
+      "replies_1": "Показать еще {{comments}} ответа",
+      "replies_2": "Показать еще {{comments}} ответов"
     },
     "auth_block": {
       "my_profile": "Мой профиль",

@@ -347,17 +347,28 @@
         "title": "Rules",
         "new_rule": "New rule",
         "invalid_format": "Invalid rules format",
-        "default_rules": {
-          "language_title": "Language:",
-          "content_title": "Content:",
-          "content_text": "- Here you can publish all types of content, create original or publish links to other sources;\n- Content must be relevant to the thematic of the community;",
-          "prohibited_title": "PROHIBITED:",
-          "prohibited_text": "- Publishing of NSFW content without tagging it as NSFW;\n- Publishing of disturbing content, spam or advertisement is strictly forbidden;\n- Insulting users in comments or posts;\n- Publishing of personal data of people without their agreement;",
-          "violation_title": "Rules violation:",
-          "violation_text": "In case of violation of the rules, comments and posts with violations will be deprived of payments and excluded from displaying in community and general feed. Also, leaders have the right to limit your access to the community",
-          "settings_title": "Settings of the community:",
-          "settings_text": "The number of leaders - 3 people;\nPoints emission = 50%;\nDistribution of rewards: 10% - leaders, 45% - authors (posts and comments), 45% - curators;\nCW = 0.4"
-        }
+        "default_rules": [
+          {
+            "title": "Language:",
+            "text": "{{language}}"
+          },
+          {
+            "title": "Content:",
+            "text": "- Here you can publish all types of content, create original or publish links to other sources;\n- Content must be relevant to the thematic of the community;"
+          },
+          {
+            "title": "PROHIBITED:",
+            "text": "- Publishing of NSFW content without tagging it as NSFW;\n- Publishing of disturbing content, spam or advertisement is strictly forbidden;\n- Insulting users in comments or posts;\n- Publishing of personal data of people without their agreement;"
+          },
+          {
+            "title": "Rules violation:",
+            "text": "In case of violation of the rules, comments and posts with violations will be deprived of payments and excluded from displaying in community and general feed. Also, leaders have the right to limit your access to the community"
+          },
+          {
+            "title": "Settings of the community:",
+            "text": "The number of leaders - 3 people;\nPoints emission = 50%;\nDistribution of rewards: 10% - leaders, 45% - authors (posts and comments), 45% - curators;\nCW = 0.4;"
+          }
+        ]
       },
       "create_community_header": {
         "create": "Create community",

@@ -412,19 +412,23 @@
       "title": "Notifications"
     },
     "notification": {
-      "reply": "left a comment{{shortText}}",
-      "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
-      "upvote": "liked your {{entityType}}",
-      "subscribe": "is following you",
-      "reward": "You've got {{amount}} {{communityName}} points",
-      "transfer": {
-        "received": "You received",
-        "sent_you": "sent you"
-      },
-      "referralRegistrationBonus": "You received a referral bonus for the registration of",
-      "referralPurchaseBonus": {
-        "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
-        "last": "'s purchase"
+      "comment": "comment",
+      "post": "post",
+      "types": {
+        "reply": "left a comment{{shortText}}",
+        "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
+        "upvote": "liked your {{entityType}}",
+        "subscribe": "is following you",
+        "reward": "You've got {{amount}} {{communityName}} points",
+        "transfer": {
+          "received": "You received",
+          "sent_you": "sent you"
+        },
+        "referralRegistrationBonus": "You received a referral bonus for the registration of",
+        "referralPurchaseBonus": {
+          "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
+          "last": "'s purchase"
+        }
       }
     },
     "notification_counter": {

@@ -422,19 +422,25 @@
       "title": "Уведомления"
     },
     "notification": {
-      "reply": "прокомментировал{{shortText}}",
-      "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
-      "upvote": "лайкнул твой {{entityType}}",
-      "subscribe": "подписался на тебя",
-      "reward": "Получено {{amount}} поинтов {{communityName}}",
-      "transfer": {
-        "received": "Получено",
-        "sent_you": "отправил тебе"
-      },
-      "referralRegistrationBonus": "Получены реферальные бонусы за регистрацию",
-      "referralPurchaseBonus": {
-        "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
-        "last": ""
+      "comment": "комментарий",
+      "comment_prep": "комментарие",
+      "post": "пост",
+      "post_prep": "посте",
+      "types": {
+        "reply": "прокомментировал{{shortText}}",
+        "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
+        "upvote": "лайкнул твой {{entityType}}",
+        "subscribe": "подписался на тебя",
+        "reward": "Получено {{amount}} поинтов {{communityName}}",
+        "transfer": {
+          "received": "Получено",
+          "sent_you": "отправил тебе"
+        },
+        "referralRegistrationBonus": "Получены реферальные бонусы за регистрацию",
+        "referralPurchaseBonus": {
+          "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
+          "last": ""
+        }
       }
     },
     "notification_counter": {

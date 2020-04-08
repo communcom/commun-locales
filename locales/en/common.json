@@ -350,7 +350,7 @@
         "default_rules": [
           {
             "title": "Language:",
-            "text": "English"
+            "text": "{{language}}"
           },
           {
             "title": "Content:",

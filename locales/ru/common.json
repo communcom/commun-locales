@@ -360,7 +360,7 @@
         "default_rules": [
           {
             "title": "Язык:",
-            "text": "Русский"
+            "text": "{{language}}"
           },
           {
             "title": "Контент:",

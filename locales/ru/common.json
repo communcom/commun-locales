@@ -916,7 +916,7 @@
         "common": {
           "billing_info": {
             "title": "Покупка совершена",
-            "agree": "Нажимая Обменять, ты принимаешь {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условия обслуживания.</a>"
+            "agree": "Нажимая Купить, ты принимаешь <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условия обслуживания</a> {{provider}}"
           },
           "header": {
             "buy": "Купить"
@@ -1068,8 +1068,9 @@
       "user_subscribed": "{{user}} подписался на тебя"
     },
     "friends": {
-      "title": "Друг",
-      "title_plural": "Друзья"
+      "title_0": "Друг",
+      "title_1": "Друга",
+      "title_2": "Друзей"
     },
     "get_points": {
       "get": "Получить поинты",
@@ -1084,11 +1085,12 @@
       "title": "Управление"
     },
     "leaders": {
-      "title": "Лидер",
-      "title_plural": "Лидеры",
-      "claim": "Получить награды лидера",
+      "title_0": "Лидер",
+      "title_1": "Лидера",
+      "title_2": "Лидеров",
+      "claim": "Получить лидерскую награду",
       "toastsMessages": {
-        "claimed": "Запрос на получение награды лидера отправлен"
+        "claimed": "Запрос на получение лидерской награды отправлен"
       }
     },
     "manage_community": {
@@ -1162,7 +1164,7 @@
       "dont_show": "Не показывать это снова"
     },
     "choose_community": {
-      "title": "Выбрать сообщесто",
+      "title": "Выбрать сообщество",
       "desc": "Выбери сообщество, в котором хочешь оставить пост",
       "close": "Закрыть"
     },

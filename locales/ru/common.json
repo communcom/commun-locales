@@ -1062,7 +1062,7 @@
       "bounty": "будет переведено в сервис наград",
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} поинтов</span> <span class=\"blue semibold\">(80%)</span><br />",
       "transferred": "будет переведено в твой кошелек",
-      "not_enough": "Похоже, у тебя недостаточно<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> <br />для создания сообщества"
+      "not_enough": "Похоже, у тебя недостаточно<br />токенов Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> <br />нужно для создания сообщества"
     }
   },
 

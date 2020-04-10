@@ -96,831 +96,834 @@
     },
     "search": {
       "specific_results": {
-        "enter": "Введи поисковый запрос",
-        "hint": "Попробуй другой поисковый запрос или перейди в ленту",
-        "no_found": "Нет результатов",
-        "go_feed": "В ленту"
+        "enter": "请输入搜索内容经行查询",
+        "hint": "您可以尝试更改搜索内容进行查询或转到我的关注",
+        "no_found": "没有搜索到结果",
+        "go_feed": "转到我的关注"
       }
     },
     "blacklist": {
-      "title": "Черный список",
+      "title": "黑名单",
       "tabs": {
-        "users": "Пользователи",
-        "communities": "Сообщества"
+        "users": "用户",
+        "communities": "社区"
       },
       "users_blacklist": {
-        "no_found": "Нет заблокированных пользователей"
+        "no_found": "黑名单中没有添加用户"
       },
       "communities_blacklist": {
-        "no_found": "Нет заблокированных сообществ"
+        "no_found": "黑名单中没有添加社区"
       }
     },
     "settings": {
-      "logout": "Выйти",
+      "logout": "注销",
       "general": {
-        "title": "Общие",
-        "language": "Язык интерфейса",
+        "title": "标题",
+        "language": "语言",
         "nsfw": {
-          "hide": "Всегда скрывать",
-          "warn": "Всегда предупреждать",
-          "show": "Всегда показывать"
+          "hide": "总是隐藏",
+          "warn": "总是警告",
+          "show": "总是显示"
         }
       },
       "notifications_settings": {
-        "title": "Онлайн уведомления",
+        "title": "上线通知",
         "switchers": {
-          "upvote": "Лайк",
-          "reply": "Ответы",
-          "mention": "Упоминания",
-          "subscribe": "Подписки",
-          "rewards": "Награды",
-          "transfers": "Переводы"
+          "upvote": "赞",
+          "reply": "回复",
+          "mention": "提醒",
+          "subscribe": "订阅",
+          "rewards": "奖励",
+          "transfers": "发送"
         }
       },
       "keys": {
-        "title": "Ключи",
-        "copy": "Скопировать ключ",
+        "title": "密钥",
+        "copy": "拷贝密钥",
         "active": {
-          "title": "Активный ключ",
-          "description": "Позволяет переводить поинты"
+          "title": "活动密钥",
+          "description": "允许发送社区点"
         },
         "owner": {
-          "title": "Ключ владельца",
-          "description": "Полный доступ"
+          "title": "私有密钥",
+          "description": "拥有全部权限"
         },
         "messages": {
-          "copied": "Ключ скопирован в буфер обмена!",
-          "copy_failed": "Копирование в буфер обмена не удалось!"
+          "copied": "密钥已复制到剪贴板！",
+          "copy_failed": "密钥复制到剪贴板失败！"
         }
       }
     },
     "wallet": {
       "tabs": {
-        "my_points": "Мои поинты",
-        "history": "История"
+        "my_points": "我的社区点",
+        "history": "交易历史"
       },
       "my_points": {
-        "my_points": "Мои поинты",
-        "send_points": "Отправить поинты",
-        "search_points": "Найти поинты",
-        "no_found": "Нет поинтов",
-        "no_found_desc": "Попробуй отправить или обменять"
+        "my_points": "我的社区点",
+        "send_points": "发送社区点",
+        "search_points": "搜索社区点",
+        "no_found": "没有找到社区点",
+        "no_found_desc": "尝试发送或者转换"
       },
       "actions_panel": {
-        "send": "Отправить",
-        "sell": "Продать",
-        "buy": "Купить",
-        "convert": "Обменять"
+        "send": "发送",
+        "sell": "出售",
+        "buy": "购买",
+        "convert": "转换"
       },
       "transfer_history": {
-        "title": "История",
-        "filter": "Фильтр",
-        "empty": "История пуста",
-        "empty_desc": "Нет транзакций",
-        "no_found": "Транзакции не найдены",
-        "no_found_desc": "Попробуй отправить или обменять"
+        "title": "发送记录",
+        "filter": "过滤",
+        "empty": "发送记录为空",
+        "empty_desc": "没有发送记录",
+        "no_found": "没找到发送记录",
+        "no_found_desc": "尝试发送或者转换"
       },
       "points_grid": {
-        "on_hold": "{{quantity}} заморожено"
+        "on_hold": "{{quantity}} 冻结中"
       },
       "points_list": {
-        "on_hold": "{{quantity}} заморожено"
+        "on_hold": "{{quantity}} 冻结中"
       },
       "users_layout": {
-        "no_found": "Нет пользователей",
-        "no_found_desc": "Пользователи не найдены"
+        "no_found": "没有用户",
+        "no_found_desc": "没有找到用户"
       },
       "history_list": {
-        "today": "Сегодня",
-        "refill": "Пополнение",
-        "reward": "Награда",
+        "today": "今天",
+        "refill": "重新填写",
+        "reward": "奖励",
         "types": {
-          "transaction": "Транзакция",
-          "referralRegisterBonus": "Получена награда за регистрацию",
+          "transaction": "发送",
+          "referralRegisterBonus": "你收到一份推荐注册奖励来自",
           "referralPurchaseBonus": {
-            "first": "Получено {{percent}}% от покупки",
-            "last": ""
+            "first": "你收到 {{percent}}% 来自",
+            "last": "的购买"
           },
-          "convert": "Обмен",
-          "like": "Кураторская награда",
-          "leader_reward": "Лидерская награда"
+          "convert": "转换",
+          "like": "审阅奖励",
+          "leader_reward": "领导者奖励"
         }
       }
     },
     "leaderboard": {
       "tabs": {
-        "proposals": "Предложения",
-        "reports": "Жалобы",
-        "posts": "Посты",
-        "comments": "Комментарии"
+        "proposals": "提案",
+        "reports": "报告",
+        "posts": "文章",
+        "comments": "评论"
       },
       "proposals": {
-        "no_found": "Нет предложений",
-        "no_found_desc": "Сейчас нет предложений в сообществе"
+        "no_found": "没有提案",
+        "no_found_desc": "本社区内没有提案"
       },
       "reports": {
-        "no_found": "Нет жалоб",
-        "no_found_desc": "Сейчас нет жалоб в сообществе"
+        "no_found": "报告",
+        "no_found_desc": "社区里没有报告"
       },
       "cover_change": {
-        "new_cover": "Новая обложка",
-        "old_cover": "Старая обложка",
-        "no_cover": "Нет оболожки"
+        "new_cover": "新封面",
+        "old_cover": "旧封面",
+        "no_cover": "没有封面"
       },
       "avatar_change": {
-        "new_avatar": "Новый аватар",
-        "old_avatar": "Старый аватар",
-        "no_avatar": "Нет аватара"
+        "new_avatar": "新头像",
+        "old_avatar": "旧头像",
+        "no_avatar": "没有头像"
       }
     },
     "communities": {
-      "create": "Создать сообщество",
-      "no_found": "Нет сообществ",
-      "find": "Найти сообщества",
+      "create": "创建社区",
+      "no_found": "没有找到社区",
+      "find": "搜索社区",
       "tabs": {
-        "discover": "Обзор",
-        "my_communities": "Мои сообщества",
-        "managed": "Управление"
+        "discover": "发现",
+        "my_communities": "我的社区",
+        "managed": "管理"
       },
       "my_communities": {
-        "no_found": "Нет подписок",
-        "no_found_desc": "Ты не подписан на сообщества"
+        "no_found": "没有订阅",
+        "no_found_desc": "你没有订阅任何社区"
       },
       "manage": {
-        "no_found_desc": "Ты не управляешь сообществами"
+        "no_found_desc": "你没有管理任何社区"
       }
     },
     "notifications": {
-      "title": "Уведомления",
-      "filters": "Фильтры (в разработке)"
+      "title": "提醒",
+      "filters": "过滤 (开发中)"
     },
     "profile": {
       "tabs": {
-        "posts": "Посты",
-        "comments": "Комментарии",
-        "communities": "Сообщества",
-        "my_communities": "Мои сообщества",
-        "followers": "Подписчики",
-        "following": "Подписки",
-        "referrals": "Рефералы"
+        "posts": "文章",
+        "comments": "评论",
+        "communities": "社区",
+        "my_communities": "我的社区",
+        "followers": "粉丝",
+        "following": "关注中",
+        "referrals": "引荐"
       },
       "profile_header": {
-        "cover_updated": "Обложка обновлена",
-        "joined": "Зарегистрирован",
-        "avatar_updated": "Аватар обновлен",
-        "not_available": "Профиль недоступен",
-        "send_points": "Отправить поинты"
+        "cover_updated": "封面图片更新",
+        "joined": "加入",
+        "avatar_updated": "头像更新",
+        "not_available": "简介无效",
+        "send_points": "发送社区点"
       },
       "description": {
-        "edit_bio": "Изменить описание",
-        "add_bio": "Добавить описание"
+        "edit_bio": "编辑简历",
+        "add_bio": "添加简历"
       },
       "comments": {
-        "empty": "Нет комментариев",
-        "empty-desc": "Похоже, ты еще ничего не комментировал"
+        "empty": "没有评论",
+        "empty-desc": "你还没有发表任何评论"
       },
       "followers": {
-        "empty": "У тебя нет подписчиков",
-        "empty-desc": "На тебя никто не подписан. Найди новых друзей или опубликуй новый пост",
-        "create": "Создать новый пост"
+        "empty": "没有粉丝",
+        "empty-desc": "你还没有粉丝。你可以在社区里面找找朋友或者发表一篇新的文章。",
+        "create": "发表新文章"
       },
       "following": {
-        "empty": "Нет подписок",
-        "empty-desc": "Ты ни на кого не подписан"
+        "empty": "没有关注",
+        "empty-desc": "你还没有关注。"
       },
       "referrals": {
-        "empty": "Нет рефералов",
-        "empty-desc": "У тебя нет рефералов",
-        "no_found": "Ничего не найдено"
+        "empty": "没有推荐人",
+        "empty-desc": "你还没有任何推荐用户",
+        "no_found": "没找到"
       },
       "user_communities": {
-        "empty": "Нет подписок",
-        "empty-desc": "Ты не подписан на сообщества",
-        "find": "Найти сообщества"
+        "empty": "没有订阅",
+        "empty-desc": "你还没有订阅任何社区。",
+        "find": "搜索社区"
       }
     },
     "community": {
       "tabs": {
-        "posts": "Посты",
-        "leaders": "Лидеры",
-        "members": "Подписчики",
-        "description": "Описание",
-        "rules": "Правила",
-        "settings": "Настройки"
+        "posts": "文章",
+        "leaders": "领导者",
+        "members": "成员",
+        "description": "简介",
+        "rules": "规则",
+        "settings": "设置"
       },
       "leaders": {
-        "leaders": "Лидеры",
-        "nominees": "Кандидаты",
-        "become": "Стать лидером",
-        "stop": "Перестать быть лидером",
-        "no_found": "Ничего не найдено",
-        "empty": "Нет лидеров",
-        "empty_desc": "Стань первым лидером сообщества"
+        "leaders": "领导者",
+        "nominees": "被提名者",
+        "become": "担任领导者",
+        "stop": "停止担任领导者",
+        "no_found": "没找到",
+        "empty": "没有领导者",
+        "empty_desc": "担任社区第一位领导者"
       },
       "description": {
-        "no_found": "Нет описания",
-        "no_found_desc": "У сообщества нет описания"
+        "no_found": "没有简介",
+        "no_found_desc": "社区还没有简介"
       },
       "members": {
-        "no_found": "Нет подписчиков"
+        "no_found": "没有订阅用户"
       },
       "rules": {
-        "title": "Правила",
-        "new_rule": "Новое правило",
-        "invalid_format": "Неверный формат правил"
+        "title": "规则",
+        "new_rule": "新规则",
+        "invalid_format": "无效的规则格式"
       },
       "community_header": {
-        "created": "Создано {{date}}"
+        "created": "创建 {{date}}"
       }
     },
     "createCommunity": {
       "tabs": {
-        "description": "Описание",
-        "rules": "Правила"
+        "description": "简介",
+        "rules": "规则"
       },
       "description": {
-        "choose_language": "Выбрать язык",
-        "add_description": "Добавь описание(по желанию)",
-        "description_placeholder": "Напиши что-нибудь о сообществе"
+        "choose_language": "选择语言",
+        "add_description": "添加简介(可选择的)",
+        "description_placeholder": "输入与社区相关的内容"
       },
       "rules": {
-        "title": "Правила",
-        "new_rule": "Новое правило",
-        "invalid_format": "Неверный формат правила",
+        "title": "规则",
+        "new_rule": "新规则",
+        "invalid_format": "无效的规则格式",
         "default_rules": [
           {
-            "title": "Язык:",
+            "title": "语言",
             "text": "{{language}}"
           },
           {
-            "title": "Контент:",
-            "text": "- Здесь можно публиковать любой тип контента, создавать оригинальный контент или публиковать ссылки на другие источники;\n- Публикуемое должно соответствовать тематике сообщества;"
+            "title": "内容:",
+            "text": "- 在这里您可以发布所有类型的内容、创建原始内容或发布到其它内容地址的链接；\n-内容必须与社区的主题相关;"
           },
           {
-            "title": "ЗАПРЕЩЕНО:",
-            "text": "- Публикация 18+ контента без указания тега 18+;\n- Публикация нежелательного контента, спама или рекламы строго запрещена;\n- Оскорбление пользователей в комментариях или сообщениях;\n- Публикация персональных данных людей без их согласия;"
+            "title": "禁止:",
+            "text": "- 未标注为NSFW的发布NSFW内容；\n-严禁发布干扰性内容、垃圾邮件或广告；\n-在评论或帖子中侮辱用户；\n-未经用户同意发布他人的个人数据；"
           },
           {
-            "title": "Нарушение правил:",
-            "text": "В случае нарушения правил комментарии и посты с нарушениями будут лишены выплат и исключены из показа в сообществе и общей ленте. Кроме того, лидеры имеют право ограничить ваш доступ к сообществу"
+            "title": "违反规则:",
+            "text": "违反规定的，将取消对违反规定的评论和帖子的奖励，并禁止其在社区和关注中显示。而且，领导者有权限制你进入社区"
           },
           {
-            "title": "Настройки сообщества:",
-            "text": "Количество лидеров - 3 человека;\nЭмиссия поинтов = 50%;\nРаспределение наград: 10% - лидерам, 45% - авторам (посты и комментарии), 45% - кураторам;\nCW = 0.4;"
+            "title": "社区设置:",
+            "text": "领导者人数 - 3 人;\n社区点发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;"
           }
         ]
       },
       "create_community_header": {
-        "create": "Создать сообщество",
-        "community_name_placeholder": "Название сообщества"
+        "create": "创建社区",
+        "community_name_placeholder": "社区名称"
       }
     },
     "onboarding": {
-      "sign_up": "Начни и получи 30 поинтов",
-      "sign_up-mobile": "Начни прямо сейчас и получи поинты!",
+      "sign_up": "开始社区之旅，立即获得30社区点。",
+      "sign_up-mobile": "马上开始，获取社区点",
       "desktopSlides": {
         "first": {
-          "title": "Получай награды <br /> за посты и лайки",
-          "desc": "Создавай контент, голосуй за посты, участвуй в дискуссиях<br /> и получай в награду поинты сообществ.",
-          "progressBarText": "Участники получают награды <br />за посты и лайки"
+          "title": "你可以在这里获得奖励 <br /> 通过发表文章和点赞文章",
+          "desc": "发表文章，点赞文章、评论和讨论<br /> 可以获得社区点的奖励.",
+          "progressBarText": "每个人都可以获得奖励 <br />通过发表文章和点赞文章"
         },
         "second": {
-          "title": "Тематические сообщества",
-          "desc": "Выбери свое сообщество и получай награды.<br /> Проще простого!",
-          "progressBarText": "Тематические<br /> сообщества"
+          "title": "主题社区",
+          "desc": "选择你的社区，社区会根据你的行为给你奖励。<br />非常简单的！",
+          "progressBarText": "主题<br /> 社区"
         },
         "third": {
-          "title": "Социальная сеть <br />на основе блокчейна",
-          "desc": "Блокчейн дает возможность социальным сетям награждать своих пользователей и давать сообществам больше независимости.",
-          "progressBarText": "Социальная сеть <br />на основе блокчейна"
+          "title": "基于区块链的 <br />社交网络",
+          "desc": "多亏了区块链，现在社交网络才有可能奖励他们的用户并为社区提供自治",
+          "progressBarText": "基于区块链的 <br />社交网络"
         }
       },
       "mobileSlides": {
         "first": {
-          "title": "Здесь тебя <br /><span>ждут<span class=\"highlight\">награды</span></span><br />за твои <br />посты и <br />лайки."
+          "title": "在这里 <br /><span>获得 <span class=\"highlight\">奖励</span></span><br />通过你的 <br />文章和 <br />点赞"
         },
         "second": {
-          "title": "Выбери <br />your <br /><span class=\"highlight\">тематическое</span> <br />сообщество"
+          "title": "选择 <br />你的 <br /><span class=\"highlight\">主题</span> <br />社区"
         },
         "third": {
-          "title": "Социальная сеть на основе блокчейна"
+          "title": "<span class=\"highlight\">基于-</span> <br />区块链的 <br />社交 <br />网络"
         }
       }
     },
 
     "notifications_window": {
-      "title": "Уведомления"
+      "title": "提醒"
     },
     "notification": {
-      "comment": "комментарий",
-      "comment_prep": "комментарие",
-      "post": "пост",
-      "post_prep": "посте",
+      "comment": "评论",
+      "post": "文章",
       "types": {
-        "reply": "прокомментировал{{shortText}}",
-        "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
-        "upvote": "лайкнул твой {{entityType}}",
-        "subscribe": "подписался на тебя",
-        "reward": "Получено {{amount}} поинтов {{communityName}}",
+        "reply": "留下评论{{shortText}}",
+        "mention": "提到你在 {{entityType}}: “{{shortText}}”",
+        "upvote": "点赞你 {{entityType}}",
+        "subscribe": "关注你",
+        "reward": "你获得了 {{amount}} {{communityName}} 社区点",
         "transfer": {
-          "received": "Получено",
-          "sent_you": "отправил тебе"
+          "received": "你收到的",
+          "sent_you": "发送给你"
         },
-        "referralRegistrationBonus": "Получены реферальные бонусы за регистрацию",
+        "referralRegistrationBonus": "你收到一份推荐注册奖励来自",
         "referralPurchaseBonus": {
-          "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
-          "last": ""
+          "first": "你收到了 {{amountStr}}. 这是推荐奖励 - {{percent}}% 来自",
+          "last": "购买者"
         }
       }
     },
     "notification_counter": {
-      "title": "Уведомления"
+      "title": "提醒"
     },
 
     "dropzone": {
       "toastsMessages": {
-        "failed": "Не удалось загрузить изображение",
-        "unsupported": "Неправильный формат файла",
-        "too_big": "Слишком большой файл, максимальный допустимый размер {{size}} MB"
+        "failed": "Image uploading failed",
+        "unsupported": "Unsupported file type",
+        "too_big": "Too big file, max allowed size is {{size}} MB"
       }
     },
     "editor": {
       "comment_editor": {
-        "placeholder": "Комментировать...",
-        "placeholder-mobile": "Комментировать..."
+        "placeholder": "Add a comment...",
+        "placeholder-mobile": "Comment..."
       }
     },
     "comment_form": {
-      "add_file": "Прикрепить",
-      "send": "Отправить",
-      "sign_up_send": "Войти и отправить",
+      "add_file": "Add file",
+      "send": "Send",
+      "sign_up_send": "Sign up and send",
       "toastsMessages": {
-        "posting_failed": "Не удалось опубликовать комментарий"
+        "posting_failed": "Comment posting is failed"
       }
     },
     "post_form": {
-      "you": "Ты",
-      "post": "Опубликовать",
-      "sign_up_post": "Войти и отправить",
-      "article": "Статья",
-      "aria_article": "Создать статью",
-      "aria_nsfw": "Укажи, если статья содержит контент 18+",
-      "aria_add_image": "Добавить изображение",
+      "you": "You",
+      "post": "Post",
+      "sign_up_post": "Sign up and post",
+      "article": "Article",
+      "aria_article": "Create the article",
+      "aria_nsfw": "Add this tag if your post has any NSFW content",
+      "aria_add_image": "Add an image",
       "toastsMessages": {
-        "post_failed": "Сообщение не отправлено"
+        "select_community": "Select a community",
+        "post_failed": "Post submitting is failed"
       }
     },
     "proposal_card": {
-      "ban_comment": "Бан комментария",
-      "ban_post": "Бан поста",
-      "not_implemented_type": "Предложение с такоим типом{{type}} не имплементировано.",
-      "not_implemented_action": "Предложение для {{contract}}::{{action}} не имплементрировано.",
-      "apply": "Применить",
-      "refuse": "Отказаться",
-      "accept": "Принять",
-      "accept_and_apply": "Принять и применить",
-      "add_rule": "Добавить правило",
-      "update_rule": "Обновить правила",
-      "old_rule": "Старое правило",
-      "remove_rule": "Удалить правило",
-      "set_description": "Описание группы",
-      "update description": "Редактировать описание",
-      "old_description": "Старое описание",
-      "voted": "Голосование",
-      "voted_text": "{{approvesCount}} из {{approvesNeed}} голосов",
+      "ban_comment": "Ban comment",
+      "ban_post": "Ban post",
+      "not_implemented_type": "Proposal type{{type}} not implemented yet.",
+      "not_implemented_action": "Proposal for {{contract}}::{{action}} not implemented yet.",
+      "nothing": "Nothing is changed",
+      "apply": "Apply",
+      "refuse": "Refuse",
+      "accept": "Accept",
+      "accept_and_apply": "Accept and apply",
+      "add_rule": "Add rule",
+      "update_rule": "Update rule",
+      "old_rule": "Old rule",
+      "remove_rule": "Remove rule",
+      "set_description": "Set description",
+      "update description": "Update description",
+      "old_description": "Old description",
+      "voted": "Voted",
+      "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",
       "toastsMessages": {
-        "approved": "Принято",
-        "applied": "Предложение применено"
+        "approved": "Approved",
+        "applied": "Proposal was applied"
       }
     },
     "comment": {
-      "reply": "Ответить",
+      "reply": "Reply",
       "comment_body": {
-        "deleted": "Комментарий был удален",
-        "invalid_format": "Неверный формат комментария"
+        "deleted": "Comment was deleted",
+        "invalid_format": "Invalid comment format"
       }
     },
     "comments_block": {
-      "title": "Комментарии",
-      "empty": "Нет комментариев"
+      "title": "Comments",
+      "empty": "No comments yet"
     },
     "comments_nested": {
-      "replies_0": "Показать еще {{comments}} ответ",
-      "replies_1": "Показать еще {{comments}} ответа",
-      "replies_2": "Показать еще {{comments}} ответов"
+      "replies": "View {{comments}} more reply",
+      "replies_plural": "View {{comments}} more replies"
     },
     "auth_block": {
-      "my_profile": "Мой профиль",
-      "wallet": "Кошелек",
-      "blacklist": "Черный список",
-      "settings": "Настройки",
-      "logout": "Выйти"
+      "my_profile": "My Profile",
+      "wallet": "Wallet",
+      "blacklist": "Blacklist",
+      "settings": "Settings",
+      "logout": "Logout"
     },
     "entity_card_reports": {
-      "ban": "Забанить",
-      "refuse": "Отменить бан",
-      "approve": "Подтвердить бан",
-      "approves": "Подтверждения",
-      "create": "Предложить бан",
-      "reports": "Жалобы",
+      "ban": "Ban",
+      "refuse": "Refuse Ban",
+      "approve": "Approve Ban",
+      "approves": "Approves",
+      "create": "Create Ban Proposal",
+      "reports": "Reports",
       "toastsMessages": {
-        "post_banned": "Пост забанен"
+        "post_banned": "Post banned"
       }
     },
     "leader_row": {
-      "vote": "Голосовать",
-      "voted": "Проголосовали",
-      "inactive": "Неактивно",
+      "vote": "Vote",
+      "voted": "Voted",
+      "inactive": "inactive",
       "toastsMessages": {
-        "success_vote": "Успешно проголосовано",
-        "canceled_vote": "Голосование отменено"
+        "success_vote": "Successfully voted",
+        "canceled_vote": "Vote canceled"
       }
     },
     "choose_community": {
-      "select": "Выбрать сообщество",
-      "no_found": "Ничего не найдено",
-      "empty": "Нет сообществ"
+      "select": "Choose community",
+      "no_found": "Nothing is found",
+      "empty": "No communities"
     },
 
     "autocomplete_search": {
-      "text": "Все результаты"
+      "text": "Show all results"
     },
     "whats_new_opener": {
-      "text": "Что нового?"
+      "text": "What's new?"
     },
     "post_editor": {
-      "placeholder": "Что нового?"
+      "placeholder": "What's new?"
     },
     "cookies": {
-      "text": "Данный сайт использует файлы cookies"
+      "text": "This website uses cookies to improve your experience"
     },
     "empty_list": {
-      "text": "Ничего не найдено"
+      "text": "Nothing is found"
     },
     "empty_content_holder": {
       "notifications": {
-        "title": "Нет уведомлений",
-        "desc": "У тебя нет уведомлений"
+        "title": "No notifications",
+        "desc": "You haven't got any notifications yet"
       },
       "comments": {
-        "title": "Нет комментраиев",
-        "desc": "Ты пока что ничего не комментировал"
+        "title": "No comments",
+        "desc": "You haven't made any comments yet"
       },
       "points": {
-        "title": "Кошелек пуст",
-        "desc": "Получи свои первые токкены COMMUN, которые можно обменять на поинты любого сообщества"
+        "title": "Your wallet is Empty",
+        "desc": "Get your first point COMMUN, which can be converted for other points you may want to hold"
       }
     },
     "post_list": {
-      "no_found": "Нет постов",
-      "no_found_desc": "Ты еще не сделал ни одного поста"
+      "no_found": "No posts",
+      "no_found_desc": "You haven't made any posts yet"
     },
     "vote_panel": {
-      "cancel": "Отменить",
-      "vote_up": "Лайк",
-      "vote_down": "Дизлайк",
-      "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
-      "cant_down_own": "Нельзя дизлайкать собственные публикации"
+      "cancel": "Cancel vote",
+      "vote_up": "Vote Up",
+      "vote_down": "Vote Down",
+      "cant_cancel_own": "Can't cancel vote on own publication",
+      "cant_down_own": "Can't down vote your own publications"
     },
     "nsfw_warning": {
-      "title": "Контент 18+",
-      "text": "Продолжить?"
+      "title": "NSFW content",
+      "text": "Are you sure?"
     },
     "report_row": {
-      "this_is": "Это"
+      "this_is": "This is"
     },
     "rewards_badge": {
-      "top": "В топе",
-      "title": "Этот пост находится в топе",
-      "desc": "Через определенное время он получит награду",
-      "title-rewarded": "Этот пост был вознагражден",
-      "desc-rewarded": "Эта публикация была интересна участникам сообщества",
-      "learn_more": "Узнайте больше о наградах"
+      "top": "Top",
+      "title": "This post is featured in Top",
+      "desc": "After a given time, it will get the reward",
+      "title-rewarded": "This post has been rewarded",
+      "desc-rewarded": "This publication was interesting for Community members",
+      "learn_more": "Learn more about reward"
     }
   },
 
   "menu": {
     "common": {
-      "more_actions": "Больше действий"
+      "more_actions": "More Actions"
     },
     "comment": {
-      "report": "Пожаловаться"
+      "report": "Report"
     },
     "post": {
-      "report": "Пожаловаться",
-      "propose_ban": "Предложение на бан",
-      "view_in_explorer": "Посмотреть в Explorer"
+      "report": "Report",
+      "propose_ban": "Propose to ban",
+      "view_in_explorer": "View in Explorer"
     }
   },
 
   "modals": {
     "confirm_dialog": {
-      "blocked_user": "Пользователь заблокирован. Хочешь разблокировать и подписаться?",
-      "blocked_community": "Сообщество заблокировано. Хочешь разблокировать и подписаться?"
+      "blocked_user": "You have blocked this user. Do you want unblock and follow?",
+      "blocked_community": "You have blocked this community. Do you want unblock and follow?"
     },
     "avatar_edit": {
-      "title": "Сменить позицию",
-      "rotate": "Повернуть фото"
+      "title": "Change position",
+      "rotate": "Rotate photo"
     },
     "become_leader": {
-      "title": "Стать лидером",
-      "url": "Ссылка на приветствие",
-      "become": "Стать лидером"
+      "title": "Become a leader",
+      "url": "Welcome post URL",
+      "become": "Become a leader"
     },
     "choose_post_cover": {
-      "title": "Подготовить к публикации",
-      "send": "Отправить"
+      "title": "Prepare for publication",
+      "send": "Post"
     },
     "confirm": {
-      "title": "Подтверждение",
-      "text": "Уверен?"
+      "title": "Confirmation",
+      "text": "Are you sure?"
     },
     "description_edit": {
-      "title": "Редактировать описание",
-      "description": "Описание",
-      "changes_lost": "Изменения будут потеряны. Продолжить?",
-      "reset": "Сбросить",
-      "create": "Создать предложение",
+      "title": "Edit Description",
+      "description": "Description",
+      "changes_lost": "Changes will be lost, continue?",
+      "reset": "Reset",
+      "create": "Create proposal",
       "toastsMessages": {
-        "proposal_created": "Предложение создано"
+        "proposal_created": "Proposal created"
       }
     },
     "cover_avatar": {
-      "edit": "Редактировать фото",
-      "delete": "Удалить фото",
-      "upload_avatar": "Загрузить новый аватар",
+      "edit": "Edit photo",
+      "delete": "Delete photo",
+      "upload_avatar": "Upload new avatar image",
       "toastsMessages": {
-        "proposal_created": "Предложение по смене аватара создано",
-        "avatar_updated": "Аватар обновлен"
+        "proposal_created": "Proposal for avatar changing has created",
+        "avatar_updated": "Avatar updated"
       }
     },
     "cover_image": {
-      "edit_photo": "Редактировать фото",
-      "delete_photo": "Удалить фото",
-      "choose": "Выбрать другое фото",
-      "drag_to_move": "Перемещай, чтобы изменить положение",
-      "upload_cover": "Загрузить новую обложку",
+      "edit_photo": "Edit photo",
+      "delete_photo": "Delete photo",
+      "choose": "Choose another photo",
+      "drag_to_move": "Drag to move cover photo",
+      "upload_cover": "Upload new cover image",
       "toastsMessages": {
-        "proposal_created": "Предложение по смене обложки создано",
-        "image_deleted": "Обложка удалена",
-        "image_updated": "Обложка обновлена"
+        "proposal_created": "Proposal for cover changing has created",
+        "image_deleted": "Cover successfully deleted",
+        "image_updated": "Cover image updated"
       }
     },
     "share_block": {
-      "copy": "Копировать",
-      "share": "Поделиться"
+      "copy": "Copy",
+      "share": "Share"
     },
     "feed_filters_mobile": {
-      "title": "Сортировать по"
+      "title": "Sort by"
     },
     "login": {
-      "title": "Войти",
-      "username": "Логин",
-      "password": "Пароль",
-      "error": "Ошибка: {{error}}",
-      "submit": "Войти",
-      "sign_up": "Нет аккаунта?",
+      "title": "Sign in",
+      "username": "Username",
+      "password": "Password",
+      "error": "Error: {{error}}",
+      "submit": "Login",
+      "sign_up": "Don’t have an account?",
       "errors": {
-        "invalid": "Неверный логин или пароль"
+        "invalid": "Invalid login or password"
       },
       "toastsMessages": {
-        "recaptcha_failed": "'Проверка не пройдена'"
+        "recaptcha_failed": "'Recaptcha check failed'"
       }
     },
     "profile_about_edit": {
-      "title": "Редактировать описание",
-      "description": "Расскажи что-нибудь о себе",
-      "reset": "Сбросить",
-      "save": "Сохранить"
+      "title": "Edit Bio",
+      "description": "Type something about you",
+      "reset": "Reset",
+      "save": "Save"
     },
     "profile_mobile_menu": {
-      "edit_bio": "Редактировать описание",
-      "send_points": "Отправить поинты"
+      "edit_bio": "Edit bio",
+      "send_points": "Send Points"
     },
     "report": {
-      "title": "Пожалуйста, выбери проблему",
-      "report_field": "Жалоба",
-      "text": "Если кто-то находится в непосредственной опасности, пожалуйста, обратись в местные аварийные службы. Не жди.",
-      "send": "Отправить"
+      "title": "Please select a problem",
+      "report_field": "Report",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
     },
     "rule_edit": {
-      "title": "Добавить правило",
-      "title-edit": "Редактировать правила",
-      "title_field": "Заголовок",
-      "description_field": "Описание",
-      "question": "Изменения будут потеряны. Продолжить?",
-      "submit": "Создать предложение",
+      "title": "Add rule",
+      "title-edit": "Rule editing",
+      "title_field": "Title",
+      "description_field": "Description",
+      "question": "Changes will be lost, continue?",
+      "submit": "Create proposal",
       "toastsMessages": {
-        "created": "Предложение создано"
+        "created": "Proposal created"
       }
     },
     "share": {
-      "title": "Поделиться"
+      "title": "Share"
     },
     "sign_up": {
-      "title": "Регистрация",
-      "title-oops": "Что-то пошло не так",
-      "can_close": "Регистрация не завершена. Данные не будут сохранены.",
-      "sign_in_text": "У тебя есть аккаунт?",
-      "sign_in": "Войти",
+      "title": "Sign up",
+      "title-oops": "Oops",
+      "can_close": "You should complete registration, data can be missed otherwise.",
+      "sign_in_text": "Do you have account?",
+      "sign_in": "Sign in",
       "errors": {
-        "fill_cell": "Нужно заполнить все поля",
-        "too_many": "Слишком много попыток",
-        "try_again": "Код не пришел. Попробуй снова",
-        "try_later": "Попробуй позже",
-        "recaptcha_check": "Проверка не пройдена"
+        "fill_cell": "You should fill every ceil.",
+        "too_many": "Too many retries",
+        "try_again": "Code didn't resend. Try again",
+        "try_later": "Try later",
+        "recaptcha_check": "Recaptcha check failed"
       },
       "attentionAfter": {
-        "title": "Внимание!",
-        "description": "Мы не храним мастер-пароли и не можем их восстановить.",
-        "text": "К сожалению, блокчейн не позволяет нам восстанавливать пароли. Пользователь должен хранить пароль в надежном месте, чтобы в любое время получить к нему доступ.<br /><br />Настоятельно рекомендуем сохранить пароль и сделать копию.",
-        "saved_it": "Сохранил",
-        "download": "Скачать PDF с паролем"
+        "title": "Attention",
+        "description": "We do not keep master passwords and have no opportunity to restore them.",
+        "text": "Unfortunately, blockchain doesn’t allow us to restore passwords. It means that it is a user’s responsibility to keep the password in a safe place to be able to access it anytime.<br /><br />We strongly recommend you to save your password and make its copy.",
+        "saved_it": "I saved it",
+        "download": "Download PDF with Password"
       },
       "attentionBefore": {
-        "title": "Внимание!",
-        "description": "Ты собираешься продолжить работу в расширенном режиме с мастер-паролем.",
-        "text": "После подтверждения будет сгенерирован 52-символьный крипто-пароль.<br />Пожалуйста, скопируй пароль или скачай файл PDF с паролем.<br />Мы не храним мастер-пароли и не можем их восстановить.<br /><br />Настоятельно рекомендуем сохранить пароль и сделать копию.",
-        "continue": "Продолжить с мастер-паролем"
+        "title": "Attention",
+        "description": "You want to select the advanced mode and continue with the Master Password",
+        "text": "After confirmation, we'll generate for you a 52-character crypto password.<br />We suggest you copy this password or download a PDF file with it.<br />We do not keep Master Passwords and have no opportunity to restore them.<br /><br />We strongly recommend you to save your password and make its copy.",
+        "continue": "Continue with Master Password"
       },
       "confirmation_code": {
-        "title": "Код подтверждения из SMS",
-        "resend": "Отправить код еще раз"
+        "title": "Enter verification code from SMS",
+        "resend": "Resend verification code"
       },
       "confirmation_code_email": {
-        "title": "Код подтверждения был выслан на электронную почту. Пожалуйста, введи код подтверждения",
-        "placeholder": "Код подтверждения",
-        "resend": "Выслать код подтверждения",
+        "title": "An email has been sent with the verification code. Please enter the code here",
+        "placeholder": "Verification code",
+        "resend": "Resend verification code",
         "errors": {
-          "enter_code": "Пожалуйста, введи код",
-          "invalid_code": "Неверный код подтверждения"
+          "enter_code": "Please enter code",
+          "invalid_code": "Wrong activation code"
         }
       },
       "confirm_password": {
-        "title": "Подтвердить пароль",
-        "description": "Введи пароль еще раз",
+        "title": "Confirm password",
+        "description": "Re-enter you password",
         "errors": {
-          "same": "Пароли не совпадают"
+          "same": "Password must be the same"
         }
       },
       "create_password": {
-        "title": "Создать пароль",
-        "description": "Мы не храним мастер-пароли и не можем их восстановить. <br /><span class=\"bold\">Пожалуйста, сохрани пароль.</span>",
-        "use_password": "Использовать мастер-пароль",
+        "title": "Create password",
+        "description": "We do not keep passwords and have no opportunity to restore them. <br /><span class=\"bold\">Please save your password.</span>",
+        "use_password": "I want to use Master Password",
         "rules": {
-          "lower_case": "Строчные буквы",
-          "upper_case": "Заглавные буквы",
-          "number": "Числа",
-          "min_length": "Минимальная длина"
+          "lower_case": "Lower case",
+          "upper_case": "Upper case",
+          "number": "Number",
+          "min_length": "Min length"
         }
       },
       "create_username": {
-        "description": "Создать имя пользователя",
-        "username": "Имя пользователя",
+        "description": "Create username",
+        "username": "Username",
         "hints": [
-          "Имя пользователя не должно превышать 32 символа",
-          "Не допускается использовать заглавные буквы",
-          "Можно использовать: буквы, цифры, дефис",
-          "Дефис не должен находиться в начале или конце имени",
-          "Имя пользователя может содержать точку",
-          "Нельзя использовать в имени пользователя более одной точки"
+          "The number of characters must not exceed 32",
+          "Uppercase letters in the username are not allowed",
+          "Valid characters: letters, numbers, hyphen",
+          "The hyphen character cannot be at the beginning or at the end of the username",
+          "The user name may contain a \"dot\" character",
+          "The presence of two \"dot\" characters in a row is not valid"
         ]
       },
       "email": {
         "placeholder": "Email",
-        "description": "Укажи электронный адрес",
+        "description": "Enter your email address",
         "errors": {
-          "email_is_not_valid": "Электронный адрес недействителен",
-          "enter_your_email": "Укажи электронный адрес",
-          "account_already_exists": "Аккаунт с этим электронным адресом уже существует"
+          "email_is_not_valid": "Email address is not valid",
+          "enter_your_email": "Enter your email address",
+          "account_already_exists": "Account with this email already exists"
         }
       },
       "master_key": {
-        "title": "<span class=\"bold\">Мастер-пароль</span><br />сгенерирован",
-        "title-custom": "<span class=\"bold\">Пароль</span><br />создан",
-        "text": "Для входа необходим мастер-пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=\"bold\">Береги его!</span>",
-        "text-custom": "Для входа необходим пароль<br />Мы не храним и не восстанавливаем пароли.<br /><span class=\"bold\">Береги его!</span>",
-        "master_password": "Мастер-пароль",
-        "retry": "Попробовать снова",
-        "download": "Скачать PDF",
-        "saved_it": "Сохранил",
+        "title": "<span class=\"bold\">Master password</span><br />has been generated",
+        "title-custom": "<span class=\"bold\">Your password</span><br />has been created",
+        "text": "You need the master password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
+        "text-custom": "You need the password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
+        "master_password": "Master password",
+        "retry": "Retry",
+        "download": "Download PDF",
+        "saved_it": "I saved it",
         "errors": {
-          "username_mismatch": "Имя пользователя не совпадает",
-          "userid_mismatch": "ID пользователя не совпадает"
+          "username_mismatch": "Username mismatch",
+          "userid_mismatch": "User id mismatch"
         }
       },
       "oauth": {
-        "continue": "Использовать <span class=\"name\">{{name}}</span>",
-        "continue_custom": "Использовать {{name}}",
+        "continue": "Continue with <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Continue with {{name}}",
         "providers": {
-          "phone": "телефон",
-          "email": "почту"
+          "phone": "phone",
+          "email": "email"
         },
-        "sign_in_text": "У тебя есть аккаунт?",
-        "sign_in": "Войти"
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in"
       },
       "phone": {
-        "description": "Укажи номер телефона",
-        "phone_number": "Номер телефона",
-        "sign_in_text": "У тебя есть аккаунт?",
-        "sign_in": "Войти",
+        "description": "Enter your phone number",
+        "phone_number": "Phone number",
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in",
         "country_chooser": {
-          "choose_country": "Выбери страну",
-          "no_code": "Нет кода",
-          "no_country": "Нет страны",
-          "no_found": "Совпадения не найдены"
+          "choose_country": "Choose country",
+          "no_code": "No code",
+          "no_country": "No country",
+          "no_found": "There's no matches found"
         },
         "toastsMessages": {
-          "recaptcha_failed": "'Проверка не пройдена'"
+          "recaptcha_failed": "'Recaptcha check failed'"
         },
         "errors": {
-          "choose_country": "Выбери страну",
-          "enter_phone": "Введи номер телефона",
-          "too_short_phone": "Слишком короткий номер телефона",
-          "invalid_phone": "Неверный номер телефона",
-          "unavailable": "Нам очень жаль, но твой регион не поддерживается."
+          "choose_country": "Choose you country",
+          "enter_phone": "Enter phone number",
+          "too_short_phone": "Too short phone number",
+          "invalid_phone": "Invalid phone number",
+          "unavailable": "Sorry but we don't support your region yet"
         }
       },
       "registered": {
-        "description": "Кажется, ты уже зарегистрирован",
-        "sign_in": "Войти"
+        "description": "It looks like you are registered",
+        "sign_in": "Login"
       },
       "common": {
         "passwordInput": {
-          "password": "Пароль"
+          "password": "Password"
         },
         "termsAgree": {
-          "text": "Нажимая “Регистрация”, ты соглашаешься с <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"blank\">Пользовательским соглашением</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Политикой приватности</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Отказом от ответственности</a>"
+          "text": "By clicking the “Sign up” button, you agree to the <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">User Agreement</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Privacy Policy</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Blockchain Disclaimer</a>"
         }
       }
     },
     "transfers": {
       "convert_points": {
-        "title": "Обмен",
-        "convert": "Обменять",
-        "fee": "{{percent}}% сгорит",
-        "you_send": "Отправить",
-        "you_get": "Получить",
-        "rate": "Курс",
+        "title": "Convert",
+        "convert": "Convert",
+        "fee": "{{percent}}% will be burned",
+        "you_send": "You send",
+        "you_get": "You get",
+        "rate": "Rate",
         "buy_point_item": {
-          "buy": "Купить",
-          "balance": "Баланс"
+          "buy": "Buy",
+          "balance": "Balance"
         },
         "toastsMessages": {
-          "success": "Обмен совершен",
-          "failed": "Не удалось обменять"
+          "success": "Convert is successful",
+          "failed": "Convert is failed"
         }
       },
       "exchange_commun": {
         "2fa": {
-          "text": "Пожалуйста, заверши покупку, введя 4-значный код из комментария к платежу.",
-          "verify": "Подтвердить"
+          "text": "Please complete your purchase by entering the 4 character code at the end of your recent charge description",
+          "verify": "Verify"
         },
         "address": {
-          "qr_code": "QR-код",
-          "send": "Отправить",
-          "tag": "Тег",
-          "address_field": "Адрес",
-          "copy": "Копировать"
+          "qr_code": "QR code",
+          "send": "Send",
+          "tag": "Tag",
+          "address_field": "Address",
+          "copy": "Copy",
+          "toastsMessages": {
+            "copied": "Address was copied",
+            "copy_failed": "Unable to copy address"
+          }
         },
         "card": {
-          "title": "С карты",
-          "change_currency": "Изменить валюту",
-          "card_number": "Номер карты",
-          "exp_date": "Дата окончания",
+          "title": "From card",
+          "change_currency": "Change currency",
+          "card_number": "Card number",
+          "exp_date": "Exp.date",
           "cvc": "CVC",
-          "address": "Платежный адрес",
-          "postal_code": "Платежный индекс",
-          "loading_acs": "Загрузка страницы ACS..."
+          "address": "Billing address",
+          "postal_code": "Billing postal code",
+          "loading_acs": "Loading ACS Page..."
         },
         "error": {
-          "description": "Платеж был откланен",
-          "repeat": "Повторить",
+          "description": "The payment is not made",
+          "repeat": "Repeat",
           "errors": {
-            "1": "Неверный CVC",
-            "2": "Неверный индекс",
-            "3": "Неверный адрес",
-            "4": "Неверно заполнены поля",
-            "5": "Платеж был отклонен банком",
-            "6": "В данный момент мы принимаем только Visa и Mastercard",
-            "7": "Ошибка аутентификации 3DS",
-            "8": "Аутентификация 3DS не может быть выполнена",
-            "9": "Аутентификация 3DS была выполнена, но не завершена банком пользователя",
-            "default": "Мы работаем над устранением проблемы.<br />Приносим извинения за неудобства"
+            "1": "CVC error",
+            "2": "Postal code error",
+            "3": "Billing address error",
+            "4": "Other incorrect field(s)",
+            "5": "Transaction declined by bank.",
+            "6": "Only Visa or Mastercard accepted right now",
+            "7": "3DS authentication failure",
+            "8": "3DS authentication could not be performed",
+            "9": "3DS authentication was performed but not completed by user's bank",
+            "default": "We are working on this problem.<br />We apologize for the inconvenience"
           }
         },
         "select": {
-          "fee": "Комиссия",
-          "pay": "Сумма платежа",
-          "rate": "Курс",
-          "you_send": "К отправке",
-          "amount": "Сумма",
-          "minimum_charge": "Минимальный платеж {{amount}} {{symbol}}",
-          "you_get": "Ты получишь",
+          "fee": "Carbon Fee",
+          "pay": "You Pay",
+          "rate": "Rate",
+          "you_send": "You send",
+          "amount": "Amount",
+          "minimum_charge": "Minimum charge is {{amount}} {{symbol}}",
+          "you_get": "You get",
           "email": "Email",
-          "buy": "Купить Commun",
+          "buy": "Buy Commun",
           "sell_token_item": {
-            "use": "Использовать",
+            "use": "Use",
             "card": "Visa/Master card"
           },
           "errors": {
@@ -928,393 +931,387 @@
           }
         },
         "success": {
-          "completed": "Обмен завершен",
-          "total_charged": "Итого"
+          "completed": "Conversion completed",
+          "total_charged": "Total charged"
         },
         "common": {
           "billing_info": {
-            "title": "Покупка совершена",
-            "agree": "Нажимая Купить, ты принимаешь <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условия обслуживания</a> {{provider}}"
+            "title": "The purchase is made by",
+            "agree": "By clicking Convert, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
           },
           "header": {
-            "buy": "Купить"
+            "buy": "Buy"
           }
         }
       },
       "history_filter": {
-        "title": "Фильтр",
-        "all": "Все",
-        "income": "Входящие",
-        "outcome": "Исходящие",
-        "type": "Тип",
-        "transfer": "Перевод",
-        "convert": "Обмен",
-        "rewards": "Награды",
-        "clear_all": "Очистить все"
+        "title": "Filter",
+        "all": "All",
+        "income": "Income",
+        "outcome": "Outcome",
+        "type": "Type",
+        "transfer": "Transfer",
+        "convert": "Convert",
+        "rewards": "Rewards",
+        "clear_all": "Clear all"
       },
       "point_info": {
-        "title-mobile": "Отправить поинты"
+        "title-mobile": "Send points"
       },
       "select_point": {
-        "title": "Поинты",
-        "search": "Искать поинты",
-        "no_found": "Нет поинтов",
-        "no_found_desc": "Попробуй отправить или обменять"
+        "title": "Points",
+        "search": "Search points",
+        "no_found": "No points",
+        "no_found_desc": "Try to send or convert"
       },
       "select_recipient": {
-        "title": "Выбрать друга"
+        "title": "Choose friend"
       },
       "select_token": {
-        "title": "Выбрать валюту",
+        "title": "Choose Currency",
         "card": "Visa/Master Card",
-        "search": "Искать токены",
-        "no_found": "Нет токенов"
+        "search": "Search tokens",
+        "no_found": "No tokens"
       },
       "send_points": {
-        "title": "Отправить",
-        "to": "Кому",
-        "select_user": "Выбрать пользователя",
-        "change_user": "Изменить пользователя",
-        "amount": "Сумма",
-        "hint": "Операция может занять некоторое время",
-        "send": "Отправить",
-        "fee_text": "{{percent}}% сгорит",
+        "title": "Send",
+        "to": "To",
+        "select_user": "Select user",
+        "change_user": "Change user",
+        "amount": "Amount",
+        "hint": "This transaction may take some time",
+        "send": "Send",
+        "fee_text": "{{percent}}% will be burned",
         "toastsMessages": {
-          "success": "Транзакция успешна",
-          "failed": "Транзакция не удалась"
+          "success": "Transfer is successful",
+          "failed": "Transfer is failed"
         }
       }
     },
     "view_bio": {
-      "title": "Профиль {{username}}"
+      "title": "{{username}}'s bio"
     },
     "switch_to_app": {
-      "title": "Commun еще лучше в приложении",
-      "description": "Получи еще больше удовольствия от использования нашей социальной сети в своем мобильном.",
-      "continue": "Продолжить в приложении",
-      "sign_in": "Войти"
+      "title": "Commun is Better on the App",
+      "description": "Designed for the best experience of self-governed social network on your mobile",
+      "continue": "Continue with App",
+      "sign_in": "Sign in"
     },
     "onboarding_app_banner": {
-      "title": "<span class=\"highlight\">Commun</span> еще лучше в <span class=\"highlight\">приложении</span>",
-      "text": "Попробуй сейчас и получи поинты",
-      "continue": "Перейти в приложение",
-      "sign_in": "Войти"
+      "title": "<span class=\"highlight\">Commun</span> is better on the <span class=\"highlight\">App</span>",
+      "text": "Try it now and get points",
+      "continue": "Switch to the App",
+      "sign_in": "Sign in"
     },
     "onboarding_registration": {
       "communities": {
-        "title": "Получи свои первые поинты",
-        "title-sign_up": "Войди для получения поинтов",
-        "text_0": "Подпишись на {{COMMUNITIES_AIRDROP_COUNT}} сообщество и получи свои первые поинты сообществ",
-        "text_1": "Подпишись на {{COMMUNITIES_AIRDROP_COUNT}} сообщества и получи свои первые поинты сообществ",
-        "text_3": "Подпишись на {{COMMUNITIES_AIRDROP_COUNT}} сообществ и получи свои первые поинты сообществ",
-        "sign_in_text": "У тебя есть аккаунт?",
-        "sign_in": "Войти",
-        "sign_up": "Войди и получи поинты",
-        "finish": "Готово"
+        "title": "Get you first points",
+        "title-sign_up": "Sign up to get you first points",
+        "text": "Subscribe to at least {{COMMUNITIES_AIRDROP_COUNT}} communities and get your first Community Points",
+        "sign_in_text": "Do you have account?",
+        "sign_in": "Sign in",
+        "sign_up": "Sign up and get points",
+        "finish": "Finish"
       },
       "download": {
-        "title": "<span class=\"blue\">Скачай приложение</span><br />Удвой поинты",
-        "description": "Сразу после авторизации в приложении<br />Мы удвоим твои стартовые поинты"
+        "title": "<span class=\"blue\">Download App</span><br />Double your points",
+        "description": "Right after you authorize in the App<br />We double your welcome points"
       },
       "share": {
-        "title": "<span class=\"share\">Поделись</span> с друзьями<br />Удвой поинты",
-        "description": "Получи 5% от покупок друзей,<br />пришедших по твоей ссылке",
-        "share_link": "Поделиться ссылкой"
+        "title": "<span class=\"share\">Share</span> with friends<br />Double your points",
+        "description": "You will also receive 5% of purchases<br />of friends who came via your link",
+        "share_link": "Share link"
       }
     },
     "onboarding_welcome": {
       "welcome": {
-        "title": "Добро пожаловать<br />в <span class=\"blue\">Commun /</span>",
-        "description": "Социальная сеть на основе блокчейна, где ты получаешь <span class=\"blue\">награды</span> за посты, комментарии и лайки."
+        "title": "Welcome<br />to <span class=\"blue\">Commun /</span>",
+        "description": "Blockchain-based social network where you get <span class=\"blue\">rewards</span> for posts, comments and likes"
       },
       "thematic": {
-        "title": "<span class=\"blue strong\">Тематические</span><br />сообщества",
-        "description": "Выбирай сообщества и получай <br /><span class=\"blue\">награды</span> за активность"
+        "title": "<span class=\"blue strong\">Thematic</span><br />communities",
+        "description": "Choose communities of interest and <br />be <span class=\"blue\">rewarded</span> for your actions"
       },
       "owned": {
-        "title": "<span class=\"strong\">Принадлежит</span> пользователям",
-        "description": "Сообщества не имеют основателя<br />и полностью принадлежат пользователям",
-        "sign_up": "Начни и получи 30 поинтов",
-        "sign_in": "Войти"
+        "title": "<span class=\"strong\">Owned</span> by users",
+        "description": "Communities have no single owner<br />and fully belong to its members",
+        "sign_up": "Start and get 30 Points",
+        "sign_in": "Sign in"
       },
       "monetize": {
-        "title": "<span class=\"strong\">Монетизируй</span><br />общение",
-        "description": "Создавай посты, комментируй, лайкай<br />и получай поинты сообществ"
+        "title": "<span class=\"strong\">Monetize</span><br />your socializing",
+        "description": "Create posts, comments, like<br />and get Community Points"
       }
     },
     "create_community": {
-      "confirmation": "Подтверждение",
-      "you_need": "Для создания сообщества <br /> нужно <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> .",
-      "after_creating": "После создания сообщества:",
-      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} токенов Commun</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "burned": "сгорит",
-      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} поинтов</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "bounty": "будет переведено в сервис наград",
-      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} поинтов</span> <span class=\"blue semibold\">(80%)</span><br />",
-      "transferred": "будет переведено в твой кошелек",
-      "not_enough": "Похоже, у тебя недостаточно<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> <br />для создания сообщества"
+      "confirmation": "Confirmation",
+      "you_need": "You need <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br /> to create a community.",
+      "after_creating": "After creating a community:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Commun tokens</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "burned": "Will be burned for public goods",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty": "Will be sent to the bounty service",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred": "Will be transferred to your wallet",
+      "not_enough": "It looks like you don't have enough<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br />required to create a community"
     }
   },
 
   "widgets": {
     "get_first_points": {
-      "title": "Получи первые поинты",
-      "description": "Подпишись<br /> на 3 сообщества и получи приветственные поинты"
+      "title": "Get you first points",
+      "description": "Sign up and subscribe<br /> to the first 3 communities and get welcome points"
     },
     "airdrop": {
-      "first_line": "Твои",
-      "second_line": "подарочные поинты ждут!",
-      "text": "Жми на кнопку и <br/> получи поинты Dank Meme!",
-      "get": "Получить",
+      "first_line": "Your",
+      "second_line": "gift Points are waiting!",
+      "text": "Just click on the button and <br/> get Dank Meme's points!",
+      "get": "Get",
       "toastsMessages": {
-        "claim_received": "Запрос отправлен"
+        "claim_received": "Claim received"
       }
     },
     "trending_communities": {
-      "title": "Популярные сообщества"
+      "title": "Trending communities"
     },
     "leader_in": {
-      "title": "Лидер в"
+      "title": "Leader in"
     },
     "community_filter": {
-      "title": "Сообщества",
-      "clear": "Сбросить фильтр",
-      "no_found": "Ничего не найдено",
-      "empty": "Нет сообществ"
+      "title": "Communities",
+      "clear": "Clear filter",
+      "no_found": "Nothing is found",
+      "empty": "No communities"
     },
     "following_you": {
-      "user_subscribed": "{{user}} подписался на тебя"
+      "user_subscribed": "{{user}} subscribed to you"
     },
     "friends": {
-      "title_0": "Друг",
-      "title_1": "Друга",
-      "title_2": "Друзей"
+      "title": "Friend",
+      "title_plural": "Friends"
     },
     "get_points": {
-      "get": "Получить поинты",
-      "get-small": "Получить",
-      "balance": "{{communityName}} баланс"
+      "get": "Get Points",
+      "get-small": "Get",
+      "balance": "{{communityName}} balance"
     },
     "invite": {
-      "text": "Активируй аккаунт и начни с первыми поинтами",
-      "start": "Начать"
+      "text": "Activate your account and start with first points",
+      "start": "Start"
     },
     "leader_management": {
-      "title": "Управление"
+      "title": "Management"
     },
     "leaders": {
-      "title_0": "Лидер",
-      "title_1": "Лидера",
-      "title_2": "Лидеров",
-      "claim": "Получить лидерскую награду",
+      "title": "Leader",
+      "title_plural": "Leaders",
+      "claim": "Claim leader’s rewards",
       "toastsMessages": {
-        "claimed": "Запрос на получение лидерской награды отправлен"
+        "claimed": "Leadership payouts successfully claimed"
       }
     },
     "manage_community": {
-      "text": "Управление"
+      "text": "Manage"
     },
     "members": {
-      "title_0": "Участник",
-      "title_1": "Участника",
-      "title_2": "Участников"
+      "title": "Member",
+      "title_plural": "Members"
     },
     "mobile_balance": {
-      "wallet": "Кошелек"
+      "wallet": "Wallet"
     },
     "user_communities": {
-      "title_0": "Сообщества",
-      "title_1": "Сообщества",
-      "title_2": "Сообществ"
+      "title": "Community",
+      "title_plural": "Communities"
     },
     "faq": {
-      "title": "Как использовать Commun?",
-      "description": "Как начать постить и монетизировать активность?",
-      "text": "Получай награды за <br /> посты, лайки и комментарии",
+      "title": "How to use Commun?",
+      "description": "How to start posting and monetize your activities",
+      "text": "Get rewarded for your <br /> posts, likes, and comments",
       "big": {
-        "description": "Как начать постить и <br /> монетизировать активность",
-        "text": "Получай награды за посты, лайки и  <br /> комментарии. Жми “Начать” и узнай больше"
+        "description": "How to start posting and <br /> monetize your activities",
+        "text": "Get rewarded for your posts, likes, and <br /> comments. Press “Start” to learn more"
       },
-      "start": "Начать"
+      "start": "Start"
     },
     "technical_works": {
-      "first_line": "Технические работы",
-      "bold_line": "скоро закончатся",
-      "text": "Мы работаем над сайтом, <br /> и скоро он снова будет доступен",
-      "refresh": "Обновить",
+      "first_line": "Technical works",
+      "bold_line": "in progress",
+      "text": "We are doing some work on <br /> the site and will be back shortly",
+      "refresh": "Refresh",
       "big": {
-        "text": "Спасибо за терпение! Мы работаем над сайтом, и скоро он снова будет доступен",
-        "refresh": "Обновить страницу"
+        "text": "Thank you for being patient. We are doing some work on the site and will be back shortly",
+        "refresh": "Refresh page"
       }
     }
   },
 
   "filters": {
-    "title": "Фильтры",
-    "sort": "Сортировать",
+    "title": "Filters",
+    "sort": "Sort",
     "type": {
-      "community": "Новое",
-      "new": "Новое",
-      "hot": "Горячее",
-      "subscriptions": "Новое",
-      "subscriptionsHot": "Горячее",
-      "subscriptionsPopular": "Популярное",
-      "topLikes": "Популярное",
-      "topComments": "Топ комментариев",
-      "topRewards": "Топ наградов"
+      "community": "New",
+      "new": "New",
+      "hot": "Hot",
+      "subscriptions": "New",
+      "subscriptionsHot": "Hot",
+      "subscriptionsPopular": "Popular",
+      "topLikes": "Popular",
+      "topComments": "Top comments",
+      "topRewards": "Top rewards"
     },
     "timeframe": {
-      "day": "За последние сутки",
-      "week": "За неделю",
-      "month": "За месяц",
-      "all": "За все время"
+      "day": "Past 24 hours",
+      "week": "Past Week",
+      "month": "Past Month",
+      "all": "All Time"
     },
     "sortBy": {
-      "time": "Сначала старые",
-      "timeDesc": "Сначала новые",
-      "popularity": "По популярности"
+      "time": "Oldest",
+      "timeDesc": "Newest",
+      "popularity": "Popularity"
     }
   },
 
   "tooltips": {
     "common": {
-      "close": "Закрыть",
-      "dont_show": "Не показывать это снова"
+      "close": "Close tooltip",
+      "dont_show": "Don’t show this again"
     },
     "choose_community": {
-      "title": "Выбрать сообщество",
-      "desc": "Выбери сообщество, в котором хочешь оставить пост",
-      "close": "Закрыть"
+      "title": "Choose community",
+      "desc": "Choose community in which you want to create a post",
+      "close": "Close tooltip"
     },
     "feed_onboarding": {
       "types": {
         "vote": {
-          "title": "Награды за лайки",
-          "desc": "Да, за лайки тоже дают награды! И они куда ценнее, чем ты думаешь. Голосуй за посты, помогай им становиться популярными и получать награды."
+          "title": "Rewards for likes",
+          "desc": "Yes, you get rewards for likes as well, and they have more value than you think! By upvoting posts you let it be successful and rewarded."
         },
         "comments": {
-          "title": "Награды за комментарии",
-          "desc": "Комментарии тоже вознаграждаются! Общайся и получай награды!"
+          "title": "Rewards for comments",
+          "desc": "Comments get rewards too! Discuss and get more rewards!"
         },
         "share": {
-          "title": "Поделиться постом",
-          "desc": "Отлично, твой пост успешно опубликован! Поделись им с друзьями, чтобы получить больше наград!"
+          "title": "Share your post",
+          "desc": "Great, your post is successfully published! Share it with your friends to get more rewards!"
         },
         "reward": {
-          "title": "Что бы это значило?",
-          "desc": "Ух ты! Этот пост был награжден! <br /> Хочешь тоже получать награды? Создать пост - это самый простой путь к успеху!"
+          "title": "What does it mean?",
+          "desc": "Wow, this post will be rewarded! <br /> Do you want to get rewards too? Create a post - it’s the best way to get them!"
         }
       }
     },
     "first_like": {
-      "desc": "Если у тебя есть поинты этого сообщества, и этот пост попадет в ТОП-10 дня, ты и автор получите больше поинтов в награду.",
-      "learn_more": "Узнать больше о наградах"
+      "desc": "If you hold Points of this Community and this post will get to the “Top 10 of the day”, then you and the author would get more points as the reward.",
+      "learn_more": "Learn more about reward"
     },
     "not_ready": {
-      "title": "В разработке",
-      "desc": "Эта возможность скоро будет доступна"
+      "title": "Coming soon",
+      "desc": "This feature will be available soon."
     },
     "reward_for_post": {
-      "title": "Как мне получить награды за мои посты?",
-      "desc": "После публикации поста у участников сообщества есть {{hours}} часов для лайков и дизлайков. Если твой пост попадет в ТОП-10 дня, ты получишь награду."
+      "title": "How do I get rewards for my posts?",
+      "desc": "After you publish the post, community members will have {{hours}} hours to like or dislike it. If your post reaches the Top 10 posts of the day, you will be rewarded."
     }
   },
 
   "errors": {
     "common": {
-      "unknown": "Неизвестная ошибка",
-      "blockchain_error": "Внутренняя ошибка блокчейна."
+      "unknown": "Unknown error",
+      "blockchain_error": "Blockchain internal error."
     },
     "username": {
-      "exists": "Имя пользователя уже занято"
+      "exists": "Username is already in use"
     },
     "sms": {
-      "wrong": "Неправильный проверочный код",
-      "many_retries": "Слишком мнго попыток, попробуй позже.",
-      "later": "Попробуй немного позже.",
-      "cant": "Невозможно отправить смс код"
+      "wrong": "Wrong activation code",
+      "many_retries": "Too many retries, try later.",
+      "later": "Try send a little later.",
+      "cant": "Cannot send sms code"
     }
   },
 
   "chain_errors": {
-    "cashout_window": "Голосование окончено",
-    "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
+    "cashout_window": "The time for voting is over",
+    "incorrect_delegate_proxy_level": "Cannot delegate to this user"
   },
 
   "toastsMessages": {
-    "success": "Готово",
+    "success": "Success",
     "community": {
-      "unfollowed": "Подписка отменена",
-      "followed": "Ты подписался"
+      "unfollowed": "Community unfollowed",
+      "followed": "Community followed"
     },
     "user": {
-      "unfollowed": "Подписка отменена",
-      "followed": "Ты подписался"
+      "unfollowed": "User unfollowed",
+      "followed": "User followed"
     },
     "proposal": {
-      "created": "Предложение создано"
+      "created": "Proposal created"
     },
     "report": {
-      "sent": "Жалоба успешно отправлена"
+      "sent": "Report successfully sent"
     }
   },
 
   "validations": {
     "amount": {
-      "on_hold": "{{quantity}} заморожено",
-      "insufficient_funds": "Недостаточно средств: у тебя {{availableBalance}} {{pointName}} {{holdStr}}",
-      "more_than_supply": "Сумма превышает предложение: {{supply}}",
-      "more_than_decs": "Не более {{decs}} десятичных знаков",
-      "invalid_format": "Неверный формат",
-      "enter_amount": "Введи сумму",
-      "less_than_minimal": "Сумма меньше допустимого минимума: {{minAmount}}",
-      "less_than_0": "Сумма меньше 0",
-      "more_than_max": "Сумма больше {{maxAmount}}"
+      "on_hold": "{{quantity}} on hold",
+      "insufficient_funds": "Insufficient funds: you have {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Amount is more than supply: {{supply}}",
+      "more_than_decs": "No more than {{decs}} decimal places",
+      "invalid_format": "Invalid format",
+      "enter_amount": "Enter amount",
+      "less_than_minimal": "Amount is less than minimal: {{minAmount}}",
+      "less_than_0": "Amount is less than 0",
+      "more_than_max": "Amount is more than {{maxAmount}}"
     },
     "username": {
-      "is_empty": "Нет имени пользователя",
-      "invalid_symbols": "Имя пользователя может содержать только строчные буквы, цивры, точку или дефис",
-      "start_with": "Имя пользователя должно начинаться с буквы",
-      "too_short": "Имя пользователя должно содержать минимум 3 символа",
-      "too_long": "Имя пользователя не должно превышать 32 символа",
-      "several_dots": "В имени может быть только одна точка или один дефис",
-      "several_dashes": "Имя может содержать только одно подчеркивание подряд",
-      "invalid_sequences": "Имя может содержать только одну точку или один дефис подряд",
-      "ends_with": "Имя должно заканчиваться буквой или цифрой"
+      "is_empty": "Username is empty",
+      "invalid_symbols": "Username may contain only lower case letters, digits, dots or dashes",
+      "start_with": "Username should start with a letter",
+      "too_short": "Username should contain at least 3 symbols",
+      "too_long": "Username is too long. 32 symbols are maximum",
+      "several_dots": "Username may contain only one dot in a row",
+      "several_dashes": "Username may contain only one dash in a row",
+      "invalid_sequences": "Username may contain only one dot or one dash in a row",
+      "ends_with": "Username should end with a letter or a digit"
     }
   },
 
   "reports": {
-    "spam": "Спам",
-    "harassment": "Домогательство",
-    "nudity": "Нагота",
-    "violence": "Насилие",
-    "falsenews": "Ложные новости",
-    "terrorism": "Терроризм",
-    "breakscommunityrules": "Это нарушает правила сообщества",
-    "hatespeech": "Ненависть",
-    "unauthorizedsales": "Несанкционированные продажи",
-    "abuse": "Попытка оскорбления",
-    "other": "Другое"
+    "spam": "Spam",
+    "harassment": "Harassment",
+    "nudity": "Nudity",
+    "violence": "Violence",
+    "falsenews": "False news",
+    "terrorism": "Terrorism",
+    "breakscommunityrules": "It breaks community rules",
+    "hatespeech": "Hate speech",
+    "unauthorizedsales": "Unauthorized sales",
+    "abuse": "Attempt to abuse",
+    "other": "Other"
   },
 
   "utils": {
     "post_time": {
-      "now": "Сейчас",
-      "seconds": "с",
-      "minutes": "м",
-      "hours": "ч",
-      "days": "д"
+      "now": "Now",
+      "seconds": "s",
+      "minutes": "m",
+      "hours": "h",
+      "days": "d"
     },
     "normalize_time": {
-      "now": "сейчас",
-      "m_ago": "м назад",
-      "h_ago": "ч назад"
+      "now": "now",
+      "m_ago": "m ago",
+      "h_ago": "h ago"
     },
     "images": {
-      "upload_failed": "Не удалось загрузить изображение",
-      "only_images": "Пожалуйста,используй только изображения",
-      "too_big": "Слишком большой файл, максимальный размер {{size}} MB"
+      "upload_failed": "Image uploading failed",
+      "only_images": "Please insert only image files",
+      "too_big": "Too big file, max allowed size is {{size}} MB"
     }
   }
 }

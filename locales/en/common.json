@@ -262,7 +262,7 @@
         "my_communities": "My Communities",
         "followers": "Followers",
         "following": "Following",
-        "referrals": "Referrals"
+        "referrals": "Saved souls"
       },
       "profile_header": {
         "cover_updated": "Cover image updated",
@@ -289,8 +289,8 @@
         "empty-desc": "You don't have any following"
       },
       "referrals": {
-        "empty": "No Referrals",
-        "empty-desc": "You don't have any referral users",
+        "empty": "No Saved souls",
+        "empty-desc": "You don't have any saved souls",
         "no_found": "Nothing is found"
       },
       "user_communities": {

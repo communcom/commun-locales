@@ -272,7 +272,7 @@
         "my_communities": "Мои сообщества",
         "followers": "Подписчики",
         "following": "Подписки",
-        "referrals": "Рефералы"
+        "referrals": "Спасенные души"
       },
       "profile_header": {
         "cover_updated": "Обложка обновлена",
@@ -299,8 +299,8 @@
         "empty-desc": "Ты ни на кого не подписан"
       },
       "referrals": {
-        "empty": "Нет рефералов",
-        "empty-desc": "У тебя нет рефералов",
+        "empty": "Нет спасенныз душ",
+        "empty-desc": "У тебя нет спасенных душ",
         "no_found": "Ничего не найдено"
       },
       "user_communities": {

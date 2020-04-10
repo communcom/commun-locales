@@ -120,6 +120,7 @@
       "general": {
         "title": "General",
         "language": "Interface language",
+        "nsfw_content": "NSFW content",
         "nsfw": {
           "hide": "Always hide",
           "warn": "Always alert",

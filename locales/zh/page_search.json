@@ -1,22 +1,22 @@
 {
   "search": {
     "tabs": {
-      "all": "Все",
-      "users": "Пользователи",
-      "communities": "Сообщества",
-      "posts": "Посты"
+      "all": "全部",
+      "users": "用户",
+      "communities": "社区",
+      "posts": "文章"
     },
     "types": {
-      "all": "Все",
-      "users": "Пользователи",
-      "communities": "Сообщества",
-      "posts": "Посты"
+      "all": "全部",
+      "users": "用户",
+      "communities": "社区",
+      "posts": "文章"
     },
-    "trending_communities": "Сообщества в тренде",
-    "empty_hint": "Попробуй другой поисковый запрос или перейди в ленту",
-    "empty_hint_no_query": "Пожалуйста, введи поисковый запрос или перейди в ленту",
-    "go_to_feed": "В ленту",
-    "no_results": "Нет результатов",
-    "no_posts": "Посты не найдены"
+    "trending_communities": "流行社区",
+    "empty_hint": "您可以尝试更改搜索查询内容或转到我的关注",
+    "empty_hint_no_query": "请输入搜索查询内容或转到我的关注",
+    "go_to_feed": "转到我的关注",
+    "no_results": "没有结果",
+    "no_posts": "没找到任何文章"
   }
 }

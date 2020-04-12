@@ -120,6 +120,7 @@
       "general": {
         "title": "标题",
         "language": "语言",
+        "nsfw_content": "NSFW内容",
         "nsfw": {
           "hide": "总是隐藏",
           "warn": "总是警告",
@@ -437,102 +438,102 @@
 
     "dropzone": {
       "toastsMessages": {
-        "failed": "Image uploading failed",
-        "unsupported": "Unsupported file type",
-        "too_big": "Too big file, max allowed size is {{size}} MB"
+        "failed": "图片上传失败",
+        "unsupported": "不支持的文件类型",
+        "too_big": "文件太大, 最大支持 {{size}} MB"
       }
     },
     "editor": {
       "comment_editor": {
-        "placeholder": "Add a comment...",
-        "placeholder-mobile": "Comment..."
+        "placeholder": "添加评论...",
+        "placeholder-mobile": "评论..."
       }
     },
     "comment_form": {
-      "add_file": "Add file",
-      "send": "Send",
-      "sign_up_send": "Sign up and send",
+      "add_file": "添加文件",
+      "send": "发送",
+      "sign_up_send": "注册并发送",
       "toastsMessages": {
-        "posting_failed": "Comment posting is failed"
+        "posting_failed": "评论发布失败"
       }
     },
     "post_form": {
-      "you": "You",
-      "post": "Post",
-      "sign_up_post": "Sign up and post",
-      "article": "Article",
-      "aria_article": "Create the article",
-      "aria_nsfw": "Add this tag if your post has any NSFW content",
-      "aria_add_image": "Add an image",
+      "you": "你",
+      "post": "文章",
+      "sign_up_post": "注册并发布",
+      "article": "文章",
+      "aria_article": "创建文章",
+      "aria_nsfw": "添加这个标签，如果你的文章含有NSFW内容",
+      "aria_add_image": "添加一张图片",
       "toastsMessages": {
-        "select_community": "Select a community",
-        "post_failed": "Post submitting is failed"
+        "select_community": "选择一个社区",
+        "post_failed": "文章提交失败"
       }
     },
     "proposal_card": {
-      "ban_comment": "Ban comment",
-      "ban_post": "Ban post",
-      "not_implemented_type": "Proposal type{{type}} not implemented yet.",
-      "not_implemented_action": "Proposal for {{contract}}::{{action}} not implemented yet.",
-      "nothing": "Nothing is changed",
-      "apply": "Apply",
-      "refuse": "Refuse",
-      "accept": "Accept",
-      "accept_and_apply": "Accept and apply",
-      "add_rule": "Add rule",
-      "update_rule": "Update rule",
-      "old_rule": "Old rule",
-      "remove_rule": "Remove rule",
-      "set_description": "Set description",
-      "update description": "Update description",
-      "old_description": "Old description",
-      "voted": "Voted",
-      "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",
+      "ban_comment": "禁止评论",
+      "ban_post": "禁止发表",
+      "not_implemented_type": "提案类型{{type}} 还未通过.",
+      "not_implemented_action": "关于 {{contract}}::{{action}} 的提案还没有通过.",
+      "nothing": "没有变化",
+      "apply": "应用",
+      "refuse": "拒绝",
+      "accept": "接受",
+      "accept_and_apply": "接受并应用",
+      "add_rule": "添加规则",
+      "update_rule": "更新规则",
+      "old_rule": "旧的规则",
+      "remove_rule": "删除规则",
+      "set_description": "设置简介",
+      "update description": "更新简介",
+      "old_description": "旧的简介",
+      "voted": "投票",
+      "voted_text": "{{approvesCount}} 从 {{approvesNeed}} 票",
       "toastsMessages": {
-        "approved": "Approved",
-        "applied": "Proposal was applied"
+        "approved": "同意",
+        "applied": "已通过提案"
       }
     },
     "comment": {
-      "reply": "Reply",
+      "reply": "回复",
       "comment_body": {
-        "deleted": "Comment was deleted",
-        "invalid_format": "Invalid comment format"
+        "deleted": "评论已删除",
+        "invalid_format": "无效的评论格式"
       }
     },
     "comments_block": {
-      "title": "Comments",
-      "empty": "No comments yet"
+      "title": "评论",
+      "empty": "还没有评论"
     },
     "comments_nested": {
-      "replies": "View {{comments}} more reply",
-      "replies_plural": "View {{comments}} more replies"
+      "replies": "显示 {{comments}} 更多回复",
+      "replies_plural": "显示 {{comments}} 更多回复"
     },
     "auth_block": {
-      "my_profile": "My Profile",
-      "wallet": "Wallet",
-      "blacklist": "Blacklist",
-      "settings": "Settings",
-      "logout": "Logout"
+      "my_profile": "我的个人资料",
+      "wallet": "钱包",
+      "blacklist": "黑名单",
+      "settings": "设置",
+      "logout": "注销"
     },
     "entity_card_reports": {
-      "ban": "Ban",
-      "refuse": "Refuse Ban",
-      "approve": "Approve Ban",
-      "approves": "Approves",
-      "create": "Create Ban Proposal",
-      "reports": "Reports",
+      "ban": "禁令",
+      "refuse": "垃圾禁令",
+      "approve": "批准禁令",
+      "approves": "批准",
+      "create": "创建禁令提案",
+      "reports": "报告",
       "toastsMessages": {
-        "post_banned": "Post banned"
+        "post_banned": "禁止发表"
       }
     },
     "leader_row": {
-      "vote": "Vote",
-      "voted": "Voted",
-      "inactive": "inactive",
+      "vote": "投票",
+      "voted": "投票",
+      "inactive": "无效的",
       "toastsMessages": {
-        "success_vote": "Successfully voted",
-        "canceled_vote": "Vote canceled"
+        "success_vote": "投票成功",
+        "canceled_vote": "投票取消"
       }
     },
     "choose_community": {

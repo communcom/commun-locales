@@ -26,16 +26,16 @@
     "ban": "禁止",
     "read_more": "阅读更多",
     "learn_more": "学习更多",
-    "block": "锁定",
-    "unblock": "解除锁定",
+    "block": "拉黑",
+    "unblock": "解除拉黑",
     "follow": "关注",
     "following": "关注中",
     "unfollow": "取消关注",
     "all": "全部",
     "token": "社区币",
     "token_plural": "社区币",
-    "point": "社区点",
-    "point_plural": "社区点",
+    "point": "社区积分",
+    "point_plural": "社区积分",
     "search": "搜索",
     "search_placeholder": "搜索...",
     "equity_value_commun": "Commun权益价值",
@@ -305,7 +305,7 @@
         "posts": "文章",
         "leaders": "领导者",
         "members": "成员",
-        "description": "简介",
+        "description": "说明",
         "rules": "规则",
         "settings": "设置"
       },
@@ -319,8 +319,8 @@
         "empty_desc": "担任社区第一位领导者"
       },
       "description": {
-        "no_found": "没有简介",
-        "no_found_desc": "社区还没有简介"
+        "no_found": "没有说明",
+        "no_found_desc": "社区还没有说明"
       },
       "members": {
         "no_found": "没有订阅用户"
@@ -336,12 +336,12 @@
     },
     "createCommunity": {
       "tabs": {
-        "description": "简介",
+        "description": "说明",
         "rules": "规则"
       },
       "description": {
         "choose_language": "选择语言",
-        "add_description": "添加简介(可选择的)",
+        "add_description": "添加说明(可选择的)",
         "description_placeholder": "输入与社区相关的内容"
       },
       "rules": {
@@ -484,9 +484,9 @@
       "update_rule": "更新规则",
       "old_rule": "旧的规则",
       "remove_rule": "删除规则",
-      "set_description": "设置简介",
-      "update description": "更新简介",
-      "old_description": "旧的简介",
+      "set_description": "设置说明",
+      "update description": "更新说明",
+      "old_description": "旧的说明",
       "voted": "投票",
       "voted_text": "{{approvesCount}} 从 {{approvesNeed}} 票",
       "toastsMessages": {
@@ -537,652 +537,652 @@
       }
     },
     "choose_community": {
-      "select": "Choose community",
-      "no_found": "Nothing is found",
-      "empty": "No communities"
+      "select": "选择社区",
+      "no_found": "没有找到",
+      "empty": "没有社区"
     },
 
     "autocomplete_search": {
-      "text": "Show all results"
+      "text": "显示所有结果"
     },
     "whats_new_opener": {
-      "text": "What's new?"
+      "text": "最新消息?"
     },
     "post_editor": {
-      "placeholder": "What's new?"
+      "placeholder": "最新消息?"
     },
     "cookies": {
-      "text": "This website uses cookies to improve your experience"
+      "text": "此网站使用cookies改善您的体验"
     },
     "empty_list": {
-      "text": "Nothing is found"
+      "text": "没有找到"
     },
     "empty_content_holder": {
       "notifications": {
-        "title": "No notifications",
-        "desc": "You haven't got any notifications yet"
+        "title": "没有提醒",
+        "desc": "你还没有任何提醒。"
       },
       "comments": {
-        "title": "No comments",
-        "desc": "You haven't made any comments yet"
+        "title": "没有讨论",
+        "desc": "你还没有任何讨论"
       },
       "points": {
-        "title": "Your wallet is Empty",
-        "desc": "Get your first point COMMUN, which can be converted for other points you may want to hold"
+        "title": "你的钱包是空的",
+        "desc": "获取你的第一份社区点, 社区点可以转换为你希望的其它社区的社区点"
       }
     },
     "post_list": {
-      "no_found": "No posts",
-      "no_found_desc": "You haven't made any posts yet"
+      "no_found": "没有文章",
+      "no_found_desc": "你还没有发表任何文章。"
     },
     "vote_panel": {
-      "cancel": "Cancel vote",
-      "vote_up": "Vote Up",
-      "vote_down": "Vote Down",
-      "cant_cancel_own": "Can't cancel vote on own publication",
-      "cant_down_own": "Can't down vote your own publications"
+      "cancel": "取消投票",
+      "vote_up": "赞",
+      "vote_down": "踩",
+      "cant_cancel_own": "无法取消对自己发表的文章的投票",
+      "cant_down_own": "无法踩自己发表的文章"
     },
     "nsfw_warning": {
-      "title": "NSFW content",
-      "text": "Are you sure?"
+      "title": "NSFW 内容",
+      "text": "你确定吗?"
     },
     "report_row": {
-      "this_is": "This is"
+      "this_is": "这是"
     },
     "rewards_badge": {
-      "top": "Top",
-      "title": "This post is featured in Top",
-      "desc": "After a given time, it will get the reward",
-      "title-rewarded": "This post has been rewarded",
-      "desc-rewarded": "This publication was interesting for Community members",
-      "learn_more": "Learn more about reward"
+      "top": "热门",
+      "title": "这篇文章是热门文章",
+      "desc": "一段时间之后，这篇文章将获得奖励",
+      "title-rewarded": "这篇文章已经获得了奖励",
+      "desc-rewarded": "社区的成员对这篇文章很感兴趣",
+      "learn_more": "了解更多关于奖励的信息"
     }
   },
 
   "menu": {
     "common": {
-      "more_actions": "More Actions"
+      "more_actions": "更多动作"
     },
     "comment": {
-      "report": "Report"
+      "report": "报告"
     },
     "post": {
-      "report": "Report",
-      "propose_ban": "Propose to ban",
-      "view_in_explorer": "View in Explorer"
+      "report": "报告",
+      "propose_ban": "提案禁止",
+      "view_in_explorer": "在资源管理器中查看"
     }
   },
 
   "modals": {
     "confirm_dialog": {
-      "blocked_user": "You have blocked this user. Do you want unblock and follow?",
-      "blocked_community": "You have blocked this community. Do you want unblock and follow?"
+      "blocked_user": "您已经拉黑了此用户。是否要解除锁定并关注？",
+      "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?"
     },
     "avatar_edit": {
-      "title": "Change position",
-      "rotate": "Rotate photo"
+      "title": "改变位置",
+      "rotate": "旋转照片"
     },
     "become_leader": {
-      "title": "Become a leader",
-      "url": "Welcome post URL",
-      "become": "Become a leader"
+      "title": "成为领导者",
+      "url": "竞选领导者宣言的文章 URL",
+      "become": "成为领导者"
     },
     "choose_post_cover": {
-      "title": "Prepare for publication",
-      "send": "Post"
+      "title": "准备发布",
+      "send": "发布"
     },
     "confirm": {
-      "title": "Confirmation",
-      "text": "Are you sure?"
+      "title": "确认",
+      "text": "你确定吗?"
     },
     "description_edit": {
-      "title": "Edit Description",
-      "description": "Description",
-      "changes_lost": "Changes will be lost, continue?",
-      "reset": "Reset",
-      "create": "Create proposal",
+      "title": "编辑说明",
+      "description": "说明",
+      "changes_lost": "更改将丢失，是否继续?",
+      "reset": "重置",
+      "create": "创建提案",
       "toastsMessages": {
-        "proposal_created": "Proposal created"
+        "proposal_created": "提案已创建"
       }
     },
     "cover_avatar": {
-      "edit": "Edit photo",
-      "delete": "Delete photo",
-      "upload_avatar": "Upload new avatar image",
+      "edit": "编辑图片",
+      "delete": "删除图片",
+      "upload_avatar": "上传新头像",
       "toastsMessages": {
-        "proposal_created": "Proposal for avatar changing has created",
-        "avatar_updated": "Avatar updated"
+        "proposal_created": "更改头像的提案已创建",
+        "avatar_updated": "头像已更新"
       }
     },
     "cover_image": {
-      "edit_photo": "Edit photo",
-      "delete_photo": "Delete photo",
-      "choose": "Choose another photo",
-      "drag_to_move": "Drag to move cover photo",
-      "upload_cover": "Upload new cover image",
+      "edit_photo": "编辑图片",
+      "delete_photo": "删除图片",
+      "choose": "选择其它图片",
+      "drag_to_move": "拖动就可以移动封面图片",
+      "upload_cover": "上传新的封面图片",
       "toastsMessages": {
-        "proposal_created": "Proposal for cover changing has created",
-        "image_deleted": "Cover successfully deleted",
-        "image_updated": "Cover image updated"
+        "proposal_created": "更改封面图片的提案已经创建",
+        "image_deleted": "已成功删除封面图片",
+        "image_updated": "已经更新封面图片"
       }
     },
     "share_block": {
-      "copy": "Copy",
-      "share": "Share"
+      "copy": "拷贝",
+      "share": "分享"
     },
     "feed_filters_mobile": {
-      "title": "Sort by"
+      "title": "排序"
     },
     "login": {
-      "title": "Sign in",
-      "username": "Username",
-      "password": "Password",
-      "error": "Error: {{error}}",
-      "submit": "Login",
-      "sign_up": "Don’t have an account?",
+      "title": "登录",
+      "username": "用户名",
+      "password": "密码",
+      "error": "错误: {{error}}",
+      "submit": "登录",
+      "sign_up": "没有此账户?",
       "errors": {
-        "invalid": "Invalid login or password"
+        "invalid": "无效的登录名或密码"
       },
       "toastsMessages": {
-        "recaptcha_failed": "'Recaptcha check failed'"
+        "recaptcha_failed": "'验证码检查失败'"
       }
     },
     "profile_about_edit": {
-      "title": "Edit Bio",
-      "description": "Type something about you",
-      "reset": "Reset",
-      "save": "Save"
+      "title": "编辑简历",
+      "description": "可以写一些关于你的事情",
+      "reset": "重置",
+      "save": "保存"
     },
     "profile_mobile_menu": {
-      "edit_bio": "Edit bio",
-      "send_points": "Send Points"
+      "edit_bio": "编辑简历",
+      "send_points": "发送社区点"
     },
     "report": {
-      "title": "Please select a problem",
-      "report_field": "Report",
-      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
-      "send": "Send"
+      "title": "请选择一个问题",
+      "report_field": "报告",
+      "text": "如果有人处于紧急危险中，请致电当地紧急服务部门。别等了。",
+      "send": "发送"
     },
     "rule_edit": {
-      "title": "Add rule",
-      "title-edit": "Rule editing",
-      "title_field": "Title",
-      "description_field": "Description",
-      "question": "Changes will be lost, continue?",
-      "submit": "Create proposal",
+      "title": "添加规则",
+      "title-edit": "规则编辑",
+      "title_field": "标题",
+      "description_field": "说明",
+      "question": "更改将丢失，是否继续?",
+      "submit": "创建提案",
       "toastsMessages": {
-        "created": "Proposal created"
+        "created": "提案已创建"
       }
     },
     "share": {
-      "title": "Share"
+      "title": "分享"
     },
     "sign_up": {
-      "title": "Sign up",
-      "title-oops": "Oops",
-      "can_close": "You should complete registration, data can be missed otherwise.",
-      "sign_in_text": "Do you have account?",
-      "sign_in": "Sign in",
+      "title": "注册",
+      "title-oops": "哎呀",
+      "can_close": "您应该完成注册，否则可能会丢失数据",
+      "sign_in_text": "你是否已经有账户了?",
+      "sign_in": "登录",
       "errors": {
-        "fill_cell": "You should fill every ceil.",
-        "too_many": "Too many retries",
-        "try_again": "Code didn't resend. Try again",
-        "try_later": "Try later",
-        "recaptcha_check": "Recaptcha check failed"
+        "fill_cell": "你还有信息没有填写。",
+        "too_many": "重试次数太多",
+        "try_again": "代码没有重新发送。再试一次",
+        "try_later": "迟一点再试",
+        "recaptcha_check": "验证码验证失败"
       },
       "attentionAfter": {
-        "title": "Attention",
-        "description": "We do not keep master passwords and have no opportunity to restore them.",
-        "text": "Unfortunately, blockchain doesn’t allow us to restore passwords. It means that it is a user’s responsibility to keep the password in a safe place to be able to access it anytime.<br /><br />We strongly recommend you to save your password and make its copy.",
-        "saved_it": "I saved it",
-        "download": "Download PDF with Password"
+        "title": "注意",
+        "description": "我们不保留主密码，也没有机会和可能恢复它们。",
+        "text": "非常不幸, 区块链不允许我们还原密码. 这意味着用户有责任将密码保存在一个安全的地方，以便能够随时访问它。<br /><br />我们强烈建议您立即保存密码并复制它。",
+        "saved_it": "我已经保存好了",
+        "download": "下载包含密码的PDF"
       },
       "attentionBefore": {
-        "title": "Attention",
-        "description": "You want to select the advanced mode and continue with the Master Password",
-        "text": "After confirmation, we'll generate for you a 52-character crypto password.<br />We suggest you copy this password or download a PDF file with it.<br />We do not keep Master Passwords and have no opportunity to restore them.<br /><br />We strongly recommend you to save your password and make its copy.",
-        "continue": "Continue with Master Password"
+        "title": "注意",
+        "description": "选择高级模式并继续使用主密码",
+        "text": "确认后，我们将为您生成一个52个字符的密码。<br />我们建议您复制此密码或下载一个PDF文件。<br />我们不保留主密码，也没有机会和可能恢复它们。<br /><br />我们强烈建议您立即保存密码并复制它。",
+        "continue": "继续使用主密码"
       },
       "confirmation_code": {
-        "title": "Enter verification code from SMS",
-        "resend": "Resend verification code"
+        "title": "输入短信验证码",
+        "resend": "重发验证码"
       },
       "confirmation_code_email": {
-        "title": "An email has been sent with the verification code. Please enter the code here",
-        "placeholder": "Verification code",
-        "resend": "Resend verification code",
+        "title": "已发送带有验证码的电子邮件。请在此处输入验证码",
+        "placeholder": "验证码",
+        "resend": "重发验证码",
         "errors": {
-          "enter_code": "Please enter code",
-          "invalid_code": "Wrong activation code"
+          "enter_code": "请输入验证码",
+          "invalid_code": "验证码错误"
         }
       },
       "confirm_password": {
-        "title": "Confirm password",
-        "description": "Re-enter you password",
+        "title": "确认密码",
+        "description": "重新输入你的密码",
         "errors": {
-          "same": "Password must be the same"
+          "same": "密码必须一致"
         }
       },
       "create_password": {
-        "title": "Create password",
-        "description": "We do not keep passwords and have no opportunity to restore them. <br /><span class=\"bold\">Please save your password.</span>",
-        "use_password": "I want to use Master Password",
+        "title": "创建密码",
+        "description": "我们不保存密码，也没有机会和可能恢复密码。 <br /><span class=\"bold\">请你保存好你的密码。</span>",
+        "use_password": "我想使用主密码",
         "rules": {
-          "lower_case": "Lower case",
-          "upper_case": "Upper case",
-          "number": "Number",
-          "min_length": "Min length"
+          "lower_case": "小写字母",
+          "upper_case": "大写字母",
+          "number": "数字",
+          "min_length": "最小长度"
         }
       },
       "create_username": {
-        "description": "Create username",
-        "username": "Username",
+        "description": "创建用户名",
+        "username": "用户名",
         "hints": [
-          "The number of characters must not exceed 32",
-          "Uppercase letters in the username are not allowed",
-          "Valid characters: letters, numbers, hyphen",
-          "The hyphen character cannot be at the beginning or at the end of the username",
-          "The user name may contain a \"dot\" character",
-          "The presence of two \"dot\" characters in a row is not valid"
+          "字符数不能超过32",
+          "用户名中不允许使用大写字母",
+          "有效字符：字母、数字、连字符",
+          "连字符不能在用户名的开头或结尾",
+          "用户名可以包含 \"dot\" 字符",
+          "含有两个 \"dot\" 字符在一行中是无效的。"
         ]
       },
       "email": {
-        "placeholder": "Email",
-        "description": "Enter your email address",
+        "placeholder": "Email电子邮件",
+        "description": "请输入你的电子邮件地址",
         "errors": {
-          "email_is_not_valid": "Email address is not valid",
-          "enter_your_email": "Enter your email address",
-          "account_already_exists": "Account with this email already exists"
+          "email_is_not_valid": "电子邮件地址无效",
+          "enter_your_email": "请输入你的电子邮件地址",
+          "account_already_exists": "已存在此电子邮件的帐户"
         }
       },
       "master_key": {
-        "title": "<span class=\"bold\">Master password</span><br />has been generated",
-        "title-custom": "<span class=\"bold\">Your password</span><br />has been created",
-        "text": "You need the master password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
-        "text-custom": "You need the password to Log in<br />We don’t keep and can’t restore passwords<br /><span class=\"bold\">Save it securely!</span>",
-        "master_password": "Master password",
-        "retry": "Retry",
-        "download": "Download PDF",
-        "saved_it": "I saved it",
+        "title": "<span class=\"bold\">主密码</span><br />已生成",
+        "title-custom": "<span class=\"bold\">你的密码</span><br />已经创建",
+        "text": "您需要主密码才能登录<br />我们不保存也无法还原密码<br /><span class=\"bold\">安全地保存它！</span>",
+        "text-custom": "你需要密码才能登录<br />我们不保存也无法还原密码<br /><span class=\"bold\">安全地保存它！</span>",
+        "master_password": "主密码",
+        "retry": "重试",
+        "download": "下载PDF",
+        "saved_it": "我已经保存好了",
         "errors": {
-          "username_mismatch": "Username mismatch",
-          "userid_mismatch": "User id mismatch"
+          "username_mismatch": "用户名不匹配",
+          "userid_mismatch": "用户id不匹配"
         }
       },
       "oauth": {
-        "continue": "Continue with <span class=\"name\">{{name}}</span>",
-        "continue_custom": "Continue with {{name}}",
+        "continue": "继续使用 <span class=\"name\">{{name}}</span>",
+        "continue_custom": "继续使用 {{name}}",
         "providers": {
-          "phone": "phone",
-          "email": "email"
+          "phone": "电话",
+          "email": "电子邮件"
         },
-        "sign_in_text": "Do you have account?",
-        "sign_in": "Sign in"
+        "sign_in_text": "你是否已经有了账户?",
+        "sign_in": "登录"
       },
       "phone": {
-        "description": "Enter your phone number",
-        "phone_number": "Phone number",
-        "sign_in_text": "Do you have account?",
-        "sign_in": "Sign in",
+        "description": "请输入你的电话号码",
+        "phone_number": "电话号码",
+        "sign_in_text": "你是否已经有了账户?",
+        "sign_in": "登录",
         "country_chooser": {
-          "choose_country": "Choose country",
-          "no_code": "No code",
-          "no_country": "No country",
-          "no_found": "There's no matches found"
+          "choose_country": "选择国家",
+          "no_code": "没有代码",
+          "no_country": "没有国家",
+          "no_found": "找不到匹配项"
         },
         "toastsMessages": {
-          "recaptcha_failed": "'Recaptcha check failed'"
+          "recaptcha_failed": "'验证码验证失败'"
         },
         "errors": {
-          "choose_country": "Choose you country",
-          "enter_phone": "Enter phone number",
-          "too_short_phone": "Too short phone number",
-          "invalid_phone": "Invalid phone number",
-          "unavailable": "Sorry but we don't support your region yet"
+          "choose_country": "选择你的国家",
+          "enter_phone": "输入电话号码",
+          "too_short_phone": "电话号码太短",
+          "invalid_phone": "无效的电话号码",
+          "unavailable": "抱歉，我们还不支持您所在的地区"
         }
       },
       "registered": {
-        "description": "It looks like you are registered",
-        "sign_in": "Login"
+        "description": "看来你已经注册了",
+        "sign_in": "登录"
       },
       "common": {
         "passwordInput": {
-          "password": "Password"
+          "password": "密码"
         },
         "termsAgree": {
-          "text": "By clicking the “Sign up” button, you agree to the <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">User Agreement</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Privacy Policy</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Blockchain Disclaimer</a>"
+          "text": "点击 “注册” 按钮, 意味着你同意 <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">用户协议</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">隐私政策</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">区块链免责声明</a>"
         }
       }
     },
     "transfers": {
       "convert_points": {
-        "title": "Convert",
-        "convert": "Convert",
-        "fee": "{{percent}}% will be burned",
-        "you_send": "You send",
-        "you_get": "You get",
-        "rate": "Rate",
+        "title": "转换",
+        "convert": "转换",
+        "fee": "{{percent}}% 会被当做手续费销毁",
+        "you_send": "你发送的",
+        "you_get": "你得到的",
+        "rate": "费率",
         "buy_point_item": {
-          "buy": "Buy",
-          "balance": "Balance"
+          "buy": "买",
+          "balance": "余额"
         },
         "toastsMessages": {
-          "success": "Convert is successful",
-          "failed": "Convert is failed"
+          "success": "转换成功",
+          "failed": "转换失败"
         }
       },
       "exchange_commun": {
         "2fa": {
-          "text": "Please complete your purchase by entering the 4 character code at the end of your recent charge description",
-          "verify": "Verify"
+          "text": "请在最近的费用说明末尾输入4个字符的代码来完成您的购买",
+          "verify": "验证"
         },
         "address": {
-          "qr_code": "QR code",
-          "send": "Send",
-          "tag": "Tag",
-          "address_field": "Address",
-          "copy": "Copy",
+          "qr_code": "二维码",
+          "send": "发送",
+          "tag": "标签",
+          "address_field": "地址",
+          "copy": "复制",
           "toastsMessages": {
-            "copied": "Address was copied",
-            "copy_failed": "Unable to copy address"
+            "copied": "地址已经复制",
+            "copy_failed": "不能复制地址"
           }
         },
         "card": {
-          "title": "From card",
-          "change_currency": "Change currency",
-          "card_number": "Card number",
-          "exp_date": "Exp.date",
-          "cvc": "CVC",
-          "address": "Billing address",
-          "postal_code": "Billing postal code",
-          "loading_acs": "Loading ACS Page..."
+          "title": "自卡",
+          "change_currency": "兑换货币",
+          "card_number": "卡号",
+          "exp_date": "有效期",
+          "cvc": "CVC验证码",
+          "address": "帐单地址",
+          "postal_code": "帐单邮政编码",
+          "loading_acs": "加载 ACS 页..."
         },
         "error": {
-          "description": "The payment is not made",
-          "repeat": "Repeat",
+          "description": "没有付款",
+          "repeat": "重复",
           "errors": {
-            "1": "CVC error",
-            "2": "Postal code error",
-            "3": "Billing address error",
-            "4": "Other incorrect field(s)",
-            "5": "Transaction declined by bank.",
-            "6": "Only Visa or Mastercard accepted right now",
-            "7": "3DS authentication failure",
-            "8": "3DS authentication could not be performed",
-            "9": "3DS authentication was performed but not completed by user's bank",
-            "default": "We are working on this problem.<br />We apologize for the inconvenience"
+            "1": "CVC验证码 错误",
+            "2": "邮政编码错误",
+            "3": "帐单地址错误",
+            "4": "其他不正确字段",
+            "5": "交易被银行拒绝。",
+            "6": "现在只接受Visa或Mastercard。",
+            "7": "3DS身份验证失败",
+            "8": "无法执行3DS身份验证",
+            "9": "3DS身份验证已由用户的银行执行，但尚未完成",
+            "default": "我们正在着手解决这个问题。<br />对于给您带来的不便，我们深表歉意"
           }
         },
         "select": {
-          "fee": "Carbon Fee",
-          "pay": "You Pay",
-          "rate": "Rate",
-          "you_send": "You send",
-          "amount": "Amount",
-          "minimum_charge": "Minimum charge is {{amount}} {{symbol}}",
-          "you_get": "You get",
-          "email": "Email",
-          "buy": "Buy Commun",
+          "fee": "费率",
+          "pay": "你的支付",
+          "rate": "费率",
+          "you_send": "你发送",
+          "amount": "总数",
+          "minimum_charge": "最低限额是 {{amount}} {{symbol}}",
+          "you_get": "你得到",
+          "email": "电子邮件",
+          "buy": "买Commun社区币",
           "sell_token_item": {
-            "use": "Use",
-            "card": "Visa/Master card"
+            "use": "使用",
+            "card": "Visa或者Master卡"
           },
           "errors": {
             "email_format": ""
           }
         },
         "success": {
-          "completed": "Conversion completed",
-          "total_charged": "Total charged"
+          "completed": "转换完成",
+          "total_charged": "收费总额"
         },
         "common": {
           "billing_info": {
-            "title": "The purchase is made by",
-            "agree": "By clicking Convert, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
+            "title": "购买是由",
+            "agree": "点击转换按钮, 意味着你同意 {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">服务条款。</a>"
           },
           "header": {
-            "buy": "Buy"
+            "buy": "购买"
           }
         }
       },
       "history_filter": {
-        "title": "Filter",
-        "all": "All",
-        "income": "Income",
-        "outcome": "Outcome",
-        "type": "Type",
-        "transfer": "Transfer",
-        "convert": "Convert",
-        "rewards": "Rewards",
-        "clear_all": "Clear all"
+        "title": "过滤",
+        "all": "全部",
+        "income": "收入",
+        "outcome": "支出",
+        "type": "类型",
+        "transfer": "交易",
+        "convert": "转换",
+        "rewards": "奖励",
+        "clear_all": "清除所有"
       },
       "point_info": {
-        "title-mobile": "Send points"
+        "title-mobile": "发送社区点"
       },
       "select_point": {
-        "title": "Points",
-        "search": "Search points",
-        "no_found": "No points",
-        "no_found_desc": "Try to send or convert"
+        "title": "社区点",
+        "search": "搜索社区点",
+        "no_found": "没有社区点",
+        "no_found_desc": "尝试发送或者转换"
       },
       "select_recipient": {
-        "title": "Choose friend"
+        "title": "选择朋友"
       },
       "select_token": {
-        "title": "Choose Currency",
-        "card": "Visa/Master Card",
-        "search": "Search tokens",
-        "no_found": "No tokens"
+        "title": "选择货币",
+        "card": "Visa或者Master卡",
+        "search": "搜索代币",
+        "no_found": "没有代币"
       },
       "send_points": {
-        "title": "Send",
-        "to": "To",
-        "select_user": "Select user",
-        "change_user": "Change user",
-        "amount": "Amount",
-        "hint": "This transaction may take some time",
-        "send": "Send",
-        "fee_text": "{{percent}}% will be burned",
+        "title": "发送",
+        "to": "到",
+        "select_user": "选择用户",
+        "change_user": "更改用户",
+        "amount": "总数",
+        "hint": "这笔交易可能需要一些时间",
+        "send": "发送",
+        "fee_text": "{{percent}}% 会被当做手续费销毁",
         "toastsMessages": {
-          "success": "Transfer is successful",
-          "failed": "Transfer is failed"
+          "success": "交易成功",
+          "failed": "交易失败"
         }
       }
     },
     "view_bio": {
-      "title": "{{username}}'s bio"
+      "title": "{{username}}的简介"
     },
     "switch_to_app": {
-      "title": "Commun is Better on the App",
-      "description": "Designed for the best experience of self-governed social network on your mobile",
-      "continue": "Continue with App",
-      "sign_in": "Sign in"
+      "title": "Commun在应用程序APP上可以得到更好的体验",
+      "description": "专为在您的移动设备上实现自治社交网络的最佳体验而设计",
+      "continue": "在应用程序App上继续",
+      "sign_in": "登录"
     },
     "onboarding_app_banner": {
-      "title": "<span class=\"highlight\">Commun</span> is better on the <span class=\"highlight\">App</span>",
-      "text": "Try it now and get points",
-      "continue": "Switch to the App",
-      "sign_in": "Sign in"
+      "title": "<span class=\"highlight\">Commun</span> 更好用在 <span class=\"highlight\">应用程序App上</span>",
+      "text": "现在就试试，获取你的社区点",
+      "continue": "切换到应用程序",
+      "sign_in": "登录"
     },
     "onboarding_registration": {
       "communities": {
-        "title": "Get you first points",
-        "title-sign_up": "Sign up to get you first points",
-        "text": "Subscribe to at least {{COMMUNITIES_AIRDROP_COUNT}} communities and get your first Community Points",
-        "sign_in_text": "Do you have account?",
-        "sign_in": "Sign in",
-        "sign_up": "Sign up and get points",
-        "finish": "Finish"
+        "title": "获取你的第一个社区点",
+        "title-sign_up": "注册以你的第一个社区点",
+        "text": "至少订阅 {{COMMUNITIES_AIRDROP_COUNT}} 个社区，同时获得这个社区的社区点",
+        "sign_in_text": "你有账户吗?",
+        "sign_in": "登录",
+        "sign_up": "注册并获取社区点",
+        "finish": "完成"
       },
       "download": {
-        "title": "<span class=\"blue\">Download App</span><br />Double your points",
-        "description": "Right after you authorize in the App<br />We double your welcome points"
+        "title": "<span class=\"blue\">下载 应用程序App</span><br />双倍社区点",
+        "description": "在应用程序App中授权后<br />我们将给与你双倍的注册获取的社区点"
       },
       "share": {
-        "title": "<span class=\"share\">Share</span> with friends<br />Double your points",
-        "description": "You will also receive 5% of purchases<br />of friends who came via your link",
-        "share_link": "Share link"
+        "title": "<span class=\"share\">分享</span> 和你的朋友<br />获取双倍社区点",
+        "description": "你也可以收到 5% 在购买中的提成<br />从你的分享链接注册的朋友",
+        "share_link": "分享链接"
       }
     },
     "onboarding_welcome": {
       "welcome": {
-        "title": "Welcome<br />to <span class=\"blue\">Commun /</span>",
-        "description": "Blockchain-based social network where you get <span class=\"blue\">rewards</span> for posts, comments and likes"
+        "title": "欢迎<br />来到 <span class=\"blue\">Commun /</span>",
+        "description": "基于区块链的社交网络 <span class=\"blue\">奖励</span> 通过发表文章、评论和点赞"
       },
       "thematic": {
-        "title": "<span class=\"blue strong\">Thematic</span><br />communities",
-        "description": "Choose communities of interest and <br />be <span class=\"blue\">rewarded</span> for your actions"
+        "title": "<span class=\"blue strong\">主题</span><br />社区",
+        "description": "选择感兴趣的社区 <br />你将获得 <span class=\"blue\">奖励</span> 以便快速融入社区"
       },
       "owned": {
-        "title": "<span class=\"strong\">Owned</span> by users",
-        "description": "Communities have no single owner<br />and fully belong to its members",
-        "sign_up": "Start and get 30 Points",
-        "sign_in": "Sign in"
+        "title": "<span class=\"strong\">所有者</span> 为用户们",
+        "description": "社区没有单一所有者<br />完全属于它的成员",
+        "sign_up": "开始并获取30个社区点",
+        "sign_in": "登录"
       },
       "monetize": {
-        "title": "<span class=\"strong\">Monetize</span><br />your socializing",
-        "description": "Create posts, comments, like<br />and get Community Points"
+        "title": "<span class=\"strong\">盈利</span><br />你的社交行为",
+        "description": "发表文章、评论和点赞<br />就可以获取社区点"
       }
     },
     "create_community": {
-      "confirmation": "Confirmation",
-      "you_need": "You need <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br /> to create a community.",
-      "after_creating": "After creating a community:",
-      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Commun tokens</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "burned": "Will be burned for public goods",
-      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(10%)</span><br />",
-      "bounty": "Will be sent to the bounty service",
-      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span> <span class=\"blue semibold\">(80%)</span><br />",
-      "transferred": "Will be transferred to your wallet",
-      "not_enough": "It looks like you don't have enough<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br />required to create a community"
+      "confirmation": "确认",
+      "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br /> 创建一个社区.",
+      "after_creating": "创建社区后:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "burned": "会作为公共物品被燃烧",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区点</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty": "会被送到奖励池",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区点</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred": "会转到你的钱包里",
+      "not_enough": "你好像没有足够的<br />社区代币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br />在创建新的社区的时候需要"
     }
   },
 
   "widgets": {
     "get_first_points": {
-      "title": "Get you first points",
-      "description": "Sign up and subscribe<br /> to the first 3 communities and get welcome points"
+      "title": "获取你的第一份社区积分",
+      "description": "注册并订阅<br /> 第一次的三个社区，就可以获取新人奖励社区积分。"
     },
     "airdrop": {
-      "first_line": "Your",
-      "second_line": "gift Points are waiting!",
-      "text": "Just click on the button and <br/> get Dank Meme's points!",
-      "get": "Get",
+      "first_line": "你的",
+      "second_line": "新人奖励社区积分正在准备中!",
+      "text": "只要点击一下 <br/> 就可以获取 Dank Meme 社区的社区积分!",
+      "get": "获取",
       "toastsMessages": {
-        "claim_received": "Claim received"
+        "claim_received": "领取"
       }
     },
     "trending_communities": {
-      "title": "Trending communities"
+      "title": "流行社区"
     },
     "leader_in": {
-      "title": "Leader in"
+      "title": "领导"
     },
     "community_filter": {
-      "title": "Communities",
-      "clear": "Clear filter",
-      "no_found": "Nothing is found",
-      "empty": "No communities"
+      "title": "社区",
+      "clear": "清除过滤",
+      "no_found": "未找到",
+      "empty": "没有社区"
     },
     "following_you": {
-      "user_subscribed": "{{user}} subscribed to you"
+      "user_subscribed": "{{user}} 关注你"
     },
     "friends": {
-      "title": "Friend",
-      "title_plural": "Friends"
+      "title": "朋友",
+      "title_plural": "朋友"
     },
     "get_points": {
-      "get": "Get Points",
-      "get-small": "Get",
-      "balance": "{{communityName}} balance"
+      "get": "获取社区积分",
+      "get-small": "获取",
+      "balance": "{{communityName}} 余额"
     },
     "invite": {
-      "text": "Activate your account and start with first points",
-      "start": "Start"
+      "text": "激活您的帐户并从第一个社区积分开始",
+      "start": "开始"
     },
     "leader_management": {
-      "title": "Management"
+      "title": "管理"
     },
     "leaders": {
-      "title": "Leader",
-      "title_plural": "Leaders",
-      "claim": "Claim leader’s rewards",
+      "title": "领导者",
+      "title_plural": "领导者",
+      "claim": "领取领导者奖励",
       "toastsMessages": {
-        "claimed": "Leadership payouts successfully claimed"
+        "claimed": "成功领取领导者奖励"
       }
     },
     "manage_community": {
-      "text": "Manage"
+      "text": "管理"
     },
     "members": {
-      "title": "Member",
-      "title_plural": "Members"
+      "title": "成员",
+      "title_plural": "成员"
     },
     "mobile_balance": {
-      "wallet": "Wallet"
+      "wallet": "钱包"
     },
     "user_communities": {
-      "title": "Community",
-      "title_plural": "Communities"
+      "title": "社区",
+      "title_plural": "社区"
     },
     "faq": {
-      "title": "How to use Commun?",
-      "description": "How to start posting and monetize your activities",
-      "text": "Get rewarded for your <br /> posts, likes, and comments",
+      "title": "如何使用Commun?",
+      "description": "如何开始发表文章和让你的社交行为盈利",
+      "text": "获取奖励仅仅需要 <br /> 发表文章、评论和点赞",
       "big": {
-        "description": "How to start posting and <br /> monetize your activities",
-        "text": "Get rewarded for your posts, likes, and <br /> comments. Press “Start” to learn more"
+        "description": "如何开始发表文章和 <br /> 让你的社交行为盈利",
+        "text": "获取奖励仅仅需要发表文章、评论和点赞。 <br /> 点击 “开始” 获取更多信息"
       },
-      "start": "Start"
+      "start": "开始"
     },
     "technical_works": {
-      "first_line": "Technical works",
-      "bold_line": "in progress",
-      "text": "We are doing some work on <br /> the site and will be back shortly",
-      "refresh": "Refresh",
+      "first_line": "维护工作",
+      "bold_line": "正在进行中",
+      "text": "我们正在维护 <br /> 网站很快会重新开启",
+      "refresh": "刷新",
       "big": {
-        "text": "Thank you for being patient. We are doing some work on the site and will be back shortly",
-        "refresh": "Refresh page"
+        "text": "谢谢你的耐心等待。我们正在维护，网站很快会重新开启",
+        "refresh": "刷新页面"
       }
     }
   },
 
   "filters": {
-    "title": "Filters",
-    "sort": "Sort",
+    "title": "过滤",
+    "sort": "排序",
     "type": {
-      "community": "New",
-      "new": "New",
-      "hot": "Hot",
-      "subscriptions": "New",
-      "subscriptionsHot": "Hot",
-      "subscriptionsPopular": "Popular",
-      "topLikes": "Popular",
-      "topComments": "Top comments",
-      "topRewards": "Top rewards"
+      "community": "新的",
+      "new": "新的",
+      "hot": "热门",
+      "subscriptions": "新的",
+      "subscriptionsHot": "热门",
+      "subscriptionsPopular": "最受欢迎的",
+      "topLikes": "最受欢迎的",
+      "topComments": "热门评论",
+      "topRewards": "热门奖励"
     },
     "timeframe": {
-      "day": "Past 24 hours",
-      "week": "Past Week",
-      "month": "Past Month",
-      "all": "All Time"
+      "day": "过去24小时",
+      "week": "过去一周",
+      "month": "过去一月",
+      "all": "所有时间"
     },
     "sortBy": {
-      "time": "Oldest",
-      "timeDesc": "Newest",
-      "popularity": "Popularity"
+      "time": "最早的",
+      "timeDesc": "最新的",
+      "popularity": "受欢迎程度"
     }
   },
 
   "tooltips": {
     "common": {
-      "close": "Close tooltip",
-      "dont_show": "Don’t show this again"
+      "close": "关闭提示",
+      "dont_show": "不再显示"
     },
     "choose_community": {
-      "title": "Choose community",
-      "desc": "Choose community in which you want to create a post",
-      "close": "Close tooltip"
+      "title": "选择社区",
+      "desc": "选择要在其中发表文章的社区",
+      "close": "关闭提示"
     },
     "feed_onboarding": {
       "types": {

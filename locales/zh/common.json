@@ -53,8 +53,8 @@
       "member_plural": "成员",
       "friend": "朋友",
       "friend_plural": "朋友",
-      "point": "点",
-      "point_plural": "点"
+      "point": "社区积分",
+      "point_plural": "社区积分"
     }
   },
   "header": {
@@ -120,7 +120,7 @@
       "general": {
         "title": "标题",
         "language": "语言",
-        "nsfw_content": "NSFW内容",
+        "nsfw_content": "NSFW 成人内容",
         "nsfw": {
           "hide": "总是隐藏",
           "warn": "总是警告",
@@ -143,7 +143,7 @@
         "copy": "拷贝密钥",
         "active": {
           "title": "活动密钥",
-          "description": "允许发送社区点"
+          "description": "允许发送社区积分"
         },
         "owner": {
           "title": "私有密钥",
@@ -157,14 +157,14 @@
     },
     "wallet": {
       "tabs": {
-        "my_points": "我的社区点",
+        "my_points": "我的社区积分",
         "history": "交易历史"
       },
       "my_points": {
-        "my_points": "我的社区点",
-        "send_points": "发送社区点",
-        "search_points": "搜索社区点",
-        "no_found": "没有找到社区点",
+        "my_points": "我的社区积分",
+        "send_points": "发送社区积分",
+        "search_points": "搜索社区积分",
+        "no_found": "没有找到社区积分",
         "no_found_desc": "尝试发送或者转换"
       },
       "actions_panel": {
@@ -270,7 +270,7 @@
         "joined": "加入",
         "avatar_updated": "头像更新",
         "not_available": "简介无效",
-        "send_points": "发送社区点"
+        "send_points": "发送社区积分"
       },
       "description": {
         "edit_bio": "编辑简历",
@@ -359,7 +359,7 @@
           },
           {
             "title": "禁止:",
-            "text": "- 未标注为NSFW的发布NSFW内容；\n-严禁发布干扰性内容、垃圾邮件或广告；\n-在评论或帖子中侮辱用户；\n-未经用户同意发布他人的个人数据；"
+            "text": "- 未标注为NSFW的发布NSFW 成人内容；\n-严禁发布干扰性内容、垃圾邮件或广告；\n-在评论或帖子中侮辱用户；\n-未经用户同意发布他人的个人数据；"
           },
           {
             "title": "违反规则:",
@@ -367,7 +367,7 @@
           },
           {
             "title": "社区设置:",
-            "text": "领导者人数 - 3 人;\n社区点发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;"
+            "text": "领导者人数 - 3 人;\n社区积分发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;"
           }
         ]
       },
@@ -377,12 +377,12 @@
       }
     },
     "onboarding": {
-      "sign_up": "开始社区之旅，立即获得30社区点。",
-      "sign_up-mobile": "马上开始，获取社区点",
+      "sign_up": "开始社区之旅，立即获得30社区积分。",
+      "sign_up-mobile": "马上开始，获取社区积分",
       "desktopSlides": {
         "first": {
           "title": "你可以在这里获得奖励 <br /> 通过发表文章和点赞文章",
-          "desc": "发表文章，点赞文章、评论和讨论<br /> 可以获得社区点的奖励.",
+          "desc": "发表文章，点赞文章、评论和讨论<br /> 可以获得社区积分的奖励.",
           "progressBarText": "每个人都可以获得奖励 <br />通过发表文章和点赞文章"
         },
         "second": {
@@ -420,7 +420,7 @@
         "mention": "提到你在 {{entityType}}: “{{shortText}}”",
         "upvote": "点赞你 {{entityType}}",
         "subscribe": "关注你",
-        "reward": "你获得了 {{amount}} {{communityName}} 社区点",
+        "reward": "你获得了 {{amount}} {{communityName}} 社区积分",
         "transfer": {
           "received": "你收到的",
           "sent_you": "发送给你"
@@ -463,7 +463,7 @@
       "sign_up_post": "注册并发布",
       "article": "文章",
       "aria_article": "创建文章",
-      "aria_nsfw": "添加这个标签，如果你的文章含有NSFW内容",
+      "aria_nsfw": "添加这个标签，如果你的文章含有NSFW成人内容",
       "aria_add_image": "添加一张图片",
       "toastsMessages": {
         "select_community": "选择一个社区",
@@ -568,7 +568,7 @@
       },
       "points": {
         "title": "你的钱包是空的",
-        "desc": "获取你的第一份社区点, 社区点可以转换为你希望的其它社区的社区点"
+        "desc": "获取你的第一份社区积分, 社区积分可以转换为你希望的其它社区的社区积分"
       }
     },
     "post_list": {
@@ -583,7 +583,7 @@
       "cant_down_own": "无法踩自己发表的文章"
     },
     "nsfw_warning": {
-      "title": "NSFW 内容",
+      "title": "NSFW 成人内容",
       "text": "你确定吗?"
     },
     "report_row": {
@@ -695,7 +695,7 @@
     },
     "profile_mobile_menu": {
       "edit_bio": "编辑简历",
-      "send_points": "发送社区点"
+      "send_points": "发送社区积分"
     },
     "report": {
       "title": "请选择一个问题",
@@ -957,12 +957,12 @@
         "clear_all": "清除所有"
       },
       "point_info": {
-        "title-mobile": "发送社区点"
+        "title-mobile": "发送社区积分"
       },
       "select_point": {
-        "title": "社区点",
-        "search": "搜索社区点",
-        "no_found": "没有社区点",
+        "title": "社区积分",
+        "search": "搜索社区积分",
+        "no_found": "没有社区积分",
         "no_found_desc": "尝试发送或者转换"
       },
       "select_recipient": {
@@ -1000,26 +1000,26 @@
     },
     "onboarding_app_banner": {
       "title": "<span class=\"highlight\">Commun</span> 更好用在 <span class=\"highlight\">应用程序App上</span>",
-      "text": "现在就试试，获取你的社区点",
+      "text": "现在就试试，获取你的社区积分",
       "continue": "切换到应用程序",
       "sign_in": "登录"
     },
     "onboarding_registration": {
       "communities": {
-        "title": "获取你的第一个社区点",
-        "title-sign_up": "注册以你的第一个社区点",
-        "text": "至少订阅 {{COMMUNITIES_AIRDROP_COUNT}} 个社区，同时获得这个社区的社区点",
+        "title": "获取你的第一个社区积分",
+        "title-sign_up": "注册以你的第一个社区积分",
+        "text": "至少订阅 {{COMMUNITIES_AIRDROP_COUNT}} 个社区，同时获得这个社区的社区积分",
         "sign_in_text": "你有账户吗?",
         "sign_in": "登录",
-        "sign_up": "注册并获取社区点",
+        "sign_up": "注册并获取社区积分",
         "finish": "完成"
       },
       "download": {
-        "title": "<span class=\"blue\">下载 应用程序App</span><br />双倍社区点",
-        "description": "在应用程序App中授权后<br />我们将给与你双倍的注册获取的社区点"
+        "title": "<span class=\"blue\">下载 应用程序App</span><br />双倍社区积分",
+        "description": "在应用程序App中授权后<br />我们将给与你双倍的注册获取的社区积分"
       },
       "share": {
-        "title": "<span class=\"share\">分享</span> 和你的朋友<br />获取双倍社区点",
+        "title": "<span class=\"share\">分享</span> 和你的朋友<br />获取双倍社区积分",
         "description": "你也可以收到 5% 在购买中的提成<br />从你的分享链接注册的朋友",
         "share_link": "分享链接"
       }
@@ -1036,12 +1036,12 @@
       "owned": {
         "title": "<span class=\"strong\">所有者</span> 为用户们",
         "description": "社区没有单一所有者<br />完全属于它的成员",
-        "sign_up": "开始并获取30个社区点",
+        "sign_up": "开始并获取30个社区积分",
         "sign_in": "登录"
       },
       "monetize": {
         "title": "<span class=\"strong\">盈利</span><br />你的社交行为",
-        "description": "发表文章、评论和点赞<br />就可以获取社区点"
+        "description": "发表文章、评论和点赞<br />就可以获取社区积分"
       }
     },
     "create_community": {
@@ -1050,9 +1050,9 @@
       "after_creating": "创建社区后:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span> <span class=\"blue semibold\">(10%)</span><br />",
       "burned": "会作为公共物品被燃烧",
-      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区点</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(10%)</span><br />",
       "bounty": "会被送到奖励池",
-      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区点</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(80%)</span><br />",
       "transferred": "会转到你的钱包里",
       "not_enough": "你好像没有足够的<br />社区代币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br />在创建新的社区的时候需要"
     }
@@ -1187,132 +1187,132 @@
     "feed_onboarding": {
       "types": {
         "vote": {
-          "title": "Rewards for likes",
-          "desc": "Yes, you get rewards for likes as well, and they have more value than you think! By upvoting posts you let it be successful and rewarded."
+          "title": "点赞奖励",
+          "desc": "是的, 你也会因为点赞而得到奖励，而且他们比你想象的更有价值！ 通过点赞，你可以获得成功和回报"
         },
         "comments": {
-          "title": "Rewards for comments",
-          "desc": "Comments get rewards too! Discuss and get more rewards!"
+          "title": "评论奖励",
+          "desc": "评论也会得到奖励！讨论更可以获得更多的奖励！"
         },
         "share": {
-          "title": "Share your post",
-          "desc": "Great, your post is successfully published! Share it with your friends to get more rewards!"
+          "title": "分享你的文章",
+          "desc": "太好了，你的文章发表成功了！与你的朋友分享，以获得更多的奖励！"
         },
         "reward": {
-          "title": "What does it mean?",
-          "desc": "Wow, this post will be rewarded! <br /> Do you want to get rewards too? Create a post - it’s the best way to get them!"
+          "title": "这是什么意思?",
+          "desc": "哇，这个帖子会有回报的 <br /> 你也想得到奖励吗？ 发表文章——这是最好的得到奖励的方式！"
         }
       }
     },
     "first_like": {
-      "desc": "If you hold Points of this Community and this post will get to the “Top 10 of the day”, then you and the author would get more points as the reward.",
-      "learn_more": "Learn more about reward"
+      "desc": "如果你持有这个社区的积分并点赞了这篇文章，这篇文章如果进入“一天的前十名”，那么你和作者将获得更多的积分作为奖励。",
+      "learn_more": "了解更多关于奖励的信息"
     },
     "not_ready": {
-      "title": "Coming soon",
-      "desc": "This feature will be available soon."
+      "title": "即将到来",
+      "desc": "此功能将很快可以使用。"
     },
     "reward_for_post": {
-      "title": "How do I get rewards for my posts?",
-      "desc": "After you publish the post, community members will have {{hours}} hours to like or dislike it. If your post reaches the Top 10 posts of the day, you will be rewarded."
+      "title": "我的文章如何获得奖励？",
+      "desc": "你发表文章之后，社区成员将有 {{hours}} 来点赞或者踩它. 如果你的文章成为了所在社区当天的前十热门文章，那么你就可以获得奖励了。"
     }
   },
 
   "errors": {
     "common": {
-      "unknown": "Unknown error",
-      "blockchain_error": "Blockchain internal error."
+      "unknown": "未知错误",
+      "blockchain_error": "区块链内部错误。"
     },
     "username": {
-      "exists": "Username is already in use"
+      "exists": "用户名已在使用中"
     },
     "sms": {
-      "wrong": "Wrong activation code",
-      "many_retries": "Too many retries, try later.",
-      "later": "Try send a little later.",
-      "cant": "Cannot send sms code"
+      "wrong": "验证码错误",
+      "many_retries": "重试次数太多，请稍后再试。",
+      "later": "请稍后再发送。",
+      "cant": "无法发送短信代码"
     }
   },
 
   "chain_errors": {
-    "cashout_window": "The time for voting is over",
-    "incorrect_delegate_proxy_level": "Cannot delegate to this user"
+    "cashout_window": "投票时间结束了",
+    "incorrect_delegate_proxy_level": "无法委派给此用户"
   },
 
   "toastsMessages": {
-    "success": "Success",
+    "success": "成功",
     "community": {
-      "unfollowed": "Community unfollowed",
-      "followed": "Community followed"
+      "unfollowed": "未关注的社区",
+      "followed": "关注的社区"
     },
     "user": {
-      "unfollowed": "User unfollowed",
-      "followed": "User followed"
+      "unfollowed": "未关注的用户",
+      "followed": "关注的用户"
     },
     "proposal": {
-      "created": "Proposal created"
+      "created": "提案已经创建"
     },
     "report": {
-      "sent": "Report successfully sent"
+      "sent": "报告已成功发送"
     }
   },
 
   "validations": {
     "amount": {
-      "on_hold": "{{quantity}} on hold",
-      "insufficient_funds": "Insufficient funds: you have {{availableBalance}} {{pointName}} {{holdStr}}",
-      "more_than_supply": "Amount is more than supply: {{supply}}",
-      "more_than_decs": "No more than {{decs}} decimal places",
-      "invalid_format": "Invalid format",
-      "enter_amount": "Enter amount",
-      "less_than_minimal": "Amount is less than minimal: {{minAmount}}",
-      "less_than_0": "Amount is less than 0",
-      "more_than_max": "Amount is more than {{maxAmount}}"
+      "on_hold": "{{quantity}} 冻结中",
+      "insufficient_funds": "资金不足，你有 {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "数量大于供给: {{supply}}",
+      "more_than_decs": "不能超过 {{decs}} 个小数位",
+      "invalid_format": "无效格式",
+      "enter_amount": "输入金额",
+      "less_than_minimal": "金额小于最小值: {{minAmount}}",
+      "less_than_0": "金额小于 0",
+      "more_than_max": "金额大于 {{maxAmount}}"
     },
     "username": {
-      "is_empty": "Username is empty",
-      "invalid_symbols": "Username may contain only lower case letters, digits, dots or dashes",
-      "start_with": "Username should start with a letter",
-      "too_short": "Username should contain at least 3 symbols",
-      "too_long": "Username is too long. 32 symbols are maximum",
-      "several_dots": "Username may contain only one dot in a row",
-      "several_dashes": "Username may contain only one dash in a row",
-      "invalid_sequences": "Username may contain only one dot or one dash in a row",
-      "ends_with": "Username should end with a letter or a digit"
+      "is_empty": "用户名为空",
+      "invalid_symbols": "用户名只能包含小写字母、数字、点或破折号",
+      "start_with": "用户名应该以字母开头",
+      "too_short": "用户名应至少包含3个符号",
+      "too_long": "用户名太长。最多32个符号",
+      "several_dots": "用户名一行只能包含一个点",
+      "several_dashes": "用户名只能在一行中包含一个破折号",
+      "invalid_sequences": "用户名在一行中只能包含一个点或一个破折号",
+      "ends_with": "用户名应以字母或数字结尾"
     }
   },
 
   "reports": {
-    "spam": "Spam",
-    "harassment": "Harassment",
-    "nudity": "Nudity",
-    "violence": "Violence",
-    "falsenews": "False news",
-    "terrorism": "Terrorism",
-    "breakscommunityrules": "It breaks community rules",
-    "hatespeech": "Hate speech",
-    "unauthorizedsales": "Unauthorized sales",
-    "abuse": "Attempt to abuse",
-    "other": "Other"
+    "spam": "垃圾邮件",
+    "harassment": "骚扰",
+    "nudity": "裸体",
+    "violence": "暴力",
+    "falsenews": "假消息",
+    "terrorism": "恐怖主义",
+    "breakscommunityrules": "违反社区规则",
+    "hatespeech": "仇恨言语",
+    "unauthorizedsales": "未经授权的销售",
+    "abuse": "企图滥用",
+    "other": "其它"
   },
 
   "utils": {
     "post_time": {
-      "now": "Now",
-      "seconds": "s",
-      "minutes": "m",
-      "hours": "h",
-      "days": "d"
+      "now": "现在",
+      "seconds": "秒",
+      "minutes": "分",
+      "hours": "小时",
+      "days": "天"
     },
     "normalize_time": {
-      "now": "now",
-      "m_ago": "m ago",
-      "h_ago": "h ago"
+      "now": "现在",
+      "m_ago": "分前",
+      "h_ago": "小时前"
     },
     "images": {
-      "upload_failed": "Image uploading failed",
-      "only_images": "Please insert only image files",
-      "too_big": "Too big file, max allowed size is {{size}} MB"
+      "upload_failed": "图像上传失败",
+      "only_images": "请仅插入图像文件",
+      "too_big": "文件太大，最大允许大小为 {{size}} MB"
     }
   }
 }

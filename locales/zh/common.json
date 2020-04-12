@@ -1,0 +1,1318 @@
+{
+  "common": {
+    "retry": "重试",
+    "feed": "关注",
+    "my_feed": "我的关注",
+    "see_all": "查看全部",
+    "sign_in": "登录",
+    "sign_up": "注册",
+    "accept": "同意",
+    "cancel": "取消",
+    "edit": "编辑",
+    "save": "保存",
+    "done": "完成",
+    "create": "创建",
+    "update": "更新",
+    "remove": "移除",
+    "delete": "删除",
+    "show": "显示",
+    "more": "更多",
+    "open": "打开",
+    "close": "关闭",
+    "back": "返回",
+    "continue": "继续",
+    "skip": "跳过",
+    "next": "下一个",
+    "ban": "禁止",
+    "read_more": "阅读更多",
+    "learn_more": "学习更多",
+    "block": "拉黑",
+    "unblock": "解除拉黑",
+    "follow": "关注",
+    "following": "关注中",
+    "unfollow": "取消关注",
+    "all": "全部",
+    "token": "社区币",
+    "token_plural": "社区币",
+    "point": "社区积分",
+    "point_plural": "社区积分",
+    "search": "搜索",
+    "search_placeholder": "搜索...",
+    "equity_value_commun": "Commun权益价值",
+    "counters": {
+      "follower": "粉丝",
+      "follower_plural": "粉丝",
+      "following": "关注中",
+      "community": "社区",
+      "community_plural": "社区",
+      "post": "文章",
+      "post_plural": "文章",
+      "leader": "领导者",
+      "leader_plural": "领导者",
+      "member": "成员",
+      "member_plural": "成员",
+      "friend": "朋友",
+      "friend_plural": "朋友",
+      "point": "社区积分",
+      "point_plural": "社区积分"
+    }
+  },
+  "header": {
+    "buy_commun": "购买 Commun",
+    "how_it_works": "社区是如何运作的?",
+    "log_in": "登录",
+    "sign_up": "注册"
+  },
+  
+  "sidebar": {
+    "my_feed": "关注",
+    "trending": "流行",
+    "hot": "热门",
+    "wallet": "钱包",
+    "discovery": "发现",
+    "management": "管理",
+    "communities": "社团",
+    "new_post": "新文章"
+  },
+
+  "footer": {
+    "user_agreement": "用户协议",
+    "privacy_policy": "隐私政策",
+    "cookies_policy": "Cookie策略",
+    "blockchain_disclaimer": "区块链声明",
+    "whitepaper": "白皮书"
+  },
+
+   "components": {
+    "post": {
+      "no_found": "没有找到文章",
+      "no_found_desc": "可能是被删除了",
+      "views_count": "{{count}} 阅读",
+      "views_count_plural": "{{count}} 阅读",
+      "comments_count": "{{count}} 评论",
+      "comments_count_plural": "{{count}} 评论",
+      "open_menu": "打开菜单",
+      "aria_share_in_social": "分享到社交网络"
+    },
+    "search": {
+      "specific_results": {
+        "enter": "请输入搜索内容经行查询",
+        "hint": "您可以尝试更改搜索内容进行查询或转到我的关注",
+        "no_found": "没有搜索到结果",
+        "go_feed": "转到我的关注"
+      }
+    },
+    "blacklist": {
+      "title": "黑名单",
+      "tabs": {
+        "users": "用户",
+        "communities": "社区"
+      },
+      "users_blacklist": {
+        "no_found": "黑名单中没有添加用户"
+      },
+      "communities_blacklist": {
+        "no_found": "黑名单中没有添加社区"
+      }
+    },
+    "settings": {
+      "logout": "注销",
+      "general": {
+        "title": "标题",
+        "language": "语言",
+        "nsfw_content": "NSFW 成人内容",
+        "nsfw": {
+          "hide": "总是隐藏",
+          "warn": "总是警告",
+          "show": "总是显示"
+        }
+      },
+      "notifications_settings": {
+        "title": "上线通知",
+        "switchers": {
+          "upvote": "赞",
+          "reply": "回复",
+          "mention": "提醒",
+          "subscribe": "订阅",
+          "rewards": "奖励",
+          "transfers": "发送"
+        }
+      },
+      "keys": {
+        "title": "密钥",
+        "copy": "拷贝密钥",
+        "active": {
+          "title": "活动密钥",
+          "description": "允许发送社区积分"
+        },
+        "owner": {
+          "title": "私有密钥",
+          "description": "拥有全部权限"
+        },
+        "messages": {
+          "copied": "密钥已复制到剪贴板！",
+          "copy_failed": "密钥复制到剪贴板失败！"
+        }
+      }
+    },
+    "wallet": {
+      "tabs": {
+        "my_points": "我的社区积分",
+        "history": "交易历史"
+      },
+      "my_points": {
+        "my_points": "我的社区积分",
+        "send_points": "发送社区积分",
+        "search_points": "搜索社区积分",
+        "no_found": "没有找到社区积分",
+        "no_found_desc": "尝试发送或者转换"
+      },
+      "actions_panel": {
+        "send": "发送",
+        "sell": "出售",
+        "buy": "购买",
+        "convert": "转换"
+      },
+      "transfer_history": {
+        "title": "发送记录",
+        "filter": "过滤",
+        "empty": "发送记录为空",
+        "empty_desc": "没有发送记录",
+        "no_found": "没找到发送记录",
+        "no_found_desc": "尝试发送或者转换"
+      },
+      "points_grid": {
+        "on_hold": "{{quantity}} 冻结中"
+      },
+      "points_list": {
+        "on_hold": "{{quantity}} 冻结中"
+      },
+      "users_layout": {
+        "no_found": "没有用户",
+        "no_found_desc": "没有找到用户"
+      },
+      "history_list": {
+        "today": "今天",
+        "refill": "重新填写",
+        "reward": "奖励",
+        "types": {
+          "transaction": "发送",
+          "referralRegisterBonus": "你收到一份推荐注册奖励来自",
+          "referralPurchaseBonus": {
+            "first": "你收到 {{percent}}% 来自",
+            "last": "的购买"
+          },
+          "convert": "转换",
+          "like": "审阅奖励",
+          "leader_reward": "领导者奖励"
+        }
+      }
+    },
+    "leaderboard": {
+      "tabs": {
+        "proposals": "提案",
+        "reports": "报告",
+        "posts": "文章",
+        "comments": "评论"
+      },
+      "proposals": {
+        "no_found": "没有提案",
+        "no_found_desc": "本社区内没有提案"
+      },
+      "reports": {
+        "no_found": "报告",
+        "no_found_desc": "社区里没有报告"
+      },
+      "cover_change": {
+        "new_cover": "新封面",
+        "old_cover": "旧封面",
+        "no_cover": "没有封面"
+      },
+      "avatar_change": {
+        "new_avatar": "新头像",
+        "old_avatar": "旧头像",
+        "no_avatar": "没有头像"
+      }
+    },
+    "communities": {
+      "create": "创建社区",
+      "no_found": "没有找到社区",
+      "find": "搜索社区",
+      "tabs": {
+        "discover": "发现",
+        "my_communities": "我的社区",
+        "managed": "管理"
+      },
+      "my_communities": {
+        "no_found": "没有订阅",
+        "no_found_desc": "你没有订阅任何社区"
+      },
+      "manage": {
+        "no_found_desc": "你没有管理任何社区"
+      }
+    },
+    "notifications": {
+      "title": "提醒",
+      "filters": "过滤 (开发中)"
+    },
+    "profile": {
+      "tabs": {
+        "posts": "文章",
+        "comments": "评论",
+        "communities": "社区",
+        "my_communities": "我的社区",
+        "followers": "粉丝",
+        "following": "关注中",
+        "referrals": "引荐"
+      },
+      "profile_header": {
+        "cover_updated": "封面图片更新",
+        "joined": "加入",
+        "avatar_updated": "头像更新",
+        "not_available": "简介无效",
+        "send_points": "发送社区积分"
+      },
+      "description": {
+        "edit_bio": "编辑简历",
+        "add_bio": "添加简历"
+      },
+      "comments": {
+        "empty": "没有评论",
+        "empty-desc": "你还没有发表任何评论"
+      },
+      "followers": {
+        "empty": "没有粉丝",
+        "empty-desc": "你还没有粉丝。你可以在社区里面找找朋友或者发表一篇新的文章。",
+        "create": "发表新文章"
+      },
+      "following": {
+        "empty": "没有关注",
+        "empty-desc": "你还没有关注。"
+      },
+      "referrals": {
+        "empty": "没有推荐人",
+        "empty-desc": "你还没有任何推荐用户",
+        "no_found": "没找到"
+      },
+      "user_communities": {
+        "empty": "没有订阅",
+        "empty-desc": "你还没有订阅任何社区。",
+        "find": "搜索社区"
+      }
+    },
+    "community": {
+      "tabs": {
+        "posts": "文章",
+        "leaders": "领导者",
+        "members": "成员",
+        "description": "说明",
+        "rules": "规则",
+        "settings": "设置"
+      },
+      "leaders": {
+        "leaders": "领导者",
+        "nominees": "被提名者",
+        "become": "担任领导者",
+        "stop": "停止担任领导者",
+        "no_found": "没找到",
+        "empty": "没有领导者",
+        "empty_desc": "担任社区第一位领导者"
+      },
+      "description": {
+        "no_found": "没有说明",
+        "no_found_desc": "社区还没有说明"
+      },
+      "members": {
+        "no_found": "没有订阅用户"
+      },
+      "rules": {
+        "title": "规则",
+        "new_rule": "新规则",
+        "invalid_format": "无效的规则格式"
+      },
+      "community_header": {
+        "created": "创建 {{date}}"
+      }
+    },
+    "createCommunity": {
+      "tabs": {
+        "description": "说明",
+        "rules": "规则"
+      },
+      "description": {
+        "choose_language": "选择语言",
+        "add_description": "添加说明(可选择的)",
+        "description_placeholder": "输入与社区相关的内容"
+      },
+      "rules": {
+        "title": "规则",
+        "new_rule": "新规则",
+        "invalid_format": "无效的规则格式",
+        "default_rules": [
+          {
+            "title": "语言",
+            "text": "{{language}}"
+          },
+          {
+            "title": "内容:",
+            "text": "- 在这里您可以发布所有类型的内容、创建原始内容或发布到其它内容地址的链接；\n-内容必须与社区的主题相关;"
+          },
+          {
+            "title": "禁止:",
+            "text": "- 未标注为NSFW的发布NSFW 成人内容；\n-严禁发布干扰性内容、垃圾邮件或广告；\n-在评论或帖子中侮辱用户；\n-未经用户同意发布他人的个人数据；"
+          },
+          {
+            "title": "违反规则:",
+            "text": "违反规定的，将取消对违反规定的评论和帖子的奖励，并禁止其在社区和关注中显示。而且，领导者有权限制你进入社区"
+          },
+          {
+            "title": "社区设置:",
+            "text": "领导者人数 - 3 人;\n社区积分发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;"
+          }
+        ]
+      },
+      "create_community_header": {
+        "create": "创建社区",
+        "community_name_placeholder": "社区名称"
+      }
+    },
+    "onboarding": {
+      "sign_up": "开始社区之旅，立即获得30社区积分。",
+      "sign_up-mobile": "马上开始，获取社区积分",
+      "desktopSlides": {
+        "first": {
+          "title": "你可以在这里获得奖励 <br /> 通过发表文章和点赞文章",
+          "desc": "发表文章，点赞文章、评论和讨论<br /> 可以获得社区积分的奖励.",
+          "progressBarText": "每个人都可以获得奖励 <br />通过发表文章和点赞文章"
+        },
+        "second": {
+          "title": "主题社区",
+          "desc": "选择你的社区，社区会根据你的行为给你奖励。<br />非常简单的！",
+          "progressBarText": "主题<br /> 社区"
+        },
+        "third": {
+          "title": "基于区块链的 <br />社交网络",
+          "desc": "多亏了区块链，现在社交网络才有可能奖励他们的用户并为社区提供自治",
+          "progressBarText": "基于区块链的 <br />社交网络"
+        }
+      },
+      "mobileSlides": {
+        "first": {
+          "title": "在这里 <br /><span>获得 <span class=\"highlight\">奖励</span></span><br />通过你的 <br />文章和 <br />点赞"
+        },
+        "second": {
+          "title": "选择 <br />你的 <br /><span class=\"highlight\">主题</span> <br />社区"
+        },
+        "third": {
+          "title": "<span class=\"highlight\">基于-</span> <br />区块链的 <br />社交 <br />网络"
+        }
+      }
+    },
+
+    "notifications_window": {
+      "title": "提醒"
+    },
+    "notification": {
+      "comment": "评论",
+      "post": "文章",
+      "types": {
+        "reply": "留下评论{{shortText}}",
+        "mention": "提到你在 {{entityType}}: “{{shortText}}”",
+        "upvote": "点赞你 {{entityType}}",
+        "subscribe": "关注你",
+        "reward": "你获得了 {{amount}} {{communityName}} 社区积分",
+        "transfer": {
+          "received": "你收到的",
+          "sent_you": "发送给你"
+        },
+        "referralRegistrationBonus": "你收到一份推荐注册奖励来自",
+        "referralPurchaseBonus": {
+          "first": "你收到了 {{amountStr}}. 这是推荐奖励 - {{percent}}% 来自",
+          "last": "购买者"
+        }
+      }
+    },
+    "notification_counter": {
+      "title": "提醒"
+    },
+
+    "dropzone": {
+      "toastsMessages": {
+        "failed": "图片上传失败",
+        "unsupported": "不支持的文件类型",
+        "too_big": "文件太大, 最大支持 {{size}} MB"
+      }
+    },
+    "editor": {
+      "comment_editor": {
+        "placeholder": "添加评论...",
+        "placeholder-mobile": "评论..."
+      }
+    },
+    "comment_form": {
+      "add_file": "添加文件",
+      "send": "发送",
+      "sign_up_send": "注册并发送",
+      "toastsMessages": {
+        "posting_failed": "评论发布失败"
+      }
+    },
+    "post_form": {
+      "you": "你",
+      "post": "文章",
+      "sign_up_post": "注册并发布",
+      "article": "文章",
+      "aria_article": "创建文章",
+      "aria_nsfw": "添加这个标签，如果你的文章含有NSFW成人内容",
+      "aria_add_image": "添加一张图片",
+      "toastsMessages": {
+        "select_community": "选择一个社区",
+        "post_failed": "文章提交失败"
+      }
+    },
+    "proposal_card": {
+      "ban_comment": "禁止评论",
+      "ban_post": "禁止发表",
+      "not_implemented_type": "提案类型{{type}} 还未通过.",
+      "not_implemented_action": "关于 {{contract}}::{{action}} 的提案还没有通过.",
+      "nothing": "没有变化",
+      "apply": "应用",
+      "refuse": "拒绝",
+      "accept": "接受",
+      "accept_and_apply": "接受并应用",
+      "add_rule": "添加规则",
+      "update_rule": "更新规则",
+      "old_rule": "旧的规则",
+      "remove_rule": "删除规则",
+      "set_description": "设置说明",
+      "update description": "更新说明",
+      "old_description": "旧的说明",
+      "voted": "投票",
+      "voted_text": "{{approvesCount}} 从 {{approvesNeed}} 票",
+      "toastsMessages": {
+        "approved": "同意",
+        "applied": "已通过提案"
+      }
+    },
+    "comment": {
+      "reply": "回复",
+      "comment_body": {
+        "deleted": "评论已删除",
+        "invalid_format": "无效的评论格式"
+      }
+    },
+    "comments_block": {
+      "title": "评论",
+      "empty": "还没有评论"
+    },
+    "comments_nested": {
+      "replies": "显示 {{comments}} 更多回复",
+      "replies_plural": "显示 {{comments}} 更多回复"
+    },
+    "auth_block": {
+      "my_profile": "我的个人资料",
+      "wallet": "钱包",
+      "blacklist": "黑名单",
+      "settings": "设置",
+      "logout": "注销"
+    },
+    "entity_card_reports": {
+      "ban": "禁令",
+      "refuse": "垃圾禁令",
+      "approve": "批准禁令",
+      "approves": "批准",
+      "create": "创建禁令提案",
+      "reports": "报告",
+      "toastsMessages": {
+        "post_banned": "禁止发表"
+      }
+    },
+    "leader_row": {
+      "vote": "投票",
+      "voted": "投票",
+      "inactive": "无效的",
+      "toastsMessages": {
+        "success_vote": "投票成功",
+        "canceled_vote": "投票取消"
+      }
+    },
+    "choose_community": {
+      "select": "选择社区",
+      "no_found": "没有找到",
+      "empty": "没有社区"
+    },
+
+    "autocomplete_search": {
+      "text": "显示所有结果"
+    },
+    "whats_new_opener": {
+      "text": "最新消息?"
+    },
+    "post_editor": {
+      "placeholder": "最新消息?"
+    },
+    "cookies": {
+      "text": "此网站使用cookies改善您的体验"
+    },
+    "empty_list": {
+      "text": "没有找到"
+    },
+    "empty_content_holder": {
+      "notifications": {
+        "title": "没有提醒",
+        "desc": "你还没有任何提醒。"
+      },
+      "comments": {
+        "title": "没有讨论",
+        "desc": "你还没有任何讨论"
+      },
+      "points": {
+        "title": "你的钱包是空的",
+        "desc": "获取你的第一份社区积分, 社区积分可以转换为你希望的其它社区的社区积分"
+      }
+    },
+    "post_list": {
+      "no_found": "没有文章",
+      "no_found_desc": "你还没有发表任何文章。"
+    },
+    "vote_panel": {
+      "cancel": "取消投票",
+      "vote_up": "赞",
+      "vote_down": "踩",
+      "cant_cancel_own": "无法取消对自己发表的文章的投票",
+      "cant_down_own": "无法踩自己发表的文章"
+    },
+    "nsfw_warning": {
+      "title": "NSFW 成人内容",
+      "text": "你确定吗?"
+    },
+    "report_row": {
+      "this_is": "这是"
+    },
+    "rewards_badge": {
+      "top": "热门",
+      "title": "这篇文章是热门文章",
+      "desc": "一段时间之后，这篇文章将获得奖励",
+      "title-rewarded": "这篇文章已经获得了奖励",
+      "desc-rewarded": "社区的成员对这篇文章很感兴趣",
+      "learn_more": "了解更多关于奖励的信息"
+    }
+  },
+
+  "menu": {
+    "common": {
+      "more_actions": "更多动作"
+    },
+    "comment": {
+      "report": "报告"
+    },
+    "post": {
+      "report": "报告",
+      "propose_ban": "提案禁止",
+      "view_in_explorer": "在资源管理器中查看"
+    }
+  },
+
+  "modals": {
+    "confirm_dialog": {
+      "blocked_user": "您已经拉黑了此用户。是否要解除锁定并关注？",
+      "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?"
+    },
+    "avatar_edit": {
+      "title": "改变位置",
+      "rotate": "旋转照片"
+    },
+    "become_leader": {
+      "title": "成为领导者",
+      "url": "竞选领导者宣言的文章 URL",
+      "become": "成为领导者"
+    },
+    "choose_post_cover": {
+      "title": "准备发布",
+      "send": "发布"
+    },
+    "confirm": {
+      "title": "确认",
+      "text": "你确定吗?"
+    },
+    "description_edit": {
+      "title": "编辑说明",
+      "description": "说明",
+      "changes_lost": "更改将丢失，是否继续?",
+      "reset": "重置",
+      "create": "创建提案",
+      "toastsMessages": {
+        "proposal_created": "提案已创建"
+      }
+    },
+    "cover_avatar": {
+      "edit": "编辑图片",
+      "delete": "删除图片",
+      "upload_avatar": "上传新头像",
+      "toastsMessages": {
+        "proposal_created": "更改头像的提案已创建",
+        "avatar_updated": "头像已更新"
+      }
+    },
+    "cover_image": {
+      "edit_photo": "编辑图片",
+      "delete_photo": "删除图片",
+      "choose": "选择其它图片",
+      "drag_to_move": "拖动就可以移动封面图片",
+      "upload_cover": "上传新的封面图片",
+      "toastsMessages": {
+        "proposal_created": "更改封面图片的提案已经创建",
+        "image_deleted": "已成功删除封面图片",
+        "image_updated": "已经更新封面图片"
+      }
+    },
+    "share_block": {
+      "copy": "拷贝",
+      "share": "分享"
+    },
+    "feed_filters_mobile": {
+      "title": "排序"
+    },
+    "login": {
+      "title": "登录",
+      "username": "用户名",
+      "password": "密码",
+      "error": "错误: {{error}}",
+      "submit": "登录",
+      "sign_up": "没有此账户?",
+      "errors": {
+        "invalid": "无效的登录名或密码"
+      },
+      "toastsMessages": {
+        "recaptcha_failed": "'验证码检查失败'"
+      }
+    },
+    "profile_about_edit": {
+      "title": "编辑简历",
+      "description": "可以写一些关于你的事情",
+      "reset": "重置",
+      "save": "保存"
+    },
+    "profile_mobile_menu": {
+      "edit_bio": "编辑简历",
+      "send_points": "发送社区积分"
+    },
+    "report": {
+      "title": "请选择一个问题",
+      "report_field": "报告",
+      "text": "如果有人处于紧急危险中，请致电当地紧急服务部门。别等了。",
+      "send": "发送"
+    },
+    "rule_edit": {
+      "title": "添加规则",
+      "title-edit": "规则编辑",
+      "title_field": "标题",
+      "description_field": "说明",
+      "question": "更改将丢失，是否继续?",
+      "submit": "创建提案",
+      "toastsMessages": {
+        "created": "提案已创建"
+      }
+    },
+    "share": {
+      "title": "分享"
+    },
+    "sign_up": {
+      "title": "注册",
+      "title-oops": "哎呀",
+      "can_close": "您应该完成注册，否则可能会丢失数据",
+      "sign_in_text": "你是否已经有账户了?",
+      "sign_in": "登录",
+      "errors": {
+        "fill_cell": "你还有信息没有填写。",
+        "too_many": "重试次数太多",
+        "try_again": "代码没有重新发送。再试一次",
+        "try_later": "迟一点再试",
+        "recaptcha_check": "验证码验证失败"
+      },
+      "attentionAfter": {
+        "title": "注意",
+        "description": "我们不保留主密码，也没有机会和可能恢复它们。",
+        "text": "非常不幸, 区块链不允许我们还原密码. 这意味着用户有责任将密码保存在一个安全的地方，以便能够随时访问它。<br /><br />我们强烈建议您立即保存密码并复制它。",
+        "saved_it": "我已经保存好了",
+        "download": "下载包含密码的PDF"
+      },
+      "attentionBefore": {
+        "title": "注意",
+        "description": "选择高级模式并继续使用主密码",
+        "text": "确认后，我们将为您生成一个52个字符的密码。<br />我们建议您复制此密码或下载一个PDF文件。<br />我们不保留主密码，也没有机会和可能恢复它们。<br /><br />我们强烈建议您立即保存密码并复制它。",
+        "continue": "继续使用主密码"
+      },
+      "confirmation_code": {
+        "title": "输入短信验证码",
+        "resend": "重发验证码"
+      },
+      "confirmation_code_email": {
+        "title": "已发送带有验证码的电子邮件。请在此处输入验证码",
+        "placeholder": "验证码",
+        "resend": "重发验证码",
+        "errors": {
+          "enter_code": "请输入验证码",
+          "invalid_code": "验证码错误"
+        }
+      },
+      "confirm_password": {
+        "title": "确认密码",
+        "description": "重新输入你的密码",
+        "errors": {
+          "same": "密码必须一致"
+        }
+      },
+      "create_password": {
+        "title": "创建密码",
+        "description": "我们不保存密码，也没有机会和可能恢复密码。 <br /><span class=\"bold\">请你保存好你的密码。</span>",
+        "use_password": "我想使用主密码",
+        "rules": {
+          "lower_case": "小写字母",
+          "upper_case": "大写字母",
+          "number": "数字",
+          "min_length": "最小长度"
+        }
+      },
+      "create_username": {
+        "description": "创建用户名",
+        "username": "用户名",
+        "hints": [
+          "字符数不能超过32",
+          "用户名中不允许使用大写字母",
+          "有效字符：字母、数字、连字符",
+          "连字符不能在用户名的开头或结尾",
+          "用户名可以包含 \"dot\" 字符",
+          "含有两个 \"dot\" 字符在一行中是无效的。"
+        ]
+      },
+      "email": {
+        "placeholder": "Email电子邮件",
+        "description": "请输入你的电子邮件地址",
+        "errors": {
+          "email_is_not_valid": "电子邮件地址无效",
+          "enter_your_email": "请输入你的电子邮件地址",
+          "account_already_exists": "已存在此电子邮件的帐户"
+        }
+      },
+      "master_key": {
+        "title": "<span class=\"bold\">主密码</span><br />已生成",
+        "title-custom": "<span class=\"bold\">你的密码</span><br />已经创建",
+        "text": "您需要主密码才能登录<br />我们不保存也无法还原密码<br /><span class=\"bold\">安全地保存它！</span>",
+        "text-custom": "你需要密码才能登录<br />我们不保存也无法还原密码<br /><span class=\"bold\">安全地保存它！</span>",
+        "master_password": "主密码",
+        "retry": "重试",
+        "download": "下载PDF",
+        "saved_it": "我已经保存好了",
+        "errors": {
+          "username_mismatch": "用户名不匹配",
+          "userid_mismatch": "用户id不匹配"
+        }
+      },
+      "oauth": {
+        "continue": "继续使用 <span class=\"name\">{{name}}</span>",
+        "continue_custom": "继续使用 {{name}}",
+        "providers": {
+          "phone": "电话",
+          "email": "电子邮件"
+        },
+        "sign_in_text": "你是否已经有了账户?",
+        "sign_in": "登录"
+      },
+      "phone": {
+        "description": "请输入你的电话号码",
+        "phone_number": "电话号码",
+        "sign_in_text": "你是否已经有了账户?",
+        "sign_in": "登录",
+        "country_chooser": {
+          "choose_country": "选择国家",
+          "no_code": "没有代码",
+          "no_country": "没有国家",
+          "no_found": "找不到匹配项"
+        },
+        "toastsMessages": {
+          "recaptcha_failed": "'验证码验证失败'"
+        },
+        "errors": {
+          "choose_country": "选择你的国家",
+          "enter_phone": "输入电话号码",
+          "too_short_phone": "电话号码太短",
+          "invalid_phone": "无效的电话号码",
+          "unavailable": "抱歉，我们还不支持您所在的地区"
+        }
+      },
+      "registered": {
+        "description": "看来你已经注册了",
+        "sign_in": "登录"
+      },
+      "common": {
+        "passwordInput": {
+          "password": "密码"
+        },
+        "termsAgree": {
+          "text": "点击 “注册” 按钮, 意味着你同意 <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">用户协议</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">隐私政策</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">区块链免责声明</a>"
+        }
+      }
+    },
+    "transfers": {
+      "convert_points": {
+        "title": "转换",
+        "convert": "转换",
+        "fee": "{{percent}}% 会被当做手续费销毁",
+        "you_send": "你发送的",
+        "you_get": "你得到的",
+        "rate": "费率",
+        "buy_point_item": {
+          "buy": "买",
+          "balance": "余额"
+        },
+        "toastsMessages": {
+          "success": "转换成功",
+          "failed": "转换失败"
+        }
+      },
+      "exchange_commun": {
+        "2fa": {
+          "text": "请在最近的费用说明末尾输入4个字符的代码来完成您的购买",
+          "verify": "验证"
+        },
+        "address": {
+          "qr_code": "二维码",
+          "send": "发送",
+          "tag": "标签",
+          "address_field": "地址",
+          "copy": "复制",
+          "toastsMessages": {
+            "copied": "地址已经复制",
+            "copy_failed": "不能复制地址"
+          }
+        },
+        "card": {
+          "title": "自卡",
+          "change_currency": "兑换货币",
+          "card_number": "卡号",
+          "exp_date": "有效期",
+          "cvc": "CVC验证码",
+          "address": "帐单地址",
+          "postal_code": "帐单邮政编码",
+          "loading_acs": "加载 ACS 页..."
+        },
+        "error": {
+          "description": "没有付款",
+          "repeat": "重复",
+          "errors": {
+            "1": "CVC验证码 错误",
+            "2": "邮政编码错误",
+            "3": "帐单地址错误",
+            "4": "其他不正确字段",
+            "5": "交易被银行拒绝。",
+            "6": "现在只接受Visa或Mastercard。",
+            "7": "3DS身份验证失败",
+            "8": "无法执行3DS身份验证",
+            "9": "3DS身份验证已由用户的银行执行，但尚未完成",
+            "default": "我们正在着手解决这个问题。<br />对于给您带来的不便，我们深表歉意"
+          }
+        },
+        "select": {
+          "fee": "费率",
+          "pay": "你的支付",
+          "rate": "费率",
+          "you_send": "你发送",
+          "amount": "总数",
+          "minimum_charge": "最低限额是 {{amount}} {{symbol}}",
+          "you_get": "你得到",
+          "email": "电子邮件",
+          "buy": "买Commun社区币",
+          "sell_token_item": {
+            "use": "使用",
+            "card": "Visa或者Master卡"
+          },
+          "errors": {
+            "email_format": ""
+          }
+        },
+        "success": {
+          "completed": "转换完成",
+          "total_charged": "收费总额"
+        },
+        "common": {
+          "billing_info": {
+            "title": "购买是由",
+            "agree": "点击转换按钮, 意味着你同意 {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">服务条款。</a>"
+          },
+          "header": {
+            "buy": "购买"
+          }
+        }
+      },
+      "history_filter": {
+        "title": "过滤",
+        "all": "全部",
+        "income": "收入",
+        "outcome": "支出",
+        "type": "类型",
+        "transfer": "交易",
+        "convert": "转换",
+        "rewards": "奖励",
+        "clear_all": "清除所有"
+      },
+      "point_info": {
+        "title-mobile": "发送社区积分"
+      },
+      "select_point": {
+        "title": "社区积分",
+        "search": "搜索社区积分",
+        "no_found": "没有社区积分",
+        "no_found_desc": "尝试发送或者转换"
+      },
+      "select_recipient": {
+        "title": "选择朋友"
+      },
+      "select_token": {
+        "title": "选择货币",
+        "card": "Visa或者Master卡",
+        "search": "搜索代币",
+        "no_found": "没有代币"
+      },
+      "send_points": {
+        "title": "发送",
+        "to": "到",
+        "select_user": "选择用户",
+        "change_user": "更改用户",
+        "amount": "总数",
+        "hint": "这笔交易可能需要一些时间",
+        "send": "发送",
+        "fee_text": "{{percent}}% 会被当做手续费销毁",
+        "toastsMessages": {
+          "success": "交易成功",
+          "failed": "交易失败"
+        }
+      }
+    },
+    "view_bio": {
+      "title": "{{username}}的简介"
+    },
+    "switch_to_app": {
+      "title": "Commun在应用程序APP上可以得到更好的体验",
+      "description": "专为在您的移动设备上实现自治社交网络的最佳体验而设计",
+      "continue": "在应用程序App上继续",
+      "sign_in": "登录"
+    },
+    "onboarding_app_banner": {
+      "title": "<span class=\"highlight\">Commun</span> 更好用在 <span class=\"highlight\">应用程序App上</span>",
+      "text": "现在就试试，获取你的社区积分",
+      "continue": "切换到应用程序",
+      "sign_in": "登录"
+    },
+    "onboarding_registration": {
+      "communities": {
+        "title": "获取你的第一个社区积分",
+        "title-sign_up": "注册以你的第一个社区积分",
+        "text": "至少订阅 {{COMMUNITIES_AIRDROP_COUNT}} 个社区，同时获得这个社区的社区积分",
+        "sign_in_text": "你有账户吗?",
+        "sign_in": "登录",
+        "sign_up": "注册并获取社区积分",
+        "finish": "完成"
+      },
+      "download": {
+        "title": "<span class=\"blue\">下载 应用程序App</span><br />双倍社区积分",
+        "description": "在应用程序App中授权后<br />我们将给与你双倍的注册获取的社区积分"
+      },
+      "share": {
+        "title": "<span class=\"share\">分享</span> 和你的朋友<br />获取双倍社区积分",
+        "description": "你也可以收到 5% 在购买中的提成<br />从你的分享链接注册的朋友",
+        "share_link": "分享链接"
+      }
+    },
+    "onboarding_welcome": {
+      "welcome": {
+        "title": "欢迎<br />来到 <span class=\"blue\">Commun /</span>",
+        "description": "基于区块链的社交网络 <span class=\"blue\">奖励</span> 通过发表文章、评论和点赞"
+      },
+      "thematic": {
+        "title": "<span class=\"blue strong\">主题</span><br />社区",
+        "description": "选择感兴趣的社区 <br />你将获得 <span class=\"blue\">奖励</span> 以便快速融入社区"
+      },
+      "owned": {
+        "title": "<span class=\"strong\">所有者</span> 为用户们",
+        "description": "社区没有单一所有者<br />完全属于它的成员",
+        "sign_up": "开始并获取30个社区积分",
+        "sign_in": "登录"
+      },
+      "monetize": {
+        "title": "<span class=\"strong\">盈利</span><br />你的社交行为",
+        "description": "发表文章、评论和点赞<br />就可以获取社区积分"
+      }
+    },
+    "create_community": {
+      "confirmation": "确认",
+      "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br /> 创建一个社区.",
+      "after_creating": "创建社区后:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "burned": "会作为公共物品被燃烧",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty": "会被送到奖励池",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred": "会转到你的钱包里",
+      "not_enough": "你好像没有足够的<br />社区代币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br />在创建新的社区的时候需要"
+    }
+  },
+
+  "widgets": {
+    "get_first_points": {
+      "title": "获取你的第一份社区积分",
+      "description": "注册并订阅<br /> 第一次的三个社区，就可以获取新人奖励社区积分。"
+    },
+    "airdrop": {
+      "first_line": "你的",
+      "second_line": "新人奖励社区积分正在准备中!",
+      "text": "只要点击一下 <br/> 就可以获取 Dank Meme 社区的社区积分!",
+      "get": "获取",
+      "toastsMessages": {
+        "claim_received": "领取"
+      }
+    },
+    "trending_communities": {
+      "title": "流行社区"
+    },
+    "leader_in": {
+      "title": "领导"
+    },
+    "community_filter": {
+      "title": "社区",
+      "clear": "清除过滤",
+      "no_found": "未找到",
+      "empty": "没有社区"
+    },
+    "following_you": {
+      "user_subscribed": "{{user}} 关注你"
+    },
+    "friends": {
+      "title": "朋友",
+      "title_plural": "朋友"
+    },
+    "get_points": {
+      "get": "获取社区积分",
+      "get-small": "获取",
+      "balance": "{{communityName}} 余额"
+    },
+    "invite": {
+      "text": "激活您的帐户并从第一个社区积分开始",
+      "start": "开始"
+    },
+    "leader_management": {
+      "title": "管理"
+    },
+    "leaders": {
+      "title": "领导者",
+      "title_plural": "领导者",
+      "claim": "领取领导者奖励",
+      "toastsMessages": {
+        "claimed": "成功领取领导者奖励"
+      }
+    },
+    "manage_community": {
+      "text": "管理"
+    },
+    "members": {
+      "title": "成员",
+      "title_plural": "成员"
+    },
+    "mobile_balance": {
+      "wallet": "钱包"
+    },
+    "user_communities": {
+      "title": "社区",
+      "title_plural": "社区"
+    },
+    "faq": {
+      "title": "如何使用Commun?",
+      "description": "如何开始发表文章和让你的社交行为盈利",
+      "text": "获取奖励仅仅需要 <br /> 发表文章、评论和点赞",
+      "big": {
+        "description": "如何开始发表文章和 <br /> 让你的社交行为盈利",
+        "text": "获取奖励仅仅需要发表文章、评论和点赞。 <br /> 点击 “开始” 获取更多信息"
+      },
+      "start": "开始"
+    },
+    "technical_works": {
+      "first_line": "维护工作",
+      "bold_line": "正在进行中",
+      "text": "我们正在维护 <br /> 网站很快会重新开启",
+      "refresh": "刷新",
+      "big": {
+        "text": "谢谢你的耐心等待。我们正在维护，网站很快会重新开启",
+        "refresh": "刷新页面"
+      }
+    }
+  },
+
+  "filters": {
+    "title": "过滤",
+    "sort": "排序",
+    "type": {
+      "community": "新的",
+      "new": "新的",
+      "hot": "热门",
+      "subscriptions": "新的",
+      "subscriptionsHot": "热门",
+      "subscriptionsPopular": "最受欢迎的",
+      "topLikes": "最受欢迎的",
+      "topComments": "热门评论",
+      "topRewards": "热门奖励"
+    },
+    "timeframe": {
+      "day": "过去24小时",
+      "week": "过去一周",
+      "month": "过去一月",
+      "all": "所有时间"
+    },
+    "sortBy": {
+      "time": "最早的",
+      "timeDesc": "最新的",
+      "popularity": "受欢迎程度"
+    }
+  },
+
+  "tooltips": {
+    "common": {
+      "close": "关闭提示",
+      "dont_show": "不再显示"
+    },
+    "choose_community": {
+      "title": "选择社区",
+      "desc": "选择要在其中发表文章的社区",
+      "close": "关闭提示"
+    },
+    "feed_onboarding": {
+      "types": {
+        "vote": {
+          "title": "点赞奖励",
+          "desc": "是的, 你也会因为点赞而得到奖励，而且他们比你想象的更有价值！ 通过点赞，你可以获得成功和回报"
+        },
+        "comments": {
+          "title": "评论奖励",
+          "desc": "评论也会得到奖励！讨论更可以获得更多的奖励！"
+        },
+        "share": {
+          "title": "分享你的文章",
+          "desc": "太好了，你的文章发表成功了！与你的朋友分享，以获得更多的奖励！"
+        },
+        "reward": {
+          "title": "这是什么意思?",
+          "desc": "哇，这个帖子会有回报的 <br /> 你也想得到奖励吗？ 发表文章——这是最好的得到奖励的方式！"
+        }
+      }
+    },
+    "first_like": {
+      "desc": "如果你持有这个社区的积分并点赞了这篇文章，这篇文章如果进入“一天的前十名”，那么你和作者将获得更多的积分作为奖励。",
+      "learn_more": "了解更多关于奖励的信息"
+    },
+    "not_ready": {
+      "title": "即将到来",
+      "desc": "此功能将很快可以使用。"
+    },
+    "reward_for_post": {
+      "title": "我的文章如何获得奖励？",
+      "desc": "你发表文章之后，社区成员将有 {{hours}} 来点赞或者踩它. 如果你的文章成为了所在社区当天的前十热门文章，那么你就可以获得奖励了。"
+    }
+  },
+
+  "errors": {
+    "common": {
+      "unknown": "未知错误",
+      "blockchain_error": "区块链内部错误。"
+    },
+    "username": {
+      "exists": "用户名已在使用中"
+    },
+    "sms": {
+      "wrong": "验证码错误",
+      "many_retries": "重试次数太多，请稍后再试。",
+      "later": "请稍后再发送。",
+      "cant": "无法发送短信代码"
+    }
+  },
+
+  "chain_errors": {
+    "cashout_window": "投票时间结束了",
+    "incorrect_delegate_proxy_level": "无法委派给此用户"
+  },
+
+  "toastsMessages": {
+    "success": "成功",
+    "community": {
+      "unfollowed": "未关注的社区",
+      "followed": "关注的社区"
+    },
+    "user": {
+      "unfollowed": "未关注的用户",
+      "followed": "关注的用户"
+    },
+    "proposal": {
+      "created": "提案已经创建"
+    },
+    "report": {
+      "sent": "报告已成功发送"
+    }
+  },
+
+  "validations": {
+    "amount": {
+      "on_hold": "{{quantity}} 冻结中",
+      "insufficient_funds": "资金不足，你有 {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "数量大于供给: {{supply}}",
+      "more_than_decs": "不能超过 {{decs}} 个小数位",
+      "invalid_format": "无效格式",
+      "enter_amount": "输入金额",
+      "less_than_minimal": "金额小于最小值: {{minAmount}}",
+      "less_than_0": "金额小于 0",
+      "more_than_max": "金额大于 {{maxAmount}}"
+    },
+    "username": {
+      "is_empty": "用户名为空",
+      "invalid_symbols": "用户名只能包含小写字母、数字、点或破折号",
+      "start_with": "用户名应该以字母开头",
+      "too_short": "用户名应至少包含3个符号",
+      "too_long": "用户名太长。最多32个符号",
+      "several_dots": "用户名一行只能包含一个点",
+      "several_dashes": "用户名只能在一行中包含一个破折号",
+      "invalid_sequences": "用户名在一行中只能包含一个点或一个破折号",
+      "ends_with": "用户名应以字母或数字结尾"
+    }
+  },
+
+  "reports": {
+    "spam": "垃圾邮件",
+    "harassment": "骚扰",
+    "nudity": "裸体",
+    "violence": "暴力",
+    "falsenews": "假消息",
+    "terrorism": "恐怖主义",
+    "breakscommunityrules": "违反社区规则",
+    "hatespeech": "仇恨言语",
+    "unauthorizedsales": "未经授权的销售",
+    "abuse": "企图滥用",
+    "other": "其它"
+  },
+
+  "utils": {
+    "post_time": {
+      "now": "现在",
+      "seconds": "秒",
+      "minutes": "分",
+      "hours": "小时",
+      "days": "天"
+    },
+    "normalize_time": {
+      "now": "现在",
+      "m_ago": "分前",
+      "h_ago": "小时前"
+    },
+    "images": {
+      "upload_failed": "图像上传失败",
+      "only_images": "请仅插入图像文件",
+      "too_big": "文件太大，最大允许大小为 {{size}} MB"
+    }
+  }
+}

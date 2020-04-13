@@ -63,7 +63,7 @@
     "log_in": "登录",
     "sign_up": "注册"
   },
-  
+
   "sidebar": {
     "my_feed": "关注",
     "trending": "流行",
@@ -83,7 +83,7 @@
     "whitepaper": "白皮书"
   },
 
-   "components": {
+  "components": {
     "post": {
       "no_found": "没有找到文章",
       "no_found_desc": "可能是被删除了",
@@ -1048,11 +1048,11 @@
       "confirmation": "确认",
       "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br /> 创建一个社区.",
       "after_creating": "创建社区后:",
-      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span><br />",
       "burned": "会作为公共物品被燃烧",
-      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(10%)</span><br />",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区积分</span><br />",
       "bounty": "会被送到奖励池",
-      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span> <span class=\"blue semibold\">(80%)</span><br />",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span><br />",
       "transferred": "会转到你的钱包里",
       "not_enough": "你好像没有足够的<br />社区代币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br />在创建新的社区的时候需要"
     }

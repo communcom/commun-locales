@@ -428,7 +428,7 @@
       "post": "пост",
       "post_prep": "посте",
       "types": {
-        "reply": "прокомментировал{{shortText}}",
+        "reply": "прокомментировал {{shortText}}",
         "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
         "upvote": "лайкнул твой {{entityType}}",
         "subscribe": "подписался на тебя",

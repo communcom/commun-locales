@@ -416,7 +416,7 @@
       "comment": "comment",
       "post": "post",
       "types": {
-        "reply": "left a comment{{shortText}}",
+        "reply": "left a comment {{shortText}}",
         "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
         "upvote": "liked your {{entityType}}",
         "subscribe": "is following you",

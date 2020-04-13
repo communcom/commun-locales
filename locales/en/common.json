@@ -277,21 +277,21 @@
         "add_bio": "Add bio"
       },
       "comments": {
-        "empty": "No Comments",
+        "empty": "No comments",
         "empty-desc": "You haven't made any comments yet"
       },
       "followers": {
-        "empty": "No Followers",
+        "empty": "No followers",
         "empty-desc": "You have not any following. You can find new friends or create new post.",
         "create": "Create new post"
       },
       "following": {
-        "empty": "No Following",
+        "empty": "No following",
         "empty-desc": "You don't have any following"
       },
       "referrals": {
-        "empty": "No Saved souls",
-        "empty-desc": "You don't have any saved souls",
+        "empty": "No referrals",
+        "empty-desc": "You don't have any referral users",
         "no_found": "Nothing is found"
       },
       "user_communities": {

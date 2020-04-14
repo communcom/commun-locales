@@ -125,7 +125,8 @@
           "hide": "总是隐藏",
           "warn": "总是警告",
           "show": "总是显示"
-        }
+        },
+        "comments_in_feed": "Show comments in the feed"
       },
       "notifications_settings": {
         "title": "上线通知",

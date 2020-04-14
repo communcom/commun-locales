@@ -125,7 +125,8 @@
           "hide": "Always hide",
           "warn": "Always alert",
           "show": "Always show"
-        }
+        },
+        "comments_in_feed": "Show comments in the feed"
       },
       "notifications_settings": {
         "title": "Online notifications",

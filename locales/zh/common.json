@@ -91,6 +91,7 @@
       "views_count_plural": "{{count}} 阅读",
       "comments_count": "{{count}} 评论",
       "comments_count_plural": "{{count}} 评论",
+      "show_more_comments": "Show more comments",
       "open_menu": "打开菜单",
       "aria_share_in_social": "分享到社交网络"
     },
@@ -166,7 +167,8 @@
         "send_points": "发送社区积分",
         "search_points": "搜索社区积分",
         "no_found": "没有找到社区积分",
-        "no_found_desc": "尝试发送或者转换"
+        "no_found_desc": "尝试发送或者转换",
+        "hide_empty": "Hide empty"
       },
       "actions_panel": {
         "send": "发送",

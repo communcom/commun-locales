@@ -91,6 +91,7 @@
       "views_count_plural": "{{count}} views",
       "comments_count": "{{count}} comment",
       "comments_count_plural": "{{count}} comments",
+      "show_more_comments": "Show more comments",
       "open_menu": "Open post's menu",
       "aria_share_in_social": "Share in social networks"
     },
@@ -166,7 +167,8 @@
         "send_points": "Send points",
         "search_points": "Search points",
         "no_found": "No points",
-        "no_found_desc": "Try to send or convert"
+        "no_found_desc": "Try to send or convert",
+        "hide_empty": "Hide empty"
       },
       "actions_panel": {
         "send": "Send",

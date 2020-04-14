@@ -121,8 +121,14 @@
       "general": {
         "title": "General",
         "language": "Interface language",
+        "theme": "Theme",
+        "theme_type": {
+          "light": "Light",
+          "system": "System",
+          "dark": "Dark"
+        },
         "nsfw_content": "NSFW content",
-        "nsfw": {
+        "nsfw_type": {
           "hide": "Always hide",
           "warn": "Always alert",
           "show": "Always show"

@@ -174,7 +174,8 @@
         "search_points": "Search points",
         "no_found": "No points",
         "no_found_desc": "Try to send or convert",
-        "hide_empty": "Hide empty"
+        "hide_empty": "Hide empty",
+        "hide_empty_balances": "Hide empty balances"
       },
       "actions_panel": {
         "send": "Send",

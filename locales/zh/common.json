@@ -174,7 +174,8 @@
         "search_points": "搜索社区积分",
         "no_found": "没有找到社区积分",
         "no_found_desc": "尝试发送或者转换",
-        "hide_empty": "Hide empty"
+        "hide_empty": "Hide empty",
+        "hide_empty_balances": "Hide empty balances"
       },
       "actions_panel": {
         "send": "发送",

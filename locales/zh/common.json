@@ -71,7 +71,7 @@
     "wallet": "钱包",
     "discovery": "发现",
     "management": "管理",
-    "communities": "社团",
+    "communities": "社区",
     "new_post": "新文章"
   },
 
@@ -91,13 +91,13 @@
       "views_count_plural": "{{count}} 阅读",
       "comments_count": "{{count}} 评论",
       "comments_count_plural": "{{count}} 评论",
-      "show_more_comments": "Show more comments",
+      "show_more_comments": "显示更多评论",
       "open_menu": "打开菜单",
       "aria_share_in_social": "分享到社交网络"
     },
     "search": {
       "specific_results": {
-        "enter": "请输入搜索内容经行查询",
+        "enter": "请输入搜索内容进行查询",
         "hint": "您可以尝试更改搜索内容进行查询或转到我的关注",
         "no_found": "没有搜索到结果",
         "go_feed": "转到我的关注"
@@ -133,7 +133,7 @@
           "warn": "总是警告",
           "show": "总是显示"
         },
-        "comments_in_feed": "Show comments in the feed"
+        "comments_in_feed": "在关注中显示评论"
       },
       "notifications_settings": {
         "title": "上线通知",
@@ -174,9 +174,9 @@
         "search_points": "搜索社区积分",
         "no_found": "没有找到社区积分",
         "no_found_desc": "尝试发送或者转换",
-        "hide_empty": "Hide empty",
-        "hide_empty_balances": "Hide empty balances",
-        "hidden": "Hidden"
+        "hide_empty": "隐藏为空",
+        "hide_empty_balances": "隐藏空余额",
+        "hidden": "隐藏"
       },
       "actions_panel": {
         "send": "发送",
@@ -470,7 +470,7 @@
     },
     "post_form": {
       "you": "你",
-      "post": "文章",
+      "post": "发布",
       "sign_up_post": "注册并发布",
       "article": "文章",
       "aria_article": "创建文章",
@@ -529,7 +529,7 @@
     },
     "entity_card_reports": {
       "ban": "禁令",
-      "refuse": "垃圾禁令",
+      "refuse": "拒绝禁令",
       "approve": "批准禁令",
       "approves": "批准",
       "create": "创建禁令提案",
@@ -982,8 +982,8 @@
       "select_token": {
         "title": "选择货币",
         "card": "Visa或者Master卡",
-        "search": "搜索代币",
-        "no_found": "没有代币"
+        "search": "搜索币",
+        "no_found": "没有币"
       },
       "send_points": {
         "title": "发送",
@@ -1057,15 +1057,15 @@
     },
     "create_community": {
       "confirmation": "确认",
-      "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br /> 创建一个社区.",
+      "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区币CMN</span> <br /> 创建一个社区.",
       "after_creating": "创建社区后:",
-      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区代币CMN</span><br />",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区币CMN</span><br />",
       "burned": "会作为公共物品被燃烧",
       "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} 社区积分</span><br />",
       "bounty": "会被送到奖励池",
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span><br />",
       "transferred": "会转到你的钱包里",
-      "not_enough": "你好像没有足够的<br />社区代币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区代币CMN</span> <br />在创建新的社区的时候需要"
+      "not_enough": "你好像没有足够的<br />社区币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区币CMN</span> <br />在创建新的社区的时候需要"
     }
   },
 
@@ -1149,10 +1149,10 @@
     "technical_works": {
       "first_line": "维护工作",
       "bold_line": "正在进行中",
-      "text": "我们正在维护 <br /> 网站很快会重新开启",
+      "text": "我们正在维护 <br /> 很快就会搞定",
       "refresh": "刷新",
       "big": {
-        "text": "谢谢你的耐心等待。我们正在维护，网站很快会重新开启",
+        "text": "谢谢你的耐心等待。我们正在维护，很快就会搞定",
         "refresh": "刷新页面"
       }
     }
@@ -1296,7 +1296,7 @@
   "reports": {
     "spam": "垃圾邮件",
     "harassment": "骚扰",
-    "nudity": "裸体",
+    "nudity": "裸露",
     "violence": "暴力",
     "falsenews": "假消息",
     "terrorism": "恐怖主义",

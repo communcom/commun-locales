@@ -184,8 +184,9 @@
         "search_points": "Найти поинты",
         "no_found": "Нет поинтов",
         "no_found_desc": "Попробуй отправить или обменять",
-        "hide_empty": " Скрывать пустые",
-        "hide_empty_balances": "Скрывать пустые балансы"
+        "hide_empty": "Скрывать пустые",
+        "hide_empty_balances": "Скрывать пустые балансы",
+        "hidden": "Скрыто"
       },
       "actions_panel": {
         "send": "Отправить",

@@ -352,7 +352,7 @@
       },
       "description": {
         "choose_language": "Choose language",
-        "add_description": "Add description(optional)",
+        "add_description": "Add description (optional)",
         "description_placeholder": "Type something about community"
       },
       "rules": {

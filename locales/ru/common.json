@@ -362,7 +362,7 @@
       },
       "description": {
         "choose_language": "Выбрать язык",
-        "add_description": "Добавь описание(по желанию)",
+        "add_description": "Добавь описание (опционально)",
         "description_placeholder": "Напиши что-нибудь о сообществе"
       },
       "rules": {

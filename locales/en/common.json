@@ -965,6 +965,9 @@
         "transfer": "Transfer",
         "convert": "Convert",
         "rewards": "Rewards",
+        "hold_type_title": "Like/Dislike",
+        "like": "Like",
+        "dislike": "Dislike",
         "clear_all": "Clear all"
       },
       "point_info": {

@@ -972,6 +972,9 @@
         "transfer": "Перевод",
         "convert": "Обмен",
         "rewards": "Награды",
+        "hold_type_title": "Лайк/Дизлайк",
+        "like": "Лайк",
+        "dislike": "Дизлайк",
         "clear_all": "Очистить все"
       },
       "point_info": {

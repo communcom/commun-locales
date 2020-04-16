@@ -965,6 +965,9 @@
         "transfer": "交易",
         "convert": "转换",
         "rewards": "奖励",
+        "hold_type_title": "Like/Dislike",
+        "like": "Like",
+        "dislike": "Dislike",
         "clear_all": "清除所有"
       },
       "point_info": {

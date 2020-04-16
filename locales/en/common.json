@@ -628,7 +628,8 @@
   "modals": {
     "confirm_dialog": {
       "blocked_user": "You have blocked this user. Do you want unblock and follow?",
-      "blocked_community": "You have blocked this community. Do you want unblock and follow?"
+      "blocked_community": "You have blocked this community. Do you want unblock and follow?",
+      "revote_leader": "Are you sure you want to take the vote back? Please consider that you have only 1 vote. By giving it to another nominee, you'll reduce your currently chosen nominee's influence equal to the current number of your points."
     },
     "avatar_edit": {
       "title": "Change position",

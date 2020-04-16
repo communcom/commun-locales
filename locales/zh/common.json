@@ -628,7 +628,8 @@
   "modals": {
     "confirm_dialog": {
       "blocked_user": "您已经拉黑了此用户。是否要解除锁定并关注？",
-      "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?"
+      "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?",
+      "revote_leader": "Are you sure you want to take the vote back? Please consider that you have only 1 vote. By giving it to another nominee, you'll reduce your currently chosen nominee's influence equal to the current number of your points."
     },
     "avatar_edit": {
       "title": "改变位置",

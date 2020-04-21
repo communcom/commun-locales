@@ -166,17 +166,17 @@
     },
     "wallet": {
       "tabs": {
-        "my_points": "我的社区积分",
+        "my_points": "我的社区",
         "history": "交易历史"
       },
       "my_points": {
-        "my_points": "我的社区积分",
+        "my_points": "我的社区",
         "send_points": "发送社区积分",
-        "search_points": "搜索社区积分",
-        "no_found": "没有找到社区积分",
+        "search_points": "搜索社区",
+        "no_found": "没有找到社区",
         "no_found_desc": "尝试发送或者转换",
-        "hide_empty": "隐藏为空",
-        "hide_empty_balances": "隐藏空余额",
+        "hide_empty": "隐藏空余额社区",
+        "hide_empty_balances": "隐藏空余额社区",
         "hidden": "隐藏"
       },
       "actions_panel": {
@@ -630,7 +630,7 @@
     "confirm_dialog": {
       "blocked_user": "您已经拉黑了此用户。是否要解除锁定并关注？",
       "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?",
-      "revote_leader": "Are you sure you want to take the vote back? Please consider that you have only 1 vote. By giving it to another nominee, you'll reduce your currently chosen nominee's influence equal to the current number of your points."
+      "revote_leader": "你确定要收回你的投票吗？ 每个人在每个社区都只有一个投票权。如果你投票给另一位竞选者，你将减少你当前投票的竞选者的支持力度，减少的数量就是你当前这个社区的社区积分数。  "
     },
     "avatar_edit": {
       "title": "改变位置",
@@ -968,9 +968,9 @@
         "transfer": "交易",
         "convert": "转换",
         "rewards": "奖励",
-        "hold_type_title": "Like/Dislike",
-        "like": "Like",
-        "dislike": "Dislike",
+        "hold_type_title": "赞/踩",
+        "like": "赞",
+        "dislike": "踩",
         "clear_all": "清除所有"
       },
       "point_info": {

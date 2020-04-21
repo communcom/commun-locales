@@ -1116,6 +1116,11 @@
       "text": "Activate your account and start with first points",
       "start": "Start"
     },
+    "referrals_invite": {
+      "text": "You get 1 CMN token for every soul you save + 5% of their purchases on Commun",
+      "copy": "Copy",
+      "share": "Share"
+    },
     "leader_management": {
       "title": "Management"
     },

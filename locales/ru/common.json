@@ -420,10 +420,10 @@
       },
       "mobileSlides": {
         "first": {
-          "title": "Здесь тебя <br /><span>ждут<span class=\"highlight\">награды</span></span><br />за твои <br />посты и <br />лайки."
+          "title": "Здесь тебя <br /><span>ждут <span class=\"highlight\">награды</span></span><br />за твои <br />посты и <br />лайки."
         },
         "second": {
-          "title": "Выбери <br />your <br /><span class=\"highlight\">тематическое</span> <br />сообщество"
+          "title": "Выбери <br />свое <br /><span class=\"highlight\">тематическое</span> <br />сообщество"
         },
         "third": {
           "title": "Социальная сеть на основе блокчейна"
@@ -709,7 +709,7 @@
         "invalid": "Неверный логин или пароль"
       },
       "toastsMessages": {
-        "recaptcha_failed": "'Проверка не пройдена'"
+        "recaptcha_failed": "Проверка не пройдена"
       }
     },
     "profile_about_edit": {
@@ -1128,7 +1128,7 @@
       "start": "Начать"
     },
     "referrals_invite": {
-      "text": "Вы получаете 1 токен CMN за каждую сохраненную душа + 5% от их покупок на Commun",
+      "text": "Вы получаете 1 токен CMN за каждую сохраненную душу + 5% от их покупок на Commun",
       "copy": "Копировать",
       "share": "Поделиться"
     },

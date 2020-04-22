@@ -349,7 +349,8 @@
     "createCommunity": {
       "tabs": {
         "description": "Description",
-        "rules": "Rules"
+        "rules": "Rules",
+        "settings": "Settings"
       },
       "description": {
         "choose_language": "Choose language",
@@ -376,13 +377,10 @@
           {
             "title": "Rules violation:",
             "text": "In case of violation of the rules, comments and posts with violations will be deprived of payments and excluded from displaying in community and general feed. Also, leaders have the right to limit your access to the community"
-          },
-          {
-            "title": "Settings of the community:",
-            "text": "The number of leaders - 3 people;\nPoints emission = 50%;\nDistribution of rewards: 10% - leaders, 45% - authors (posts and comments), 45% - curators;\nCW = 0.4;"
           }
         ]
       },
+      "default_settings": "The number of leaders - 3 people;\nPoints emission = 50%;\nDistribution of rewards: 10% - leaders, 45% - authors (posts and comments), 45% - curators;\nCW = 0.4;",
       "create_community_header": {
         "create": "Create community",
         "community_name_placeholder": "Community name"

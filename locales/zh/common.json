@@ -349,7 +349,8 @@
     "createCommunity": {
       "tabs": {
         "description": "说明",
-        "rules": "规则"
+        "rules": "规则",
+        "settings": "设置"
       },
       "description": {
         "choose_language": "选择语言",
@@ -376,13 +377,10 @@
           {
             "title": "违反规则:",
             "text": "违反规定的，将取消对违反规定的评论和帖子的奖励，并禁止其在社区和关注中显示。而且，领导者有权限制你进入社区"
-          },
-          {
-            "title": "社区设置:",
-            "text": "领导者人数 - 3 人;\n社区积分发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;"
           }
         ]
       },
+      "default_settings": "领导者人数 - 3 人;\n社区积分发放 = 50%;\n奖励分配: 10% - 领导者, 45% - 作者 (文章和评论), 45% - 审阅者;\nCW = 0.4;",
       "create_community_header": {
         "create": "创建社区",
         "community_name_placeholder": "社区名称"

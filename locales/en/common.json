@@ -1256,7 +1256,8 @@
 
   "chain_errors": {
     "cashout_window": "The time for voting is over",
-    "incorrect_delegate_proxy_level": "Cannot delegate to this user"
+    "incorrect_delegate_proxy_level": "Cannot delegate to this user",
+    "the_entire_amount_is_spent_on_fee": "The entire amount is spent on fee"
   },
 
   "toastsMessages": {

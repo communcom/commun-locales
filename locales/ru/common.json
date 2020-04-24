@@ -1269,7 +1269,8 @@
 
   "chain_errors": {
     "cashout_window": "Голосование окончено",
-    "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя"
+    "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя",
+    "the_entire_amount_is_spent_on_fee": "Вся сумма расходуется на комиссию"
   },
 
   "toastsMessages": {

@@ -1256,7 +1256,8 @@
 
   "chain_errors": {
     "cashout_window": "投票时间结束了",
-    "incorrect_delegate_proxy_level": "无法委派给此用户"
+    "incorrect_delegate_proxy_level": "无法委派给此用户",
+    "the_entire_amount_is_spent_on_fee": "The entire amount is spent on fee"
   },
 
   "toastsMessages": {

@@ -1002,6 +1002,20 @@
           "success": "Transfer is successful",
           "failed": "Transfer is failed"
         }
+      },
+      "donate_points": {
+        "title": "Donate",
+        "to": "To",
+        "select_user": "Select user",
+        "change_user": "Change user",
+        "amount": "Amount",
+        "hint": "This transaction may take some time",
+        "send": "Donate",
+        "fee_text": "{{percent}}% will be burned",
+        "toastsMessages": {
+          "success": "Donate is successful",
+          "failed": "Donate is failed"
+        }
       }
     },
     "view_bio": {

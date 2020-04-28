@@ -439,7 +439,8 @@
         "referralPurchaseBonus": {
           "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
           "last": "'s purchase"
-        }
+        },
+        "donation": "donate for publication {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {
@@ -1252,7 +1253,8 @@
     },
     "donate": {
       "title": "Donate",
-      "points": "points"
+      "points": "points",
+      "other": "Other"
     }
   },
 

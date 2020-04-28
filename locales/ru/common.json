@@ -451,7 +451,8 @@
         "referralPurchaseBonus": {
           "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
           "last": ""
-        }
+        },
+        "donation": "donate for publication {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {
@@ -1265,7 +1266,8 @@
     },
     "donate": {
       "title": "Пожертвовать",
-      "points": "поинты"
+      "points": "поинты",
+      "other": "Еще"
     }
   },
 

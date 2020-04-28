@@ -1249,6 +1249,10 @@
     "reward_for_post": {
       "title": "How do I get rewards for my posts?",
       "desc": "After you publish the post, community members will have {{hours}} hours to like or dislike it. If your post reaches the Top 10 posts of the day, you will be rewarded."
+    },
+    "donate": {
+      "title": "Donate",
+      "points": "points"
     }
   },
 

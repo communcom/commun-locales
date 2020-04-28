@@ -452,7 +452,7 @@
           "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
           "last": ""
         },
-        "donation": "donate for publication {{amount}} {{symbol}}"
+        "donation": "пожертвование за пост {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

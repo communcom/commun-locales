@@ -440,7 +440,7 @@
           "first": "你收到了 {{amountStr}}. 这是推荐奖励 - {{percent}}% 来自",
           "last": "购买者"
         },
-        "donation": "donate for publication {{amount}} {{symbol}}"
+        "donation": "donate for post {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

@@ -89,7 +89,8 @@
     "privacy_policy": "Политика приватности",
     "cookies_policy": "Политика Cookies",
     "blockchain_disclaimer": "Отказ от ответственности",
-    "whitepaper": "Whitepaper"
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
   },
 
   "components": {
@@ -452,7 +453,7 @@
           "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
           "last": ""
         },
-        "donation": "пожертвование за пост {{amount}} {{symbol}}"
+        "donation": "пожертвовал вашему посту “{{shortText}}“: {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

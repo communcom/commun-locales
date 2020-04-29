@@ -81,7 +81,8 @@
     "privacy_policy": "隐私政策",
     "cookies_policy": "Cookie策略",
     "blockchain_disclaimer": "区块链声明",
-    "whitepaper": "白皮书"
+    "whitepaper": "白皮书",
+    "faq": "FAQ"
   },
 
   "components": {
@@ -440,7 +441,7 @@
           "first": "你收到了 {{amountStr}}. 这是推荐奖励 - {{percent}}% 来自",
           "last": "购买者"
         },
-        "donation": "donate for post {{amount}} {{symbol}}"
+        "donation": "donate for post “{{shortText}}“: {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

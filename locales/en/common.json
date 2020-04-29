@@ -81,7 +81,8 @@
     "privacy_policy": "Privacy Policy",
     "cookies_policy": "Cookies Policy",
     "blockchain_disclaimer": "Blockchain Disclaimer",
-    "whitepaper": "Whitepaper"
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
   },
 
   "components": {
@@ -440,7 +441,7 @@
           "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
           "last": "'s purchase"
         },
-        "donation": "donate for post {{amount}} {{symbol}}"
+        "donation": "donate for post “{{shortText}}“: {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

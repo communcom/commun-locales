@@ -3,59 +3,345 @@
     "nav-mobile": "FAQ",
     "title": "How does Commun work?",
     "description": "Commun is built on autonomous communities that fully belong to users. Each community is self-regulated by a core scope of leaders, continuously electable by community members.",
-    "sections": {
-      "1": {
+    "sections": [
+      {
+        "id": "1",
         "title": "What is Commun?",
-        "description": "Commun is a blockchain-based social media platform powering an array of user-owned independent communities. Each community is regulated by its own leaders chosen by users. The users can post, like or dislike any content within communities."
+        "description": "Commun serves as a web, Android, and iOS portal where users can form interest-based groups to share, read, watch, rank, and discuss content with like-minded people. The platform, comprised of decentralised autonomous communities (DACs), is the first Web-3 social network to launch since interest in the technology was shown following an outcry over censorship, de-platforming, and data-selling by social media giants.",
+        "children": [
+          {
+            "id": "11",
+            "title": "Commun allows users to:",
+            "description": "- manage communities and content by upvoting and downvoting posts;\n- elect their leader according to the principles of a liquid democracy;\n- and  most importantly - monetize their activities."
+          },
+          {
+            "id": "12",
+            "title": "Managing content:",
+            "description": "By upvoting posts, users bring the best ones to the Top 10 of the day (this top 10 recalculates every hour).\nWhen the post reaches the Top - the blockchain algorithmically supplies the author and curators (ones who upvoted and commented) with the Points of this community."
+          },
+          {
+            "id": "13",
+            "title": "It works like this:",
+            "description": "The post gets rewards (we indicate it with the coin mark on Commun), then from this amount of the reward 45% goes to the author, 45% to curators, and 10% to the leaders of the community as a fee for their work"
+          }
+        ]
       },
-      "2": {
-        "title": "What is Commun Token?",
-        "description": "Commun token is the native token of the Commun platform that can be converted into Community Points using Bonding Curve mechanism (for more read <a href=\"{{DOC_WHITEPAPER_LINK}}\" target=\"_blank\" rel=\"noopener noreferrer\">White Paper</a>)."
+      {
+        "id": "2",
+        "title": "What is a community on Commun?",
+        "description": "Community on Commun is a decentralized and self-governed group based on particular thematics. They are fully independent, having their own economy and governance.\nThe monetization of publications, likes, and comments is secured by smart-contract.\nCommunity members elect leaders by voting the nominees. Leaders, in turn, manage content, set up the rules, and keep the community healthy. Learn more about the leadership in the “Which roles exist on Commun?” section down below."
       },
-      "3": {
-        "title": "What are Community Points?",
-        "description": "Each community has its own points that are distributed to its members when they post, “like” certain content items or are elected as community leaders. The points are issued at 50% inflation rate per year. Top 10 posts in each community are rewarded daily."
+      {
+        "id": "3",
+        "title": "What are CMN tokens and community Points?",
+        "description": "CMN is a basic token of the platform. It can be utilized to create communities, issue community points, and vote for leaders. In the future, it will release the ad networks for the community.\n\nEach community has its own Points. It's a token of the second level.\nAll community points are insured and redeemable with basic platform tokens (CMN tokens), and their creation is managed according to the bancor protocol.\n\nPoints can be converted to CMN tokens, transferred to your friends, or exchanged to Points of other communities.",
+        "imageUrl": "/images/pages/faq/section-buy-points.png"
       },
-      "4": {
-        "title": "What else can you do with the points?",
-        "description": "Points can be exchanged for Commun tokens. Tokens can be used to acquire points within other communities."
+      {
+        "id": "4",
+        "title": "What is the logic of having so many different points?",
+        "description": "Each community has its own Points which guarantee full independence. You can consider them as an internal currency, redeemable with a CMN token."
       },
-      "41": {
-        "title": "Evaluate content",
-        "description": "Use Points to evaluate the content. You use points when you “like” somebody's post. The more likes a post receives, the more chances that it will be among the top 10 posts of the community and be rewarded. Rewards could bring additional benefits, such as author recognition or powers to moderate content."
+      {
+        "id": "5",
+        "title": "If I have a bigger stake in the community, will my vote  give the post a bigger reward?",
+        "description": "Your community points stake will affect the post/vote reward  although it’s not the main parameter but the post's “popularity” has nothing to do with the stake at all."
       },
-      "42": {
-        "title": "Exchange Points",
-        "description": "You can convert points of your community to Commun tokens and then to points of any other community."
+      {
+        "id": "6",
+        "title": "What’s the purpose of communities on Commun?",
+        "description": "Check this article to learn about the essential ideas behind communities from the example of the Community of Gardeners: https://commun.com/askCommun@shtefan-daily/1586264773"
       },
-      "43": {
-        "title": "Become a leader",
-        "description": "Every community on Commun has its leaders. Community leaders are the users who applied for the leadership positions and got votes from other users. The voting process is permanent. The leaders receive rewards proportionally to the number of points they get from voting."
+      {
+        "id": "7",
+        "title": "How do I create my community?",
+        "description": "Here's a quick explanation of how the community creation works.\n1. You must have a balance of 10,000 СMN\n2. It is necessary to fill all the required fields, upload avatars, and cover image, etc.\n3. The transaction of 10 000 СMN goes to the proxy account \n4. 1000 CMN is burned, tokens are sent to a cyber.null account and withdrawn from circulation. (you can see it in the block explorer)\n5. Then the community is initialized, 1 CMN is sent to the reserve, the first 100,000 Community Points are created and sent to the creator’s account \n6. All of the remaining amount (8999 CMN) converts to community points.\n7. 10% of created community points transfer to the account c.bounty. These points are the pool for  distribution to users during registration when they select the first 3 communities.\n8. The remaining 90% goes to the account of the user who created the community.\n9. There is an automatic subscription to the created community and registration of the user who created the message as a leader.\n\n\nOnly the owner of community points decides how to dispose of them. Points can be transferred to another user, converted back to CMN Tokens, or you can vote with all your stake for posts or comments.\nRegardless of how the creator of the community decides to dispose of his points, the community will continue to function."
       },
-      "5": {
-        "title": "How can you get the points?",
-        "description": "You can get points in several ways:"
+      {
+        "id": "8",
+        "title": "Where do the 1000 CMN tokens go when I create my community?",
+        "description": "You can consider 1000 CMN as a fee, but we do not take it  ourselves. We burn 1000 CMN tokens and reduce the total amount of CMN in circulation. In the future, each such burning will increase the value of the CMN token and all points. We plan to add more burning mechanisms in the future.\nNow for staking. What we did is not staking, although it is reminiscent of it. \n\nThe community has two conditional balances.\n1. The number of coins in reserve.\n2. The number of points in circulation.\n\nWhen someone buys points, in fact, it creates new points and puts basic CMN tokens in the reserve balance as a security payment. With this, the increase in price for each newly created point occurs exponentially. Basic tokens remain on the balance of the community until the holder decides to sell them. In the case of a sale, the community points are destroyed, and the user is given a basic CMN token, according to the formula described in the smart contract."
       },
-      "51": {
-        "title": "Create posts or comment",
-        "description": "This is one of the fastest and easiest ways to get points. Those users whose posts get in the Top Ten community posts are rewarded. The content creators get 45% of daily token emissions."
+      {
+        "id": "9",
+        "title": "Which roles exist on Commun?",
+        "description": "There are several roles that you can perform as a user of Commun.",
+        "children": [
+          {
+            "id": "91",
+            "title": "Author - creates content.",
+            "description": "We believe that comments in social networks are crucially important. That’s why comments are rewarded on the same principles as posts. Posts with comments are always more interesting and engaging than those without them."
+          },
+          {
+            "id": "92",
+            "title": "Leaders of the community.",
+            "children": [
+              {
+                "id": "921",
+                "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+              },
+              {
+                "id": "922",
+                "description": "Leaders set up the rules of the community. Also, they are responsible for the description, avatar, and cover image. Soon there’ll be additional ways of setting the community description, and leaders will be responsible for them too."
+              },
+              {
+                "id": "923",
+                "description": "Leaders set up the rules of the community. Also, they are responsible for the description, avatar, and cover image. Soon there’ll be additional ways of setting the community description, and leaders will be responsible for them too.Leaders monitor and moderate content, published by authors. They track complaints and ensure that other users follow community rules. Leaders can hide the content from the feed and even deprive the rewards for such content, but only if this follows the rules."
+              }
+            ]
+          },
+          {
+            "id": "93",
+            "title": "Curator - evaluates content with upvotes or downvotes.",
+            "description": "We build “Trending” and “Hot” feeds based on this evaluation. Even if you don’t have points in a particular community, you can impact the furtherance of content in the feed. Also, content evaluation impacts the rewarding of posts and comments."
+          },
+          {
+            "id": "94",
+            "title": "Advertiser.",
+            "description": "We have a plan to build the mechanics for an additional monetization of communities through ad placements within them. We are currently working on it and will tell you about it later."
+          },
+          {
+            "id": "95",
+            "title": "Leader of Commun.",
+            "description": "Together with other leaders, he/she determines the vector of development of Commun. The leader of Commun sets up the general rules of the platform and makes decisions on the smart-contracts updates. The leader of Commun is elected by holders of the basic CMN token."
+          }
+        ]
       },
-      "52": {
-        "title": "Curate",
-        "description": "This is another fast and easy way to get points. Those users who manage “like” the the top 10 community posts are rewarded. The content curators get 45% of daily token emissions."
+      {
+        "id": "10",
+        "title": "What actions can I perform in general?",
+        "description": "There are general actions available to everyone:",
+        "children": [
+          {
+            "id": "101",
+            "title": "Registration.",
+            "description": "By registering on Commun, you get your account in the CyberWay network. That’s right, your account on Commun is a blockchain account. In the future, you’ll be able to use it in other applications based on CyberWay. You can learn about the transactional system in CyberWay here: (<a href=\"https://github.com/cyberway/cyberway/blob/master/White%20Paper\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/cyberway/cyberway/blob/master/White%20Paper</a>) I want to draw your attention to the fact that all the actions on Commun are free and do not require tokens of the CyberWay network. Our services provide the necessary bandwidth for our users. We try to make the first touch with the technology as easy as possible for users who aren’t enthusiasts (yet). This was the reason we made it possible to register with custom passwords and via other popular social networks."
+          },
+          {
+            "id": "102",
+            "title": "Creation of communities.",
+            "description": "This is the latest feature, but our users have already started to create their communities. We are very glad and happy that you are exploring our platform and using all its potential. Creating a community on Commun, you create a decentralized community that functions within the framework of the logic of smart-contracts. All the roles and actions described in this article are set in smart-contracts. Thus nobody can fake or change it without the direct permission of the community or its users."
+          },
+          {
+            "id": "103",
+            "title": "Reporting the content.",
+            "description": "If an author violated the rules of the community or basic rules of Commun, it’s better to report the published content. Leaders will solve it."
+          },
+          {
+            "id": "104",
+            "title": "Follow/Unfollow/Blacklist the community.",
+            "description": "“Follow” adds posts of the community in your feed, “Unfollow” removes them and everything is as usual. You can add the community in the blacklist, then posts in the blocked community won’t appear anywhere for you."
+          },
+          {
+            "id": "105",
+            "title": "Follow/Unfollow/Blacklist the user.",
+            "description": "Works in the same way as with communities."
+          },
+          {
+            "id": "106",
+            "title": "Transfer of tokens (CMN) and community points."
+          },
+          {
+            "id": "107",
+            "title": "Exchange of tokens to points and vice versa.",
+            "description": "The exchange works algorithmically, and all the logic is ensured by the smart-contract. I’ll touch on this topic in more detail in the following article."
+          },
+          {
+            "id": "108",
+            "title": "Exchange of the different cryptocurrencies to Commun tokens (CMN).",
+            "description": "Right now, users can acquire CMN tokens with a variety of cryptocurrencies (this service is provided by Change Hero). We are working on the possibility of buyback of tokens and are in the process of negotiating this with several providers."
+          },
+          {
+            "id": "109",
+            "title": "Participating in the referral program.",
+            "description": "Every link on Commun is a referral. Post them in other social networks, and when a user registers on Commun from your link, you get rewards! 1 CMN token for each registered user + 5% of their purchases on Commun."
+          }
+        ]
       },
-      "53": {
-        "title": "Become a leader",
-        "description": "Three users who get most votes become leaders. The leaders get 10% of daily token emissions."
+      {
+        "id": "11",
+        "title": "Who can become the leader?",
+        "description": "In short, everyone.\nIn detail, members of the community elect leaders according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
       },
-      "54": {
-        "title": "Get points in exchange for Commun tokens",
-        "description": "Commun token is the native token of the Commun platform that can be converted into points of different Commun communities."
+      {
+        "id": "12",
+        "title": "How do I claim my rewards?",
+        "description": "The rewards don’t appear immediately. The mechanics could be described as a chain (or queue) of reward units (for every separate post, like, or comment), that step-by-step go to your Wallet. To claim your rewards, you need to perform general activities - likes, posts, comments. Don’t be confused :)"
       },
-      "6": {
-        "title": "Who issues Community Points?",
-        "description": "Community Points for each community are issued via Bonding Curve mechanism when Commun tokens are locked. For more details read <a href=\"{{DOC_WHITEPAPER_LINK}}\" target=\"_blank\" rel=\"noopener noreferrer\">White Paper</a>."
+      {
+        "faq": {
+          "nav-mobile": "FAQ",
+          "title": "How does Commun work?",
+          "description": "Commun is built on autonomous communities that fully belong to users. Each community is self-regulated by a core scope of leaders, continuously electable by community members.",
+          "sections": [
+            {
+              "id": "1",
+              "title": "What is Commun?",
+              "description": "Commun serves as a web, Android, and iOS portal where users can form interest-based groups to share, read, watch, rank, and discuss content with like-minded people. The platform, comprised of decentralised autonomous communities (DACs), is the first Web-3 social network to launch since interest in the technology was shown following an outcry over censorship, de-platforming, and data-selling by social media giants.",
+              "children": [
+                {
+                  "id": "11",
+                  "title": "Commun allows users to:",
+                  "description": "- manage communities and content by upvoting and downvoting posts;\n- elect their leader according to the principles of a liquid democracy;\n- and  most importantly - monetize their activities."
+                },
+                {
+                  "id": "12",
+                  "title": "Managing content:",
+                  "description": "By upvoting posts, users bring the best ones to the Top 10 of the day (this top 10 recalculates every hour).\nWhen the post reaches the Top - the blockchain algorithmically supplies the author and curators (ones who upvoted and commented) with the Points of this community."
+                },
+                {
+                  "id": "13",
+                  "title": "It works like this:",
+                  "description": "The post gets rewards (we indicate it with the coin mark on Commun), then from this amount of the reward 45% goes to the author, 45% to curators, and 10% to the leaders of the community as a fee for their work"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "title": "What is a community on Commun?",
+              "description": "Community on Commun is a decentralized and self-governed group based on particular thematics. They are fully independent, having their own economy and governance.\nThe monetization of publications, likes, and comments is secured by smart-contract.\nCommunity members elect leaders by voting the nominees. Leaders, in turn, manage content, set up the rules, and keep the community healthy. Learn more about the leadership in the “Which roles exist on Commun?” section down below."
+            },
+            {
+              "id": "3",
+              "title": "What are CMN tokens and community Points?",
+              "description": "CMN is a basic token of the platform. It can be utilized to create communities, issue community points, and vote for leaders. In the future, it will release the ad networks for the community.\n\nEach community has its own Points. It's a token of the second level.\nAll community points are insured and redeemable with basic platform tokens (CMN tokens), and their creation is managed according to the bancor protocol.\n\nPoints can be converted to CMN tokens, transferred to your friends, or exchanged to Points of other communities.",
+              "imageUrl": "/images/pages/faq/section-buy-points.png"
+            },
+            {
+              "id": "4",
+              "title": "What is the logic of having so many different points?",
+              "description": "Each community has its own Points which guarantee full independence. You can consider them as an internal currency, redeemable with a CMN token."
+            },
+            {
+              "id": "5",
+              "title": "If I have a bigger stake in the community, will my vote  give the post a bigger reward?",
+              "description": "Your community points stake will affect the post/vote reward  although it’s not the main parameter but the post's “popularity” has nothing to do with the stake at all."
+            },
+            {
+              "id": "6",
+              "title": "What’s the purpose of communities on Commun?",
+              "description": "Check this article to learn about the essential ideas behind communities from the example of the Community of Gardeners: https://commun.com/askCommun@shtefan-daily/1586264773"
+            },
+            {
+              "id": "7",
+              "title": "How do I create my community?",
+              "description": "Here's a quick explanation of how the community creation works.\n1. You must have a balance of 10,000 СMN\n2. It is necessary to fill all the required fields, upload avatars, and cover image, etc.\n3. The transaction of 10 000 СMN goes to the proxy account \n4. 1000 CMN is burned, tokens are sent to a cyber.null account and withdrawn from circulation. (you can see it in the block explorer)\n5. Then the community is initialized, 1 CMN is sent to the reserve, the first 100,000 Community Points are created and sent to the creator’s account \n6. All of the remaining amount (8999 CMN) converts to community points.\n7. 10% of created community points transfer to the account c.bounty. These points are the pool for  distribution to users during registration when they select the first 3 communities.\n8. The remaining 90% goes to the account of the user who created the community.\n9. There is an automatic subscription to the created community and registration of the user who created the message as a leader.\n\n\nOnly the owner of community points decides how to dispose of them. Points can be transferred to another user, converted back to CMN Tokens, or you can vote with all your stake for posts or comments.\nRegardless of how the creator of the community decides to dispose of his points, the community will continue to function."
+            },
+            {
+              "id": "8",
+              "title": "Where do the 1000 CMN tokens go when I create my community?",
+              "description": "You can consider 1000 CMN as a fee, but we do not take it  ourselves. We burn 1000 CMN tokens and reduce the total amount of CMN in circulation. In the future, each such burning will increase the value of the CMN token and all points. We plan to add more burning mechanisms in the future.\nNow for staking. What we did is not staking, although it is reminiscent of it. \n\nThe community has two conditional balances.\n1. The number of coins in reserve.\n2. The number of points in circulation.\n\nWhen someone buys points, in fact, it creates new points and puts basic CMN tokens in the reserve balance as a security payment. With this, the increase in price for each newly created point occurs exponentially. Basic tokens remain on the balance of the community until the holder decides to sell them. In the case of a sale, the community points are destroyed, and the user is given a basic CMN token, according to the formula described in the smart contract."
+            },
+            {
+              "id": "9",
+              "title": "Which roles exist on Commun?",
+              "description": "There are several roles that you can perform as a user of Commun."
+            },
+            {
+              "id": "10",
+              "title": "What actions can I perform in general?",
+              "description": "There are general actions available to everyone:",
+              "children": [
+                {
+                  "id": "101",
+                  "title": "Registration.",
+                  "description": "By registering on Commun, you get your account in the CyberWay network. That’s right, your account on Commun is a blockchain account. In the future, you’ll be able to use it in other applications based on CyberWay. You can learn about the transactional system in CyberWay here: (https://github.com/cyberway/cyberway/blob/master/White%20Paper) I want to draw your attention to the fact that all the actions on Commun are free and do not require tokens of the CyberWay network. Our services provide the necessary bandwidth for our users. We try to make the first touch with the technology as easy as possible for users who aren’t enthusiasts (yet). This was the reason we made it possible to register with custom passwords and via other popular social networks."
+                },
+                {
+                  "id": "102",
+                  "title": "Creation of communities.",
+                  "description": "This is the latest feature, but our users have already started to create their communities. We are very glad and happy that you are exploring our platform and using all its potential. Creating a community on Commun, you create a decentralized community that functions within the framework of the logic of smart-contracts. All the roles and actions described in this article are set in smart-contracts. Thus nobody can fake or change it without the direct permission of the community or its users."
+                },
+                {
+                  "id": "103",
+                  "title": "Reporting the content.",
+                  "description": "If an author violated the rules of the community or basic rules of Commun, it’s better to report the published content. Leaders will solve it."
+                },
+                {
+                  "id": "104",
+                  "title": "Follow/Unfollow/Blacklist the community.",
+                  "description": "“Follow” adds posts of the community in your feed, “Unfollow” removes them and everything is as usual. You can add the community in the blacklist, then posts in the blocked community won’t appear anywhere for you."
+                },
+                {
+                  "id": "105",
+                  "title": "Follow/Unfollow/Blacklist the user.",
+                  "description": "Works in the same way as with communities."
+                },
+                {
+                  "id": "106",
+                  "title": "Transfer of tokens (CMN) and community points."
+                },
+                {
+                  "id": "107",
+                  "title": "Exchange of tokens to points and vice versa.",
+                  "description": "The exchange works algorithmically, and all the logic is ensured by the smart-contract. I’ll touch on this topic in more detail in the following article."
+                },
+                {
+                  "id": "108",
+                  "title": "Exchange of the different cryptocurrencies to Commun tokens (CMN).",
+                  "description": "Right now, users can acquire CMN tokens with a variety of cryptocurrencies (this service is provided by Change Hero). We are working on the possibility of buyback of tokens and are in the process of negotiating this with several providers."
+                },
+                {
+                  "id": "109",
+                  "title": "Participating in the referral program.",
+                  "description": "Every link on Commun is a referral. Post them in other social networks, and when a user registers on Commun from your link, you get rewards! 1 CMN token for each registered user + 5% of their purchases on Commun."
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "title": "Who can become the leader?",
+              "description": "In short, everyone.\nIn detail, members of the community elect leaders according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+            },
+            {
+              "id": "12",
+              "title": "How do I claim my rewards?",
+              "description": "The rewards don’t appear immediately. The mechanics could be described as a chain (or queue) of reward units (for every separate post, like, or comment), that step-by-step go to your Wallet. To claim your rewards, you need to perform general activities - likes, posts, comments. Don’t be confused :)"
+            },
+            {
+              "id": "13",
+              "title": "How does the voting for leader work?",
+              "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+            },
+            {
+              "id": "14",
+              "title": "Do larger communities get more rewards?",
+              "description": "Each community has its own emission of community points, and they are not  dependent on each other in any way. However, the larger the community is, the more commun points are supplied with commun tokens (supposing that each subscriber has spent their commun tokens to buy community points) and the more the point price is which means that the equity value will be higher."
+            },
+            {
+              "id": "15",
+              "title": "What’s the Wallet and how does it work?",
+              "description": "Wallet is your personal cabinet where you can perform and track your transactions, such as:\n- Buying CMN tokens;\n- Exchanging of community Points into CMN tokens and vice versa;\n- Sending Points to your friends;\n- Tracking the balance of Points of each community you are subscribed to;\n- Tracking the history of transactions and rewards;\nAlso, you can always see the equity value of your account in USD or CMN tokens. It’s the total value of all your community Points, as well as the CMN tokens that you hold."
+            },
+            {
+              "id": "16",
+              "title": "What kind of authorization is implemented on Commun?",
+              "description": "You can learn about authorization process and its technology in this article: https://commun.com/askcommun/@catraed/1583338375"
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "13",
+        "title": "How does the voting for leader work?",
+        "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+      },
+      {
+        "id": "14",
+        "title": "Do larger communities get more rewards?",
+        "description": "Each community has its own emission of community points, and they are not  dependent on each other in any way. However, the larger the community is, the more commun points are supplied with commun tokens (supposing that each subscriber has spent their commun tokens to buy community points) and the more the point price is which means that the equity value will be higher."
+      },
+      {
+        "id": "15",
+        "title": "What’s the Wallet and how does it work?",
+        "description": "Wallet is your personal cabinet where you can perform and track your transactions, such as:\n- Buying CMN tokens;\n- Exchanging of community Points into CMN tokens and vice versa;\n- Sending Points to your friends;\n- Tracking the balance of Points of each community you are subscribed to;\n- Tracking the history of transactions and rewards;\nAlso, you can always see the equity value of your account in USD or CMN tokens. It’s the total value of all your community Points, as well as the CMN tokens that you hold."
+      },
+      {
+        "id": "16",
+        "title": "What kind of authorization is implemented on Commun?",
+        "description": "You can learn about authorization process and its technology in this <a href=\"https://commun.com/askcommun/@catraed/1583338375\" target=\"_blank\" rel=\"noopener noreferrer\">article</a>"
       }
-    }
+    ]
   }
 }

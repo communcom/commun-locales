@@ -453,7 +453,7 @@
           "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
           "last": ""
         },
-        "donation": "пожертвовал вашему посту “{{shortText}}“: {{amount}} {{symbol}}"
+        "donation": "пожертвовал вашему посту{{shortText}}: {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {

@@ -50,7 +50,7 @@
       {
         "id": "6",
         "title": "What’s the purpose of communities on Commun?",
-        "description": "Check this article to learn about the essential ideas behind communities from the example of the Community of Gardeners: https://commun.com/askCommun@shtefan-daily/1586264773"
+        "description": "Check this article to learn about the essential ideas behind communities from the example of <a href=\"https://commun.com/askcommun/@shtefan-daily/1586264773\" target=\"_blank\" rel=\"noopener noreferrer\">the Community of Gardeners</a>"
       },
       {
         "id": "7",
@@ -220,7 +220,7 @@
             {
               "id": "6",
               "title": "What’s the purpose of communities on Commun?",
-              "description": "Check this article to learn about the essential ideas behind communities from the example of the Community of Gardeners: https://commun.com/askCommun@shtefan-daily/1586264773"
+              "description": "Check this article to learn about the essential ideas behind communities from the example of <a href=\"https://commun.com/askcommun/@shtefan-daily/1586264773\" target=\"_blank\" rel=\"noopener noreferrer\">the Community of Gardeners</a>"
             },
             {
               "id": "7",
@@ -245,7 +245,7 @@
                 {
                   "id": "101",
                   "title": "Registration.",
-                  "description": "By registering on Commun, you get your account in the CyberWay network. That’s right, your account on Commun is a blockchain account. In the future, you’ll be able to use it in other applications based on CyberWay. You can learn about the transactional system in CyberWay here: (https://github.com/cyberway/cyberway/blob/master/White%20Paper) I want to draw your attention to the fact that all the actions on Commun are free and do not require tokens of the CyberWay network. Our services provide the necessary bandwidth for our users. We try to make the first touch with the technology as easy as possible for users who aren’t enthusiasts (yet). This was the reason we made it possible to register with custom passwords and via other popular social networks."
+                  "description": "By registering on Commun, you get your account in the CyberWay network. That’s right, your account on Commun is a blockchain account. In the future, you’ll be able to use it in other applications based on CyberWay. You can learn about the transactional system in CyberWay here: (<a href=\"https://github.com/cyberway/cyberway/blob/master/White%20Paper\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/cyberway/cyberway/blob/master/White%20Paper</a>) I want to draw your attention to the fact that all the actions on Commun are free and do not require tokens of the CyberWay network. Our services provide the necessary bandwidth for our users. We try to make the first touch with the technology as easy as possible for users who aren’t enthusiasts (yet). This was the reason we made it possible to register with custom passwords and via other popular social networks."
                 },
                 {
                   "id": "102",
@@ -316,7 +316,7 @@
             {
               "id": "16",
               "title": "What kind of authorization is implemented on Commun?",
-              "description": "You can learn about authorization process and its technology in this article: https://commun.com/askcommun/@catraed/1583338375"
+              "description": "You can learn about authorization process and its technology in this <a href=\"https://commun.com/askcommun/@catraed/1583338375\" target=\"_blank\" rel=\"noopener noreferrer\">article</a>"
             }
           ]
         }

@@ -78,7 +78,8 @@
             "children": [
               {
                 "id": "921",
-                "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+                "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future.",
+                "imageUrl": "/images/pages/faq/section-become-leader.png"
               },
               {
                 "id": "922",
@@ -321,7 +322,6 @@
           ]
         }
       },
-
       {
         "id": "13",
         "title": "How does the voting for leader work?",

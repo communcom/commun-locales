@@ -453,7 +453,7 @@
           "first": "Получено {{amountStr}}. Реферальный бонус - {{percent}}% от покупки",
           "last": ""
         },
-        "donation": "пожертвовал вашему посту{{shortText}}: {{amount}} {{symbol}}"
+        "donation": "задонатил вашему посту{{shortText}}: {{amount}} {{symbol}}"
       }
     },
     "notification_counter": {
@@ -1014,17 +1014,17 @@
         }
       },
       "donate_points": {
-        "title": "Пожертвовать",
+        "title": "Донат",
         "to": "Кому",
         "select_user": "Выбрать пользователя",
         "change_user": "Изменить пользователя",
         "amount": "Сумма",
         "hint": "Операция может занять некоторое время",
-        "send": "Пожертвовать",
+        "send": "Донат",
         "fee_text": "{{percent}}% сгорит",
         "toastsMessages": {
-          "success": "Пожертвование успешно",
-          "failed": "Пожертвование не удалось"
+          "success": "Донат успешен",
+          "failed": "Донат не удался"
         }
       }
     },

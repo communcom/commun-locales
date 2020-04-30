@@ -215,6 +215,7 @@
             "first": "你收到 {{percent}}% 来自",
             "last": "的购买"
           },
+          "donation": "Donation",
           "convert": "转换",
           "like": "审阅奖励",
           "leader_reward": "领导者奖励"

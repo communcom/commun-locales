@@ -1256,7 +1256,8 @@
       "title": "Donate",
       "points": "points",
       "other": "Other",
-      "donations": "Donations"
+      "donation": "+ {{count}} Donation",
+      "donation_plural": "+ {{count}} Donations"
     }
   },
 

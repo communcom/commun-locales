@@ -78,7 +78,6 @@
     "trending": "В тренде",
     "hot": "Горячее",
     "wallet": "Кошелек",
-    "discovery": "Обзор",
     "management": "Управление",
     "communities": "Сообщества",
     "new_post": "Новый пост"
@@ -964,7 +963,7 @@
             "agree": "Нажимая Купить, ты принимаешь <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условия обслуживания</a> {{provider}}"
           },
           "header": {
-            "buy": "Купить"
+            "title": "Купить"
           }
         }
       },
@@ -996,6 +995,7 @@
       },
       "select_token": {
         "title": "Выбрать валюту",
+        "title_buy": "Купить CMN с помощью...",
         "card": "Visa/Master Card",
         "search": "Искать токены",
         "no_found": "Нет токенов"

@@ -70,7 +70,6 @@
     "trending": "Trending",
     "hot": "Hot",
     "wallet": "Wallet",
-    "discovery": "Discovery",
     "management": "Management",
     "communities": "Communities",
     "new_post": "New post"
@@ -215,7 +214,6 @@
             "first": "You received {{percent}}% of",
             "last": "'s purchase"
           },
-          "donation": "Donation",
           "convert": "Convert",
           "like": "Curator reward",
           "leader_reward": "Leader Reward"
@@ -957,7 +955,33 @@
             "agree": "By clicking Convert, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
           },
           "header": {
-            "buy": "Buy"
+            "title": "Buy"
+          }
+        }
+      },
+      "sell_commun": {
+        "address": {},
+        "select": {
+          "fee": "PayMIR Fee",
+          "pay": "You Pay",
+          "rate": "Rate",
+          "you_send": "You send",
+          "amount": "Amount",
+          "minimum_charge": "Minimum charge is {{amount}} {{symbol}}",
+          "you_get": "You get",
+          "sell": "Sell Commun"
+        },
+        "success": {
+          "completed": "Conversion completed",
+          "total_charged": "Total charged"
+        },
+        "common": {
+          "billing_info": {
+            "title": "The sell is made by",
+            "agree": "By clicking Sell, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
+          },
+          "header": {
+            "title": "Sell"
           }
         }
       },
@@ -989,6 +1013,7 @@
       },
       "select_token": {
         "title": "Choose Currency",
+        "title_buy": "Buy some CMN with...",
         "card": "Visa/Master Card",
         "search": "Search tokens",
         "no_found": "No tokens"

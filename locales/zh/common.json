@@ -70,7 +70,6 @@
     "trending": "流行",
     "hot": "热门",
     "wallet": "钱包",
-    "discovery": "发现",
     "management": "管理",
     "communities": "社区",
     "new_post": "新文章"
@@ -957,7 +956,7 @@
             "agree": "点击转换按钮, 意味着你同意 {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">服务条款。</a>"
           },
           "header": {
-            "buy": "购买"
+            "title": "购买"
           }
         }
       },
@@ -989,6 +988,7 @@
       },
       "select_token": {
         "title": "选择货币",
+        "title_buy": "用...购买一些CMN",
         "card": "Visa或者Master卡",
         "search": "搜索币",
         "no_found": "没有币"

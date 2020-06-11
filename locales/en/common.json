@@ -214,6 +214,7 @@
             "first": "You received {{percent}}% of",
             "last": "'s purchase"
           },
+          "donation": "Donation",
           "convert": "Convert",
           "like": "Curator reward",
           "leader_reward": "Leader Reward"

@@ -40,6 +40,8 @@
     "search_placeholder": "Search...",
     "equity_value": "Equity Value",
     "equity_value_commun": "Equity Value Commun",
+    "like": "Like",
+    "Dislike": "Dislike",
     "counters": {
       "follower": "Follower",
       "follower_plural": "Followers",
@@ -216,7 +218,7 @@
           },
           "donation": "Donation",
           "convert": "Convert",
-          "like": "Curator reward",
+          "curator": "Curator reward",
           "leader_reward": "Leader Reward"
         }
       }

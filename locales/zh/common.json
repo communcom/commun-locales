@@ -40,6 +40,8 @@
     "search_placeholder": "搜索...",
     "equity_value": "总价值",
     "equity_value_commun": "Commun权益价值",
+    "like": "Like",
+    "Dislike": "Dislike",
     "counters": {
       "follower": "粉丝",
       "follower_plural": "粉丝",
@@ -216,7 +218,7 @@
           },
           "donation": "Donation",
           "convert": "转换",
-          "like": "审阅奖励",
+          "curator": "审阅奖励",
           "leader_reward": "领导者奖励"
         }
       }

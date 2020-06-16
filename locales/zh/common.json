@@ -194,7 +194,8 @@
         "empty": "发送记录为空",
         "empty_desc": "没有发送记录",
         "no_found": "没找到发送记录",
-        "no_found_desc": "尝试发送或者转换"
+        "no_found_desc": "尝试发送或者转换",
+        "with_memo": "Transaction with Memo"
       },
       "points_grid": {
         "on_hold": "{{quantity}} 冻结中"

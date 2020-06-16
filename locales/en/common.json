@@ -194,7 +194,8 @@
         "empty": "History empty",
         "empty_desc": "No transactions",
         "no_found": "No transactions found",
-        "no_found_desc": "Try to send or convert"
+        "no_found_desc": "Try to send or convert",
+        "with_memo": "Transaction with Memo"
       },
       "points_grid": {
         "on_hold": "{{quantity}} on hold"

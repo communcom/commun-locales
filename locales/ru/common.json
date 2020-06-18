@@ -516,7 +516,7 @@
       "old_rule": "Старое правило",
       "remove_rule": "Удалить правило",
       "set_description": "Описание группы",
-      "update description": "Редактировать описание",
+      "update_description": "Редактировать описание",
       "old_description": "Старое описание",
       "voted": "Голосование",
       "voted_text": "{{approvesCount}} из {{approvesNeed}} голосов",

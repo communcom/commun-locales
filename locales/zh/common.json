@@ -506,7 +506,7 @@
       "old_rule": "旧的规则",
       "remove_rule": "删除规则",
       "set_description": "设置说明",
-      "update description": "更新说明",
+      "update_description": "更新说明",
       "old_description": "旧的说明",
       "voted": "投票",
       "voted_text": "{{approvesCount}} 从 {{approvesNeed}} 票",

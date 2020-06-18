@@ -506,7 +506,7 @@
       "old_rule": "Old rule",
       "remove_rule": "Remove rule",
       "set_description": "Set description",
-      "update description": "Update description",
+      "update_description": "Update description",
       "old_description": "Old description",
       "voted": "Voted",
       "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",

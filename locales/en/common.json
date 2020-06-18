@@ -5,6 +5,7 @@
     "my_feed": "My Feed",
     "see_all": "See all",
     "see_more": "See more",
+    "show_less": "Show less",
     "sign_in": "Sign in",
     "sign_up": "Sign up",
     "accept": "Accept",
@@ -223,6 +224,10 @@
           "curator": "Curator reward",
           "leader_reward": "Leader Reward"
         }
+      },
+      "point_info_panel": {
+        "available": "Available",
+        "hold": "Hold"
       }
     },
     "leaderboard": {

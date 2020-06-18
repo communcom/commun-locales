@@ -5,6 +5,7 @@
     "my_feed": "我的关注",
     "see_all": "查看全部",
     "see_more": "See more",
+    "show_less": "Show less",
     "sign_in": "登录",
     "sign_up": "注册",
     "accept": "同意",
@@ -223,6 +224,10 @@
           "curator": "审阅奖励",
           "leader_reward": "领导者奖励"
         }
+      },
+      "point_info_panel": {
+        "available": "Available",
+        "hold": "Hold"
       }
     },
     "leaderboard": {

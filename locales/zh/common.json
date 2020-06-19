@@ -1026,8 +1026,8 @@
         "send": "Donate",
         "fee_text": "{{percent}}% will be burned",
         "toastsMessages": {
-          "success": "Donate is successful",
-          "failed": "Donate is failed"
+          "success": "Donation is successful",
+          "failed": "Donation is failed"
         }
       }
     },

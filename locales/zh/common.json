@@ -603,7 +603,10 @@
       "vote_up": "赞",
       "vote_down": "踩",
       "cant_cancel_own": "无法取消对自己发表的文章的投票",
-      "cant_down_own": "无法踩自己发表的文章"
+      "cant_down_own": "无法踩自己发表的文章",
+      "toastsMessages": {
+        "error": "You are blocked by the user"
+      }
     },
     "nsfw_warning": {
       "title": "NSFW 成人内容",
@@ -1155,7 +1158,8 @@
       "title_plural": "领导者",
       "claim": "领取领导者奖励",
       "toastsMessages": {
-        "claimed": "成功领取领导者奖励"
+        "claimed": "成功领取领导者奖励",
+        "error": "No leadership reward to claim"
       }
     },
     "manage_community": {

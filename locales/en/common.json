@@ -603,7 +603,10 @@
       "vote_up": "Vote Up",
       "vote_down": "Vote Down",
       "cant_cancel_own": "Can't cancel vote on own publication",
-      "cant_down_own": "Can't down vote your own publications"
+      "cant_down_own": "Can't down vote your own publications",
+      "toastsMessages": {
+        "error": "You are blocked by the user"
+      }
     },
     "nsfw_warning": {
       "title": "NSFW content",
@@ -1181,7 +1184,8 @@
       "title_plural": "Leaders",
       "claim": "Claim leader’s rewards",
       "toastsMessages": {
-        "claimed": "Leadership payouts successfully claimed"
+        "claimed": "Leadership payouts successfully claimed",
+        "error": "No leadership reward to claim"
       }
     },
     "manage_community": {

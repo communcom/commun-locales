@@ -614,10 +614,7 @@
       "vote_up": "Лайк",
       "vote_down": "Дизлайк",
       "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
-      "cant_down_own": "Нельзя дизлайкать собственные публикации",
-      "toastsMessages": {
-        "error": "Вы заблокированы пользователем"
-      }
+      "cant_down_own": "Нельзя дизлайкать собственные публикации"
     },
     "nsfw_warning": {
       "title": "Контент 18+",
@@ -1310,7 +1307,8 @@
     "cashout_window": "Голосование окончено",
     "incorrect_delegate_proxy_level": "Нельзя назначить на этого пользователя",
     "the_entire_amount_is_spent_on_fee": "Вся сумма расходуется на комиссию",
-    "these_points_cost_zero_tokens": "Поинты стоят ноль токенов"
+    "these_points_cost_zero_tokens": "Поинты стоят ноль токенов",
+    "you_are_blocked_by_the_user": "Вы заблокированы пользователем"
   },
 
   "toastsMessages": {

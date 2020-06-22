@@ -603,10 +603,7 @@
       "vote_up": "赞",
       "vote_down": "踩",
       "cant_cancel_own": "无法取消对自己发表的文章的投票",
-      "cant_down_own": "无法踩自己发表的文章",
-      "toastsMessages": {
-        "error": "You are blocked by the user"
-      }
+      "cant_down_own": "无法踩自己发表的文章"
     },
     "nsfw_warning": {
       "title": "NSFW 成人内容",
@@ -1296,7 +1293,8 @@
     "cashout_window": "投票时间结束了",
     "incorrect_delegate_proxy_level": "无法委派给此用户",
     "the_entire_amount_is_spent_on_fee": "The entire amount is spent on fee",
-    "these_points_cost_zero_tokens": "These points cost zero tokens"
+    "these_points_cost_zero_tokens": "These points cost zero tokens",
+    "you_are_blocked_by_the_user": "You are blocked by the user"
   },
 
   "toastsMessages": {

@@ -616,7 +616,7 @@
       "cant_cancel_own": "Нельзя отменить лайк в своей публикации",
       "cant_down_own": "Нельзя дизлайкать собственные публикации",
       "toastsMessages": {
-        "error": "You are blocked by the user"
+        "error": "Вы заблокированы пользователем"
       }
     },
     "nsfw_warning": {

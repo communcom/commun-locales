@@ -152,7 +152,10 @@
         }
       },
       "keys": {
-        "title": "密钥",
+        "title": "Public keys",
+        "title_private": "Private keys",
+        "show_private_keys": "Show private keys",
+        "show_public_keys": "Show public keys",
         "copy": "拷贝密钥",
         "active": {
           "title": "活动密钥",

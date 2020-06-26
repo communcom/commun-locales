@@ -152,7 +152,10 @@
         }
       },
       "keys": {
-        "title": "Keys",
+        "title": "Public keys",
+        "title_private": "Private keys",
+        "show_private_keys": "Show private keys",
+        "show_public_keys": "Show public keys",
         "copy": "Copy key",
         "active": {
           "title": "Active key",

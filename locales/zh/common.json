@@ -122,6 +122,11 @@
       }
     },
     "settings": {
+      "tabs": {
+        "general": "General",
+        "notifications": "Notifications",
+        "keys": "Keys"
+      },
       "logout": "注销",
       "general": {
         "title": "标题",

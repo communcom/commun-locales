@@ -132,6 +132,11 @@
       }
     },
     "settings": {
+      "tabs": {
+        "general": "Общие",
+        "notifications": "Уведомления",
+        "keys": "Ключи"
+      },
       "logout": "Выйти",
       "general": {
         "title": "Общие",

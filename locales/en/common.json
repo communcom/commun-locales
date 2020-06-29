@@ -131,6 +131,7 @@
       "general": {
         "title": "General",
         "language": "Interface language",
+        "languagePosts": "Feed post languages",
         "theme": "Theme",
         "theme_type": {
           "light": "Light",

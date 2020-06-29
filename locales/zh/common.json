@@ -131,6 +131,7 @@
       "general": {
         "title": "标题",
         "language": "语言",
+        "languagePosts": "Feed post languages",
         "theme": "主題",
         "theme_type": {
           "light": "明亮的",

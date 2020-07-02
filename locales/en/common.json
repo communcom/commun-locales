@@ -134,7 +134,7 @@
         "title": "General",
         "language": "Interface language",
         "languagePosts": "Feed post languages",
-        "languageCurrency": "Feed post currency",
+        "currencyPosts": "Feed post currency",
         "theme": "Theme",
         "theme_type": {
           "light": "Light",

@@ -134,7 +134,7 @@
         "title": "标题",
         "language": "语言",
         "languagePosts": "Feed post languages",
-        "languageCurrency": "Feed post currency",
+        "currencyPosts": "Feed post currency",
         "theme": "主題",
         "theme_type": {
           "light": "明亮的",

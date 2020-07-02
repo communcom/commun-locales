@@ -144,7 +144,7 @@
         "title": "Общие",
         "language": "Язык интерфейса",
         "languagePosts": "Язык постов в лентах",
-        "languageCurrency": "Валюта постов в лентах",
+        "currencyPosts": "Валюта постов в лентах",
         "theme": "Тема",
         "theme_type": {
           "light": "Светлая",

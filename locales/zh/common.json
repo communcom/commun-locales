@@ -125,13 +125,16 @@
       "tabs": {
         "general": "General",
         "notifications": "Notifications",
-        "keys": "Keys"
+        "keys": "Keys",
+        "current_keys": "Current keys",
+        "new_keys": "New keys"
       },
-      "logout": "注销",
+      "title": "Settings",
       "general": {
         "title": "标题",
         "language": "语言",
         "languagePosts": "Feed post languages",
+        "languageCurrency": "Feed post currency",
         "theme": "主題",
         "theme_type": {
           "light": "明亮的",
@@ -175,6 +178,18 @@
           "copied": "密钥已复制到剪贴板！",
           "copy_failed": "密钥复制到剪贴板失败！"
         }
+      },
+      "new_keys" : {
+        "title": "New keys",
+        "password_rules": [
+          "Do not lose your password.",
+          "Do not lose your password.",
+          "We cannot recover your password.",
+          "If you can remember the password, it's not secure.",
+          "Use only randomly-generated passwords.",
+          "Do not tell anyone your password.",
+          "Always back up your password."
+        ]
       }
     },
     "wallet": {

@@ -125,13 +125,16 @@
       "tabs": {
         "general": "General",
         "notifications": "Notifications",
-        "keys": "Keys"
+        "keys": "Keys",
+        "current_keys": "Current keys",
+        "new_keys": "New keys"
       },
-      "logout": "Logout",
+      "title": "Settings",
       "general": {
         "title": "General",
         "language": "Interface language",
         "languagePosts": "Feed post languages",
+        "languageCurrency": "Feed post currency",
         "theme": "Theme",
         "theme_type": {
           "light": "Light",
@@ -175,6 +178,18 @@
           "copied": "Key was copied to clipboard!",
           "copy_failed": "Copy to clipboard failed!"
         }
+      },
+      "new_keys" : {
+        "title": "New keys",
+        "password_rules": [
+          "Do not lose your password.",
+          "Do not lose your password.",
+          "We cannot recover your password.",
+          "If you can remember the password, it's not secure.",
+          "Use only randomly-generated passwords.",
+          "Do not tell anyone your password.",
+          "Always back up your password."
+        ]
       }
     },
     "wallet": {

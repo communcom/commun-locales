@@ -392,6 +392,10 @@
         "add_description": "添加说明(可选择的)",
         "description_placeholder": "输入与社区相关的内容"
       },
+      "subject": {
+        "title": "Subject",
+        "subject_placeholder": "Community subject"
+      },
       "rules": {
         "title": "规则",
         "new_rule": "新规则",

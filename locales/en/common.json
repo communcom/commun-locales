@@ -392,6 +392,10 @@
         "add_description": "Add description (optional)",
         "description_placeholder": "Type something about community"
       },
+      "subject": {
+        "title": "Subject",
+        "subject_placeholder": "Community subject"
+      },
       "rules": {
         "title": "Rules",
         "new_rule": "New rule",

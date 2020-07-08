@@ -402,6 +402,10 @@
         "add_description": "Добавь описание (опционально)",
         "description_placeholder": "Напиши что-нибудь о сообществе"
       },
+      "subject": {
+        "title": "Тематика",
+        "subject_placeholder": "Иематика сообщества"
+      },
       "rules": {
         "title": "Правила",
         "new_rule": "Новое правило",

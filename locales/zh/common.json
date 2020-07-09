@@ -1,5 +1,6 @@
 {
   "common": {
+    "required": "Required",
     "retry": "重试",
     "feed": "关注",
     "my_feed": "我的关注",
@@ -186,10 +187,30 @@
           "Do not lose your password.",
           "We cannot recover your password.",
           "If you can remember the password, it's not secure.",
-          "Use only randomly-generated passwords.",
+          "Use randomly-generated passwords.",
           "Do not tell anyone your password.",
           "Always back up your password."
-        ]
+        ],
+        "fields": {
+          "currentPassword": "Current password",
+          "newPassword": "New password",
+          "confirmNewPassword": "Confirm new password"
+        },
+        "delay_warning": "Your account has owner key restriction. Password can be changed only with time delay in %(delay)s days.",
+        "backup_password_by_storing_it": "Back it up by storing in your password manager or a text file",
+        "cannot_recover_password": "I understand that Commun cannot recover lost passwords",
+        "i_saved_password": "I have securely saved my password",
+        "errors": {
+          "wrong_password": "Entered the wrong password",
+          "passwords_do_not_match": "Passwords do not match"
+        },
+        "toastsMessages": {
+          "owner_not_found": "Owner key not found",
+          "keys_not_found": "Keys is not found",
+          "cant_extract": "Owner key can't be extracted",
+          "password_delay": "Password will be updated in %(delay) days",
+          "password_updated": "Password updated"
+        }
       }
     },
     "wallet": {

@@ -212,7 +212,8 @@
         "i_saved_password": "Я надежно сохранил пароль",
         "errors": {
           "wrong_password": "Неверный пароль",
-          "passwords_do_not_match": "Пароли не совпадают"
+          "passwords_do_not_match": "Пароли не совпадают",
+          "passwords_same": "Новый пароль совпадает с предыдущим"
         },
         "toastsMessages": {
           "owner_not_found": "Owner ключ не найден",

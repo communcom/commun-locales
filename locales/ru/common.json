@@ -47,6 +47,7 @@
     "equity_value_commun": "Капитализация в Commun",
     "like": "Лайк",
     "dislike": "Дислайк",
+    "lost_data_question": "Изменения будут потеряны. Продолжить?",
     "counters": {
       "follower_0": "Подписчик",
       "follower_1": "Подписчика",
@@ -566,9 +567,12 @@
       "update_rule": "Обновить правила",
       "old_rule": "Старое правило",
       "remove_rule": "Удалить правило",
-      "set_description": "Описание группы",
-      "update_description": "Редактировать описание",
+      "set_description": "Изменить описание",
+      "set_langauge": "Изменить язык сообщества",
+      "update_description": "Обновить описание",
+      "update_langauge": "Обновить язык",
       "old_description": "Старое описание",
+      "old_langauge": "Старый язык",
       "voted": "Голосование",
       "voted_text": "{{approvesCount}} из {{approvesNeed}} голосов",
       "toastsMessages": {
@@ -724,7 +728,6 @@
     "description_edit": {
       "title": "Редактировать описание",
       "description": "Описание",
-      "changes_lost": "Изменения будут потеряны. Продолжить?",
       "reset": "Сбросить",
       "create": "Создать предложение",
       "toastsMessages": {
@@ -795,8 +798,13 @@
       "title_field": "Заголовок",
       "description_field": "Описание",
       "remove_rule_question": "Будет создано предложение на удаление правила. Создать?",
-      "question": "Изменения будут потеряны. Продолжить?",
       "submit": "Создать предложение",
+      "toastsMessages": {
+        "created": "Предложение создано"
+      }
+    },
+    "community_language_edit": {
+      "title": "Изменение языка",
       "toastsMessages": {
         "created": "Предложение создано"
       }

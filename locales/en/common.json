@@ -45,6 +45,7 @@
     "equity_value_commun": "Equity Value Commun",
     "like": "Like",
     "dislike": "Dislike",
+    "lost_data_question": "Changes will be lost, continue?",
     "counters": {
       "follower": "Follower",
       "follower_plural": "Followers",
@@ -557,8 +558,11 @@
       "old_rule": "Old rule",
       "remove_rule": "Remove rule",
       "set_description": "Set description",
+      "set_langauge": "Set langauge",
       "update_description": "Update description",
+      "update_langauge": "Update language",
       "old_description": "Old description",
+      "old_langauge": "Old language",
       "voted": "Voted",
       "voted_text": "{{approvesCount}} from {{approvesNeed}} votes",
       "toastsMessages": {
@@ -713,7 +717,6 @@
     "description_edit": {
       "title": "Edit Description",
       "description": "Description",
-      "changes_lost": "Changes will be lost, continue?",
       "reset": "Reset",
       "create": "Create proposal",
       "toastsMessages": {
@@ -784,8 +787,13 @@
       "title_field": "Title",
       "description_field": "Description",
       "remove_rule_question": "A proposal to delete the rule will be created. Create?",
-      "question": "Changes will be lost, continue?",
       "submit": "Create proposal",
+      "toastsMessages": {
+        "created": "Proposal created"
+      }
+    },
+    "community_language_edit": {
+      "title": "Language change",
       "toastsMessages": {
         "created": "Proposal created"
       }

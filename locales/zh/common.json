@@ -783,6 +783,7 @@
       "title-edit": "规则编辑",
       "title_field": "标题",
       "description_field": "说明",
+      "remove_rule_question": "A proposal to delete the rule will be created. Create?",
       "question": "更改将丢失，是否继续?",
       "submit": "创建提案",
       "toastsMessages": {

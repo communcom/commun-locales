@@ -783,6 +783,7 @@
       "title-edit": "Rule editing",
       "title_field": "Title",
       "description_field": "Description",
+      "remove_rule_question": "A proposal to delete the rule will be created. Create?",
       "question": "Changes will be lost, continue?",
       "submit": "Create proposal",
       "toastsMessages": {

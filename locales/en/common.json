@@ -851,13 +851,7 @@
       "create_password": {
         "title": "Create password",
         "description": "We do not keep passwords and have no opportunity to restore them. <br /><span class=\"bold\">Please save your password.</span>",
-        "use_password": "I want to use Master Password",
-        "rules": {
-          "lower_case": "Lower case",
-          "upper_case": "Upper case",
-          "number": "Number",
-          "min_length": "Min length"
-        }
+        "use_password": "I want to use Master Password"
       },
       "create_username": {
         "description": "Create username",
@@ -1424,6 +1418,12 @@
       "several_dashes": "Username may contain only one dash in a row",
       "invalid_sequences": "Username may contain only one dot or one dash in a row",
       "ends_with": "Username should end with a letter or a digit"
+    },
+    "password": {
+      "lower_case": "Lower case",
+      "upper_case": "Upper case",
+      "number": "Number",
+      "min_length": "Min length"
     }
   },
 

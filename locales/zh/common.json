@@ -1398,6 +1398,12 @@
       "several_dashes": "用户名只能在一行中包含一个破折号",
       "invalid_sequences": "用户名在一行中只能包含一个点或一个破折号",
       "ends_with": "用户名应以字母或数字结尾"
+    },
+    "password": {
+      "lower_case": "Lower case",
+      "upper_case": "Upper case",
+      "number": "Number",
+      "min_length": "Min length"
     }
   },
 

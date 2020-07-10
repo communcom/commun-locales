@@ -398,7 +398,12 @@
       "rules": {
         "title": "Rules",
         "new_rule": "New rule",
-        "invalid_format": "Invalid rules format"
+        "invalid_format": "Invalid rules format",
+        "language": "Language",
+        "remove_rule_question": "A proposal to delete the rule will be created. Create?",
+        "toastsMessages": {
+          "created": "Proposal created"
+        }
       },
       "community_header": {
         "created": "Created {{date}}"
@@ -424,10 +429,6 @@
         "new_rule": "New rule",
         "invalid_format": "Invalid rules format",
         "default_rules": [
-          {
-            "title": "Language:",
-            "text": "{{language}}"
-          },
           {
             "title": "Content:",
             "text": "- Here you can publish all types of content, create original or publish links to other sources;\n- Content must be relevant to the thematic of the community;"

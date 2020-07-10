@@ -398,7 +398,12 @@
       "rules": {
         "title": "规则",
         "new_rule": "新规则",
-        "invalid_format": "无效的规则格式"
+        "invalid_format": "无效的规则格式",
+        "language": "语言",
+        "remove_rule_question": "A proposal to delete the rule will be created. Create?",
+        "toastsMessages": {
+          "created": "Proposal created"
+        }
       },
       "community_header": {
         "created": "创建 {{date}}"
@@ -424,10 +429,6 @@
         "new_rule": "新规则",
         "invalid_format": "无效的规则格式",
         "default_rules": [
-          {
-            "title": "语言",
-            "text": "{{language}}"
-          },
           {
             "title": "内容:",
             "text": "- 在这里您可以发布所有类型的内容、创建原始内容或发布到其它内容地址的链接；\n-内容必须与社区的主题相关;"

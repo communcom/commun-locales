@@ -1059,6 +1059,8 @@
         "transfer": "Transfer",
         "convert": "Convert",
         "rewards": "Rewards",
+        "claim": "Claim",
+        "donation": "Donation",
         "hold_type_title": "Like/Dislike",
         "like": "Like",
         "dislike": "Dislike",

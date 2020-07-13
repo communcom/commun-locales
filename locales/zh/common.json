@@ -1039,6 +1039,8 @@
         "transfer": "交易",
         "convert": "转换",
         "rewards": "奖励",
+        "claim": "Claim",
+        "donation": "Donation",
         "hold_type_title": "赞/踩",
         "like": "赞",
         "dislike": "踩",

@@ -1,5 +1,6 @@
 {
   "common": {
+    "go_up": "Go up",
     "required": "Required",
     "retry": "重试",
     "feed": "关注",

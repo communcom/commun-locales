@@ -694,6 +694,9 @@
   },
 
   "modals": {
+    "basic_transfer_modal": {
+      "buy": "Exchange points"
+    },
     "confirm_dialog": {
       "blocked_user": "You have blocked this user. Do you want unblock and follow?",
       "blocked_community": "You have blocked this community. Do you want unblock and follow?",

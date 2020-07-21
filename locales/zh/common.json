@@ -694,6 +694,9 @@
   },
 
   "modals": {
+    "basic_transfer_modal": {
+      "buy": "Exchange points"
+    },
     "confirm_dialog": {
       "blocked_user": "您已经拉黑了此用户。是否要解除锁定并关注？",
       "blocked_community": "你已经拉黑了这个社区。是否要解除锁定并关注?",

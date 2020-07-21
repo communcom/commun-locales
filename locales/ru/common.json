@@ -192,7 +192,7 @@
           "copy_failed": "Копирование в буфер обмена не удалось!"
         }
       },
-      "new_keys" : {
+      "new_keys": {
         "title": "Новые ключи",
         "password_rules": [
           "Не теряйте ваш пароль.",
@@ -1281,7 +1281,7 @@
       "subscriptionsPopular": "Популярное",
       "topLikes": "Популярное",
       "topComments": "Топ комментариев",
-      "topRewards": "Топ наградов"
+      "topRewards": "Топ наград"
     },
     "timeframe": {
       "day": "За последние сутки",

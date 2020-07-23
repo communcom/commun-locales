@@ -182,7 +182,7 @@
           "copy_failed": "Copy to clipboard failed!"
         }
       },
-      "new_keys" : {
+      "new_keys": {
         "title": "New keys",
         "password_rules": [
           "Do not lose your password.",
@@ -493,6 +493,7 @@
         "reply": "left a comment {{shortText}}",
         "mention": "mentioned you in a {{entityType}}: “{{shortText}}”",
         "upvote": "liked your {{entityType}}",
+        "banPost": "Your {{entityType}} was banned",
         "subscribe": "is following you",
         "reward": "You've got {{amount}} {{communityName}} points",
         "transfer": {

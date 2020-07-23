@@ -182,7 +182,7 @@
           "copy_failed": "密钥复制到剪贴板失败！"
         }
       },
-      "new_keys" : {
+      "new_keys": {
         "title": "New keys",
         "password_rules": [
           "Do not lose your password.",
@@ -493,6 +493,7 @@
         "reply": "留下评论{{shortText}}",
         "mention": "提到你在 {{entityType}}: “{{shortText}}”",
         "upvote": "点赞你 {{entityType}}",
+        "banPost": "Your {{entityType}} was banned",
         "subscribe": "关注你",
         "reward": "你获得了 {{amount}} {{communityName}} 社区积分",
         "transfer": {

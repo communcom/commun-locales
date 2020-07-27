@@ -1,6 +1,6 @@
 {
   "name": "commun-locales",
-  "version": "1.100.0",
+  "version": "1.101.0",
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.0.2"

@@ -1,0 +1,1453 @@
+{
+  "common": {
+    "required": "Phần bắt buộc",
+    "retry": "Thử lại",
+    "feed": "Bản tin",
+    "my_feed": "Tin tức của tôi",
+    "see_all": "Xem tất cả",
+    "see_more": "Xem thêm",
+    "show_less": "Ẩn bớt",
+    "sign_in": "Đăng nhập",
+    "sign_up": "Đăng kí",
+    "accept": "Chấp nhận",
+    "cancel": "Thoát",
+    "edit": "Sửa",
+    "save": "Lưu lại",
+    "done": "Đã xong",
+    "create": "Tạo mới",
+    "update": "Cập nhật",
+    "remove": "Xóa",
+    "delete": "Xóa",
+    "show": "Hiển thị",
+    "more": "Nhiều hơn",
+    "open": "Mở",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "continue": "Còn tiếp",
+    "skip": "Bỏ qua bước này",
+    "next": "Tiếp theo",
+    "ban": "Cấm",
+    "read_more": "Đọc thêm",
+    "learn_more": "Tìm hiểu nhiều hơn",
+    "block": "Chặn",
+    "unblock": "Hủy chặn",
+    "follow": "Theo dõi",
+    "following": "Đang theo dõi",
+    "unfollow": "Hủy theo dõi",
+    "all": "Tất cả",
+    "token_0": "Token",
+    "token_1": "Token",
+    "token_2": "Token",
+    "point_0": "Điểm",
+    "point_1": "Điểm",
+    "point_2": "Điểm",
+    "search": "Tìm kiếm",
+    "search_placeholder": "Tìm kiếm...",
+    "equity_value": "Tổng giá trị tính theo",
+    "equity_value_commun": "Giá trị vốn hóa tính theo Commun",
+    "like": "Thích",
+    "dislike": "Không thích",
+    "lost_data_question": "Thay đổi của bạn sẽ làm mất dữ liệu hiện tại. Tiếp tục?",
+    "counters": {
+      "follower_0": "Người theo dõi",
+      "follower_1": "Người theo dõi",
+      "follower_2": "Người theo dõi",
+      "following": "Người đang theo dõi",
+      "community_0": "Cộng đồng",
+      "community_1": "Cộng đồng",
+      "community_2": "Cộng đồng",
+      "post_0": "Bài đăng",
+      "post_1": "Bài đăng",
+      "post_2": "Bài đăng",
+      "leader_0": "Quản trị viên",
+      "leader_1": "Quản trị viên",
+      "leader_2": "Quản trị viên",
+      "member_0": "Thành viên",
+      "member_1": "Thành viên",
+      "member_2": "Thành viên",
+      "friend_0": "Bạn bè",
+      "friend_1": "Bạn bè",
+      "friend_2": "Bạn bè",
+      "point_0": "Điểm",
+      "point_1": "Điểm",
+      "point_3": "Điểm"
+    }
+  },
+  "header": {
+    "buy_commun": "Mua Commun",
+    "how_it_works": "Nó hoạt động như thế nào?",
+    "log_in": "Đăng nhập",
+    "sign_up": "Đăng kí"
+  },
+  "sidebar": {
+    "my_feed": "Bảng tin",
+    "trending": "Xu hướng",
+    "hot": "Nóng hổi",
+    "wallet": "Ví điện tử",
+    "management": "Quản lý",
+    "communities": "Cộng đồng",
+    "new_post": "Bài viết mới"
+  },
+
+  "footer": {
+    "user_agreement": "Thỏa thuận người dùng",
+    "privacy_policy": "Chính sách quyền riêng tư",
+    "cookies_policy": "Chính sách Cookies",
+    "blockchain_disclaimer": "Miễn trừ trách nhiệm",
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ – câu hỏi thường gặp"
+  },
+
+  "components": {
+    "post": {
+      "no_found": "Không tìm thấy bài viết",
+      "no_found_desc": "Có thể bài viết đã bị xóa",
+      "views_count_0": "{{count}} người xem",
+      "views_count_1": "{{count}} người xem",
+      "views_count_2": "{{count}} người xem",
+      "comments_count_0": "{{count}} bình luận",
+      "comments_count_1": "{{count}} bình luận",
+      "comments_count_2": "{{count}} bình luận",
+      "show_more_comments": "Xem thêm bình luận",
+      "open_menu": "Mở danh mục bài viết",
+      "aria_share_in_social": "Chia sẻ với các mạng xã hội khác"
+    },
+    "search": {
+      "specific_results": {
+        "enter": "Nhập yêu cầu tìm kiếm",
+        "hint": "Thử yêu cầu tìm kiếm khác hoặc quay về bảng tin",
+        "no_found": "Không tìm thấy",
+        "go_feed": "Đi tới bảng tin"
+      }
+    },
+    "blacklist": {
+      "title": "Danh sách đen",
+      "tabs": {
+        "users": "Những người dùng",
+        "communities": "Các cộng đồng"
+      },
+      "users_blacklist": {
+        "no_found": "Không có người dùng bị chặn"
+      },
+      "communities_blacklist": {
+        "no_found": "Không có cộng đồng bị chặn"
+      }
+    },
+    "settings": {
+      "tabs": {
+        "general": "Tổng quan",
+        "notifications": "Thông báo",
+        "keys": "Mã khóa",
+        "current_keys": "Mã khóa hiện tại",
+        "new_keys": "Mã khóa mới"
+      },
+      "title": "Cài đặt",
+      "general": {
+        "title": "Chung",
+        "language": "Ngôn ngữ hiển thị",
+        "languagePosts": "Ngôn ngữ của bài viết trên bản tin",
+        "currencyPosts": "Bài viết về tiền tệ trên bản tin",
+        "theme": "Chủ đề",
+        "theme_type": {
+          "light": "Màu sáng",
+          "system": "Cài đặt hệ thống",
+          "dark": "Màu tối"
+        },
+        "nsfw_content": "Nội dung NSFW ",
+        "nsfw_type": {
+          "hide": "Luôn ẩn",
+          "warn": "Luôn cảnh báo",
+          "show": "Luôn hiện"
+        },
+        "comments_in_feed": "Hiển thị bình luận trong bản tin"
+      },
+      "notifications_settings": {
+        "title": "Thông báo trực tuyến",
+        "switchers": {
+          "upvote": "Thích",
+          "reply": "Trả lời",
+          "mention": "Nhắc đến",
+          "subscribe": "Đăng kí",
+          "rewards": "Phần thưởng",
+          "transfers": "Chuyển khoản"
+        }
+      },
+      "keys": {
+        "title": "Mã khóa công khai",
+        "title_private": "Mã khóa riêng tư",
+        "show_private_keys": "Hiển thị mã khóa riêng tư",
+        "show_public_keys": "Hiển thị mã khóa công khai",
+        "copy": "Sao chép mã khóa",
+        "active": {
+          "title": "Kích hoạt mã khóa",
+          "description": "Cho phép chuyển điểm"
+        },
+        "owner": {
+          "title": "Mã khóa của chủ sở hữu",
+          "description": "Toàn quyền truy cập"
+        },
+        "messages": {
+          "copied": "Mã khóa đã được sao chép vào bộ nhớ tạm!",
+          "copy_failed": "Sao chép mã khóa vào bộ nhớ tạm không thành công!"
+        }
+      },
+      "new_keys": {
+        "title": "Mã khóa mới",
+        "password_rules": [
+          "Xin đừng quên mật khẩu của bạn.",
+          "Xin đừng quên mật khẩu của bạn.",
+          "Chúng tôi không thể khôi phục mật khẩu của bạn.",
+          "Nếu bạn có thể nhớ mật khẩu của bạn thì mật khẩu đó không an toàn.",
+          "Hãy sử dụng mật khẩu tự tạo ngẫu nhiên.",
+          "Chúng tôi sẽ không nói cho ai biết mật khẩu của bạn.",
+          "Hãy luôn luôn sao lưu một bản sao dự phòng cho mật khẩu của bạn."
+        ],
+        "fields": {
+          "currentPassword": "Mật khẩu hiện tại",
+          "newPassword": "Mật khẩu mới",
+          "confirmNewPassword": "Xác nhận lại mật khẩu mới"
+        },
+        "delay_warning": "Tài khoản của bạn bị giới hạn bởi mã khóa owner. Mật khẩu chỉ có thể được thay đổi sau %(delay) ngày.",
+        "backup_password_by_storing_it": "Bạn bắt buộc phải lưu mật khẩu trong một tệp tin nào đó hoặc tạo một bản sao ở trong trình quản lý mật khẩu.",
+        "cannot_recover_password": "Tôi hiểu rằng Commun không thể khôi phục lại mật khẩu đã mất",
+        "i_saved_password": "Tôi đã lưu mật khẩu",
+        "errors": {
+          "wrong_password": "Mật khẩu không đúng",
+          "passwords_do_not_match": "Mật khẩu không trùng khớp",
+          "passwords_same": "Mật khẩu mới đã trùng mới mật khẩu trước đây của bạn"
+        },
+        "toastsMessages": {
+          "owner_not_found": "Không tìm thấy mã khóa Owner ",
+          "keys_not_found": "Không tìm thấy mã khóa",
+          "cant_extract": "Mã khóa của Owner không thể giải mã",
+          "password_delay": "Mật khẩu sẽ được cập nhật sau %(delay) ngày",
+          "password_updated": "Mật khẩu đã được cập nhật"
+        }
+      }
+    },
+    "wallet": {
+      "tabs": {
+        "my_points": "Các điểm số của tôi",
+        "history": "Lịch sử"
+      },
+      "my_points": {
+        "my_points": "Các điểm số của tôi",
+        "send_points": "Gửi điểm đi",
+        "search_points": "Tìm kiếm điểm",
+        "no_found": "Không tìm thấy điểm",
+        "no_found_desc": "Hãy cố gắng gửi đi hoặc chuyển đổi",
+        "hide_empty": "Ẩn khoảng trống",
+        "hide_empty_balances": "Ẩn tài khoản trống",
+        "hidden": "Ẩn"
+      },
+      "actions_panel": {
+        "send": "Gửi đi",
+        "sell": "Bán",
+        "buy": "Mua",
+        "convert": "Chuyển đổi"
+      },
+      "transfer_history": {
+        "title": "Lịch sử",
+        "filter": "Bộ lọc",
+        "empty": "Không có lịch sử",
+        "empty_desc": "Không có giao dịch",
+        "no_found": "Không tìm thấy giao dịch",
+        "no_found_desc": "Hãy thử gửi lại hoặc chuyển đổi",
+        "with_memo": "Giao dịch với Memo"
+      },
+      "points_grid": {
+        "on_hold": "{{quantity}} đóng băng"
+      },
+      "points_list": {
+        "on_hold": "{{quantity}} đóng băng"
+      },
+      "users_layout": {
+        "no_found": "Không có người dùng",
+        "no_found_desc": "Không tìm thấy người dùng"
+      },
+      "history_list": {
+        "today": "Hôm nay",
+        "refill": "Nạp tiền",
+        "reward": "Phần thưởng",
+        "types": {
+          "transaction": "Giao dịch",
+          "referralRegisterBonus": "Đăng ký để nhận điểm thưởng",
+          "referralPurchaseBonus": {
+            "first": "Bạn đã nhận được {{percent}}% của giá trị giao dịch",
+            "last": ""
+          },
+          "donation": "Ủng hộ",
+          "convert": "Chuyển đổi",
+          "curator": "Phần thưởng cho người giám sát",
+          "hold": "Đóng băng",
+          "leader_reward": "Phần thưởng cho quản trị viên"
+        }
+      },
+      "point_info_panel": {
+        "available": "Sẵn sàng",
+        "hold": "Đóng băng"
+      }
+    },
+    "leaderboard": {
+      "tabs": {
+        "proposals": "Đề nghị",
+        "reports": "Khiếu nại",
+        "posts": "Bài đăng",
+        "comments": "Bình luận"
+      },
+      "proposals": {
+        "no_found": "Không có đề nghị",
+        "no_found_desc": "Hiện tại không có đề nghị trong cộng đồng"
+      },
+      "reports": {
+        "no_found": "Không có khiếu nại",
+        "no_found_desc": "Hiện tại không có khiếu nại trong cộng đồng"
+      },
+      "cover_change": {
+        "new_cover": "Ảnh bìa mới",
+        "old_cover": "Ảnh bìa cũ",
+        "no_cover": "Không có ảnh bìa"
+      },
+      "avatar_change": {
+        "new_avatar": "Ảnh đại diện mới",
+        "old_avatar": "Ảnh đại diện cũ",
+        "no_avatar": "Không có ảnh đại diện"
+      }
+    },
+    "communities": {
+      "create": "Tạo cộng đồng mới",
+      "no_found": "Không có cộng đồng",
+      "find": "Tìm cộng đồng",
+      "tabs": {
+        "communities": "Cộng đồng",
+        "my_communities": "Cộng đồng của tôi",
+        "managed": "Quản lý"
+      },
+      "my_communities": {
+        "no_found": "Không có người đăng ký",
+        "no_found_desc": "Bạn chưa đăng ký vào cộng đồng"
+      },
+      "manage": {
+        "no_found_desc": "Bạn không điều hành cộng đồng"
+      }
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "filters": "Bộ lọc (đang phát triển)"
+    },
+    "profile": {
+      "tabs": {
+        "posts": "Bài viết",
+        "comments": "Bình luận",
+        "communities": "Cộng đồng",
+        "my_communities": "Cộng đồng của tôi",
+        "followers": "Người theo dõi",
+        "following": "Người đang theo dõi",
+        "referrals": "Người được giới thiệu"
+      },
+      "profile_header": {
+        "cover_updated": "Đã cập nhật ảnh bìa",
+        "joined": "Đã tham gia",
+        "avatar_updated": "Đã cập nhật ảnh đại diện",
+        "not_available": "Hồ sơ không tồn tại",
+        "send_points": "Gửi điểm đi"
+      },
+      "description": {
+        "edit_bio": "Thay đổi mô tả",
+        "add_bio": "Thêm mô tả"
+      },
+      "comments": {
+        "empty": "Không có bình luận",
+        "empty-desc": "Bạn chưa bình luận gì"
+      },
+      "followers": {
+        "empty": "Bạn không có người theo dõi",
+        "empty-desc": "Không có ai theo dõi bạn. Hãy tìm bạn bè mới hoặc đăng bài viết mới",
+        "create": "Tạo bài viết mới"
+      },
+      "following": {
+        "empty": "Không có người theo dõi",
+        "empty-desc": "Bạn không theo dõi bất kì ai"
+      },
+      "referrals": {
+        "empty": "Không có lời đề nghị",
+        "empty-desc": "Bạn không có lời đề nghị nào",
+        "no_found": "Không tìm thấy gì"
+      },
+      "user_communities": {
+        "empty": "Không có người đăng kí",
+        "empty-desc": "Bạn chưa đăng kí cộng đồng này",
+        "find": "Tìm kiếm cộng đồng"
+      }
+    },
+    "community": {
+      "tabs": {
+        "posts": "Các bài viết",
+        "leaders": "Những quản trị viên",
+        "members": "Các thành viên",
+        "description": "Mô tả",
+        "rules": "Các điều luật",
+        "settings": "Cài đặt"
+      },
+      "leaders": {
+        "leaders": "Những quản trị viên",
+        "nominees": "Những ứng cử viên",
+        "become": "Trở thành quản trị viên",
+        "stop": "Ngừng làm quản trị viên",
+        "no_found": "Không tìm thấy gì",
+        "empty": "Không có quản trị viên",
+        "empty_desc": "Trở thành quản trị viên đầu tiên của cộng đồng"
+      },
+      "description": {
+        "no_found": "Không có mô tả",
+        "no_found_desc": "Không có mô tả nào về cộng đồng này"
+      },
+      "members": {
+        "no_found": "Không có thành viên"
+      },
+      "rules": {
+        "title": "Những quy tắc",
+        "new_rule": "Quy tắc mới",
+        "invalid_format": "Quy tắc không đúng mẫu",
+        "language": "Ngôn ngữ",
+        "remove_rule_question": "Một đề xuất xóa các quy tắc sẽ được tạo ra. Bạn vẫn muốn thực hiện nó? ",
+        "toastsMessages": {
+          "created": "Đã tạo ra đề nghị"
+        }
+      },
+      "community_header": {
+        "created": "Được tạo ra vào ngày {{date}}"
+      }
+    },
+    "createCommunity": {
+      "tabs": {
+        "description": "Mô tả",
+        "rules": "Các quy định",
+        "settings": "Cài đặt"
+      },
+      "description": {
+        "choose_language": "Lựa chọn ngôn ngữ",
+        "add_description": "Thêm mô tả (không bắt buộc)",
+        "description_placeholder": "Viết một điều gì đó về cộng đồng"
+      },
+      "subject": {
+        "title": "Chủ đề",
+        "subject_placeholder": "Chủ đề cộng đồng"
+      },
+      "rules": {
+        "title": "Những quy tắc",
+        "new_rule": "Quy tắc mới",
+        "invalid_format": "Quy tắc không đúng mẫu",
+        "default_rules": [
+          {
+            "title": "Nội dung:",
+            "text": "- Tại đây có thể đăng tải bất kỳ loại nội dung nào, tạo ra nội dung mới hoặc đăng tải đường dẫn từ những nguồn khác;\n- Nội dung được đăng tải phải phù hợp với chủ đề của cộng đồng;"
+          },
+          {
+            "title": "NGHIÊM CẤM:",
+            "text": "- Đăng tải nội dung 18+ mà không gắn nhãn 18+;\n- Đăng tải nội dung không phù hợp, spam hoặc quảng cáo đều bị cấm tuyệt đối;\n- Xúc phạm người dùng trong các bình luận hoặc tin nhắn;\n- Đăng tải những thông tin cá nhân mà không được sự cho phép của chủ sở hữu;"
+          },
+          {
+            "title": "Vi phạm quy tắc:",
+            "text": "Trong trường hợp vi phạm các quy tắc, các bình luận và bài đăng có vi phạm sẽ bị tước các khoản thanh toán và bị loại khỏi hiển thị trong cộng đồng và bản tin chung. Ngoài ra, quản trị viên có quyền hạn chế quyền truy cập của bạn vào cộng đồng"
+          }
+        ]
+      },
+      "default_settings": "Số lượng quản trị viên - 3 người;\n Số lượng điểm phát hành = 50%;\n Phân bố giải thưởng: 10% - cho quản trị viên, 45% - cho tác giả (bài viết và bình luận), 45% - cho người giám sát;\nCW = 0.4;",
+      "create_community_header": {
+        "create": "Tạo một cộng đồng mới",
+        "community_name_placeholder": "Tên gọi của cộng đồng"
+      }
+    },
+    "onboarding": {
+      "sign_up": "Hãy bắt đầu để nhận về 30 điểm thưởng",
+      "sign_up-mobile": "Hãy bắt đầu ngay bây giờ để nhận được điểm thưởng!",
+      "desktopSlides": {
+        "first": {
+          "title": "Nhận điểm thưởng <br /> cho các bài viết và lượt thích",
+          "desc": "Xây dựng nội dung, bình chọn cho bài viết, tham gia thảo luận<br /> và nhận điểm thưởng từ cộng đồng.",
+          "progressBarText": "Thành viên nhận điểm thưởng <br />cho các bài viết và lượt thích"
+        },
+        "second": {
+          "title": "Những chủ đề cộng đồng",
+          "desc": "Lựa chọn cộng đồng của mình và nhận điểm thưởng.<br /> Quá đơn giản!",
+          "progressBarText": "Những chủ đề<br /> cộng đồng"
+        },
+        "third": {
+          "title": "Mạng xã hội <br />trên nền tảng blockchain",
+          "desc": "Blockchain trao cơ hội cho các mạng xã hội thưởng cho người dùng của mình và giúp cộng đồng trở nên độc lập hơn.",
+          "progressBarText": "Mạng xã hội <br />trên nền tảng blockchain"
+        }
+      },
+      "mobileSlides": {
+        "first": {
+          "title": "Tại đây <br /><span> bạn chờ đợi <span class=\"highlight\">phần thưởng</span></span><br />cho bài viết <br /> và lượt thích <br /> của bạn."
+        },
+        "second": {
+          "title": "Lựa chọn <br />chủ đề<br /><span class=\"highlight\">của</span> <br />cộng đồng"
+        },
+        "third": {
+          "title": "Mạng xã hội trên nền tảng blockchain"
+        }
+      }
+    },
+
+    "notifications_window": {
+      "title": "Thông báo"
+    },
+    "notification": {
+      "comment": "bình luận",
+      "comment_prep": "bình luận",
+      "post": "bài đăng",
+      "post_prep": "bài đăng",
+      "types": {
+        "reply": "đã trả lời {{shortText}}",
+        "mention": "đã nhắc đến bạn trong{{entityType}}: “{{shortText}}”",
+        "upvote": "bình chọn cho bạn {{entityType}}",
+        "subscribe": "đăng kí cho bạn",
+        "reward": "Đã nhận được {{amount}} điểm {{communityName}}",
+        "transfer": {
+          "received": "Đã nhận được",
+          "sent_you": "đã gửi cho bạn"
+        },
+        "referralRegistrationBonus": "Nhận được điểm thưởng từ việc giới thiệu người mới tham gia",
+        "referralPurchaseBonus": {
+          "first": "Đã nhận được {{amountStr}}. Điểm thưởng - {{percent}}% của giá trị giao dịch",
+          "last": ""
+        },
+        "donation": "Ủng hộ cho bài viết của bạn{{shortText}}: {{amount}} {{symbol}}"
+      }
+    },
+    "notification_counter": {
+      "title": "Thông báo"
+    },
+
+    "dropzone": {
+      "toastsMessages": {
+        "failed": "Tải ảnh lên không thành công",
+        "unsupported": "Định dạng của tệp ảnh không đúng",
+        "too_big": "Tệp tin quá lớn, dung lượng tối đa {{size}} MB"
+      }
+    },
+    "editor": {
+      "comment_editor": {
+        "placeholder": "Đang bình luận...",
+        "placeholder-mobile": "Đang bình luận..."
+      }
+    },
+    "comment_form": {
+      "add_file": "Thêm tệp tin",
+      "send": "Gửi đi",
+      "sign_up_send": "Đăng nhập và gửi đi",
+      "toastsMessages": {
+        "posting_failed": "Không đăng tải được bình luận"
+      }
+    },
+    "post_form": {
+      "you": "Bạn",
+      "post": "Bài đăng",
+      "sign_up_post": "Đăng nhập và đăng bài",
+      "article": "Bài báo",
+      "aria_article": "Tạo bài báo mới",
+      "aria_nsfw": "Hãy cho biết, nếu như bài báo có chứa nội dung 18+",
+      "aria_add_image": "Thêm hình ảnh",
+      "toastsMessages": {
+        "post_failed": "Tin nhắn không được gửi đi"
+      }
+    },
+    "proposal_card": {
+      "ban_comment": "Bình luận bị cấm",
+      "ban_post": "Bài viết bị cấm",
+      "not_implemented_type": "Đề xuất loại{{type}} sẽ không được thực hiện.",
+      "not_implemented_action": "Đề xuất cho {{contract}}::{{action}} sẽ không được thực hiện.",
+      "apply": "Áp dụng",
+      "refuse": "Từ chối",
+      "accept": "Chấp nhận",
+      "accept_and_apply": "Chấp nhận và áp dụng",
+      "add_rule": "Thêm quy tắc",
+      "update_rule": "Cập nhật quy tắc",
+      "old_rule": "Quy tắc cũ",
+      "remove_rule": "Xóa quy tắc",
+      "set_description": "Thay đổi mô tả",
+      "set_language": "Thay đổi ngôn ngữ của cộng đồng",
+      "update_description": "Cập nhật mô tả",
+      "update_language": "Cập nhật ngôn ngữ",
+      "old_description": "Mô tả cũ",
+      "old_language": "Ngôn ngữ cũ",
+      "voted": "Bình chọn",
+      "voted_text": "{{approvesCount}} trên {{approvesNeed}} lượt bình chọn",
+      "toastsMessages": {
+        "approved": "Được thông qua",
+        "applied": "Đề xuất được áp dụng"
+      }
+    },
+    "comment": {
+      "reply": "Trả lời",
+      "comment_body": {
+        "deleted": "Bình luận đã bị xóa",
+        "invalid_format": "Bình luận không đúng mẫu"
+      }
+    },
+    "comments_block": {
+      "title": "Bình luận",
+      "empty": "Không có bình luận nào"
+    },
+    "comments_nested": {
+      "replies_0": "Hiển thị thêm {{comments}} câu trả lời",
+      "replies_1": "Hiển thị thêm {{comments}} câu trả lời ",
+      "replies_2": "Hiển thị thêm {{comments}} câu trả lời "
+    },
+    "auth_block": {
+      "my_profile": "Hồ sơ của tôi",
+      "wallet": "Ví điện tử",
+      "blacklist": "Danh sách đen",
+      "referrals": "Người được giới thiệu",
+      "settings": "Cài đặt",
+      "faq": "FAQ – câu hỏi thường gặp",
+      "logout": "Đăng xuất"
+    },
+    "entity_card_reports": {
+      "ban": "Cấm",
+      "refuse": "Hủy lệnh cấm",
+      "approve": "Xác thực lệnh cấm",
+      "approves": "Xác nhận",
+      "create": "Đề nghị cấm",
+      "reports": "Khiếu nại",
+      "toastsMessages": {
+        "post_banned": "Bài viết đã bị cấm"
+      }
+    },
+    "leader_row": {
+      "vote": "Bình chọn",
+      "voted": "Đã bình chọn",
+      "inactive": "Không hoạt động",
+      "toastsMessages": {
+        "success_vote": "Bình chọn thành công",
+        "canceled_vote": "Hủy bình chọn"
+      }
+    },
+    "choose_community": {
+      "select": "Lựa chọn cộng đồng",
+      "no_found": "Không tìm thấy gì",
+      "empty": "Không có cộng đồng"
+    },
+
+    "autocomplete_search": {
+      "text": "Tất cả kết quả"
+    },
+    "whats_new_opener": {
+      "text": "Có gì mới?"
+    },
+    "post_editor": {
+      "placeholder": "Có gì mới?"
+    },
+    "cookies": {
+      "text": "Trang web này có sử dụng cookies"
+    },
+    "empty_list": {
+      "text": "Không tìm thấy gì"
+    },
+    "empty_content_holder": {
+      "notifications": {
+        "title": "Không có thông báo",
+        "desc": "Bạn không có thông báo"
+      },
+      "comments": {
+        "title": "Không có bình luận",
+        "desc": "Hiện tại bạn không có bình luận nào"
+      },
+      "points": {
+        "title": "Ví điện tử trống rỗng",
+        "desc": "Nhận về những token COMMUN đầu tiên, có thể quy đổi ra điểm ở bất kì cộng đồng nào"
+      }
+    },
+    "post_list": {
+      "no_found": "Không có bài đăng",
+      "no_found_desc": "Bạn chưa đăng bất kì một bài viết nào"
+    },
+    "vote_panel": {
+      "cancel": "Thoát",
+      "vote_up": "Thích",
+      "vote_down": "Không thích",
+      "cant_cancel_own": "Không thể bỏ thích ở bài viết của bạn",
+      "cant_down_own": "Không thể không thích bài viết của riêng bạn"
+    },
+    "nsfw_warning": {
+      "title": "Nội dung 18+",
+      "text": "Tiếp tục chứ?"
+    },
+    "report_row": {
+      "this_is": "Đây là"
+    },
+    "rewards_badge": {
+      "top": "Nổi bật",
+      "title": "Bài viết này là bài viết nổi bật",
+      "desc": "Sau một khoảng thời gian nữa nó sẽ nhận được phần thưởng",
+      "title-rewarded": "Bài viết này đã được nhận thưởng",
+      "desc-rewarded": "Bài viết này đã được các thành viên của cộng đồng yêu thích",
+      "learn_more": "Tìm hiểu thêm về giải thưởng"
+    }
+  },
+
+  "menu": {
+    "common": {
+      "more_actions": "Thêm hành động"
+    },
+    "comment": {
+      "report": "Khiếu nại"
+    },
+    "post": {
+      "report": "Khiếu nại",
+      "propose_ban": "Đề xuất cấm",
+      "view_in_explorer": "Xem trong Explorer"
+    }
+  },
+
+  "modals": {
+    "confirm_dialog": {
+      "blocked_user": "Người dùng đã bị cấm. Bạn có muốn dỡ bỏ lệnh cấm và đăng kí lại?",
+      "blocked_community": "Cộng đồng đã bị cấm. Bạn có muốn dỡ bỏ lệnh cấm và đăng kí lại?",
+      "revote_leader": "Bạn có chắc rằng bạn muốn hoàn tác vụ bình chọn? Xin lưu ý rằng bạn chỉ có 1 lần để bình chọn. Bằng cách chuyển nó sang một ứng cử viên khác, bạn sẽ giảm sự ảnh hưởng của ứng cử viên hiện được chọn vào số điểm hiện tại của bạn."
+    },
+    "avatar_edit": {
+      "title": "Thay đổi vị trí",
+      "rotate": "Quay ảnh"
+    },
+    "become_leader": {
+      "title": "Trở thành quản trị viên",
+      "url": "Đường dẫn đến nơi giới thiệu làm quản trị viên",
+      "become": "Trở thành quản trị viên"
+    },
+    "choose_post_cover": {
+      "title": "Chuẩn bị đăng tải công khai",
+      "send": "Gửi đi"
+    },
+    "confirm": {
+      "title": "Xác nhận",
+      "text": "Bạn chắc chứ?"
+    },
+    "description_edit": {
+      "title": "Chỉnh sửa mô tả",
+      "description": "Mô tả",
+      "reset": "Cài đặt lại",
+      "create": "Tạo một đề nghị",
+      "toastsMessages": {
+        "proposal_created": "Đề nghị đã được tạo"
+      }
+    },
+    "cover_avatar": {
+      "edit": "Chỉnh sửa ảnh đại diện",
+      "delete": "Xóa ảnh đại diện",
+      "upload_avatar": "Tải ảnh đại diện mới lên",
+      "toastsMessages": {
+        "proposal_created": "Đề nghị thay đổi ảnh đại diện đã được tạo",
+        "avatar_updated": "Ảnh đại diện đã được cập nhật"
+      }
+    },
+    "cover_image": {
+      "edit_photo": "Chỉnh sửa ảnh bìa",
+      "delete_photo": "Xóa ảnh bìa",
+      "choose": "Chọn ảnh bìa khác",
+      "drag_to_move": "Kéo để di chuyển ảnh bìa",
+      "upload_cover": "Tải lên ảnh bìa mới",
+      "toastsMessages": {
+        "proposal_created": "Đề xuất thay đổi ảnh bìa đã được thiết lập",
+        "image_deleted": "Ảnh bìa đã bị xóa",
+        "image_updated": "Đã cập nhật ảnh bìa"
+      }
+    },
+    "share_block": {
+      "copy": "Sao chép",
+      "share": "Chia sẻ"
+    },
+    "feed_filters_mobile": {
+      "title": "Sắp xếp theo"
+    },
+    "login": {
+      "title": "Đăng nhập",
+      "username": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "error": "Lỗi: {{error}}",
+      "submit": "Đăng nhập",
+      "sign_up": "Không có tài khoản?",
+      "errors": {
+        "invalid": "Tên đăng nhập hoặc mật khẩu không chính xác"
+      },
+      "toastsMessages": {
+        "recaptcha_failed": "Thất bại trong việc kiểm tra"
+      }
+    },
+    "profile_about_edit": {
+      "title": "Sửa đổi mô tả",
+      "description": "Tự giới thiệu về bản thân",
+      "reset": "Cài đặt lại",
+      "save": "Sao lưu"
+    },
+    "profile_mobile_menu": {
+      "edit_bio": "Sửa đổi mô tả",
+      "send_points": "Gửi điểm đi"
+    },
+    "report": {
+      "title": "Vui lòng lựa chọn vấn đề",
+      "report_field": "Khiếu nại",
+      "text": "Nếu như ai đó đang gặp nguy hiểm, xin hãy liên hệ ngay lập tức với các dịch vụ khẩn cấp tại nơi bạn ở. Đừng chờ đợi",
+      "send": "Gửi đi"
+    },
+    "rule_edit": {
+      "title": "Thêm quy tắc",
+      "title-edit": "Sửa đổi quy tắc",
+      "title_field": "Tiêu đề",
+      "description_field": "Mô tả",
+      "remove_rule_question": "Một đề xuất xóa các quy tắc sẽ được tạo ra. Bạn vẫn muốn thực hiện nó? ",
+      "submit": "Tạo đề nghị mới",
+      "toastsMessages": {
+        "created": "Đề nghị đã được tạo"
+      }
+    },
+    "community_language_edit": {
+      "title": "Thay đổi ngôn ngữ",
+      "toastsMessages": {
+        "created": "Đề nghị đã được tạo"
+      }
+    },
+    "share": {
+      "title": "Chia sẻ"
+    },
+    "sign_up": {
+      "title": "Đăng kí",
+      "title-oops": "Có gì đó không đúng",
+      "can_close": "Đăng kí không thành công. Dữ liệu hiện tại sẽ không được sao lưu",
+      "sign_in_text": "Bạn có tài khoản chưa?",
+      "sign_in": "Đăng nhập",
+      "errors": {
+        "fill_cell": "Cần điền đầy đủ vào tất cả các ô",
+        "too_many": "Quá nhiều lần thử",
+        "try_again": "Mã không được gửi đến bạn. Hãy thử lại lần nữa",
+        "try_later": "Hãy thử lại sau",
+        "recaptcha_check": "Thất bại trong việc kiểm tra"
+      },
+      "attentionAfter": {
+        "title": "Chú ý!",
+        "description": "Chúng tôi không sao lưu mật khẩu và không thể phục hồi chúng lại được.",
+        "text": "Thật không may, blockchain không cho phép chúng tôi khôi phục mật khẩu. Người dùng phải tự sao lưu mật khẩu ở nơi an toàn để truy cập vào hệ thống bất cứ lúc nào.<br /><br />Chúng tôi thực sự khuyên bạn nên sao lưu mật khẩu vào tạo ra thêm bản sao.",
+        "saved_it": "Đã lưu",
+        "download": "Tải tập tin PDF có chứa mật khẩu"
+      },
+      "attentionBefore": {
+        "title": "Chú ý!",
+        "description": "Bạn lựa chọn tiếp tục công việc với chế độ quản lý mật khẩu chuyên nghiệp mở rộng.",
+        "text": "Sau khi xác thực, hệ thống sẽ tự tạo ngẫu nhiên mật khẩu loại 52 kí tự mã hóa.<br />Vui lòng sao chép mật khẩu hoặc tải tập tin PDF có chứa mật khẩu.<br />Chúng tôi không sao lưu mật khẩu và không thể phục hồi chúng lại được.<br /><br /> Chúng tôi thực sự khuyên bạn nên sao lưu mật khẩu vào tạo ra thêm bản sao.",
+        "continue": "Tiếp tục với chế độ quản lý mật khẩu chuyên nghiệp"
+      },
+      "confirmation_code": {
+        "title": "Mã xác thực từ SMS",
+        "resend": "Gửi lại mã một lần nữa"
+      },
+      "confirmation_code_email": {
+        "title": "Mã xác thực đã được gửi vào hòm thư điện thử. Xin vui lòng nhập mã xác thực",
+        "placeholder": "Mã xác thực",
+        "resend": "Gửi lại mã xác thực",
+        "errors": {
+          "enter_code": "Vui lòng nhập mã xác thực",
+          "invalid_code": "Mã xác thực không đúng"
+        }
+      },
+      "confirm_password": {
+        "title": "Xác nhận lại mật khẩu",
+        "description": "Nhập lại mật khẩu lần nữa",
+        "errors": {
+          "same": "Mật khẩu không trùng khớp"
+        }
+      },
+      "create_password": {
+        "title": "Tạo mật khẩu",
+        "description": "Chúng tôi không sao lưu mật khẩu và không thể phục hồi chúng lại được. <br /><span class=\"bold\">Vui lòng sao lưu mật khẩu.</span>",
+        "use_password": "Sử dụng mật khẩu chuyên nghiệp"
+      },
+      "create_username": {
+        "description": "Tạo tên người dùng mới",
+        "username": "Tên người dùng",
+        "hints": [
+          "Tên người dùng không được dài quá 32 kí tự",
+          "Không được sử dụng kí tự in hoa",
+          "Có thể sử dụng: chữ cái, số và dấu gạch nối",
+          "Dấu gạch nối không được nằm ở đầu hoặc cuối của tên",
+          "Tên người dùng có thể sử dụng dấu chấm",
+          "Không được sử dụng tên người dùng có nhiều hơn 1 dấu chấm"
+        ]
+      },
+      "email": {
+        "placeholder": "Email",
+        "description": "Nhập địa chỉ email của bạn",
+        "errors": {
+          "email_is_not_valid": "Địa chỉ email không hợp lệ",
+          "enter_your_email": "Nhập địa chỉ email của bạn",
+          "account_already_exists": "Đã có một tài khoản nào đó sử dụng địa chỉ email này"
+        }
+      },
+      "master_key": {
+        "title": "<span class=\"bold\">Mật khẩu chuyên nghiệp</span><br />tạo ngẫu nhiên",
+        "title-custom": "<span class=\"bold\">Mật khẩu</span><br />được tạo ra",
+        "text": "Để đăng nhập, bạn cần mật khẩu chuyên nghiệp<br />Chúng tôi không sao lưu cũng như không thể phục hồi lại mật khẩu.<br /><span class=\"bold\">Hãy giữ nó an toàn!</span>",
+        "text-custom": "Để đăng nhập, bạn cần mật khẩu<br /> Chúng tôi không sao lưu cũng như không thể phục hồi lại mật khẩu.<br /><span class=\"bold\"> Hãy giữ nó an toàn!</span>",
+        "master_password": "Mật khẩu chuyên nghiệp",
+        "retry": "Thử lại lần nữa",
+        "download": "Tải PDF",
+        "saved_it": "Đã lưu",
+        "errors": {
+          "username_mismatch": "Tên người dùng không trùng khớp",
+          "userid_mismatch": "ID người dùng không trùng khớp"
+        }
+      },
+      "oauth": {
+        "continue": "Sử dụng <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Sử dụng {{name}}",
+        "providers": {
+          "phone": "điện thoại",
+          "email": "thư điện tử"
+        },
+        "sign_in_text": "Bạn có tài khoản chưa?",
+        "sign_in": "Đăng nhập"
+      },
+      "phone": {
+        "description": "Hãy nhập số điện thoại",
+        "phone_number": "Số điện thoại",
+        "sign_in_text": "Bạn có tài khoản chưa?",
+        "sign_in": "Đăng nhập",
+        "country_chooser": {
+          "choose_country": "Lựa chọn quốc gia",
+          "no_code": "Không có mã",
+          "no_country": "Không có quốc gia",
+          "no_found": "Không tìm thấy kết quả phù hợp"
+        },
+        "toastsMessages": {
+          "recaptcha_failed": "'Thất bại trong việc kiểm tra'"
+        },
+        "errors": {
+          "choose_country": "Chọn quốc gia",
+          "enter_phone": "Nhập số điện thoại",
+          "too_short_phone": "Số điện thoại quá ngắn",
+          "invalid_phone": "Số điện thoại không chính xác",
+          "unavailable": "Rất tiếc, chúng tôi không hỗ trợ vùng của bạn."
+        }
+      },
+      "registered": {
+        "description": "Có vẻ như bạn đã có tài khoản",
+        "sign_in": "Đăng nhập"
+      },
+      "common": {
+        "passwordInput": {
+          "password": "Mật khẩu"
+        },
+        "termsAgree": {
+          "text": "Với việc nhấn “Đăng kí”, bạn đồng ý với <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"blank\">Thỏa thuận người dùng</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Chính sách quyền riêng tư</a> и <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Từ chối đăng kí</a>"
+        }
+      }
+    },
+    "transfers": {
+      "convert_points": {
+        "title": "Sự chuyển đổi",
+        "convert": "Chuyển đổi",
+        "fee": "Phí chuyển đổi: {{percent}}% ",
+        "you_send": "Gửi đi",
+        "you_get": "Nhận được",
+        "rate": "Tỉ giá",
+        "buy_point_item": {
+          "buy": "Mua",
+          "balance": "Số dư trong tài khoản"
+        },
+        "toastsMessages": {
+          "success": "Chuyển đổi thành công",
+          "failed": "Chuyển đổi thất bại"
+        }
+      },
+      "exchange_commun": {
+        "2fa": {
+          "text": "Vui lòng hoàn tất giao dịch bằng cách nhập vào 4 kí tự của mật mã đã được gửi cho bạn.",
+          "verify": "Xác nhận"
+        },
+        "address": {
+          "qr_code": "Mã QR",
+          "send": "Gửi",
+          "tag": "Gắn thẻ",
+          "address_field": "Địa chỉ",
+          "copy": "Sao chép"
+        },
+        "card": {
+          "title": "Với thẻ ngân hàng",
+          "change_currency": "Thay đổi loại tiền tệ",
+          "card_number": "Số thẻ ngân hàng",
+          "exp_date": "Ngày hết hạn",
+          "cvc": "CVC",
+          "address": "Địa chỉ thanh toán",
+          "postal_code": "Mã bưu điện",
+          "loading_acs": "Đang tải trang ACS..."
+        },
+        "error": {
+          "description": "Thanh toán bị từ chối",
+          "repeat": "Thử lại lần nữa",
+          "errors": {
+            "1": "Số CVC không đúng",
+            "2": "Mã bưu điện không đúng",
+            "3": "Địa chỉ không đúng",
+            "4": "Dữ liệu được nhập vào không chính xác",
+            "5": "Ngân hàng đã từ chối thanh toán",
+            "6": "Hiện tại chúng tôi chỉ chấp nhận thẻ Visa và Mastercard",
+            "7": "Lỗi xác thực 3DS",
+            "8": "Xác thực 3DS không thể thực hiện",
+            "9": "Xác thực 3DS đã hoàn thành, nhưng chưa được hoàn thành bởi ngân hàng của người dùng",
+            "default": "Chúng tôi đang cố gắng khắc phục sự cố.<br />Xin lỗi vì sự bất tiện này"
+          }
+        },
+        "select": {
+          "fee": "Phí giao dịch",
+          "pay": "Tổng số tiền thanh toán",
+          "rate": "Tỉ giá",
+          "you_send": "Số tiền gửi đi",
+          "amount": "Tổng",
+          "minimum_charge": "Số tiền nhỏ nhất {{amount}} {{symbol}}",
+          "you_get": "Bạn nhận được",
+          "email": "Email",
+          "buy": "Mua Commun",
+          "sell_token_item": {
+            "use": "Sử dụng",
+            "card": "Visa/Master card"
+          },
+          "errors": {
+            "email_format": ""
+          }
+        },
+        "success": {
+          "completed": "Chuyển đổi thành công",
+          "total_charged": "Tổng số"
+        },
+        "common": {
+          "billing_info": {
+            "title": "Cam kết giao dịch",
+            "agree": "Nếu nhấn vào nút Mua, bạn đã chấp nhận<a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">các điều khoản dịch vụ</a> {{provider}}"
+          },
+          "header": {
+            "title": "Mua"
+          }
+        }
+      },
+      "history_filter": {
+        "title": "Bộ lọc",
+        "all": "Tất cả",
+        "income": "Thu nhập",
+        "outcome": "Chi tiêu",
+        "type": "Loại",
+        "transfer": "Chuyển khoản",
+        "convert": "Đổi",
+        "rewards": "Phần thưởng",
+        "claim": "Nhận",
+        "donation": "Ủng hộ",
+        "hold_type_title": "Thích/Không thích",
+        "like": "Thích",
+        "dislike": "Không thích",
+        "clear_all": "Xóa tất cả"
+      },
+      "point_info": {
+        "title-mobile": "Gửi điểm đi"
+      },
+      "select_point": {
+        "title": "Điểm",
+        "search": "Tìm kiếm điểm",
+        "no_found": "Không có điểm",
+        "no_found_desc": "Hãy thử gửi đi hoặc chuyển đổi"
+      },
+      "select_recipient": {
+        "title": "Chọn một bạn"
+      },
+      "select_token": {
+        "title": "Chọn loại tiền tệ",
+        "title_buy": "Mua CMN với...",
+        "card": "Visa/Master Card",
+        "search": "Tìm token",
+        "no_found": "Không có token"
+      },
+      "send_points": {
+        "title": "Gửi đi",
+        "to": "Đến",
+        "select_user": "Lựa chọn người dùng",
+        "change_user": "Thay đổi người dùng",
+        "amount": "Tổng",
+        "hint": "Quá trình có thể mất một ít thời gian",
+        "send": "Gửi đi",
+        "fee_text": "Phí giao dịch: {{percent}}%",
+        "toastsMessages": {
+          "success": "Giao dịch thành công",
+          "failed": "Giao dịch thất bại"
+        }
+      },
+      "donate_points": {
+        "title": "Ủng hộ",
+        "to": "Đến",
+        "select_user": "Lựa chọn người dùng",
+        "change_user": "Thay đổi người dùng",
+        "amount": "Tổng",
+        "hint": "Quá trình có thể mất một ít thời gian",
+        "send": "Ủng hộ",
+        "fee_text": "Phí giao dịch {{percent}}%",
+        "toastsMessages": {
+          "success": "Ủng hộ thành công",
+          "failed": "Ủng hộ thất bại"
+        }
+      }
+    },
+    "view_bio": {
+      "title": "Hồ sơ {{username}}"
+    },
+    "switch_to_app": {
+      "title": "Commun còn tốt hơn nữa khi sử dụng ứng dụng di động",
+      "description": "Thoải mái hơn khi sử dụng mạng xã hội của chúng tôi trên điện thoại di động của bạn.",
+      "continue": "Tiếp tục trong ứng dụng di động",
+      "sign_in": "Đăng nhập"
+    },
+    "onboarding_app_banner": {
+      "title": "<span class=\"highlight\">Commun</span> còn tốt hơn trong <span class=\"highlight\">ứng dụng di động</span>",
+      "text": "Sử dụng thử ngay bây giờ và nhận thêm điểm",
+      "continue": "Chuyển sang ứng dụng di động",
+      "sign_in": "Đăng nhập"
+    },
+    "onboarding_registration": {
+      "communities": {
+        "title": "Hãy nhận những điểm số đầu tiên của bạn",
+        "title-sign_up": "Đăng nhập để nhận thêm nhiều điểm",
+        "text_0": "Đăng ký ngay cộng đồng {{COMMUNITIES_AIRDROP_COUNT}} và nhận về những điểm đầu tiên",
+        "text_1": "Đăng ký ngay cộng đồng {{COMMUNITIES_AIRDROP_COUNT}} và nhận về những điểm đầu tiên",
+        "text_3": "Đăng ký ngay cộng đồng {{COMMUNITIES_AIRDROP_COUNT}} và nhận về những điểm đầu tiên",
+        "sign_in_text": "Bạn có tài khoản chưa?",
+        "sign_in": "Đăng nhập",
+        "sign_up": "Đăng nhập và nhận điểm",
+        "finish": "Kết thúc"
+      },
+      "download": {
+        "title": "<span class=\"blue\">Tải ứng dụng</span><br />Nhân đôi số điểm",
+        "description": "Ngay sau khi đăng nhập vào ứng dụng<br />Chúng tôi sẽ tăng gấp đôi số điểm khởi đầu của bạn"
+      },
+      "share": {
+        "title": "<span class=\"share\">Chia sẻ</span> với bạn bè<br />Gấp đôi số điểm",
+        "description": "Nhận 5% giảm giá khi mua hàng của bạn bè,<br />người mà bạn đã mời tham gia theo đường dẫn",
+        "share_link": "Chia sẻ đường dẫn"
+      }
+    },
+    "onboarding_welcome": {
+      "welcome": {
+        "title": "Chào mừng<br />đến với <span class=\"blue\">Commun /</span>",
+        "description": "Mạng xã hội trên nền tảng blockchain, nơi mà bạn nhận được <span class=\"blue\">phần thưởng</span>cho các bài viết, bình luận và các lượt thích."
+      },
+      "thematic": {
+        "title": "<span class=\"blue strong\">Chủ đề</span><br />cộng đồng",
+        "description": "Lựa chọn cộng đồng và nhận <br /><span class=\"blue\">các phần quà</span> vì sự hoạt động tích cực của bạn"
+      },
+      "owned": {
+        "title": "<span class=\"strong\">Thuộc về</span> người dùng",
+        "description": "Cộng đồng không có người sang lập<br />và hoàn toàn thuộc về người dùng",
+        "sign_up": "Bắt đầu và nhận về 30 điểm",
+        "sign_in": "Đăng nhập"
+      },
+      "monetize": {
+        "title": "<span class=\"strong\">Kiếm tiền từ</span><br />mạng xã hội",
+        "description": "Tạo bài viết, bình luận, thích các bài viết <br />và nhận được điểm từ cộng đồng"
+      }
+    },
+    "create_community": {
+      "confirmation": "Xác nhận",
+      "you_need": "Để tạo lập một cộng đồng <br /> cần <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">token Commun</span> .",
+      "after_creating": "Sau khi tạo lập cộng đồng:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} token Commun</span><br />",
+      "burned": "chi phí",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} điểm</span><br />",
+      "bounty": "sẽ được chuyển đến dịch vụ trao thưởng",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} điểm</span><br />",
+      "transferred": "sẽ được chuyển vào ví điện tử của bạn",
+      "not_enough": "Dường như bạn không đủ<br />token Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">token Commun</span> <br />cần để tạo lập cộng đồng"
+    }
+  },
+
+  "widgets": {
+    "get_first_points": {
+      "title": "Nhận những điểm đầu tiên",
+      "description": "Đăng kí<br /> 3 cộng đồng và nhận những điểm chào mừng"
+    },
+    "airdrop": {
+      "first_line": "Của bạn",
+      "second_line": "những điểm thưởng đang chờ đợi bạn!",
+      "text": "Nhấn nút và <br/> nhận điểm Dank Meme!",
+      "get": "Nhận",
+      "toastsMessages": {
+        "claim_received": "Yêu cầu đã được gửi"
+      }
+    },
+    "trending_communities": {
+      "title": "Cộng đồng phổ biến"
+    },
+    "leader_in": {
+      "title": "Dẫn đầu trong"
+    },
+    "community_filter": {
+      "title": "Cộng đồng",
+      "clear": "Loại bỏ bộ lọc",
+      "no_found": "Không tìm thấy gì",
+      "empty": "Không có cộng đồng"
+    },
+    "following_you": {
+      "user_subscribed": "{{user}} đã theo dõi bạn"
+    },
+    "friends": {
+      "title_0": "bạn",
+      "title_1": "bạn",
+      "title_2": "bạn"
+    },
+    "get_points": {
+      "get": "Nhận điểm",
+      "get-small": "Nhận",
+      "balance": "Tài khoản {{communityName}}"
+    },
+    "invite": {
+      "text": "Kích hoạt tài khoản của bạn và bắt đầu với những điểm đầu tiên",
+      "start": "Bắt đầu"
+    },
+    "referrals_invite": {
+      "text": "Bạn nhận được 1 token CMN cho mỗi người bạn giới thiệu + 5% trên tổng số lượng họ đã mua trên Commun",
+      "copy": "Sao chép",
+      "share": "Chia sẻ"
+    },
+    "leader_management": {
+      "title": "Quản lý"
+    },
+    "leaders": {
+      "title_0": "Quản trị viên",
+      "title_1": "Quản trị viên",
+      "title_2": "Quản trị viên",
+      "claim": "Nhận phần thưởng cho quản trị viên",
+      "toastsMessages": {
+        "claimed": "Yêu cầu nhận phần thưởng cho quản trị viên đã được gửi đi",
+        "error": "Không có phần thưởng dành cho quản trị viên"
+      }
+    },
+    "manage_community": {
+      "text": "Quản lý"
+    },
+    "members": {
+      "title_0": "Thành viên",
+      "title_1": "Thành viên",
+      "title_2": "Thành viên"
+    },
+    "mobile_balance": {
+      "wallet": "Ví điện tử"
+    },
+    "user_communities": {
+      "title_0": "Cộng đồng",
+      "title_1": "Cộng đồng",
+      "title_2": "Cộng đồng"
+    },
+    "faq": {
+      "title": "Cách sử dụng Commun?",
+      "description": " Làm cách nào để bắt đầu đăng bài và kiếm tiền từ hoạt động của bạn?",
+      "text": "Nhận phần thưởng cho<br /> bài đăng, lượt thích và bình luận",
+      "big": {
+        "description": "Làm cách nào để bắt đầu đăng bài và <br /> kiếm tiền từ hoạt động của bạn",
+        "text": "Nhận phần thưởng cho bài đăng, lượt thích và<br /> bình luận. Nhấn “Bắt đầu” để biết rõ hơn"
+      },
+      "start": "Bắt đầu"
+    },
+    "technical_works": {
+      "first_line": "Các sự cố kỹ thuật",
+      "bold_line": "sẽ nhanh chóng kết thúc",
+      "text": "Chúng tôi đang khắc phục sự cố, <br /> và bạn sẽ nhanh chóng được truy cập trở lại",
+      "refresh": "Làm tươi",
+      "big": {
+        "text": "Cảm ơn vì sự kiên nhẫn của bạn! Chúng tôi đang khắc phục sự cố, và bạn sẽ nhanh chóng được truy cập trở lại  ",
+        "refresh": "Làm mới trang"
+      }
+    }
+  },
+
+  "filters": {
+    "title": "Bộ lọc",
+    "sort": "Sắp xếp",
+    "type": {
+      "community": "Mới",
+      "new": "Mới",
+      "hot": "Nóng hổi",
+      "subscriptions": "Mới",
+      "subscriptionsHot": "Nóng hổi",
+      "subscriptionsPopular": "Phổ biến",
+      "topLikes": "Phổ biến",
+      "topComments": "Top bình luận",
+      "topRewards": "Top giải thưởng"
+    },
+    "timeframe": {
+      "day": "Tong ngày",
+      "week": "Trong tuần",
+      "month": "Trong tháng",
+      "all": "Từ đầu đến bây giờ"
+    },
+    "sortBy": {
+      "time": "Từ cũ đến mới",
+      "timeDesc": "Từ mới đến cũ",
+      "popularity": "Theo độ phổ biến"
+    }
+  },
+
+  "tooltips": {
+    "common": {
+      "close": "Đóng",
+      "dont_show": "Không hiển thị lại"
+    },
+    "choose_community": {
+      "title": "Lựa chọn cộng đồng",
+      "desc": "Lựa chọn cộng đồng, nơi mà bạn muốn đăng bài",
+      "close": "Đóng"
+    },
+    "feed_onboarding": {
+      "types": {
+        "vote": {
+          "title": "Phần thưởng cho lượt thích",
+          "desc": "Vâng, chúng tôi cũng thưởng cho những lượt thích! Và chúng có giá trị hơn nhiều so với bạn nghĩ. Bình chọn cho bài viết, giúp nó trở nên phổ biến và nhận về phần thưởng."
+        },
+        "comments": {
+          "title": "Phần thưởng cho các bình luận",
+          "desc": "Bình luận cũng được thưởng. Hãy trò chuyện và nhận phần thưởng!"
+        },
+        "share": {
+          "title": "Chia sẻ bài viết",
+          "desc": " Tuyệt vời, bài viết của bạn đã được đăng thành công! Chia sẻ nó với bạn bè của bạn để nhận thêm phần thưởng!"
+        },
+        "reward": {
+          "title": "Điều này có nghĩa là gì?",
+          "desc": "Ồ, bài này đã được nhận thưởng! <br /> Bạn có muốn nhận được phần thưởng không? Tạo bài viết mới – cách đơn giản nhất để nhận phần thưởng!"
+        }
+      }
+    },
+    "first_like": {
+      "desc": " Nếu bạn có điểm từ cộng đồng này và bài đăng này lọt vào TOP-10 trong ngày, bạn và tác giả sẽ nhận được nhiều điểm thưởng hơn.",
+      "learn_more": "Tìm hiểu nhiều hơn về phần thưởng"
+    },
+    "not_ready": {
+      "title": "Trong quá trình phát triển",
+      "desc": "Tính năng này sẽ sớm được cung cấp"
+    },
+    "reward_for_post": {
+      "title": "Làm thế nào để nhận được phần thưởng từ bài viết của tôi?",
+      "desc": "Sau khi đăng bài viết, thành viên của cộng đồng có {{hours}} giờ để thích và không thích. Nếu như bài viết của bạn lọt vào TOP-10 trong ngày, bạn sẽ nhận thưởng."
+    },
+    "donate": {
+      "title": "Ủng hộ",
+      "points": "điểm",
+      "other": "khác",
+      "donation_0": "+ {{count}} Ủng hộ",
+      "donation_1": "+ {{count}} Ủng hộ",
+      "donation_2": "+ {{count}} Ủng hộ"
+    }
+  },
+
+  "errors": {
+    "common": {
+      "unknown": "Lỗi chưa xác định",
+      "blockchain_error": "Lỗi trong hệ thống blockchain."
+    },
+    "username": {
+      "exists": "Tên người dùng đã được sử dụng"
+    },
+    "sms": {
+      "wrong": "Mã xác minh không hợp lệ",
+      "many_retries": "Quá nhiều lần thử, hãy thử lại sau.",
+      "later": "Hãy thử lại sau một lúc nữa.",
+      "cant": "Không thể gửi tin nhắn SMS"
+    }
+  },
+
+  "chain_errors": {
+    "cashout_window": "Phiên bình chọn đã kết thúc",
+    "incorrect_delegate_proxy_level": "Không được ủy quyền cho người dùng này",
+    "the_entire_amount_is_spent_on_fee": "Toàn bộ số tiền được chi cho lệ phí",
+    "these_points_cost_zero_tokens": "Điểm có giá trị bằng 0 token",
+    "you_are_blocked_by_the_user": "Bạn đã chặn người dùng này"
+  },
+
+  "toastsMessages": {
+    "success": "Thành công",
+    "community": {
+      "unfollowed": "Hủy theo dõi",
+      "followed": "Bạn đã theo dõi"
+    },
+    "user": {
+      "unfollowed": "Hủy theo dõi",
+      "followed": "Bạn đã theo dõi"
+    },
+    "proposal": {
+      "created": "Đã tạo đề nghị"
+    },
+    "report": {
+      "sent": "Khiếu nại đã được gửi đi"
+    }
+  },
+
+  "validations": {
+    "amount": {
+      "on_hold": "{{quantity}} tạm dừng",
+      "insufficient_funds": "Không đủ tiền. Bạn đang có {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Tổng số tiền vượt quá đề nghị: {{supply}}",
+      "more_than_decs": "Không lớn hơn {{decs}} dấu thập phân",
+      "invalid_format": "Không đúng định dạng",
+      "enter_amount": "Nhập số tiền",
+      "less_than_minimal": "Số tiền ít hơn mức tối thiểu: {{minAmount}}",
+      "less_than_0": "Số tiền nhỏ hơn 0",
+      "more_than_max": "Số tiền lớn hơn {{maxAmount}}"
+    },
+    "username": {
+      "is_empty": "Không có tên người dùng",
+      "invalid_symbols": "Tên người dùng chỉ có thể là các chữ cái in thường, các chữ số, dấu chấm hoặc dấu gạch nối",
+      "start_with": "Tên người dùng phải bắt đầu bằng chữ cái",
+      "too_short": "Tên người dùng phải chứa ít nhất 3 kí tự",
+      "too_long": "Tên người dùng không được dài hơn 32 kí tự",
+      "several_dots": "Trong tên người dùng chỉ có thể có 1 dấu chấm hoặc 1 dấu gạch nối",
+      "several_dashes": "Tên người dùng chỉ có thể chứa 1 dấu gạch nối dưới",
+      "invalid_sequences": "Tên người dùng chỉ được chứa 1 dấu chấm hoặc 1 dấu gạch nối",
+      "ends_with": "Tên người dùng phải kết thúc bằng chữ cái hoặc số"
+    },
+    "password": {
+      "lower_case": "Chữ in thường",
+      "upper_case": "Chữ in hoa",
+      "number": "Số",
+      "min_length": "Độ dài nhỏ nhất"
+    }
+  },
+
+  "reports": {
+    "spam": "Spam",
+    "harassment": "Quấy rối",
+    "nudity": "Khỏa thân",
+    "violence": "Bạo lực",
+    "falsenews": "Thông tin giả",
+    "terrorism": "Khủng bố",
+    "breakscommunityrules": "Việc này vi phạm quy tắc cộng đồng",
+    "hatespeech": "Sự thù ghét",
+    "unauthorizedsales": "Bán hàng trái phép",
+    "abuse": "Xúc phạm",
+    "other": "Khác"
+  },
+
+  "utils": {
+    "post_time": {
+      "now": "Bây giờ",
+      "seconds": "s",
+      "minutes": "m",
+      "hours": "h",
+      "days": "d"
+    },
+    "normalize_time": {
+      "now": "bây giờ",
+      "m_ago": "phút trước",
+      "h_ago": "giờ trước"
+    },
+    "images": {
+      "upload_failed": "Không thể tải ảnh lên",
+      "only_images": "Vui lòng chỉ sử dụng ảnh",
+      "too_big": "Tệp tin quá lớn, dung lượng tối đa {{size}} MB"
+    }
+  }
+}

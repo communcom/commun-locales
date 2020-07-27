@@ -788,6 +788,12 @@
       "text": "如果有人处于紧急危险中，请致电当地紧急服务部门。别等了。",
       "send": "发送"
     },
+    "ban": {
+      "title": "Please select a ban reason",
+      "ban_field": "Reason",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
+    },
     "rule_edit": {
       "title": "添加规则",
       "title-edit": "规则编辑",
@@ -1416,6 +1422,20 @@
   },
 
   "reports": {
+    "spam": "垃圾邮件",
+    "harassment": "骚扰",
+    "nudity": "裸露",
+    "violence": "暴力",
+    "falsenews": "假消息",
+    "terrorism": "恐怖主义",
+    "breakscommunityrules": "违反社区规则",
+    "hatespeech": "仇恨言语",
+    "unauthorizedsales": "未经授权的销售",
+    "abuse": "企图滥用",
+    "other": "其它"
+  },
+
+  "bans": {
     "spam": "垃圾邮件",
     "harassment": "骚扰",
     "nudity": "裸露",

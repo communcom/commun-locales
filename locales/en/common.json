@@ -787,6 +787,12 @@
       "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
       "send": "Send"
     },
+    "ban": {
+      "title": "Please select a ban reason",
+      "ban_field": "Reason",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
+    },
     "rule_edit": {
       "title": "Add rule",
       "title-edit": "Rule editing",
@@ -1435,6 +1441,20 @@
   },
 
   "reports": {
+    "spam": "Spam",
+    "harassment": "Harassment",
+    "nudity": "Nudity",
+    "violence": "Violence",
+    "falsenews": "False news",
+    "terrorism": "Terrorism",
+    "breakscommunityrules": "It breaks community rules",
+    "hatespeech": "Hate speech",
+    "unauthorizedsales": "Unauthorized sales",
+    "abuse": "Attempt to abuse",
+    "other": "Other"
+  },
+
+  "bans": {
     "spam": "Spam",
     "harassment": "Harassment",
     "nudity": "Nudity",

@@ -792,6 +792,12 @@
       "text": "Wenn sich jemand in unmittelbarer Gefahr befindet, wenden Sie sich bitte an die ortlichen Rettungsdienste. Warte nicht.",
       "send": "Senden"
     },
+    "ban": {
+      "title": "Please select a ban reason",
+      "ban_field": "Reason",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
+    },
     "rule_edit": {
       "title": "Regel hinzufugen",
       "title-edit": "–Regeln bearbeiten",
@@ -1417,6 +1423,20 @@
   },
 
   "reports": {
+    "spam": "Spam",
+    "harassment": "Die Belastigung",
+    "nudity": "Die Nacktheit",
+    "violence": "Die Gewalttatigkeit",
+    "falsenews": "Falsche Nachrichten",
+    "terrorism": "Terrorismus",
+    "breakscommunityrules": "Das versto?t gegen die Gemeinschaftsregeln",
+    "hatespeech": "Der Hass",
+    "unauthorizedsales": "Unerlaubter Verkauf",
+    "abuse": "Ein Versuch zu beleidigen",
+    "other": "Der andere"
+  },
+
+  "bans": {
     "spam": "Spam",
     "harassment": "Die Belastigung",
     "nudity": "Die Nacktheit",

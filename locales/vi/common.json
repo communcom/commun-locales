@@ -793,6 +793,12 @@
       "text": "Nếu như ai đó đang gặp nguy hiểm, xin hãy liên hệ ngay lập tức với các dịch vụ khẩn cấp tại nơi bạn ở. Đừng chờ đợi",
       "send": "Gửi đi"
     },
+    "ban": {
+      "title": "Please select a ban reason",
+      "ban_field": "Reason",
+      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
+      "send": "Send"
+    },
     "rule_edit": {
       "title": "Thêm quy tắc",
       "title-edit": "Sửa đổi quy tắc",
@@ -1418,6 +1424,20 @@
   },
 
   "reports": {
+    "spam": "Spam",
+    "harassment": "Quấy rối",
+    "nudity": "Khỏa thân",
+    "violence": "Bạo lực",
+    "falsenews": "Thông tin giả",
+    "terrorism": "Khủng bố",
+    "breakscommunityrules": "Việc này vi phạm quy tắc cộng đồng",
+    "hatespeech": "Sự thù ghét",
+    "unauthorizedsales": "Bán hàng trái phép",
+    "abuse": "Xúc phạm",
+    "other": "Khác"
+  },
+
+  "bans": {
     "spam": "Spam",
     "harassment": "Quấy rối",
     "nudity": "Khỏa thân",

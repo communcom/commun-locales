@@ -489,6 +489,7 @@
     "notification": {
       "comment": "评论",
       "post": "文章",
+      "post": "文章",
       "types": {
         "reply": "留下评论{{shortText}}",
         "mention": "提到你在 {{entityType}}: “{{shortText}}”",
@@ -505,7 +506,7 @@
           "first": "你收到了 {{amountStr}}. 这是推荐奖励 - {{percent}}% 来自",
           "last": "购买者"
         },
-        "donation": "donate for post{{shortText}}: {{amount}} {{symbol}}"
+        "donation": "donate for post{{shortText}}: {{amount}} {{communityName}}"
       }
     },
     "notification_counter": {

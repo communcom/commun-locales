@@ -505,7 +505,7 @@
           "first": "You received {{amountStr}}. It's a referral bounty - {{percent}}% of",
           "last": "'s purchase"
         },
-        "donation": "donate for post{{shortText}}: {{amount}} {{symbol}}"
+        "donation": "donate for post{{shortText}}: {{amount}} {{communityName}}"
       }
     },
     "notification_counter": {

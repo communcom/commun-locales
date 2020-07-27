@@ -515,7 +515,7 @@
           "first": "Đã nhận được {{amountStr}}. Điểm thưởng - {{percent}}% của giá trị giao dịch",
           "last": ""
         },
-        "donation": "Ủng hộ cho bài viết của bạn{{shortText}}: {{amount}} {{symbol}}"
+        "donation": "Ủng hộ cho bài viết của bạn{{shortText}}: {{amount}} {{communityName}}"
       }
     },
     "notification_counter": {

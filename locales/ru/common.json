@@ -505,7 +505,7 @@
         "reply": "прокомментировал {{shortText}}",
         "mention": "упомянул тебя в {{entityType}}: “{{shortText}}”",
         "upvote": "лайкнул твой {{entityType}}",
-        "banPost": "Твой {{entityType}} забанен",
+        "banPost": "Ваш {{entityType}} был звблокирован",
         "subscribe": "подписался на тебя",
         "reward": "Получено {{amount}} поинтов {{communityName}}",
         "transfer": {

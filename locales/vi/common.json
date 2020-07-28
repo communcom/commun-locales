@@ -146,7 +146,7 @@
         "title": "Chung",
         "language": "Ngôn ngữ hiển thị",
         "languagePosts": "Ngôn ngữ của bài viết trên bản tin",
-        "currencyPosts": "Bài viết về tiền tệ trên bản tin",
+        "currencyPosts": "Đơn vị tiền tệ trên bản tin",
         "theme": "Chủ đề",
         "theme_type": {
           "light": "Màu sáng",
@@ -236,7 +236,7 @@
         "search_points": "Tìm kiếm điểm",
         "no_found": "Không tìm thấy điểm",
         "no_found_desc": "Hãy cố gắng gửi đi hoặc chuyển đổi",
-        "hide_empty": "Ẩn khoảng trống",
+        "hide_empty": "Ẩn tài khoản trống",
         "hide_empty_balances": "Ẩn tài khoản trống",
         "hidden": "Ẩn"
       },

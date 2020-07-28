@@ -1,193 +1,194 @@
 {
   "faq": {
     "nav-mobile": "FAQ",
-    "title": "How does Commun work?",
-    "description": "Commun is built on autonomous communities that fully belong to users. Each community is self-regulated by a core scope of leaders, continuously electable by community members.",
+    "title": "Как работает Commun?",
+    "description": "Commun -это токенизированная социальная сеть, в которой пользователи могут монетизировать свою активность, получая награды за действия внутри сообществ, донаты - за свои посты и комментарии, а также выгоду при размещении рекламы внутри тематических групп.",
     "sections": [
       {
         "id": "1",
-        "title": "What is Commun?",
-        "description": "Commun serves as a web, Android, and iOS portal where users can form interest-based groups to share, read, watch, rank, and discuss content with like-minded people. The platform, comprised of decentralised autonomous communities (DACs), is the first Web-3 social network to launch since interest in the technology was shown following an outcry over censorship, de-platforming, and data-selling by social media giants.",
+        "title": "Что такое Commun?",
+        "description": "Commun - это веб, Android и iOS- приложения, где пользователи могут создавать сообщества по интересам, чтобы делиться, читать, смотреть, оценивать и обсуждать контент с единомышленниками. Каждое сообщество управляется группой лидеров, которых участники выбирают путем голосования.",
         "children": [
           {
             "id": "11",
-            "title": "Commun allows users to:",
-            "description": "- manage communities and content by upvoting and downvoting posts;\n- elect their leader according to the principles of a liquid democracy;\n- and  most importantly - monetize their activities."
+            "title": "Commun дает возможность:",
+            "description": "- монетизировать свою активность в социальной сети;\n- выбирать лучший контент, вознаграждать участников за активность;\n- создавать и управлять сообществами;\n- выбирать лидеров сообществ голосованием."
           },
           {
             "id": "12",
-            "title": "Managing content:",
-            "description": "By upvoting posts, users bring the best ones to the Top 10 of the day (this top 10 recalculates every hour).\nWhen the post reaches the Top - the blockchain algorithmically supplies the author and curators (ones who upvoted and commented) with the Points of this community."
+            "title": "Как монетизируется активность в Commun:",
+            "description": "Оценивая посты, пользователи выводят лучшие из них в топ-10 в каждом сообществе. Пересчет топа происходит каждый час. Когда пост попадает в топ, автор и пользователи, которые оценивали его, получают награды в поинтах сообщества."
           },
           {
             "id": "13",
-            "title": "It works like this:",
-            "description": "The post gets rewards (we indicate it with the coin mark on Commun), then from this amount of the reward 45% goes to the author, 45% to curators, and 10% to the leaders of the community as a fee for their work"
+            "title": "Как работает вознаграждение:",
+            "description": "Когда пост получает награду, в правом верхнем углу появляется знак монеты. Из той суммы, что указана в вознаграждении, 45% получает автор поста, 45% - кураторы (люди, которые оценивали и комментировали его), а 10% - лидеры сообщества.
+"
           }
         ]
       },
       {
         "id": "2",
-        "title": "What is a community on Commun?",
-        "description": "Community on Commun is a decentralized and self-governed group based on particular thematics. They are fully independent, having their own economy and governance.\nThe monetization of publications, likes, and comments is secured by smart-contract.\nCommunity members elect leaders by voting the nominees. Leaders, in turn, manage content, set up the rules, and keep the community healthy. Learn more about the leadership in the “Which roles exist on Commun?” section down below."
+        "title": "Что такое сообщество в Commun?",
+        "description": "Сообщества в Commun - это децентрализованные и самоуправляемые группы, посвященные какой-то тематике. Они полностью независимы, имеют собственную экономику и управление.\nЧлены сообщества выбирают лидеров, голосуя за кандидатов. Лидеры, в свою очередь, устанавливают правила сообщества, например, язык или тему, или требования к оригинальности контента, удаляют из ленты посты, размещенные с нарушением правил, удаляют из сообщества пользователей, не соблюдающих правила, поддерживают активность в сообществе. Подробнее узнать о лидерстве можно в разделе «Какие роли существуют в Commun?»."
       },
       {
         "id": "3",
-        "title": "What are CMN tokens and community Points?",
-        "description": "CMN is a basic token of the platform. It can be utilized to create communities, issue community points, and vote for leaders. In the future, it will release the ad networks for the community.\n\nEach community has its own Points. It's a token of the second level.\nAll community points are insured and redeemable with basic platform tokens (CMN tokens), and their creation is managed according to the bancor protocol.\n\nPoints can be converted to CMN tokens, transferred to your friends, or exchanged to Points of other communities.",
+        "title": "Что такое токены CMN и поинты сообществ?",
+        "description": "CMN - это базовый токен платформы. Его можно использовать для создания сообществ, покупки поинтов сообществ и голосования за лидеров. В будущем с помощью него можно будет создавать рекламные кампании в сообществах.\n\nКаждое сообщество имеет свои поинты (это токен второго уровня).\nОни обеспечиваются и могут быть выкуплены с помощью базовых токенов платформы (токенов CMN), а их создание осуществляется в соответствии с протоколом Bancor.\n\nПоинты можно конвертировать в токены CMN, передавать друзьям или обменивать на поинты других сообществ.",
         "imageUrl": "/images/pages/faq/section-buy-points.png"
       },
       {
         "id": "4",
-        "title": "What is the logic of having so many different points?",
-        "description": "Each community has its own Points which guarantee full independence. You can consider them as an internal currency, redeemable with a CMN token."
+        "title": "Зачем так много разных поинтов?",
+        "description": "Каждое сообщество имеет шанс на монетизацию. Монетизация зависит от участников сообщества - качества тематического контента и числа участников сообщества (именно эти характеристики интересуют рекламодателей). Лучше всего качество контента определяют люди, интересующиеся той или иной темой глубоко. При этом тот факт, что их меньше, чем людей интересующихся другой темой или пишущих на другом языке в соседнем сообществе, не должно влиять на распределение наград. Именно поэтому каждое сообщество имеет свой выделенный пул поинтов."
       },
       {
         "id": "5",
-        "title": "If I have a bigger stake in the community, will my vote  give the post a bigger reward?",
-        "description": "Your community points stake will affect the post/vote reward  although it’s not the main parameter but the post's “popularity” has nothing to do with the stake at all."
+        "title": "Если у меня будет большая доля в сообществе, даст ли мой голос большее вознаграждение посту?",
+        "description": "Имеющееся у пользователя количество поинтов сообщества влияет на размер вознаграждения за пост."
       },
       {
         "id": "6",
-        "title": "What’s the purpose of communities on Commun?",
-        "description": "Check this article to learn about the essential ideas behind communities from the example of <a href=\"https://commun.com/askcommun/@shtefan-daily/1586264773\" target=\"_blank\" rel=\"noopener noreferrer\">the Community of Gardeners</a>"
+        "title": "Какова цель сообществ на Commun?",
+        "description": "Прочтите эту статью, чтобы узнать об основных идеях сообщества на примере <a href=\"https://commun.com/askcommun/@shtefan-daily/1586264773\" target=\"_blank\" rel=\"noopener noreferrer\">сообщества садоводов</a>"
       },
       {
         "id": "7",
-        "title": "How do I create my community?",
-        "description": "Here's a quick explanation of how the community creation works.\n1. You must have a balance of 10,000 СMN\n2. It is necessary to fill all the required fields, upload avatars, and cover image, etc.\n3. The transaction of 10 000 СMN goes to the proxy account \n4. 1000 CMN is burned, tokens are sent to a cyber.null account and withdrawn from circulation. (you can see it in the block explorer)\n5. Then the community is initialized, 1 CMN is sent to the reserve, the first 100,000 Community Points are created and sent to the creator’s account \n6. All of the remaining amount (8999 CMN) converts to community points.\n7. 10% of created community points transfer to the account c.bounty. These points are the pool for  distribution to users during registration when they select the first 3 communities.\n8. The remaining 90% goes to the account of the user who created the community.\n9. There is an automatic subscription to the created community and registration of the user who created the message as a leader.\n\n\nOnly the owner of community points decides how to dispose of them. Points can be transferred to another user, converted back to CMN Tokens, or you can vote with all your stake for posts or comments.\nRegardless of how the creator of the community decides to dispose of his points, the community will continue to function."
+        "title": "Как мне создать свое сообщество?",
+        "description": "Вот краткое описание того, как работает создание сообщества:\n1. У пользователя должно быть 10 000 CMN на балансе.\n2. Нужно заполнить все необходимые поля, загрузить аватар, изображение обложки и т.д.\n3. Транзакция в размере 10 000 CMN поступает на прокси-аккаунт.\n4. 1000 CMN сжигается, токены отправляются на счет cyber.null и изымаются из обращения. (Вы можете увидеть это в explorer).\n5. Затем происходит регистрация сообщества. 1 CMN отправляется в резерв, первые 100 000 поинтов сообщества создаются и отправляются на счет основателя.\n6. Вся оставшаяся сумма (8999 CMN) преобразуется в поинты сообщества.\n7. 10% созданных поинтов сообщества переводятся на счет c.bounty. Они являются пулом для распространения среди пользователей при регистрации, когда они выбирают первые 3 сообщества.\n8. Оставшиеся 90% идут на счет пользователя, который создал сообщество.\n9. Пользователь, создавший сообщество, автоматически подписывается на него и регистрируется в нем в качестве лидера.\n\n\nТолько владелец поинтов сообщества решает, как ими распоряжаться. Они могут быть переданы другому пользователю, преобразованы обратно в токены CMN, или же потрачены на донаты пользователям.\nНезависимо от того, как создатель сообщества решит распорядиться своими поинтам, сообщество будет продолжать функционировать."
       },
       {
         "id": "8",
-        "title": "Where do the 1000 CMN tokens go when I create my community?",
-        "description": "You can consider 1000 CMN as a fee, but we do not take it  ourselves. We burn 1000 CMN tokens and reduce the total amount of CMN in circulation. In the future, each such burning will increase the value of the CMN token and all points. We plan to add more burning mechanisms in the future.\nNow for staking. What we did is not staking, although it is reminiscent of it. \n\nThe community has two conditional balances.\n1. The number of coins in reserve.\n2. The number of points in circulation.\n\nWhen someone buys points, in fact, it creates new points and puts basic CMN tokens in the reserve balance as a security payment. With this, the increase in price for each newly created point occurs exponentially. Basic tokens remain on the balance of the community until the holder decides to sell them. In the case of a sale, the community points are destroyed, and the user is given a basic CMN token, according to the formula described in the smart contract."
+        "title": "На что уходят 1000 CMN, когда я создаю свое сообщество?",
+        "description": "Вы можете рассматривать 1000 CMN как оплату, но мы не забираем токены себе. Мы сжигаем их, и сокращаем общее количество CMN в обращении.\n\nСообщество имеет два условных баланса:\n1. Количество токенов в резерве.\n2. Количество поинтов в обращении.\n\nКогда кто-то покупает поинты, он, по сути, создает новые и резервирует CMN-токены в качестве гарантийного платежа. При этом повышение цены для каждого вновь созданного поинта происходит по экспоненте. Базовые токены остаются на балансе сообщества до тех пор, пока владелец не решит их продать. В случае продажи поинты сообщества уничтожаются, а пользователю выдается базовый CMN-токен по формуле, описанной в смарт-контракте."
       },
       {
         "id": "9",
-        "title": "Which roles exist on Commun?",
-        "description": "There are several roles that you can perform as a user of Commun.",
+        "title": "Какие роли существуют в Commun?",
+        "description": "Пользователь Commun может примерить на себя несколько ролей.",
         "children": [
           {
             "id": "91",
-            "title": "Author - creates content.",
-            "description": "We believe that comments in social networks are crucially important. That’s why comments are rewarded on the same principles as posts. Posts with comments are always more interesting and engaging than those without them."
+            "title": "Авторы - создают контент.",
+            "description": "Мы считаем, что комментарии в социальных сетях крайне важны. Поэтому они вознаграждаются по тем же принципам, что и посты. С комментариями всегда интересней и увлекательней, чем без них."
           },
           {
             "id": "92",
-            "title": "Leaders of the community.",
+            "title": "Лидеры сообщества.",
             "children": [
               {
                 "id": "921",
-                "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future.",
+                "description": "Участники сообщества выбирают лидеров. Каждый пользователь может отдать свой голос за лидера, а также имеет право выдвигать свою кандидатуру на эту должность. Для этого важно рассказать другим пользователям, почему Вы являетесь подходящим кандидатом, каков Ваш план развития сообщества и привлечения новых пользователей, а также разместить ссылку на свой пост в приложении. Выборы устроены в соответствии с правилами ликвидной демократии. Можно лишить лидера власти в любой момент, вернув свой голос. Сейчас количество лидеров, необходимых для модерации сообщества, равно 3, но это число может увеличиться в будущем.",
                 "imageUrl": "/images/pages/faq/section-become-leader.png"
               },
               {
                 "id": "922",
-                "description": "Leaders set up the rules of the community. Also, they are responsible for the description, avatar, and cover image. Soon there’ll be additional ways of setting the community description, and leaders will be responsible for them too."
+                "description": "Лидеры устанавливают правила сообщества. Кроме того, они несут ответственность за описание, аватар и изображение обложки. Вскоре появятся дополнительные настройки сообщества, и лидеры также будут отвечать за них."
               },
               {
                 "id": "923",
-                "description": "Leaders set up the rules of the community. Also, they are responsible for the description, avatar, and cover image. Soon there’ll be additional ways of setting the community description, and leaders will be responsible for them too.Leaders monitor and moderate content, published by authors. They track complaints and ensure that other users follow community rules. Leaders can hide the content from the feed and even deprive the rewards for such content, but only if this follows the rules."
+                "description": "Лидеры отвечают за модерацию контента, который публикуют авторы. Они рассматривают жалобы и следят за тем, чтобы другие пользователи не нарушали правилам сообщества. Лидеры могут скрывать контент из новостных лент и даже лишать посты вознаграждений, если они не соответствуют правилам."
               }
             ]
           },
           {
             "id": "93",
-            "title": "Curator - evaluates content with upvotes or downvotes.",
-            "description": "We build “Trending” and “Hot” feeds based on this evaluation. Even if you don’t have points in a particular community, you can impact the furtherance of content in the feed. Also, content evaluation impacts the rewarding of posts and comments."
+            "title": "Кураторы - оценивают контент, голосуя “за” или “против”.",
+            "description": "На основе этих оценок формируются ленты “В тренде” и “Горячее”.  Даже если у Вас нет поинтов в том или ином сообществе, Вы можете влиять на продвижение контента в ленте. Кроме того, оценка влияет на вознаграждение постов и комментариев."
           },
           {
             "id": "94",
-            "title": "Advertiser.",
-            "description": "We have a plan to build the mechanics for an additional monetization of communities through ad placements within them. We are currently working on it and will tell you about it later."
+            "title": "Рекламодатель.",
+            "description": "У нас есть план по созданию механики для дополнительной монетизации сообществ путем размещения в них объявлений. В настоящее время мы работаем над ним и расскажем об этом позже."
           },
           {
             "id": "95",
-            "title": "Leader of Commun.",
-            "description": "Together with other leaders, he/she determines the vector of development of Commun. The leader of Commun sets up the general rules of the platform and makes decisions on the smart-contracts updates. The leader of Commun is elected by holders of the basic CMN token."
+            "title": "Лидер Commun.",
+            "description": "Вместе с другими лидерами он/она определяет вектор развития Commun. Лидер Commun устанавливает общие правила платформы и принимает решения по обновлению смарт-контрактов. Лидер Commun выбирается владельцами базового токена CMN."
           }
         ]
       },
       {
         "id": "10",
-        "title": "What actions can I perform in general?",
-        "description": "There are general actions available to everyone:",
+        "title": "Какие действия мне доступны в целом?",
+        "description": "Есть общие действия, доступные каждому:",
         "children": [
           {
             "id": "101",
-            "title": "Registration.",
-            "description": "By registering on Commun, you get your account in the CyberWay network. That’s right, your account on Commun is a blockchain account. In the future, you’ll be able to use it in other applications based on CyberWay. You can learn about the transactional system in CyberWay here: (<a href=\"https://github.com/cyberway/cyberway/blob/master/White%20Paper\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/cyberway/cyberway/blob/master/White%20Paper</a>) I want to draw your attention to the fact that all the actions on Commun are free and do not require tokens of the CyberWay network. Our services provide the necessary bandwidth for our users. We try to make the first touch with the technology as easy as possible for users who aren’t enthusiasts (yet). This was the reason we made it possible to register with custom passwords and via other popular social networks."
+            "title": "Регистрация.",
+            "description": "Регистрируясь в Commun, Вы получаете учетную запись в сети CyberWay. Правильно, Ваш аккаунт в Commun является учетной записью в блокчейн. В дальнейшем Вы сможете использовать его в других приложениях на базе CyberWay. Узнать о системе транзаций в CyberWay можно здесь: (<a href=\"https://github.com/cyberway/cyberway/blob/master/White%20Paper\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/cyberway/cyberway/blob/master/White%20Paper</a>). . Обращаем Ваше внимание на то, что все действия на Commun являются бесплатными и не требуют токенов сети CyberWay. Наши сервисы обеспечивают необходимую пропускную способность. Мы стараемся сделать первое знакомство с технологией как можно более простым для пользователей, которые еще не стали ее фанатами (пока). Именно поэтому мы сделали возможным регистрацию с использованием пользовательских паролей и через другие популярные социальные сети."
           },
           {
             "id": "102",
-            "title": "Creation of communities.",
-            "description": "This is the latest feature, but our users have already started to create their communities. We are very glad and happy that you are exploring our platform and using all its potential. Creating a community on Commun, you create a decentralized community that functions within the framework of the logic of smart-contracts. All the roles and actions described in this article are set in smart-contracts. Thus nobody can fake or change it without the direct permission of the community or its users."
+            "title": "Создание сообществ.",
+            "description": "Это новая функция, но наши пользователи уже начали создавать свои сообщества. Мы очень рады, что вы изучаете нашу платформу и используете весь ее потенциал. В Commun Вы создаете децентрализованное сообщество, которое функционирует в рамках логики смарт-контрактов. В них  установлены все роли и действия, описанные в этой статье. Таким образом, никто не может подделать или изменить что-то без непосредственного разрешения сообщества или его пользователей."
           },
           {
             "id": "103",
-            "title": "Reporting the content.",
-            "description": "If an author violated the rules of the community or basic rules of Commun, it’s better to report the published content. Leaders will solve it."
+            "title": "Отправка жалобы на контент.",
+            "description": "Сообщите о недопустимом контенте, если автор поста нарушил правила сообщества или основные правила Commun. Лидеры решат эту проблему."
           },
           {
             "id": "104",
-            "title": "Follow/Unfollow/Blacklist the community.",
-            "description": "“Follow” adds posts of the community in your feed, “Unfollow” removes them and everything is as usual. You can add the community in the blacklist, then posts in the blocked community won’t appear anywhere for you."
+            "title": "Подписаться / Отписаться / Добавить сообщество в черный список.",
+            "description": "Подписываясь на сообщество, Вы добавляете посты, опубликованные в нем, в “Мою ленту”. Отписываясь, Вы убираете посты этого сообщества из своей ленты. Вы также можете добавить сообщество в “Черный список”, тогда посты, опубликованные в нем, больше не появятся ни в одной вашей новостной ленте."
           },
           {
             "id": "105",
-            "title": "Follow/Unfollow/Blacklist the user.",
-            "description": "Works in the same way as with communities."
+            "title": "Подписаться / Отписаться / Добавить пользователя в черный список.",
+            "description": "Механизм работы такой же, как и с сообществами."
           },
           {
             "id": "106",
-            "title": "Transfer of tokens (CMN) and community points."
+            "title": "Передача токенов (CMN) и поинтов сообщества."
           },
           {
             "id": "107",
-            "title": "Exchange of tokens to points and vice versa.",
-            "description": "The exchange works algorithmically, and all the logic is ensured by the smart-contract. I’ll touch on this topic in more detail in the following article."
+            "title": "Обмен токенов на поинты и наоборот.",
+            "description": "Биржа работает алгоритмически, а вся логика обеспечивается смарт-контрактами. Мы расскажем об этом более подробно в следующей статье."
           },
           {
             "id": "108",
-            "title": "Exchange of the different cryptocurrencies to Commun tokens (CMN).",
-            "description": "Right now, users can acquire CMN tokens with a variety of cryptocurrencies (this service is provided by Change Hero). We are working on the possibility of buyback of tokens and are in the process of negotiating this with several providers."
+            "title": "Обмен различных криптовалют на токены Commun (CMN).",
+            "description": "Прямо сейчас пользователи могут приобретать токены CMN с помощью другой криптовалютами (эта услуга предоставляется Change Hero). Мы работаем над возможностью выкупа токенов и ведем переговоры об этом с несколькими провайдерами."
           },
           {
             "id": "109",
-            "title": "Participating in the referral program.",
-            "description": "Every link on Commun is a referral. Post them in other social networks, and when a user registers on Commun from your link, you get rewards! 1 CMN token for each registered user + 5% of their purchases on Commun."
+            "title": "Участие в реферальной программе.",
+            "description": "Каждая ссылка на Commun является реферальной. Размещайте их в других социальных сетях. Когда пользователь зарегистрируется в Commun по Вашей ссылке, Вы получите вознаграждение - 1 токен CMN за каждого зарегистрированного пользователя + 5% от их покупок в Commun."
           }
         ]
       },
       {
         "id": "11",
-        "title": "Who can become the leader?",
-        "description": "In short, everyone.\nIn detail, members of the community elect leaders according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+        "title": "Кто может стать лидером?",
+        "description": "Каждый. Вы можете сами стать лидером или отдать свой голос за одного из кандидатов/лидеров. При выдвижении своей кандидатуры важно рассказать другим пользователям, почему Вы являетесь подходящим кандидатом, каков Ваш план развития сообщества и привлечения новых пользователей, а также разместить ссылку на свой пост в приложении. Выборы устроены в соответствии с правилами ликвидной демократии. Можно лишить лидера власти в любой момент, вернув свой голос. Сейчас количество лидеров, необходимых для модерации сообщества, составляет 3, но это число может увеличиться в будущем."
       },
       {
         "id": "12",
-        "title": "How do I claim my rewards?",
-        "description": "The rewards don’t appear immediately. The mechanics could be described as a chain (or queue) of reward units (for every separate post, like, or comment), that step-by-step go to your Wallet. To claim your rewards, you need to perform general activities - likes, posts, comments. Don’t be confused :)"
+        "title": "Как получить свои награды?",
+        "description": "Вознаграждения не появляются сразу. Механику можно описать как цепочку (или очередь) наград за каждый отдельный пост или комментарий. Чтобы получить награду, Вы должны выполнять общие действия - ставить лайки, создавать посты и оставлять комментарии."
       },
       {
         "id": "13",
-        "title": "How does the voting for leader work?",
-        "description": "Members of the community elect leaders, according to their number of community points. Every user has one vote for the leader, as well as the right to submit his/her candidacy for that position. For that, it’s important to tell other users why you are a suitable nominee, what’s your plan for the development of the community and the attraction of new users, and to place a link to your post in the application. We designed the election according to the principles of liquid democracy. It’s possible to deprive the leader of authority at any moment by taking your voice back. Right now, the number of leaders needed for community moderation is 3, but this number can increase in the future."
+        "title": "Как работает голосование за лидера?",
+        "description": "Члены сообщества выбирают лидеров согласно их количеству в настройках сообщества. Каждый пользователь имеет один голос, который он может отдать за лидера, а также право выдвигать свою кандидатуру на эту должность. Для этого важно сообщить другим пользователям, почему Вы подходите в качестве кандидата, каков Ваш план развития сообщества и привлечения новых пользователей, а также разместить ссылку на свой пост в приложении. Мы разработали выборы в соответствии с принципами ликвидной демократии. Можно лишить лидера власти в любой момент, вернув свой голос. Прямо сейчас, количество лидеров, необходимых для модерации сообщества, составляет 3, но это число может увеличиться в будущем."
       },
       {
         "id": "14",
-        "title": "Do larger communities get more rewards?",
-        "description": "Each community has its own emission of community points, and they are not  dependent on each other in any way. However, the larger the community is, the more commun points are supplied with commun tokens (supposing that each subscriber has spent their commun tokens to buy community points) and the more the point price is which means that the equity value will be higher."
+        "title": "Большие сообщества получают больше наград?",
+        "description": "Каждое сообщество имеет свою собственную эмиссию поинтов сообщества, и они никак не зависят друг от друга. Однако, чем больше и интересней сообщество, и чем больше Commun токенов заморожено в резерве сообщества, тем выше курс поинта."
       },
       {
         "id": "15",
-        "title": "What’s the Wallet and how does it work?",
-        "description": "Wallet is your personal cabinet where you can perform and track your transactions, such as:\n- Buying CMN tokens;\n- Exchanging of community Points into CMN tokens and vice versa;\n- Sending Points to your friends;\n- Tracking the balance of Points of each community you are subscribed to;\n- Tracking the history of transactions and rewards;\nAlso, you can always see the equity value of your account in USD or CMN tokens. It’s the total value of all your community Points, as well as the CMN tokens that you hold."
+        "title": "Что такое Кошелек и как он работает?",
+        "description": "Кошелек - это Ваш личный кабинет, где Вы можете выполнять и отслеживать свои транзакции, такие как::\n- Покупка токенов CMN;\n- Обмен поинтов сообщества на токены CMN и наоборот;\n- Отправка поинтов своим друзьям;\n- Отслеживание баланса поинтов каждого сообщества, на которое Вы подписаны;\n- Отслеживание истории транзакций и вознаграждений;\nКроме того, Вы всегда можете увидеть стоимость своего счета в долларах США или CMN токенах. Это общая стоимость всех поинтов сообществ, а также токенов CMN, которые у Вас есть."
       },
       {
         "id": "16",
-        "title": "What kind of authorization is implemented on Commun?",
-        "description": "You can learn about authorization process and its technology in this <a href=\"https://commun.com/askcommun/@catraed/1583338375\" target=\"_blank\" rel=\"noopener noreferrer\">article</a>"
+        "title": "Как реализована авторизация в Commun?",
+        "description": "Вы можете узнать о процессе авторизации и его технологии в этой <a href=\"https://commun.com/askcommun/@catraed/1583338375\" target=\"_blank\" rel=\"noopener noreferrer\">статье</a>."
       }
     ]
   }

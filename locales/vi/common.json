@@ -504,10 +504,10 @@
       "post_prep": "bài đăng",
       "types": {
         "reply": "đã trả lời {{shortText}}",
-        "mention": "đã nhắc đến bạn trong{{entityType}}: “{{shortText}}”",
-        "upvote": "bình chọn cho bạn {{entityType}}",
-        "subscribe": "đăng kí cho bạn",
-        "reward": "Đã nhận được {{amount}} điểm {{communityName}}",
+        "mention": "đã nhắc đến bạn trong {{entityType}}: “{{shortText}}”",
+        "upvote": "đã nhấn thích cho {{entityType}} của bạn",
+        "subscribe": "đã nhấn theo dõi bạn",
+        "reward": "Đã nhận được {{amount}} {{communityName}}",
         "transfer": {
           "received": "Đã nhận được",
           "sent_you": "đã gửi cho bạn"
@@ -517,7 +517,7 @@
           "first": "Đã nhận được {{amountStr}}. Điểm thưởng - {{percent}}% của giá trị giao dịch",
           "last": ""
         },
-        "donation": "Ủng hộ cho bài viết của bạn{{shortText}}: {{amount}} {{communityName}}"
+        "donation": "Ủng hộ cho bài viết của bạn {{amount}} {{communityName}}: “{{shortText}}”"
       }
     },
     "notification_counter": {

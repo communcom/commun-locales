@@ -93,9 +93,9 @@
 
   "footer": {
     "user_agreement": "Nutzungsvereinbarung",
-    "privacy_policy": "œÓÎËÚËÍ‡ ÔË‚‡ÚÌÓÒÚË",
-    "cookies_policy": "œÓÎËÚËÍ‡ Cookies",
-    "blockchain_disclaimer": "ŒÚÍ‡Á ÓÚ ÓÚ‚ÂÚÒÚ‚ÂÌÌÓÒÚË",
+    "privacy_policy": "Datenschutzbestimmungen",
+    "cookies_policy": "Cookie-Richtlinie",
+    "blockchain_disclaimer": "Haftungsklausel",
     "whitepaper": "Whitepaper",
     "faq": "FAQ"
   },
@@ -104,12 +104,12 @@
     "post": {
       "no_found": "Der Beitrag nicht gefunden",
       "no_found_desc": "Vielleicht wurde es geloscht",
-      "views_count_0": "{} Anzeigen",
-      "views_count_1": "{} Anzeigen",
-      "views_count_2": "{} Anzeigen",
-      "comments_count_0": "{} Kommentar",
-      "comments_count_1": "{} Kommentar",
-      "comments_count_2": "{} Kommentare",
+      "views_count_0": "{{count}} Anzeigen",
+      "views_count_1": "{{count}} Anzeigen",
+      "views_count_2": "{{count}} Anzeigen",
+      "comments_count_0": "{{count}} Kommentar",
+      "comments_count_1": "{{count}} Kommentar",
+      "comments_count_2": "{{count}} Kommentare",
       "show_more_comments": "weitere Kommentare Anzeigen",
       "open_menu": "Post-Menu offnen",
       "aria_share_in_social": "in sozialen Netzwerken teilen"
@@ -123,10 +123,10 @@
       }
     },
     "blacklist": {
-      "title": "Black list",
+      "title": "Schwarze Liste",
       "tabs": {
         "users": "Benutzer",
-        "communities": "Gemeinschaft"
+        "communities": "Gemeinschaften"
       },
       "users_blacklist": {
         "no_found": "Keine gesperrten Benutzer"
@@ -282,10 +282,10 @@
         "with_memo": "Transaktion mit Memo"
       },
       "points_grid": {
-        "on_hold": "{} bereift"
+        "on_hold": "{{quantity}} in Wartestellung"
       },
       "points_list": {
-        "on_hold": "{} bereift"
+        "on_hold": "{{quantity}} in Wartestellung"
       },
       "users_layout": {
         "no_found": "Keine Benutzer",
@@ -294,19 +294,19 @@
       "history_list": {
         "today": "Heute",
         "refill": "Nachschub",
-        "reward": "C",
+        "reward": "Belohnung",
         "types": {
           "transaction": "Transaktion",
           "referralRegisterBonus": "Die Auszeichnung fur die Registrierung Erhalten fur die Registrierung erhalten",
           "referralPurchaseBonus": {
-            "first": "{}% des Kaufs erhalten",
+            "first": "{{percent}}% des Kaufs erhalten",
             "last": ""
           },
           "donation": "Donat",
           "convert": "Austausch",
           "curator": "Kuratorenpreis",
           "hold": "Halten",
-          "leader_reward": "Leader-Auszeichnung"
+          "leader_reward": "Führer Belohnung"
         }
       },
       "point_info_panel": {
@@ -404,8 +404,8 @@
       },
       "user_communities": {
         "empty": "Keine Abonnieren",
-        "empty-desc": "“˚ ÌÂ ÔÓ‰ÔËÒ‡Ì Ì‡ ÒÓÓ·˘ÂÒÚ‚‡",
-        "find": "Du hast keine Gemeinschaft abonniert"
+        "empty-desc": "Du hast noch keine Gemeinschaften abonniert",
+        "find": "Gemeinschaften finden"
       },
       "about": {
         "tabs": {
@@ -454,7 +454,7 @@
         }
       },
       "community_header": {
-        "created": "Erstellt{}"
+        "created": "Erstellt {{date}}"
       }
     },
     "createCommunity": {
@@ -487,7 +487,7 @@
           },
           {
             "title": "Verletzung der Regeln:",
-            "text": "im Falle eines Versto?es gegen die Regeln werden Kommentare und Beitrage mit Versto?en entzogen und von der Anzeige in der Gemeinschaft und dem Allgemeinen Feed ausgeschlossen. Daruber hinaus haben Fuhrungskrafte das Recht, Ihren Zugriff auf die Gemeinschaft zu beschranken"
+            "text": "im Falle eines Verstoßes gegen die Regeln werden Kommentare und Beitrage mit Verstoßen entzogen und von der Anzeige in der Gemeinschaft und dem Allgemeinen Feed ausgeschlossen. Daruber hinaus haben Fuhrungskrafte das Recht, Ihren Zugriff auf die Gemeinschaft zu beschranken"
           }
         ]
       },
@@ -538,21 +538,21 @@
       "post": "Beitrag",
       "post_prep": "Beitrag",
       "types": {
-        "reply": "kommentierte {}",
-        "mention": "erwahnte dich in {}: ì{}î",
-        "upvote": "gefahlt dein {}",
+        "reply": "kommentierte {{shortText}}",
+        "mention": "erwahnte dich in {{entityType}}: “{{shortText}}”",
+        "upvote": "gefahlt dein {{entityType}}",
         "subscribe": "dich abonniert",
-        "reward": "Points {} bekommt {}",
+        "reward": "Points {{amount}} bekommt {{communityName}}",
         "transfer": {
           "received": "bekommt",
           "sent_you": "schickte dir"
         },
         "referralRegistrationBonus": "Referralregistrationbonus fur die Registrierung erhalten",
         "referralPurchaseBonus": {
-          "first": "bekommt{}. Empfehlungsbonus - {}% des Kaufs",
+          "first": "bekommt {{amountStr}}. Empfehlungsbonus - {{percent}}% des Kaufs",
           "last": ""
         },
-        "donation": "hat deinen Beitrag{}: {} {}"
+        "donation": "hat deinen Beitrag{{shortText}}: {{amount}} {{communityName}}"
       }
     },
     "notification_counter": {
@@ -563,7 +563,7 @@
       "toastsMessages": {
         "failed": "Das Bild konnte Nicht geladen werden",
         "unsupported": "Falsches Dateiformat",
-        "too_big": "Datei Zu gro?, maximal zulassige Gro?e {} MB"
+        "too_big": "Datei Zu groß, maximal zulassige Große {{size}} MB"
       }
     },
     "editor": {
@@ -596,7 +596,7 @@
       "ban_comment": "Ban Kommentar",
       "ban_post": "Ban Beitrag",
       "not_implemented_type": "Ein Satz mit diesem Typ{} wurde nicht implementiert.",
-      "not_implemented_action": "Ein Satz fur{}::{} wurde nicht implementiert.",
+      "not_implemented_action": "Ein Satz fur {{contract}}::{{action}} wurde nicht implementiert.",
       "apply": "Anwenden",
       "refuse": "Ablehnen",
       "accept": "Akzeptieren",
@@ -612,7 +612,7 @@
       "old_description": "Alte Beschreibung",
       "old_language": "Alte Sprache",
       "voted": "Abstimmung",
-      "voted_text": "{} von {} Stimmen",
+      "voted_text": "{{approvesCount}} von {{approvesNeed}} Stimmen",
       "toastsMessages": {
         "approved": "Akzeptiert",
         "applied": "Vorschlag angewendet"
@@ -630,9 +630,9 @@
       "empty": "Keine Kommentare"
     },
     "comments_nested": {
-      "replies_0": "weitere {} Antworten Anzeigen",
-      "replies_1": "weitere {} Antworten Anzeigen",
-      "replies_2": "weitere {} Antworten Anzeigen"
+      "replies_0": "weitere {{comments}} Antworten Anzeigen",
+      "replies_1": "weitere {{comments}} Antworten Anzeigen",
+      "replies_2": "weitere {{comments}} Antworten Anzeigen"
     },
     "auth_block": {
       "my_profile": "Mein Profil",
@@ -752,7 +752,7 @@
     },
     "become_leader": {
       "title": "Fuhrer werden",
-      "url": "Link zur Begru?ung",
+      "url": "Link zur Begrußung",
       "become": "Fuhrer werden"
     },
     "choose_post_cover": {
@@ -804,7 +804,7 @@
       "title": "Anmelden",
       "username": "Login",
       "password": "Passwort",
-      "error": "Fehler: {}",
+      "error": "Fehler: {{error}}",
       "submit": "Anmelden",
       "sign_up": "Kein Konto?",
       "errors": {
@@ -915,7 +915,7 @@
         "username": "Benutzername",
         "hints": [
           "Der Benutzername darf maximal 32 Zeichen lang sein",
-          "Es ist nicht erlaubt, Gro?buchstaben zu verwenden",
+          "Es ist nicht erlaubt, Großbuchstaben zu verwenden",
           "Man kann nutzen: Buchstaben, Zahlen, Bindestrich",
           "Der Bindestrich muss nicht am Anfang oder Ende des namens stehen",
           "Der Benutzername kann einen Point enthalten",
@@ -932,8 +932,8 @@
         }
       },
       "master_key": {
-        "title": "<span class=\"bold\">Ã‡ÒÚÂ-Ô‡ÓÎ¸</span><br />Ò„ÂÌÂËÓ‚‡Ì",
-        "title-custom": "<span class=\"bold\">œ‡ÓÎ¸</span><br />ÒÓÁ‰‡Ì",
+        "title": "<span class=\"bold\">Master-Passworter</span><br />erzeugt wurde",
+        "title-custom": "<span class=\"bold\">Passwort</span><br />wurde erstellt",
         "text": "Fur die Anmeldung ist ein Master-Passwort erforderlich<br / > wir speichern und stellen keine Passworter wieder her.<br / ><span class=\"bold\">Pass auf ihn Auf!</span>",
         "text-custom": "Fur die Anmeldung ist ein Passwort erforderlich<br / > wir speichern und stellen keine Passworter wieder her.<br / ><span class=\"bold\">Pass auf ihn Auf!</span>",
         "master_password": "Master-Passwort",
@@ -946,8 +946,8 @@
         }
       },
       "oauth": {
-        "continue": "Benutzen <span class=\"name\">{}</span>",
-        "continue_custom": "Benutzen {}",
+        "continue": "Benutzen <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Benutzen {{name}}",
         "providers": {
           "phone": "Telefon",
           "email": "E-Mail"
@@ -986,7 +986,7 @@
           "password": "Passwort"
         },
         "termsAgree": {
-          "text": "Drucken \"Anmelden\" stimmst du unseren <a href=\"{}\" target=\"blank\">Nutzungsbestimmungen</a>, <a href=\"{}\" target=\"_blank\">Datenschutzrichtlinie</a> und <a href=\"{}\" target=\"_blank\">Haftungsausschluss</a>"
+          "text": "Drucken \"Anmelden\" stimmst du unseren <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"blank\">Nutzungsbestimmungen</a>, <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Datenschutzrichtlinie</a> und <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Haftungsausschluss</a>"
         }
       }
     },
@@ -994,7 +994,7 @@
       "convert_points": {
         "title": "Umtausch",
         "convert": "Umtauschen",
-        "fee": "{}% wird brennen",
+        "fee": "{{percent}}% wird brennen",
         "you_send": "Senden",
         "you_get": "Bekommen",
         "rate": "Kurs",
@@ -1009,7 +1009,7 @@
       },
       "exchange_commun": {
         "2fa": {
-          "text": "Bitte schlie?en Sie den Kauf ab, indem Sie den 4-stelligen Code aus dem zahlungskommentar eingeben.",
+          "text": "Bitte schließen Sie den Kauf ab, indem Sie den 4-stelligen Code aus dem zahlungskommentar eingeben.",
           "verify": "Bestatigen"
         },
         "address": {
@@ -1051,7 +1051,7 @@
           "rate": " urs",
           "you_send": "Zum Senden",
           "amount": "Die Summe",
-          "minimum_charge": "Mindestzahlung {} {}",
+          "minimum_charge": "Mindestzahlung {{amount}} {{symbol}}",
           "you_get": "Du bekommst",
           "email": "Email",
           "buy": "Commun kaufen",
@@ -1070,7 +1070,7 @@
         "common": {
           "billing_info": {
             "title": "Kauf abgeschlossen",
-            "agree": "Indem Sie Kaufen, gehst du auf <a href=\"{}\" target=\"_blank\" rel=\"noopener noreferrer\">Nutzungsbedingungen</a>{}"
+            "agree": "Indem Sie Kaufen, gehst du auf <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">Nutzungsbedingungen</a>{{provider}}"
           },
           "header": {
             "title": "Kaufen"
@@ -1120,7 +1120,7 @@
         "amount": "Die Summe",
         "hint": "Die Operation kann einige Zeit dauern",
         "send": "Senden",
-        "fee_text": "{}% wird brennen",
+        "fee_text": "{{percent}}% wird brennen",
         "toastsMessages": {
           "success": "Transaktion erfolgreich",
           "failed": "Transaktion fehlgeschlagen"
@@ -1134,7 +1134,7 @@
         "amount": "Die Summe",
         "hint": "Die Operation kann einige Zeit dauern",
         "send": "Donat",
-        "fee_text": "{}% wird brennen",
+        "fee_text": "{{percent}}% wird brennen",
         "toastsMessages": {
           "success": "Donat ist erfolgreich",
           "failed": "Donat ist gescheitert"
@@ -1142,11 +1142,11 @@
       }
     },
     "view_bio": {
-      "title": "Profil {}"
+      "title": "Profil {{username}}"
     },
     "switch_to_app": {
       "title": "Commun ist noch besser in der App",
-      "description": "Bekomm noch mehr Spa? mit unserem sozialen Netzwerk auf Ihrem Handy.",
+      "description": "Bekomm noch mehr Spaß mit unserem sozialen Netzwerk auf Ihrem Handy.",
       "continue": "In der App Fortfahren",
       "sign_in": "Anmelden"
     },
@@ -1160,9 +1160,9 @@
       "communities": {
         "title": "Bekomm die ersten Points",
         "title-sign_up": "Melde dich an, um Points zu erhalten",
-        "text_0": "Melde dich fur {} an und hol dir deine ersten Points von Gemeinschaft",
-        "text_1": "Melde dich fur {} an und hol dir deine ersten Points von Gemeinschaft",
-        "text_3": "Melde dich fur {} an und hol dir deine ersten Points von Gemeinschaft",
+        "text_0": "Melde dich fur {{COMMUNITIES_AIRDROP_COUNT}} an und hol dir deine ersten Points von Gemeinschaft",
+        "text_1": "Melde dich fur {{COMMUNITIES_AIRDROP_COUNT}} an und hol dir deine ersten Points von Gemeinschaft",
+        "text_3": "Melde dich fur {{COMMUNITIES_AIRDROP_COUNT}} an und hol dir deine ersten Points von Gemeinschaft",
         "sign_in_text": "Hast du ein Konto?",
         "sign_in": "Anmelden",
         "sign_up": "Melde dich an und bekomm die Points",
@@ -1200,15 +1200,15 @@
     },
     "create_community": {
       "confirmation": "Die Bestatigung",
-      "you_need": "Um eine Gemeinschaft aufzubauen <br /> braucht man <span class=\"big blue bold\">{}</span> <span class=\"big blue semibold\">Token Commun</span> .",
+      "you_need": "Um eine Gemeinschaft aufzubauen <br /> braucht man <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Token Commun</span> .",
       "after_creating": "Nach der Grundung der Gemeinschaft:",
-      "burned_tokens": "<span class=\"blue bold\">{} Token Commun</span><br />",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Token Commun</span><br />",
       "burned": "verschwindet",
-      "bounty_points": "<span class=\"blue bold\">{} Points</span><br />",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} Points</span><br />",
       "bounty": "wird in den Award-Service ubertragen",
-      "transferred_points": "<span class=\"blue bold\">{} ÔÓËÌÚÓ‚</span><br />",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} Points</span><br />",
       "transferred": "wird in Ihre Brieftasche ubertragen werden",
-      "not_enough": "Sieht so aus, als hattest du nicht genug<br />Token Commun.<br /><span class=\"big blue bold\">{}</span> <span class=\"big blue semibold\"> Token Commun</span> <br />braucht man um eine Gemeinschaft aufzubauen"
+      "not_enough": "Sieht so aus, als hattest du nicht genug<br />Token Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\"> Token Commun</span> <br />braucht man um eine Gemeinschaft aufzubauen"
     }
   },
 
@@ -1239,7 +1239,7 @@
       "empty": "Keine Gemeinden"
     },
     "following_you": {
-      "user_subscribed": "{} dich abonniert"
+      "user_subscribed": "{{user}} dich abonniert"
     },
     "friends": {
       "title_0": "Freund",
@@ -1249,7 +1249,7 @@
     "get_points": {
       "get": "Points bekommen",
       "get-small": "Bekommen",
-      "balance": "{} bilanz"
+      "balance": "{{communityName}} bilanz"
     },
     "invite": {
       "text": "Aktiviere dein Konto und beginne mit den ersten Points",
@@ -1384,9 +1384,9 @@
       "title": "Donat",
       "points": "Points",
       "other": "Noch",
-      "donation_0": "+ {} Donat",
-      "donation_1": "+ {} Donat",
-      "donation_2": "+ {} Donat"
+      "donation_0": "+ {{count}} Donat",
+      "donation_1": "+ {{count}} Donat",
+      "donation_2": "+ {{count}} Donat"
     }
   },
 
@@ -1436,14 +1436,14 @@
   "validations": {
     "amount": {
       "on_hold": "{} eingefroren",
-      "insufficient_funds": "Nicht genugend Mittel: Sie haben {} {} {}",
-      "more_than_supply": "Die Summe ubersteigt Vorschlag: {}",
-      "more_than_decs": "Maximal{} Dezimalstellen",
+      "insufficient_funds": "Nicht genugend Mittel: Sie haben {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Die Summe ubersteigt Vorschlag: {{supply}}",
+      "more_than_decs": "Maximal {{decs}} Dezimalstellen",
       "invalid_format": "Ein falsches Format",
       "enter_amount": "Gib dei Summe ein",
-      "less_than_minimal": "Die Summe ist kleiner als das zulassige Minimum: {}",
+      "less_than_minimal": "Die Summe ist kleiner als das zulassige Minimum: {{minAmount}}",
       "less_than_0": "Die Summe kleiner als 0",
-      "more_than_max": "Die Summe gro?er {}"
+      "more_than_max": "Die Summe großer {{maxAmount}}"
     },
     "username": {
       "is_empty": "Es gibt kein Benutzername",
@@ -1458,7 +1458,7 @@
     },
     "password": {
       "lower_case": "Die Kleinbuchstaben",
-      "upper_case": "Die Gro?buchstaben",
+      "upper_case": "Die Großbuchstaben",
       "number": "Die Zahlen",
       "min_length": "Die minimale Lange"
     }
@@ -1471,7 +1471,7 @@
     "violence": "Die Gewalttatigkeit",
     "falsenews": "Falsche Nachrichten",
     "terrorism": "Terrorismus",
-    "breakscommunityrules": "Das versto?t gegen die Gemeinschaftsregeln",
+    "breakscommunityrules": "Das verstoßt gegen die Gemeinschaftsregeln",
     "hatespeech": "Der Hass",
     "unauthorizedsales": "Unerlaubter Verkauf",
     "abuse": "Ein Versuch zu beleidigen",
@@ -1485,7 +1485,7 @@
     "violence": "Die Gewalttatigkeit",
     "falsenews": "Falsche Nachrichten",
     "terrorism": "Terrorismus",
-    "breakscommunityrules": "Das versto?t gegen die Gemeinschaftsregeln",
+    "breakscommunityrules": "Das verstoßt gegen die Gemeinschaftsregeln",
     "hatespeech": "Der Hass",
     "unauthorizedsales": "Unerlaubter Verkauf",
     "abuse": "Ein Versuch zu beleidigen",
@@ -1508,7 +1508,7 @@
     "images": {
       "upload_failed": "Das Bild konnte nicht geladen werden",
       "only_images": "Bitte benutze nur Bilder",
-      "too_big": "Die Datei ist zu gro?, maximale Gro?e {} MB"
+      "too_big": "Die Datei ist zu groß, maximale Große {{size}} MB"
     }
   }
 }

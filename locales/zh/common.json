@@ -129,6 +129,8 @@
     "settings": {
       "tabs": {
         "general": "General",
+        "messengers": "Messengers",
+        "links": "Social links",
         "notifications": "Notifications",
         "keys": "Keys",
         "current_keys": "Current keys",
@@ -137,6 +139,15 @@
       "title": "Settings",
       "general": {
         "title": "标题",
+        "profile_photo": "Profile photo",
+        "cover_photo": "Cover photo",
+        "basic_info": "Basic info",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "username": "Username",
+        "website": "Website",
+        "bio": "Bio",
+        "platform_settings": "Platform settings",
         "language": "语言",
         "languagePosts": "Feed post languages",
         "currencyPosts": "Feed post currency",
@@ -153,6 +164,19 @@
           "show": "总是显示"
         },
         "comments_in_feed": "在关注中显示评论"
+      },
+      "links": {
+        "add_contact": "Add contact",
+        "add_link": "Add link",
+        "default": "Default contact",
+        "types": {
+          "username": "Username",
+          "link": "Link",
+          "phone": "Phone"
+        },
+        "toastsMessages": {
+          "removed": "Removed"
+        }
       },
       "notifications_settings": {
         "title": "上线通知",
@@ -336,14 +360,16 @@
         "my_communities": "我的社区",
         "followers": "粉丝",
         "following": "关注中",
-        "referrals": "引荐"
+        "referrals": "引荐",
+        "about": "About"
       },
       "profile_header": {
         "cover_updated": "封面图片更新",
         "joined": "加入",
         "avatar_updated": "头像更新",
         "not_available": "简介无效",
-        "send_points": "发送社区积分"
+        "send_points": "发送社区积分",
+        "contact": "Contact"
       },
       "description": {
         "edit_bio": "编辑简历",
@@ -371,6 +397,16 @@
         "empty": "没有订阅",
         "empty-desc": "你还没有订阅任何社区。",
         "find": "搜索社区"
+      },
+      "about": {
+        "tabs": {
+          "about": "About",
+          "messengers": "Messengers",
+          "links": "Social links"
+        },
+        "bio": "Bio",
+        "website": "Website",
+        "preferrable": "Preferrable contact"
       }
     },
     "community": {
@@ -783,6 +819,9 @@
     "profile_mobile_menu": {
       "edit_bio": "编辑简历",
       "send_points": "发送社区积分"
+    },
+    "profile_mobile_contacts": {
+      "title": "Contact user"
     },
     "report": {
       "title": "请选择一个问题",
@@ -1376,6 +1415,7 @@
 
   "toastsMessages": {
     "success": "成功",
+    "saved": "Saved",
     "community": {
       "unfollowed": "未关注的社区",
       "followed": "关注的社区"

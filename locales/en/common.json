@@ -129,6 +129,8 @@
     "settings": {
       "tabs": {
         "general": "General",
+        "messengers": "Messengers",
+        "links": "Social links",
         "notifications": "Notifications",
         "keys": "Keys",
         "current_keys": "Current keys",
@@ -137,6 +139,15 @@
       "title": "Settings",
       "general": {
         "title": "General",
+        "profile_photo": "Profile photo",
+        "cover_photo": "Cover photo",
+        "basic_info": "Basic info",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "username": "Username",
+        "website": "Website",
+        "bio": "Bio",
+        "platform_settings": "Platform settings",
         "language": "Interface language",
         "languagePosts": "Feed post languages",
         "currencyPosts": "Feed post currency",
@@ -153,6 +164,19 @@
           "show": "Always show"
         },
         "comments_in_feed": "Show comments in the feed"
+      },
+      "links": {
+        "add_contact": "Add contact",
+        "add_link": "Add link",
+        "default": "Default contact",
+        "types": {
+          "username": "Username",
+          "link": "Link",
+          "phone": "Phone"
+        },
+        "toastsMessages": {
+          "removed": "Removed"
+        }
       },
       "notifications_settings": {
         "title": "Online notifications",
@@ -336,14 +360,16 @@
         "my_communities": "My Communities",
         "followers": "Followers",
         "following": "Following",
-        "referrals": "Saved souls"
+        "referrals": "Saved souls",
+        "about": "About"
       },
       "profile_header": {
         "cover_updated": "Cover image updated",
         "joined": "Joined",
         "avatar_updated": "Avatar updated",
         "not_available": "Profile is not available",
-        "send_points": "Send Points"
+        "send_points": "Send Points",
+        "contact": "Contact"
       },
       "description": {
         "edit_bio": "Edit bio",
@@ -371,6 +397,16 @@
         "empty": "No Subscriptions",
         "empty-desc": "You have not subscribed to any community",
         "find": "Find communities"
+      },
+      "about": {
+        "tabs": {
+          "about": "About",
+          "messengers": "Messengers",
+          "links": "Social links"
+        },
+        "bio": "Bio",
+        "website": "Website",
+        "preferrable": "Preferrable contact"
       }
     },
     "community": {
@@ -782,6 +818,9 @@
     "profile_mobile_menu": {
       "edit_bio": "Edit bio",
       "send_points": "Send Points"
+    },
+    "profile_mobile_contacts": {
+      "title": "Contact user"
     },
     "report": {
       "title": "Please select a problem",
@@ -1395,6 +1434,7 @@
 
   "toastsMessages": {
     "success": "Success",
+    "saved": "Saved",
     "community": {
       "unfollowed": "Community unfollowed",
       "followed": "Community followed"

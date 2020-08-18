@@ -138,6 +138,8 @@
     "settings": {
       "tabs": {
         "general": "Allgemein",
+        "messengers": "Messengers",
+        "links": "Social links",
         "notifications": "Benachrichtigungen",
         "keys": "Schlussel",
         "current_keys": "Aktuelle Schlussel",
@@ -146,6 +148,15 @@
       "title": "Einstellungen",
       "general": {
         "title": "Allgemein",
+        "profile_photo": "Profile photo",
+        "cover_photo": "Cover photo",
+        "basic_info": "Basic info",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "username": "Username",
+        "website": "Website",
+        "bio": "Bio",
+        "platform_settings": "Platform settings",
         "language": "Sprache der Benutzeroberflache",
         "languagePosts": "Sprache der Beitrage in Feeds",
         "currencyPosts": "Wahrung der Beitrage in Feeds",
@@ -162,6 +173,19 @@
           "show": "immer anzeigen"
         },
         "comments_in_feed": "Kommentare im Feed anzeigen"
+      },
+      "links": {
+        "add_contact": "Add contact",
+        "add_link": "Add link",
+        "default": "Default contact",
+        "types": {
+          "username": "Username",
+          "link": "Link",
+          "phone": "Phone"
+        },
+        "toastsMessages": {
+          "removed": "Removed"
+        }
       },
       "notifications_settings": {
         "title": "Online-Benachrichtigungen",
@@ -345,14 +369,16 @@
         "my_communities": "Meine Gemeinschaften",
         "followers": "Abonnenten",
         "following": "Abonnieren",
-        "referrals": "Gerettete Seelen"
+        "referrals": "Gerettete Seelen",
+        "about": "About"
       },
       "profile_header": {
         "cover_updated": "Die Hulle wurde aktualisiert",
         "joined": "Registriert",
         "avatar_updated": "Der Avatar aktualisiert",
         "not_available": "Profil nicht verfugba",
-        "send_points": "Points senden"
+        "send_points": "Points senden",
+        "contact": "Contact"
       },
       "description": {
         "edit_bio": "Beschreibung Bearbeiten",
@@ -380,6 +406,16 @@
         "empty": "Keine Abonnieren",
         "empty-desc": "“˚ ÌÂ ÔÓ‰ÔËÒ‡Ì Ì‡ ÒÓÓ·˘ÂÒÚ‚‡",
         "find": "Du hast keine Gemeinschaft abonniert"
+      },
+      "about": {
+        "tabs": {
+          "about": "About",
+          "messengers": "Messengers",
+          "links": "Social links"
+        },
+        "bio": "Bio",
+        "website": "Website",
+        "preferrable": "Preferrable contact"
       }
     },
     "community": {
@@ -787,6 +823,9 @@
     "profile_mobile_menu": {
       "edit_bio": "Beschreibung bearbeiten",
       "send_points": "Points senden"
+    },
+    "profile_mobile_contacts": {
+      "title": "Contact user"
     },
     "report": {
       "title": "Bitte wahle ein Problem",
@@ -1377,6 +1416,7 @@
 
   "toastsMessages": {
     "success": "Fertig",
+    "saved": "Saved",
     "community": {
       "unfollowed": "Abonnieren ist abgebrochen",
       "followed": "Sie haben sich angemeldet"

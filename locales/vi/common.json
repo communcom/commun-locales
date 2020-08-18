@@ -138,6 +138,8 @@
     "settings": {
       "tabs": {
         "general": "Tổng quan",
+        "messengers": "Messengers",
+        "links": "Social links",
         "notifications": "Thông báo",
         "keys": "Mã khóa",
         "current_keys": "Mã khóa hiện tại",
@@ -146,6 +148,15 @@
       "title": "Cài đặt",
       "general": {
         "title": "Chung",
+        "profile_photo": "Profile photo",
+        "cover_photo": "Cover photo",
+        "basic_info": "Basic info",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "username": "Username",
+        "website": "Website",
+        "bio": "Bio",
+        "platform_settings": "Platform settings",
         "language": "Ngôn ngữ hiển thị",
         "languagePosts": "Ngôn ngữ của bài viết trên bản tin",
         "currencyPosts": "Bài viết về tiền tệ trên bản tin",
@@ -162,6 +173,19 @@
           "show": "Luôn hiện"
         },
         "comments_in_feed": "Hiển thị bình luận trong bản tin"
+      },
+      "links": {
+        "add_contact": "Add contact",
+        "add_link": "Add link",
+        "default": "Default contact",
+        "types": {
+          "username": "Username",
+          "link": "Link",
+          "phone": "Phone"
+        },
+        "toastsMessages": {
+          "removed": "Removed"
+        }
       },
       "notifications_settings": {
         "title": "Thông báo trực tuyến",
@@ -345,14 +369,16 @@
         "my_communities": "Cộng đồng của tôi",
         "followers": "Người theo dõi",
         "following": "Người đang theo dõi",
-        "referrals": "Người được giới thiệu"
+        "referrals": "Người được giới thiệu",
+        "about": "About"
       },
       "profile_header": {
         "cover_updated": "Đã cập nhật ảnh bìa",
         "joined": "Đã tham gia",
         "avatar_updated": "Đã cập nhật ảnh đại diện",
         "not_available": "Hồ sơ không tồn tại",
-        "send_points": "Gửi điểm đi"
+        "send_points": "Gửi điểm đi",
+        "contact": "Contact"
       },
       "description": {
         "edit_bio": "Thay đổi mô tả",
@@ -380,6 +406,16 @@
         "empty": "Không có người đăng kí",
         "empty-desc": "Bạn chưa đăng kí cộng đồng này",
         "find": "Tìm kiếm cộng đồng"
+      },
+      "about": {
+        "tabs": {
+          "about": "About",
+          "messengers": "Messengers",
+          "links": "Social links"
+        },
+        "bio": "Bio",
+        "website": "Website",
+        "preferrable": "Preferrable contact"
       }
     },
     "community": {
@@ -788,6 +824,9 @@
     "profile_mobile_menu": {
       "edit_bio": "Sửa đổi mô tả",
       "send_points": "Gửi điểm đi"
+    },
+    "profile_mobile_contacts": {
+      "title": "Contact user"
     },
     "report": {
       "title": "Vui lòng lựa chọn vấn đề",
@@ -1378,6 +1417,7 @@
 
   "toastsMessages": {
     "success": "Thành công",
+    "saved": "Saved",
     "community": {
       "unfollowed": "Hủy theo dõi",
       "followed": "Bạn đã theo dõi"

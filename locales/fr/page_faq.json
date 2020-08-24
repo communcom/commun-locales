@@ -7,23 +7,22 @@
       {
         "id": "1",
         "title": "Qu'est ce que Commun?",
-        "description": "Commun sert de portail Web, Android et iOS où les utilisateurs peuvent former des groupes d'intérêt pour partager, lire, regarder, classer, 
-et discuter du contenu avec des personnes partageant les mêmes idées. La plate-forme, composée de communautés autonomes décentralisées (DAC), est le premier réseau social Web-3 à être lancé depuis que l'intérêt pour la technologie a été manifesté à la suite d'un tollé contre la censure, la dématérialisation et la vente de données par les géants des médias sociaux. ",
+        "description": "Commun sert de portail Web, Android et iOS où les utilisateurs peuvent former des groupes d'intérêt pour partager, lire, regarder, classer, et discuter du contenu avec des personnes partageant les mêmes idées. La plate-forme, composée de communautés autonomes décentralisées (DAC), est le premier réseau social Web-3 à être lancé depuis que l'intérêt pour la technologie a été manifesté à la suite d'un tollé contre la censure, la dématérialisation et la vente de données par les géants des médias sociaux. ",
         "children": [
           {
             "id": "11",
             "title": "Commun permet aux utilisateurs de:",
-            "description": "- gérer les communautés et le contenu en votant pour et contre les publications;\n- élire leurs leaders selon les principes d'une démocratie liquide;\n- et surtout - monétiser leurs activités.",
+            "description": "- gérer les communautés et le contenu en votant pour et contre les publications;\n- élire leurs leaders selon les principes d'une démocratie liquide;\n- et surtout - monétiser leurs activités."
           },
           {
             "id": "12",
             "title": "Gérer le contenu:",
-            "description": "En votant pour, les utilisateurs amènent les meilleurs dans le Top 10 du jour (ce top 10 est recalculé toutes les heures).\n Lorsque la publication atteint le sommet - la blockchain fournit de manière algorithmique à l'auteur et aux curateurs (ceux qui ont voté et commenté) les points de cette communauté.",
+            "description": "En votant pour, les utilisateurs amènent les meilleurs dans le Top 10 du jour (ce top 10 est recalculé toutes les heures).\n Lorsque la publication atteint le sommet - la blockchain fournit de manière algorithmique à l'auteur et aux curateurs (ceux qui ont voté et commenté) les points de cette communauté."
           },
           {
             "id": "13",
             "title": "Cela fonctionne comme ceci:",
-            "description": "Le message obtient des récompenses (nous l'indiquons avec la pièce Commun), puis de ce montant de la récompense 45% vont à l'auteur, 45% aux curateurs et 10% aux leaders de la communauté en guise d'honoraires pour leur travail.",
+            "description": "Le message obtient des récompenses (nous l'indiquons avec la pièce Commun), puis de ce montant de la récompense 45% vont à l'auteur, 45% aux curateurs et 10% aux leaders de la communauté en guise d'honoraires pour leur travail."
           }
         ]
       },
@@ -35,7 +34,7 @@ et discuter du contenu avec des personnes partageant les mêmes idées. La plate
       {
         "id": "3",
         "title": "Que sont les jetons CMN et les points communautaires?",
-        "description": "CMN est un jeton de base de la plate-forme. Il peut être utilisé pour créer des communautés, émettre des points de communauté et voter pour les leaders. À l'avenir, il permettra de gérer les publicités dans les communautés.\n\n Chaque communauté a ses propres points. C'est un jeton de niveau 2.\n Tous les points communautaires sont assurés et échangeables contre des jetons de base (jetons CMN), et leur création est gérée selon le protocole Bancor. \n\n Les points peuvent être convertis en jetons CMN, transférés à des ami(e)s, ou échangés contre des points d'autres communautés. ", 
+        "description": "CMN est un jeton de base de la plate-forme. Il peut être utilisé pour créer des communautés, émettre des points de communauté et voter pour les leaders. À l'avenir, il permettra de gérer les publicités dans les communautés.\n\n Chaque communauté a ses propres points. C'est un jeton de niveau 2.\n Tous les points communautaires sont assurés et échangeables contre des jetons de base (jetons CMN), et leur création est gérée selon le protocole Bancor. \n\n Les points peuvent être convertis en jetons CMN, transférés à des ami(e)s, ou échangés contre des points d'autres communautés. ",
         "imageUrl": "/images/pages/faq/section-buy-points.png"
       },
       {
@@ -46,7 +45,7 @@ et discuter du contenu avec des personnes partageant les mêmes idées. La plate
       {
         "id": "5",
         "title": "Si j'ai une plus grande part dans la communauté, mon vote donnera-t-il une plus grande récompense à la publication?",
-        "description": "Votre part dans la communauté affectera la récompense de la publication/vote bien que ce ne soit pas le paramètre principal, mais la "popularité" de la publication n'a rien à voir avec votre part. "
+        "description": "Votre part dans la communauté affectera la récompense de la publication/vote bien que ce ne soit pas le paramètre principal, mais la \"popularité\" de la publication n'a rien à voir avec votre part. "
       },
       {
         "id": "6",
@@ -56,14 +55,12 @@ et discuter du contenu avec des personnes partageant les mêmes idées. La plate
       {
         "id": "7",
         "title": "Comment créer ma communauté?",
-        "description": "Voici une explication rapide du fonctionnement de la création de la communauté.\n1. Vous devez avoir un solde de 10000 СMN\n2. Il est nécessaire de remplir tous les champs obligatoires, de télécharger des avatars, une image de couverture, etc.\n3. La transaction de 10 000 СMN va au compte proxy \n4. 1000 CMN sont brûlés, les jetons sont envoyés sur un compte cyber.null et retirés de la circulation. (vous pouvez le voir dans l'explorateur de blocs)\n5. Ensuite, la communauté est initialisée, 1 CMN est envoyé à la réserve, les 100 000 premiers points de communauté sont créés et envoyés sur le compte du créateur \n6. Le montant restant (8 999 CMN) est converti en points communautaires. \n7. 10% des points communautaires créés sont transférés sur le compte c.bounty. Ces points constituent le pool de distribution aux utilisateurs lors de l'inscription lorsqu'ils sélectionnent les 3 premières communautés. \n8. Les 90% restants vont au compte de l'utilisateur qui a créé la communauté. \n9. Il y a un abonnement automatique à la communauté créée et l'enregistrement de l'utilisateur qui l'a créé comme leader.\n\n\n Seul le propriétaire des points communautaires décide de la manière d'en disposer. 
-Les points peuvent être transférés à un autre utilisateur, reconvertis en jetons CMN, ou vous pouvez voter avec tous vos parts pour des publications ou des commentaires.\n Quelle que soit la manière dont le créateur de la communauté décide de disposer de ses points, la communauté continuera à fonctionner."
+        "description": "Voici une explication rapide du fonctionnement de la création de la communauté.\n1. Vous devez avoir un solde de 10000 СMN\n2. Il est nécessaire de remplir tous les champs obligatoires, de télécharger des avatars, une image de couverture, etc.\n3. La transaction de 10 000 СMN va au compte proxy \n4. 1000 CMN sont brûlés, les jetons sont envoyés sur un compte cyber.null et retirés de la circulation. (vous pouvez le voir dans l'explorateur de blocs)\n5. Ensuite, la communauté est initialisée, 1 CMN est envoyé à la réserve, les 100 000 premiers points de communauté sont créés et envoyés sur le compte du créateur \n6. Le montant restant (8 999 CMN) est converti en points communautaires. \n7. 10% des points communautaires créés sont transférés sur le compte c.bounty. Ces points constituent le pool de distribution aux utilisateurs lors de l'inscription lorsqu'ils sélectionnent les 3 premières communautés. \n8. Les 90% restants vont au compte de l'utilisateur qui a créé la communauté. \n9. Il y a un abonnement automatique à la communauté créée et l'enregistrement de l'utilisateur qui l'a créé comme leader.\n\n\n Seul le propriétaire des points communautaires décide de la manière d'en disposer. Les points peuvent être transférés à un autre utilisateur, reconvertis en jetons CMN, ou vous pouvez voter avec tous vos parts pour des publications ou des commentaires.\n Quelle que soit la manière dont le créateur de la communauté décide de disposer de ses points, la communauté continuera à fonctionner."
       },
       {
         "id": "8",
         "title": "Où vont les 1000 jetons CMN lorsque je crée ma communauté?",
-        "description": "
-Vous pouvez considérer 1000 CMN comme des frais, mais nous ne le prenons pas nous-mêmes. Nous brûlons 1000 jetons CMN et réduisons la quantité totale de CMN en circulation. À l'avenir, chaque élimination augmentera la valeur du jeton CMN et de tous les points. Nous prévoyons d'ajouter d'autres mécanismes d'élimination. \n Maintenant pour la participation. Ce que nous avons fait, ce ne sont pas les parts, bien que cela en rappelle. \n\n La communauté a deux soldes conditionnels. \n1. Le nombre de pièces en réserve. \n2. Le nombre de points en circulation. \n\n Quand quelqu'un achète des points, en fait, il crée de nouveaux points et place les jetons CMN de base dans le solde de réserve en guise de paiement de sécurité. Avec cela, l'augmentation du prix pour chaque point nouvellement créé se produit de manière exponentielle. Les jetons de base restent sur le solde de la communauté jusqu'à ce que le détenteur décide de les vendre. Dans le cas d'une vente, les points communautaires sont détruits et l'utilisateur reçoit un jeton CMN de base, selon la formule décrite dans le contrat intelligent. "
+        "description": "Vous pouvez considérer 1000 CMN comme des frais, mais nous ne le prenons pas nous-mêmes. Nous brûlons 1000 jetons CMN et réduisons la quantité totale de CMN en circulation. À l'avenir, chaque élimination augmentera la valeur du jeton CMN et de tous les points. Nous prévoyons d'ajouter d'autres mécanismes d'élimination. \n Maintenant pour la participation. Ce que nous avons fait, ce ne sont pas les parts, bien que cela en rappelle. \n\n La communauté a deux soldes conditionnels. \n1. Le nombre de pièces en réserve. \n2. Le nombre de points en circulation. \n\n Quand quelqu'un achète des points, en fait, il crée de nouveaux points et place les jetons CMN de base dans le solde de réserve en guise de paiement de sécurité. Avec cela, l'augmentation du prix pour chaque point nouvellement créé se produit de manière exponentielle. Les jetons de base restent sur le solde de la communauté jusqu'à ce que le détenteur décide de les vendre. Dans le cas d'une vente, les points communautaires sont détruits et l'utilisateur reçoit un jeton CMN de base, selon la formule décrite dans le contrat intelligent. "
       },
       {
         "id": "9",
@@ -134,7 +131,7 @@ Vous pouvez considérer 1000 CMN comme des frais, mais nous ne le prenons pas no
           {
             "id": "104",
             "title": "Suivez / Ne plus suivre / Mettre la communauté sur liste noire.",
-            "description": ""Suivre" ajoute les messages de la communauté dans votre flux, "Ne plus suivre" les supprime et tout se passe comme d'habitude. Vous pouvez ajouter la communauté dans la liste noire, les messages de la communauté bloquée n'apparaîtront nulle part pour vous."
+            "description": "\"Suivre\" ajoute les messages de la communauté dans votre flux, \"Ne plus suivre\" les supprime et tout se passe comme d'habitude. Vous pouvez ajouter la communauté dans la liste noire, les messages de la communauté bloquée n'apparaîtront nulle part pour vous."
           },
           {
             "id": "105",

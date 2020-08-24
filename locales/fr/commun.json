@@ -181,7 +181,7 @@
           "copy_failed": "La copie dans le presse-papiers a échoué!"
         }
       },
-      "new_keys" : {
+      "new_keys": {
         "title": "Nouvelles clés",
         "password_rules": [
           "Ne perdez pas votre mot de passe.",
@@ -435,8 +435,7 @@
           },
           {
             "title": "INTERDIT:",
-            "text": "- Publication du contenu NSFW sans le marquer comme NSFW;\n- La publication de contenu dérangeant, de spam ou de publicité est strictement interdite;\n- 
-Insulter les utilisateurs dans des commentaires ou des articles;\n- Publication de données personnelles de personnes sans leur accord;"
+            "text": "- Publication du contenu NSFW sans le marquer comme NSFW;\n- La publication de contenu dérangeant, de spam ou de publicité est strictement interdite;\n- Insulter les utilisateurs dans des commentaires ou des articles;\n- Publication de données personnelles de personnes sans leur accord;"
           },
           {
             "title": "Violation des règles:",
@@ -1263,7 +1262,7 @@ Insulter les utilisateurs dans des commentaires ou des articles;\n- Publication 
       "text": "Soyez récompensé pour vos <br /> posts, likes, et commentaires",
       "big": {
         "description": "Comment commencer à publier et <br /> monétiser vos activités",
-        "text": "Soyez récompensé pour vos posts, likes, et<br /> commentaires. Appuyez sur "Démarrer" pour en savoir plus"
+        "text": "Soyez récompensé pour vos posts, likes, et<br /> commentaires. Appuyez sur \"Démarrer\" pour en savoir plus"
       },
       "start": "Démarrer"
     },
@@ -1337,7 +1336,7 @@ Insulter les utilisateurs dans des commentaires ou des articles;\n- Publication 
       }
     },
     "first_like": {
-      "desc": "Si vous détenez des points de cette communauté et que ce message figurera dans le "Top 10 du jour", vous et l'auteur obtiendriez plus de points en récompense.",
+      "desc": "Si vous détenez des points de cette communauté et que ce message figurera dans le \"Top 10 du jour\", vous et l'auteur obtiendriez plus de points en récompense.",
       "learn_more": "En savoir plus sur les récompenses"
     },
     "not_ready": {

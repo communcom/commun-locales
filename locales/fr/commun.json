@@ -1,0 +1,1466 @@
+{
+  "common": {
+    "required": "Requis",
+    "retry": "Réessayer",
+    "feed": "Flux",
+    "my_feed": "Mon Flux",
+    "see_all": "Voir tout",
+    "see_more": "Voir plus",
+    "show_less": "Montrer moins",
+    "sign_in": "Se connecter",
+    "sign_up": "S'inscrire",
+    "accept": "Accepter",
+    "cancel": "Annuler",
+    "edit": "Éditer",
+    "save": "Enregistrer",
+    "done": "Terminé",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "remove": "Retirer",
+    "delete": "Supprimer",
+    "show": "Montrer",
+    "more": "Plus",
+    "open": "Ouvert",
+    "close": "Fermer",
+    "back": "Retour",
+    "continue": "Continuer",
+    "skip": "Sauter",
+    "next": "Prochain",
+    "ban": "Interdire",
+    "read_more": "Lire plus",
+    "learn_more": "Apprendre plus",
+    "block": "Bloquer",
+    "unblock": "Débloquer",
+    "follow": "S'abonner",
+    "following": "Suivre",
+    "unfollow": "Se désabonner",
+    "all": "Tout",
+    "token": "Jeton",
+    "token_plural": "Jetons",
+    "point": "Point",
+    "point_plural": "Points",
+    "search": "Chercher",
+    "search_placeholder": "Recherche...",
+    "equity_value": "Valeur de l'équité",
+    "equity_value_commun": "Équité en Commun",
+    "like": "Aimer",
+    "dislike": "Ne pas aimer",
+    "lost_data_question": "Les modifications seront perdues, continuer?",
+    "counters": {
+      "follower": "Supporter",
+      "follower_plural": "Supporters",
+      "following": "Suivre",
+      "community": "Communauté",
+      "community_plural": "Communautés",
+      "post": "Post",
+      "post_plural": "Posts",
+      "leader": "Leader",
+      "leader_plural": "Leaders",
+      "member": "Membre",
+      "member_plural": "Membres",
+      "friend": "Ami(e)",
+      "friend_plural": "Ami(e)s",
+      "point": "Point",
+      "point_plural": "Points"
+    }
+  },
+  "header": {
+    "buy_commun": "Achetez des Communs",
+    "how_it_works": "Comment ça fonctionne?",
+    "log_in": "Se connecter",
+    "sign_up": "S'inscrire"
+  },
+
+  "sidebar": {
+    "my_feed": "Mon flux",
+    "trending": "Tendance",
+    "hot": "Hot",
+    "wallet": "Portefeuille",
+    "management": "Gestion",
+    "communities": "Communautés",
+    "new_post": "Nouveau post"
+  },
+
+  "footer": {
+    "user_agreement": "Condition d'utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "cookies_policy": "Politique de cookies",
+    "blockchain_disclaimer": "Non-responsabilité Blockchain",
+    "whitepaper": "Livre Blanc",
+    "faq": "FAQ"
+  },
+
+  "components": {
+    "post": {
+      "no_found": "Le post est introuvable",
+      "no_found_desc": "Il a probablement été supprimé",
+      "views_count": "{{count}} vue",
+      "views_count_plural": "{{count}} vues",
+      "comments_count": "{{count}} commentaire",
+      "comments_count_plural": "{{count}} commentaires",
+      "show_more_comments": "Afficher plus de commentaires",
+      "open_menu": "Ouvrir le menu de l'article",
+      "aria_share_in_social": "Partager sur les réseaux sociaux"
+    },
+    "search": {
+      "specific_results": {
+        "enter": "Veuillez saisir une requête de recherche",
+        "hint": "Vous pouvez essayer de modifier la requête de recherche ou accéder au flux",
+        "no_found": "Aucun résultats",
+        "go_feed": "Aller au Flux"
+      }
+    },
+    "blacklist": {
+      "title": "Liste noire",
+      "tabs": {
+        "users": "Utilisateurs",
+        "communities": "Communautés"
+      },
+      "users_blacklist": {
+        "no_found": "No blocked users"
+      },
+      "communities_blacklist": {
+        "no_found": "Aucun utilisateur bloqué"
+      }
+    },
+    "settings": {
+      "tabs": {
+        "general": "Générale",
+        "notifications": "Notifications",
+        "keys": "Clés",
+        "current_keys": "Clés actuelles",
+        "new_keys": "Nouvelles clés"
+      },
+      "title": "Paramètres",
+      "general": {
+        "title": "Générale",
+        "language": "Langue de l'interface",
+        "languagePosts": "Langue de publication des flux",
+        "currencyPosts": "Monnaie de publication des flux",
+        "theme": "Thème",
+        "theme_type": {
+          "light": "Lumière",
+          "system": "Système",
+          "dark": "Sombre"
+        },
+        "nsfw_content": "Contenu NSFW",
+        "nsfw_type": {
+          "hide": "Cacher toujours",
+          "warn": "Alerte toujours",
+          "show": "Montrer toujours"
+        },
+        "comments_in_feed": "Afficher les commentaires dans le flux"
+      },
+      "notifications_settings": {
+        "title": "Notifications en ligne",
+        "switchers": {
+          "upvote": "Upvote",
+          "reply": "Répondre",
+          "mention": "Mention",
+          "subscribe": "Souscrire",
+          "rewards": "Récompenses",
+          "transfers": "Transfers"
+        }
+      },
+      "keys": {
+        "title": "Clés publiques",
+        "title_private": "Clés privées",
+        "show_private_keys": "Affichez les clés privées",
+        "show_public_keys": "Affichez les clés publiques",
+        "copy": "Copier la clé",
+        "active": {
+          "title": "Clé active",
+          "description": "Vous permet de transférer des points"
+        },
+        "owner": {
+          "title": "Clé du propriétaire",
+          "description": "Accès total"
+        },
+        "messages": {
+          "copied": "La clé a été copiée dans le presse-papiers!",
+          "copy_failed": "La copie dans le presse-papiers a échoué!"
+        }
+      },
+      "new_keys" : {
+        "title": "Nouvelles clés",
+        "password_rules": [
+          "Ne perdez pas votre mot de passe.",
+          "Ne perdez pas votre mot de passe.",
+          "Nous ne pouvons pas récupérer votre mot de passe.",
+          "Si vous vous souvenez du mot de passe, il n'est pas sécurisé.",
+          "Utilisez des mots de passe générés aléatoirement.",
+          "Ne communiquez votre mot de passe à personne.",
+          "Sauvegardez toujours votre mot de passe."
+        ],
+        "fields": {
+          "currentPassword": "Mot de passe actuel",
+          "newPassword": "Nouveau Mot de passe",
+          "confirmNewPassword": "Confirmer le nouveau mot de passe"
+        },
+        "delay_warning": "Votre compte a une restriction de clé du propriétaire. Le mot de passe ne peut être modifié qu'avec un délai de % (délai) s jours.",
+        "backup_password_by_storing_it": "Sauvegardez-le en le stockant dans votre gestionnaire de mots de passe ou dans un fichier texte",
+        "cannot_recover_password": "Je comprends que Commun ne peut pas récupérer les mots de passe perdus",
+        "i_saved_password": "J'ai sauvegardé mon mot de passe en toute sécurité",
+        "errors": {
+          "wrong_password": "Vous avez entré le mauvais mot de passe",
+          "passwords_do_not_match": "Les mots de passe ne correspondent pas",
+          "passwords_same": "Le nouveau mot de passe est le même que le mot de passe actuel"
+        },
+        "toastsMessages": {
+          "owner_not_found": "Clé du propriétaire introuvable",
+          "keys_not_found": "Les clés sont introuvables",
+          "cant_extract": "La clé du propriétaire ne peut pas être extraite",
+          "password_delay": "Le mot de passe sera mis à jour dans %(délai) jours",
+          "password_updated": "Mot de passe mis à jour"
+        }
+      }
+    },
+    "wallet": {
+      "tabs": {
+        "my_points": "Mes Points",
+        "history": "Historique"
+      },
+      "my_points": {
+        "my_points": "Mes points",
+        "send_points": "Envoyer des points",
+        "search_points": "Rechercher des points",
+        "no_found": "Aucun points",
+        "no_found_desc": "Essayez d'envoyer ou de convertir",
+        "hide_empty": "Cacher vide",
+        "hide_empty_balances": "Masquer les soldes vides",
+        "hidden": "Caché"
+      },
+      "actions_panel": {
+        "send": "Envoyer",
+        "sell": "Vendre",
+        "buy": "Acheter",
+        "convert": "Convertir"
+      },
+      "transfer_history": {
+        "title": "Historique",
+        "filter": "Filtre",
+        "empty": "Historique vide",
+        "empty_desc": "Aucune transactions",
+        "no_found": "Aucune transaction trouvée",
+        "no_found_desc": "Essayez d'envoyer ou de convertir",
+        "with_memo": "Transaction avec Memo"
+      },
+      "points_grid": {
+        "on_hold": "{{quantity}} en attente"
+      },
+      "points_list": {
+        "on_hold": "{{quantity}} en attente"
+      },
+      "users_layout": {
+        "no_found": "No users",
+        "no_found_desc": "Aucun utilisateur trouvé"
+      },
+      "history_list": {
+        "today": "Aujourd'hui",
+        "refill": "Recharge",
+        "reward": "Récompense",
+        "types": {
+          "transaction": "Transaction",
+          "referralRegisterBonus": "Vous avez reçu un bonus de parrainage pour l'inscription de",
+          "referralPurchaseBonus": {
+            "first": "Vous avez reçu {{percent}}% de",
+            "last": "'s achat"
+          },
+          "donation": "Don",
+          "convert": "Convertir",
+          "curator": "Récompense de curation",
+          "hold": "Tenir",
+          "leader_reward": "Récompense de leader"
+        }
+      },
+      "point_info_panel": {
+        "available": "Disponible",
+        "hold": "Tenir"
+      }
+    },
+    "leaderboard": {
+      "tabs": {
+        "proposals": "Propositions",
+        "reports": "Rapports",
+        "posts": "Publications",
+        "comments": "Commentaires"
+      },
+      "proposals": {
+        "no_found": "Aucune proposition",
+        "no_found_desc": "Il n'y a pas de suggestions dans la communauté"
+      },
+      "reports": {
+        "no_found": "Aucun rapport",
+        "no_found_desc": "Il n'y a pas de rapports dans la communauté"
+      },
+      "cover_change": {
+        "new_cover": "Nouvelle couverture",
+        "old_cover": "Ancienne couverture",
+        "no_cover": "Aucune couverture"
+      },
+      "avatar_change": {
+        "new_avatar": "Nouvel avatar",
+        "old_avatar": "Ancien avatar",
+        "no_avatar": "Aucun avatar"
+      }
+    },
+    "communities": {
+      "create": "Créer une communauté",
+      "no_found": "Aucune communauté",
+      "find": "Trouver une communauté",
+      "tabs": {
+        "communities": "Communautés",
+        "my_communities": "Mes communautés",
+        "managed": "Gérer"
+      },
+      "my_communities": {
+        "no_found": "Aucun abonnement",
+        "no_found_desc": "Vous n'êtes abonné à aucune communauté"
+      },
+      "manage": {
+        "no_found_desc": "Vous ne gérez aucune communauté"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "filters": "Filtres (pas encore prêts)"
+    },
+    "profile": {
+      "tabs": {
+        "posts": "Publications",
+        "comments": "Commentaires",
+        "communities": "Communautés",
+        "my_communities": "Mes communautés",
+        "followers": "Supporters",
+        "following": "Suivis",
+        "referrals": "Références"
+      },
+      "profile_header": {
+        "cover_updated": "Image de couverture mise à jour",
+        "joined": "Rejoint",
+        "avatar_updated": "Avatar mise à jour",
+        "not_available": "Le profil n'est pas disponible",
+        "send_points": "Envoyer Points"
+      },
+      "description": {
+        "edit_bio": "Editer bio",
+        "add_bio": "Ajouter bio"
+      },
+      "comments": {
+        "empty": "Aucun commentaires",
+        "empty-desc": "Vous n'avez encore fait aucun commentaire"
+      },
+      "followers": {
+        "empty": "Aucun abonné",
+        "empty-desc": "Vous n'avez aucun suivi. Vous pouvez trouver de nouveaux amis ou créer un nouveau message.",
+        "create": "Créer un nouveau message"
+      },
+      "following": {
+        "empty": "Pas de suivi",
+        "empty-desc": "Vous n'avez aucun suivi"
+      },
+      "referrals": {
+        "empty": "Aucune référence",
+        "empty-desc": "Vous n'avez aucun utilisateur référent",
+        "no_found": "Rien n'est trouvé"
+      },
+      "user_communities": {
+        "empty": "Aucun abonnement",
+        "empty-desc": "Vous n'êtes abonné à aucune communauté",
+        "find": "Trouver des communautés"
+      }
+    },
+    "community": {
+      "tabs": {
+        "posts": "Posts",
+        "leaders": "Leaders",
+        "members": "Membres",
+        "description": "Description",
+        "rules": "Règles",
+        "settings": "Paramètres"
+      },
+      "leaders": {
+        "leaders": "Leaders",
+        "nominees": "Nominés",
+        "become": "Devenir un leader",
+        "stop": "Arrêter d'être un leader",
+        "no_found": "Rien n'est trouvé",
+        "empty": "Aucun Leaders",
+        "empty_desc": "Soyez le premier leader de la communauté"
+      },
+      "description": {
+        "no_found": "Aucune description",
+        "no_found_desc": "La communauté n'a pas de description"
+      },
+      "members": {
+        "no_found": "Aucun abonné"
+      },
+      "rules": {
+        "title": "Règles",
+        "new_rule": "Nouvelle règle",
+        "invalid_format": "Format de règles non valide",
+        "language": "Language",
+        "remove_rule_question": "Une proposition de suppression de la règle sera créée. Créer?",
+        "toastsMessages": {
+          "created": "Proposition créée"
+        }
+      },
+      "community_header": {
+        "created": "Créée {{date}}"
+      }
+    },
+    "createCommunity": {
+      "tabs": {
+        "description": "Description",
+        "rules": "Règles",
+        "settings": "Paramètres"
+      },
+      "description": {
+        "choose_language": "Choisissez la langue",
+        "add_description": "Ajouter une description (facultatif)",
+        "description_placeholder": "Tapez quelque chose sur la communauté"
+      },
+      "subject": {
+        "title": "Sujet",
+        "subject_placeholder": "Sujet de communauté"
+      },
+      "rules": {
+        "title": "Règles",
+        "new_rule": "Nouvelle règle",
+        "invalid_format": "Format de règles non valide",
+        "default_rules": [
+          {
+            "title": "Contenu:",
+            "text": "- Ici, vous pouvez publier tous types de contenu, créer du contenu original ou publier des liens vers d'autres sources;\n- Le contenu doit être pertinent à la thématique de la communauté;"
+          },
+          {
+            "title": "INTERDIT:",
+            "text": "- Publication du contenu NSFW sans le marquer comme NSFW;\n- La publication de contenu dérangeant, de spam ou de publicité est strictement interdite;\n- 
+Insulter les utilisateurs dans des commentaires ou des articles;\n- Publication de données personnelles de personnes sans leur accord;"
+          },
+          {
+            "title": "Violation des règles:",
+            "text": "En cas de violation des règles, les commentaires et les publications avec des violations seront privés de paiement et exclus de l'affichage dans la communauté et le flux général. De plus, les leaders ont le droit de limiter votre accès à la communauté."
+          }
+        ]
+      },
+      "default_settings": "Le nombre de leaders - 3 personnes;\nPoints émission = 50%;\nDistribution des récompenses: 10% - leaders, 45% - auteurs (posts et commentaires), 45% - curateurs;\nCW = 0.4;",
+      "create_community_header": {
+        "create": "Créer une communauté",
+        "community_name_placeholder": "Nom de la communauté"
+      }
+    },
+    "onboarding": {
+      "sign_up": "Commencez et obtenez 30 points",
+      "sign_up-mobile": "Commencez maintenant et obtenez des points",
+      "desktopSlides": {
+        "first": {
+          "title": "Ici vous obtenez des récompenses<br /> pour vos messages et vos likes",
+          "desc": "Créez des messages, votez pour eux, commentez, discutez<br /> et recevez des récompenses en Points communautaires",
+          "progressBarText": "Les gens reçoivent des récompenses <br />pour leurs messages et likes"
+        },
+        "second": {
+          "title": "Communautés thématiques",
+          "desc": "Choisissez votre communauté et elle récompensera vos actions.<br /> Aussi simple que ça!",
+          "progressBarText": "Thématiques<br />Communautés"
+        },
+        "third": {
+          "title": "Le réseau social <br /> basé sur la blockchain",
+          "desc": "Grâce à la blockchain, il est désormais possible pour les réseaux sociaux de récompenser leurs utilisateurs et de donner de l'autonomie aux communautés.",
+          "progressBarText": "Le réseau social <br />basé sur la blockchain"
+        }
+      },
+      "mobileSlides": {
+        "first": {
+          "title": "Ici, vous <br /><span>obtenez <span class=\"highlight\">des récompenses</span></span><br />pour vos <br />posts et <br />likes"
+        },
+        "second": {
+          "title": "Choisissez <br />votre <br /><span class=\"highlight\">communauté</span> <br />thématique"
+        },
+        "third": {
+          "title": "<span class=\"highlight\">Réseau-</span> <br />based <br />social <br />Blockchain"
+        }
+      }
+    },
+
+    "notifications_window": {
+      "title": "Notifications"
+    },
+    "notification": {
+      "comment": "commentaire",
+      "post": "post",
+      "types": {
+        "reply": "a laissé un commentaire{{shortText}}",
+        "mention": "vous a mentionné dans un {{entityType}}: “{{shortText}}”",
+        "upvote": "a aimé votre {{entityType}}",
+        "subscribe": "Vous suit",
+        "reward": "Vous avez {{amount}} {{communityName}} points",
+        "transfer": {
+          "received": "Vous avez reçu",
+          "sent_you": "vous a envoyé"
+        },
+        "referralRegistrationBonus": "Vous avez reçu un bonus de parrainage pour l'inscription de",
+        "referralPurchaseBonus": {
+          "first": "Vous avez reçu {{amountStr}}. C'est un bonus de parrainage - {{percent}}% de",
+          "last": "'s achat"
+        },
+        "donation": "faire un don pour la publication{{shortText}}: {{amount}} {{symbol}}"
+      }
+    },
+    "notification_counter": {
+      "title": "Notifications"
+    },
+
+    "dropzone": {
+      "toastsMessages": {
+        "failed": "Le téléchargement de l'image a échoué",
+        "unsupported": "Type de fichier non pris en charge",
+        "too_big": "Fichier trop gros, la taille maximale autorisée est {{size}} Mo"
+      }
+    },
+    "editor": {
+      "comment_editor": {
+        "placeholder": "Ajouter un commentaire...",
+        "placeholder-mobile": "Commentaire..."
+      }
+    },
+    "comment_form": {
+      "add_file": "Ajouter un fichier",
+      "send": "Envoyer",
+      "sign_up_send": "Inscrivez-vous et envoyez",
+      "toastsMessages": {
+        "posting_failed": "La publication du commentaire a échoué"
+      }
+    },
+    "post_form": {
+      "you": "Vous",
+      "post": "Publiez",
+      "sign_up_post": "Inscrivez-vous et envoyez",
+      "article": "Article",
+      "aria_article": "Créer l'article",
+      "aria_nsfw": "Ajoutez cette balise si votre message contient du contenu NSFW",
+      "aria_add_image": "Ajouter une image",
+      "toastsMessages": {
+        "select_community": "Sélectionnez une communauté",
+        "post_failed": "La soumission du message a échoué"
+      }
+    },
+    "proposal_card": {
+      "ban_comment": "Interdire commentaire",
+      "ban_post": "Interdire publication",
+      "not_implemented_type": "Type de proposition{{type}} pas encore implementé.",
+      "not_implemented_action": "Proposition pour {{contract}}::{{action}} pas encore implementé.",
+      "nothing": "Aucun changement",
+      "apply": "Appliquer",
+      "refuse": "Refuser",
+      "accept": "Accepter",
+      "accept_and_apply": "Accepter et appliquer",
+      "add_rule": "Ajouter règle",
+      "update_rule": "Mettre à jour la règle",
+      "old_rule": "Ancienne règle",
+      "remove_rule": "Supprimer règle",
+      "set_description": "Définir la description",
+      "set_language": "Définir la langue",
+      "update_description": "Mettre à jour la description",
+      "update_language": "Mettre à jour la langue",
+      "old_description": "Ancienne description",
+      "old_language": "Ancienne langue",
+      "voted": "Voté",
+      "voted_text": "{{approvesCount}} de{{approvesNeed}} votes",
+      "toastsMessages": {
+        "approved": "Approuvé",
+        "applied": "La proposition a été appliquée"
+      }
+    },
+    "comment": {
+      "reply": "Reply",
+      "comment_body": {
+        "deleted": "Le commentaire a été supprimé",
+        "invalid_format": "Format de commentaire non valide"
+      }
+    },
+    "comments_block": {
+      "title": "Commentaires",
+      "empty": "Aucun commentaire pour l'instant"
+    },
+    "comments_nested": {
+      "replies": "Voir {{comments}} plus de réponse",
+      "replies_plural": "Voir {{comments}} plus de réponses"
+    },
+    "auth_block": {
+      "my_profile": "Mon profil",
+      "wallet": "Portefeuille",
+      "blacklist": "Liste noire",
+      "referrals": "Références",
+      "settings": "Paramètres",
+      "faq": "FAQ",
+      "logout": "Se déconnecter"
+    },
+    "entity_card_reports": {
+      "ban": "Interdire",
+      "refuse": "Refuser l'interdiction",
+      "approve": "Approuver l'interdiction",
+      "approves": "Approbation",
+      "create": "Créer une proposition d'interdiction",
+      "reports": "Rapports",
+      "toastsMessages": {
+        "post_banned": "La publication est interdite"
+      }
+    },
+    "leader_row": {
+      "vote": "Vote",
+      "voted": "Voté",
+      "inactive": "inactif",
+      "toastsMessages": {
+        "success_vote": "Voté avec succès",
+        "canceled_vote": "Vote annulé"
+      }
+    },
+    "choose_community": {
+      "select": "Choisissez la communauté",
+      "no_found": "Rien n'est trouvé",
+      "empty": "Aucune communauté"
+    },
+
+    "autocomplete_search": {
+      "text": "Afficher tous les résultats"
+    },
+    "whats_new_opener": {
+      "text": "Quoi de neuf?"
+    },
+    "post_editor": {
+      "placeholder": "Quoi de neuf?"
+    },
+    "cookies": {
+      "text": "Ce site utilise des cookies pour améliorer votre expérience"
+    },
+    "empty_list": {
+      "text": "Rien n'est trouvé"
+    },
+    "empty_content_holder": {
+      "notifications": {
+        "title": "Aucune notifications",
+        "desc": "Vous n'avez pas encore de notifications"
+      },
+      "comments": {
+        "title": "Aucun commentaire",
+        "desc": "Vous n'avez pas encore fait de commentaire"
+      },
+      "points": {
+        "title": "Votre portefeuille est vide",
+        "desc": "Obtenez votre premier point COMMUN, qui peut être converti pour d'autres points que vous souhaitez conserver"
+      }
+    },
+    "post_list": {
+      "no_found": "Aucune publication",
+      "no_found_desc": "Vous n'avez encore publié de message"
+    },
+    "vote_panel": {
+      "cancel": "Annuler vote",
+      "vote_up": "Votez",
+      "vote_down": "Votez Contre",
+      "cant_cancel_own": "Impossible d'annuler le vote sur votre propre publication",
+      "cant_down_own": "Impossible de voter contre votre propre publication"
+    },
+    "nsfw_warning": {
+      "title": "Contenu NSFW",
+      "text": "Êtes vous sûr?"
+    },
+    "report_row": {
+      "this_is": "C'est"
+    },
+    "rewards_badge": {
+      "top": "Top",
+      "title": "Ce post est présenté dans le Top",
+      "desc": "Après un certain temps, il sera récompensé",
+      "title-rewarded": "Ce post a été récompensé",
+      "desc-rewarded": "Cette publication était intéressante pour les membres de la communauté",
+      "learn_more": "En savoir plus sur la récompense"
+    }
+  },
+
+  "menu": {
+    "common": {
+      "more_actions": "Plus d'actions"
+    },
+    "comment": {
+      "report": "Report"
+    },
+    "post": {
+      "report": "Report",
+      "propose_ban": "Proposer d'interdire",
+      "view_in_explorer": "Voir dans l'explorateur"
+    }
+  },
+
+  "modals": {
+    "confirm_dialog": {
+      "blocked_user": "Vous avez bloqué cet utilisateur. Voulez-vous débloquer et le suivre?",
+      "blocked_community": "Vous avez bloqué cette communauté. Voulez-vous débloquer et la suivre?",
+      "revote_leader": "Êtes-vous sûr de vouloir reprendre le vote? Vous n'avez qu'un seul vote. En le donnant à un autre candidat, vous réduirez l'influence de votre candidat actuel au nombre actuel de vos points."
+    },
+    "avatar_edit": {
+      "title": "Changer position",
+      "rotate": "Pivoter photo"
+    },
+    "become_leader": {
+      "title": "Devenir un leader",
+      "url": "Message de bienvenu et URL",
+      "become": "Devenir un leader"
+    },
+    "choose_post_cover": {
+      "title": "Préparez-vous à la publication",
+      "send": "Publier"
+    },
+    "confirm": {
+      "title": "Confirmation",
+      "text": "Êtes-vous sûr?"
+    },
+    "description_edit": {
+      "title": "Editer Description",
+      "description": "Description",
+      "reset": "Réinitialiser",
+      "create": "Créer une proposition",
+      "toastsMessages": {
+        "proposal_created": "Proposition créée"
+      }
+    },
+    "cover_avatar": {
+      "edit": "Editer photo",
+      "delete": "Supprimer photo",
+      "upload_avatar": "Télécharger une nouvelle image d'avatar",
+      "toastsMessages": {
+        "proposal_created": "La proposition de changement d'avatar a été créée",
+        "avatar_updated": "Avatar mis à jour"
+      }
+    },
+    "cover_image": {
+      "edit_photo": "Editer photo",
+      "delete_photo": "Supprimer photo",
+      "choose": "Choisissez une autre photo",
+      "drag_to_move": "Faites glisser pour déplacer la photo de couverture",
+      "upload_cover": "Télécharger une nouvelle image de couverture",
+      "toastsMessages": {
+        "proposal_created": "La proposition de changement de couverture a été créée",
+        "image_deleted": "Couverture supprimée avec succès",
+        "image_updated": "Image de couverture mise à jour"
+      }
+    },
+    "share_block": {
+      "copy": "Copier",
+      "share": "Partager"
+    },
+    "feed_filters_mobile": {
+      "title": "Trier par"
+    },
+    "login": {
+      "title": "Se connecter",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "error": "Erreur: {{error}}",
+      "submit": "S'identifier",
+      "sign_up": "Vous n’avez pas de compte?",
+      "errors": {
+        "invalid": "Nom d'utilisateur ou mot de passe incorrect"
+      },
+      "toastsMessages": {
+        "recaptcha_failed": "'Recaptcha échoué'"
+      }
+    },
+    "profile_about_edit": {
+      "title": "Éditer Bio",
+      "description": "Écrivez quelque chose sur vous",
+      "reset": "Réinitialiser",
+      "save": "Enregistrer"
+    },
+    "profile_mobile_menu": {
+      "edit_bio": "Éditer bio",
+      "send_points": "Envoyer Points"
+    },
+    "report": {
+      "title": "Veuillez sélectionner un problème",
+      "report_field": "Rapport",
+      "text": "Si quelqu'un est en danger immédiat, appelez les services d'urgence locaux. N'attendez pas.",
+      "send": "Envoyer"
+    },
+    "rule_edit": {
+      "title": "Ajouter une règle",
+      "title-edit": "Modification des règles",
+      "title_field": "Titre",
+      "description_field": "Description",
+      "remove_rule_question": "Une proposition de suppression de la règle sera créée. Créer?",
+      "submit": "Créer une proposition",
+      "toastsMessages": {
+        "created": "Proposition créée"
+      }
+    },
+    "community_language_edit": {
+      "title": "Changement de langue",
+      "toastsMessages": {
+        "created": "Proposition créée"
+      }
+    },
+    "share": {
+      "title": "Partager"
+    },
+    "sign_up": {
+      "title": "S'inscrire",
+      "title-oops": "Oops",
+      "can_close": "Vous devez terminer l'enregistrement, sinon les données peuvent manquer.",
+      "sign_in_text": "Avez-vous un compte?",
+      "sign_in": "Se connecter",
+      "errors": {
+        "fill_cell": "Vous devez remplir toutes les cellules.",
+        "too_many": "Trop de tentatives",
+        "try_again": "Le code n'a pas été renvoyé. Réessayer",
+        "try_later": "Essayer plus tard",
+        "recaptcha_check": "La vérification du Recaptcha a échoué"
+      },
+      "attentionAfter": {
+        "title": "Attention",
+        "description": "Nous ne conservons pas les mots de passe Maîtres et n'avons aucune possibilité de les restaurer.",
+        "text": "Malheureusement, la blockchain ne nous permet pas de restaurer les mots de passe. Cela signifie qu'il est de la responsabilité de l'utilisateur de conserver le mot de passe dans un endroit sûr pour pouvoir y accéder à tout moment.<br /><br />Nous vous recommandons vivement d'enregistrer votre mot de passe et d'en faire une copie.",
+        "saved_it": "Je l'ai sauvegarder",
+        "download": "Télécharger le PDF contenant le mot de passe"
+      },
+      "attentionBefore": {
+        "title": "Attention",
+        "description": "Vous souhaitez sélectionner le mode avancé et continuer avec le mot de passe Maître",
+        "text": "Après confirmation, nous générerons pour vous un mot de passe crypto de 52 caractères.<br />Nous vous suggérons de copier ce mot de passe ou de télécharger le fichier PDF avec.<br />Nous ne conservons pas les mots de passe Maître et n'avons aucune possibilité de les restaurer.<br /><br />Nous vous recommandons vivement d'enregistrer votre mot de passe et d'en faire une copie.",
+        "continue": "Continuer avec le mot de passe Maître"
+      },
+      "confirmation_code": {
+        "title": "Entrez le code de vérification du SMS",
+        "resend": "Renvoyer le code de vérification"
+      },
+      "confirmation_code_email": {
+        "title": "Un courriel a été envoyé avec le code de vérification. Veuillez entrer le code ici",
+        "placeholder": "Code de vérification",
+        "resend": "Renvoyer le code de vérification",
+        "errors": {
+          "enter_code": "Veuillez saisir le code",
+          "invalid_code": "Code d'activation incorrect"
+        }
+      },
+      "confirm_password": {
+        "title": "Confirmez le mot de passe",
+        "description": "Entrez à nouveau votre mot de passe",
+        "errors": {
+          "same": "Le mot de passe doit être le même"
+        }
+      },
+      "create_password": {
+        "title": "Créer un mot de passe",
+        "description": "Nous ne conservons pas les mots de passe et n'avons aucune possibilité de les restaurer.<br /><span class=\"bold\">Veuillez sauvegarder votre mot de passe.</span>",
+        "use_password": "Je souhaite utiliser le mot de passe Maître"
+      },
+      "create_username": {
+        "description": "Créer nom d'utilisateur",
+        "username": "Nom d'utilisateur",
+        "hints": [
+          "Le nombre de caractères ne doit pas dépasser 32",
+          "Les lettres majuscules dans le nom d'utilisateur ne sont pas autorisées",
+          "Caractères valides: lettres, chiffres, tiret",
+          "Le trait d'union ne peut pas être au début ou à la fin du nom d'utilisateur",
+          "Le nom d'utilisateur peut contenir le caractère \"dot\" ",
+          "La présence du caractère \"dot\" dans une ligne n'est pas valide"
+        ]
+      },
+      "email": {
+        "placeholder": "Courriel",
+        "description": "Entrez votre adresse courriel",
+        "errors": {
+          "email_is_not_valid": "L'adresse courriel n'est pas valide",
+          "enter_your_email": "Entrez votre adresse courriel",
+          "account_already_exists": "Un compte avec cette adresse courriel existe déjà"
+        }
+      },
+      "master_key": {
+        "title": "<span class=\"bold\">Le mot de passe Maître</span><br />a été généré",
+        "title-custom": "<span class=\"bold\">Votre mot de passe</span><br />a été créé",
+        "text": "Vous avez besoin du mot de passe Maître pour vous connecter<br />Nous ne conservons pas et ne pouvons pas restaurer les mots de passe<br /><span class=\"bold\">Sauvegarder-le en toute sécurité!</span>",
+        "text-custom": "Vous avez besoin du mot de passe pour vous connecter<br />Nous ne conservons pas et ne pouvons pas restaurer les mots de passe<br /><span class=\"bold\">Enregistrez-le en toute sécurité!</span>",
+        "master_password": "Mot de passe Maître",
+        "retry": "Recommencez",
+        "download": "Télécharger PDF",
+        "saved_it": "Je l'ai sauvegarder",
+        "errors": {
+          "username_mismatch": "Non-concordance de nom d'utilisateur",
+          "userid_mismatch": "Non-concordance de l'ID utilisateur"
+        }
+      },
+      "oauth": {
+        "continue": "Continuez avec <span class=\"name\">{{name}}</span>",
+        "continue_custom": "Continuez avec {{name}}",
+        "providers": {
+          "phone": "téléphone",
+          "email": "courriel"
+        },
+        "sign_in_text": "Avez-vous un compte?",
+        "sign_in": "Se connecter"
+      },
+      "phone": {
+        "description": "Entrez votre numéro de téléphone",
+        "phone_number": "Numéro de téléphone",
+        "sign_in_text": "Avez-vous un compte?",
+        "sign_in": "Se connecter",
+        "country_chooser": {
+          "choose_country": "Choisissez un pays",
+          "no_code": "Aucun code",
+          "no_country": "Aucun pays",
+          "no_found": "Aucune correspondance trouvée"
+        },
+        "toastsMessages": {
+          "recaptcha_failed": "'La vérification du Recaptcha a échoué'"
+        },
+        "errors": {
+          "choose_country": "Choisissez votre pays",
+          "enter_phone": "Entrez le numéro de téléphone",
+          "too_short_phone": "Numéro de téléphone trop court",
+          "invalid_phone": "Numéro de téléphone invalide",
+          "unavailable": "Désolé, mais nous ne prenons pas encore en charge votre région."
+        }
+      },
+      "registered": {
+        "description": "Il semble que vous soyez inscrit",
+        "sign_in": "Se connecter"
+      },
+      "common": {
+        "passwordInput": {
+          "password": "Mot de passe"
+        },
+        "termsAgree": {
+          "text": "En cliquant sur le bouton «S'inscrire», vous acceptez les <a href=\"{{DOC_USER_AGREEMENT_LINK}}\" target=\"_blank\">Conditions d'utilisations</a> <a href=\"{{DOC_PRIVACY_POLICY_LINK}}\" target=\"_blank\">Politique de confidentialité</a> and <a href=\"{{DOC_BLOCKCHAIN_DISCLAIMER_LINK}}\" target=\"_blank\">Clause de non-responsabilité Blockchain</a>"
+        }
+      }
+    },
+    "transfers": {
+      "convert_points": {
+        "title": "Convertir",
+        "convert": "Convertir",
+        "fee": "{{percent}}% sera brûlé",
+        "you_send": "Vous envoyez",
+        "you_get": "Vous obtenez",
+        "rate": "Taux",
+        "buy_point_item": {
+          "buy": "Acheter",
+          "balance": "Balance"
+        },
+        "toastsMessages": {
+          "success": "L'échange est réussi",
+          "failed": "L'échange a échoué"
+        }
+      },
+      "exchange_commun": {
+        "2fa": {
+          "text": "Veuillez terminer votre achat en entrant le code à 4 caractères à la fin de votre récente description de facturation",
+          "verify": "Vérifier"
+        },
+        "address": {
+          "qr_code": "Code QR",
+          "send": "Envoyer",
+          "tag": "Tag",
+          "address_field": "Adresse",
+          "copy": "Copier",
+          "toastsMessages": {
+            "copied": "L'adresse a été copiée",
+            "copy_failed": "Impossible de copier l'adresse"
+          }
+        },
+        "card": {
+          "title": "De la carte",
+          "change_currency": "Changer de devise",
+          "card_number": "Numéro de carte",
+          "exp_date": "Date d'Exp.",
+          "cvc": "CVC",
+          "address": "Adresse de facturation",
+          "postal_code": "Code postal de facturation",
+          "loading_acs": "Chargement de la page ACS..."
+        },
+        "error": {
+          "description": "Le paiement n'est pas effectué",
+          "repeat": "Réesayer",
+          "errors": {
+            "1": "Erreur CVC",
+            "2": "Erreur de code postal",
+            "3": "Erreur d'adresse de facturation",
+            "4": "Autre(s) champ(s) incorrect(s)",
+            "5": "Transaction refusée par la banque.",
+            "6": "Seules les cartes Visa ou Mastercard sont acceptées pour le moment",
+            "7": "Échec de l'authentification 3DS",
+            "8": "L'authentification 3DS n'a pas pu être effectuée",
+            "9": "L'authentification 3DS a été effectuée mais pas complétée par la banque de l'utilisateur",
+            "default": "Nous travaillons sur ce problème.<br />Nous nous excusons pour le dérangement"
+          }
+        },
+        "select": {
+          "fee": "Frais de carbone",
+          "pay": "Vous payez",
+          "rate": "Taux",
+          "you_send": "Vous envoyé",
+          "amount": "Montant",
+          "minimum_charge": "La charge minimale est {{amount}} {{symbol}}",
+          "you_get": "Vous obtenez",
+          "email": "Courriel",
+          "buy": "Acheter Commun",
+          "sell_token_item": {
+            "use": "Utilisation",
+            "card": "Visa/Mastercard"
+          },
+          "errors": {
+            "email_format": ""
+          }
+        },
+        "success": {
+          "completed": "Conversion terminée",
+          "total_charged": "Total facturé"
+        },
+        "common": {
+          "billing_info": {
+            "title": "L'achat est effectué par",
+            "agree": "En cliquant sur Convertir, vous acceptez {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">les conditions d'utilisation.</a>"
+          },
+          "header": {
+            "title": "Acheter"
+          }
+        }
+      },
+      "sell_commun": {
+        "address": {},
+        "select": {
+          "fee": "Frais PayMIR",
+          "pay": "Vous payez",
+          "rate": "Taux",
+          "you_send": "Vous envoyez",
+          "amount": "Montant",
+          "minimum_charge": "La charge minimale est {{amount}} {{symbol}}",
+          "you_get": "Vous obtenez",
+          "sell": "Vendre Commun"
+        },
+        "success": {
+          "completed": "Conversion terminée",
+          "total_charged": "Total facturé"
+        },
+        "common": {
+          "billing_info": {
+            "title": "La vente est faite par",
+            "agree": "En cliquant sur Vendre, vous acceptez les {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">conditions d'utilisation.</a>"
+          },
+          "header": {
+            "title": "Vendre"
+          }
+        }
+      },
+      "history_filter": {
+        "title": "Filtrer",
+        "all": "Tout",
+        "income": "Revenu",
+        "outcome": "Résultat",
+        "type": "Type",
+        "transfer": "Transfert",
+        "convert": "Convertir",
+        "rewards": "Récompenses",
+        "claim": "Réclamer",
+        "donation": "Don",
+        "hold_type_title": "Aime/N'aime pas",
+        "like": "Aime",
+        "dislike": "N'aime pas",
+        "clear_all": "Tout effacer"
+      },
+      "point_info": {
+        "title-mobile": "Envoyer points"
+      },
+      "select_point": {
+        "title": "Points",
+        "search": "Rechercher points",
+        "no_found": "Aucun points",
+        "no_found_desc": "Essayez d'envoyer ou de convertir"
+      },
+      "select_recipient": {
+        "title": "Choisissez un(e) ami(e)"
+      },
+      "select_token": {
+        "title": "Choisir la devise",
+        "title_buy": "Achetez du CMN avec...",
+        "card": "Visa/MasterCard",
+        "search": "Rechercher des jetons",
+        "no_found": "Aucun jeton"
+      },
+      "send_points": {
+        "title": "Envoyer",
+        "to": "À",
+        "select_user": "Sélectionnez un utilisateur",
+        "change_user": "Changer d'utilisateur",
+        "amount": "Montant",
+        "hint": "Cette transaction peut prendre quelque temps",
+        "send": "Envoyer",
+        "fee_text": "{{percent}}% sera brûlé",
+        "toastsMessages": {
+          "success": "Le transfert est réussi",
+          "failed": "Le transfert a échoué"
+        }
+      },
+      "donate_points": {
+        "title": "Faire un don",
+        "to": "À",
+        "select_user": "Sélectionnez un utilisateur",
+        "change_user": "Changer d'utilisateur",
+        "amount": "Montant",
+        "hint": "Cette transaction peut prendre quelque temps",
+        "send": "Faire un don",
+        "fee_text": "{{percent}}% sera brûlé",
+        "toastsMessages": {
+          "success": "Le don est réussi",
+          "failed": "Le don a échoué"
+        }
+      }
+    },
+    "view_bio": {
+      "title": " bio de {{username}}"
+    },
+    "switch_to_app": {
+      "title": "Commun est meilleur sur l'app",
+      "description": "Conçu pour la meilleure expérience de réseau social autogéré sur votre mobile",
+      "continue": "Continuer avec l'App",
+      "sign_in": "Se connecter"
+    },
+    "onboarding_app_banner": {
+      "title": "<span class=\"highlight\">Commun</span> est meilleur sur <span class=\"highlight\">l'App</span>",
+      "text": "Essayez-le maintenant et obtenez des points",
+      "continue": "Passer à l'App",
+      "sign_in": "Se connecter"
+    },
+    "onboarding_registration": {
+      "communities": {
+        "title": "Obtenez vos premiers points",
+        "title-sign_up": "Inscrivez-vous pour obtenir vos premiers points",
+        "text": "Abonnez-vous au moins à {{COMMUNITIES_AIRDROP_COUNT}} communautés et obtenez vos premiers points de communauté",
+        "sign_in_text": "Avez-vous un compte?",
+        "sign_in": "Se connecter",
+        "sign_up": "Inscrivez-vous et obtenez des points",
+        "finish": "Terminer"
+      },
+      "download": {
+        "title": "<span class=\"blue\">Télécharger l'App</span><br />Doublez vos points",
+        "description": "Juste après avoir autorisé dans l'App<br />Nous doublons vos points d'accueil"
+      },
+      "share": {
+        "title": "<span class=\"share\">Share</span> Avec des amis<br />Doublez vos points",
+        "description": "Vous recevrez également 5% des achats<br />d'amis venus via votre lien",
+        "share_link": "Lien de partage"
+      }
+    },
+    "onboarding_welcome": {
+      "welcome": {
+        "title": "Bienvenue<br />à <span class=\"blue\">Commun /</span>",
+        "description": "Réseau social basé sur la blockchain où vous obtenez <span class=\"blue\">des récompenses</span> pour les posts, commentaires et likes"
+      },
+      "thematic": {
+        "title": "<span class=\"blue strong\">Communautés</span><br />thématiques",
+        "description": "Choisissez des communautés d'intérêts et <br />soyez <span class=\"blue\">récompensé</span> pour vos actions"
+      },
+      "owned": {
+        "title": "<span class=\"strong\">Propriété </span> des utilisateurs",
+        "description": "Les communautés n'ont pas de propriétaire unique<br />et appartiennent pleinement à aux membres",
+        "sign_up": "Commencez et obtenez 30 points",
+        "sign_in": "Se connecter"
+      },
+      "monetize": {
+        "title": "<span class=\"strong\">Monétisez</span><br />votre socialisation",
+        "description": "Créez des posts, commentez, aimez<br />et obtenez des points communautaires"
+      }
+    },
+    "create_community": {
+      "confirmation": "Confirmation",
+      "you_need": "Vous avez besoin de <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">jetons Commun</span> <br /> pour créer une communauté.",
+      "after_creating": "After creating a community:",
+      "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} jetons Commun</span><br />",
+      "burned": "Sera brûlé pour le bien public",
+      "bounty_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_BOUNTY_POINTS_NUMBER}} points</span><br />",
+      "bounty": "Sera envoyé au service des primes",
+      "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span><br />",
+      "transferred": "Sera transféré dans votre portefeuille",
+      "not_enough": "On dirait que vous n'avez pas assez de<br />jetons Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">jetons Commun</span> <br />requis pour créer une communauté"
+    }
+  },
+
+  "widgets": {
+    "get_first_points": {
+      "title": "Obtenez vos premiers points",
+      "description": "Inscrivez-vous et abonnez-vous<br /> aux 3 premières communautés et obtenez des points de bienvenue"
+    },
+    "airdrop": {
+      "first_line": "Vos",
+      "second_line": "points cadeaux vous attendent!",
+      "text": "Cliquez simplement sur le bouton et <br/> obtenez les points de Dank Meme!",
+      "get": "Obtenir",
+      "toastsMessages": {
+        "claim_received": "Réclamation reçue"
+      }
+    },
+    "trending_communities": {
+      "title": "Communautés tendance"
+    },
+    "leader_in": {
+      "title": "Leader dans"
+    },
+    "community_filter": {
+      "title": "Communautés",
+      "clear": "Effacer le filtre",
+      "no_found": "Rien n'est trouvé",
+      "empty": "Aucune communauté"
+    },
+    "following_you": {
+      "user_subscribed": "{{user}} abonné à vous"
+    },
+    "friends": {
+      "title": "Ami(e)",
+      "title_plural": "Ami(e)s"
+    },
+    "get_points": {
+      "get": "Obtenir des points",
+      "get-small": "Obtenir",
+      "balance": "{{communityName}} balance"
+    },
+    "invite": {
+      "text": "Activez votre compte et commencez avec les premiers points",
+      "start": "Démarrer"
+    },
+    "referrals_invite": {
+      "text": "Vous obtenez 1 jeton CMN pour chaque référence + 5% de leurs achats sur Commun",
+      "copy": "Copier",
+      "share": "Partager"
+    },
+    "leader_management": {
+      "title": "Gestion"
+    },
+    "leaders": {
+      "title": "Leader",
+      "title_plural": "Leaders",
+      "claim": "Réclamez les récompenses de leadership",
+      "toastsMessages": {
+        "claimed": "Paiements de leadership réclamés avec succès",
+        "error": "Aucune récompense de leadership à réclamer"
+      }
+    },
+    "manage_community": {
+      "text": "Gérer"
+    },
+    "members": {
+      "title": "Membre",
+      "title_plural": "Membres"
+    },
+    "mobile_balance": {
+      "wallet": "Portefeuille"
+    },
+    "user_communities": {
+      "title": "Communauté",
+      "title_plural": "Communautés"
+    },
+    "faq": {
+      "title": "Comment utiliser Commun?",
+      "description": "Comment commencer à publier et monétiser vos activités",
+      "text": "Soyez récompensé pour vos <br /> posts, likes, et commentaires",
+      "big": {
+        "description": "Comment commencer à publier et <br /> monétiser vos activités",
+        "text": "Soyez récompensé pour vos posts, likes, et<br /> commentaires. Appuyez sur "Démarrer" pour en savoir plus"
+      },
+      "start": "Démarrer"
+    },
+    "technical_works": {
+      "first_line": "Travaux techniques",
+      "bold_line": "en cours",
+      "text": "Nous travaillons actuellement sur <br /> le site et nous reviendrons sous peu",
+      "refresh": "Rafraîchir",
+      "big": {
+        "text": "Merci d'être patient. Nous travaillons actuellement sur le site et nous reviendrons sous peu",
+        "refresh": "Rafraîchir la page"
+      }
+    }
+  },
+
+  "filters": {
+    "title": "Filtres",
+    "sort": "Trier",
+    "type": {
+      "community": "Nouveau",
+      "new": "Nouveau",
+      "hot": "Hot",
+      "subscriptions": "Nouveau",
+      "subscriptionsHot": "Hot",
+      "subscriptionsPopular": "Populaire",
+      "topLikes": "Populaire",
+      "topComments": "Top commentaires",
+      "topRewards": "Top récompenses"
+    },
+    "timeframe": {
+      "day": "Derniers 24 heures",
+      "week": "Dernière semaine",
+      "month": "Dernier mois",
+      "all": "Tout le temps"
+    },
+    "sortBy": {
+      "time": "Plus ancien",
+      "timeDesc": "Plus récent",
+      "popularity": "Popularité"
+    }
+  },
+
+  "tooltips": {
+    "common": {
+      "close": "Fermer l'info-bulle",
+      "dont_show": "Ne plus afficher ceci"
+    },
+    "choose_community": {
+      "title": "Choisissez la communauté",
+      "desc": "Choisissez la communauté dans laquelle vous souhaitez créer une publication",
+      "close": "Fermer l'info-bulle"
+    },
+    "feed_onboarding": {
+      "types": {
+        "vote": {
+          "title": "Récompenses pour les Likes",
+          "desc": "Oui, vous obtenez également des récompenses pour les likes, et elles ont plus de valeur que vous ne le pensez! En votant pour les publications, vous les laissées avoir du succès et être récompensées."
+        },
+        "comments": {
+          "title": "Récompenses pour les commentaires",
+          "desc": "Les commentaires sont également récompensés! Discutez et obtenez plus de récompenses!"
+        },
+        "share": {
+          "title": "Partagez votre message",
+          "desc": "Super, votre message a été publié avec succès! Partagez-le avec vos amis pour obtenir plus de récompenses!"
+        },
+        "reward": {
+          "title": "Qu'est-ce que ça veut dire?",
+          "desc": "Wow, ce post sera récompensé! <br /> Voulez-vous également obtenir des récompenses? Créez un post - c'est le meilleur moyen de les obtenir!"
+        }
+      }
+    },
+    "first_like": {
+      "desc": "Si vous détenez des points de cette communauté et que ce message figurera dans le "Top 10 du jour", vous et l'auteur obtiendriez plus de points en récompense.",
+      "learn_more": "En savoir plus sur les récompenses"
+    },
+    "not_ready": {
+      "title": "Bientôt disponible",
+      "desc": "Cette fonctionnalité sera bientôt disponible."
+    },
+    "reward_for_post": {
+      "title": "Comment obtenir des récompenses pour mes publications?",
+      "desc": "Après avoir publié le message, les membres de la communauté auront {{hours}} heures pour l'Aimer ou ne pas l'Aimer. Si votre publication atteint le Top 10 des publications du jour, vous serez récompensé."
+    },
+    "donate": {
+      "title": "Faire un don",
+      "points": "Points",
+      "other": "Autre",
+      "donation": "+ {{count}} Dons",
+      "donation_plural": "+ {{count}} Dons"
+    }
+  },
+
+  "errors": {
+    "common": {
+      "unknown": "Erreur inconnue",
+      "blockchain_error": "Erreur interne de la blockchain."
+    },
+    "username": {
+      "exists": "Le nom d'utilisateur est déjà utilisé"
+    },
+    "sms": {
+      "wrong": "Code d'activation incorrect",
+      "many_retries": "Trop de tentatives, réessayez plus tard.",
+      "later": "Essayez d'envoyer un peu plus tard.",
+      "cant": "Impossible d'envoyer le code SMS"
+    }
+  },
+
+  "chain_errors": {
+    "cashout_window": "Le temps du vote est terminé",
+    "incorrect_delegate_proxy_level": "Impossible de déléguer à cet utilisateur",
+    "the_entire_amount_is_spent_on_fee": "Le montant total est dépensé en frais",
+    "these_points_cost_zero_tokens": "Ces points ne coûtent aucun jeton",
+    "you_are_blocked_by_the_user": "Vous êtes bloqué par l'utilisateur"
+  },
+
+  "toastsMessages": {
+    "success": "Succès",
+    "community": {
+      "unfollowed": "Communauté non-suivie",
+      "followed": "Communauté suivie"
+    },
+    "user": {
+      "unfollowed": "Utilisateur non-suivi",
+      "followed": "Utilisateur suivi"
+    },
+    "proposal": {
+      "created": "Proposition créée"
+    },
+    "report": {
+      "sent": "Rapport envoyé avec succès"
+    }
+  },
+
+  "validations": {
+    "amount": {
+      "on_hold": "{{quantity}} en attente",
+      "insufficient_funds": "Fonds insuffisants: vous avez {{availableBalance}} {{pointName}} {{holdStr}}",
+      "more_than_supply": "Le montant est supérieur à l'offre: {{supply}}",
+      "more_than_decs": "Pas plus que {{decs}} decimaux",
+      "invalid_format": "Format invalide",
+      "enter_amount": "Entrer le montant",
+      "less_than_minimal": "Le montant est inférieur au minimum: {{minAmount}}",
+      "less_than_0": "Le montant est inférieur à 0",
+      "more_than_max": "Le montant est supérieur à {{maxAmount}}"
+    },
+    "username": {
+      "is_empty": "Le nom d'utilisateur est vide",
+      "invalid_symbols": "Le nom d'utilisateur ne peut contenir que des lettres minuscules, des chiffres, des points ou des tirets",
+      "start_with": "Le nom d'utilisateur doit commencer par une lettre",
+      "too_short": "Le nom d'utilisateur doit contenir au moins 3 symboles",
+      "too_long": "Le nom d'utilisateur est trop long. 32 symboles sont au maximum",
+      "several_dots": "Le nom d'utilisateur ne peut contenir qu'un seul point",
+      "several_dashes": "Le nom d'utilisateur ne peut contenir qu'un seul tiret",
+      "invalid_sequences": "Le nom d'utilisateur ne peut contenir qu'un seul point ou un tiret",
+      "ends_with": "Le nom d'utilisateur doit se terminer par une lettre ou un chiffre."
+    },
+    "password": {
+      "lower_case": "Minuscules",
+      "upper_case": "Majuscules",
+      "number": "Nombre",
+      "min_length": "Longueur minimale"
+    }
+  },
+
+  "reports": {
+    "spam": "Spam",
+    "harassment": "Harcèlement",
+    "nudity": "Nudité",
+    "violence": "Violence",
+    "falsenews": "Fausses nouvelles",
+    "terrorism": "Terrorisme",
+    "breakscommunityrules": "Il enfreint les règles de la communauté",
+    "hatespeech": "Discours haineux",
+    "unauthorizedsales": "Ventes non autorisées",
+    "abuse": "Tentative d'abus",
+    "other": "Autre"
+  },
+
+  "utils": {
+    "post_time": {
+      "now": "Maintenant",
+      "seconds": "s",
+      "minutes": "m",
+      "hours": "h",
+      "days": "j"
+    },
+    "normalize_time": {
+      "now": "maintenant",
+      "m_ago": "depuis m",
+      "h_ago": "depuis h"
+    },
+    "images": {
+      "upload_failed": "Le téléchargement de l'image a échoué",
+      "only_images": "Veuillez insérer uniquement des fichiers images",
+      "too_big": "Fichier trop gros, la taille maximale autorisée est {{size}} Mo"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "search": {
+    "tabs": {
+      "all": "Tout",
+      "users": "Utilisateurs",
+      "communities": "Communautés",
+      "posts": "Publications"
+    },
+    "types": {
+      "all": "Tout",
+      "users": "Utilisateurs",
+      "communities": "Communautés",
+      "posts": "Publications"
+    },
+    "trending_communities": "Communautés tendance",
+    "empty_hint": "Vous pouvez essayer de modifier la requête de recherche ou accéder au flux",
+    "empty_hint_no_query": "Veuillez saisir une requête de recherche ou accéder au flux",
+    "go_to_feed": "Aller au flux",
+    "no_results": "Aucun résultat",
+    "no_posts": "Aucune publication trouvée"
+  }
+}

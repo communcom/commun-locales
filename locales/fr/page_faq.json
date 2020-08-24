@@ -1,0 +1,197 @@
+{
+  "faq": {
+    "nav-mobile": "FAQ",
+    "title": "Comment fonctionne COMMUN?",
+    "description": "Commun est construit sur des communautés autonomes qui appartiennent pleinement aux utilisateurs. Chaque communauté est auto-régulée par des leaders, éligibles en permanence par les membres de la communauté.",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Qu'est ce que Commun?",
+        "description": "Commun sert de portail Web, Android et iOS où les utilisateurs peuvent former des groupes d'intérêt pour partager, lire, regarder, classer, 
+et discuter du contenu avec des personnes partageant les mêmes idées. La plate-forme, composée de communautés autonomes décentralisées (DAC), est le premier réseau social Web-3 à être lancé depuis que l'intérêt pour la technologie a été manifesté à la suite d'un tollé contre la censure, la dématérialisation et la vente de données par les géants des médias sociaux. ",
+        "children": [
+          {
+            "id": "11",
+            "title": "Commun permet aux utilisateurs de:",
+            "description": "- gérer les communautés et le contenu en votant pour et contre les publications;\n- élire leurs leaders selon les principes d'une démocratie liquide;\n- et surtout - monétiser leurs activités.",
+          },
+          {
+            "id": "12",
+            "title": "Gérer le contenu:",
+            "description": "En votant pour, les utilisateurs amènent les meilleurs dans le Top 10 du jour (ce top 10 est recalculé toutes les heures).\n Lorsque la publication atteint le sommet - la blockchain fournit de manière algorithmique à l'auteur et aux curateurs (ceux qui ont voté et commenté) les points de cette communauté.",
+          },
+          {
+            "id": "13",
+            "title": "Cela fonctionne comme ceci:",
+            "description": "Le message obtient des récompenses (nous l'indiquons avec la pièce Commun), puis de ce montant de la récompense 45% vont à l'auteur, 45% aux curateurs et 10% aux leaders de la communauté en guise d'honoraires pour leur travail.",
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Qu'est-ce qu'une communauté sur Commun?",
+        "description": "Une Communauté sur Commun est un groupe décentralisé et autogéré basé sur des thématiques particulières. Ils sont totalement indépendants, ayant leur propre économie et gouvernance.\n La monétisation des publications, des likes et des commentaires est sécurisée par smart-contract.\n Les membres de la communauté élisent les leaders en votant des candidats. Les leaders, à leur tour, gèrent le contenu, établissent les règles et maintiennent la communauté en bonne santé. Apprenez-en davantage sur le leadership dans la section «Quels rôles existent sur Commun?» section ci-dessous."
+      },
+      {
+        "id": "3",
+        "title": "Que sont les jetons CMN et les points communautaires?",
+        "description": "CMN est un jeton de base de la plate-forme. Il peut être utilisé pour créer des communautés, émettre des points de communauté et voter pour les leaders. À l'avenir, il permettra de gérer les publicités dans les communautés.\n\n Chaque communauté a ses propres points. C'est un jeton de niveau 2.\n Tous les points communautaires sont assurés et échangeables contre des jetons de base (jetons CMN), et leur création est gérée selon le protocole Bancor. \n\n Les points peuvent être convertis en jetons CMN, transférés à des ami(e)s, ou échangés contre des points d'autres communautés. ", 
+        "imageUrl": "/images/pages/faq/section-buy-points.png"
+      },
+      {
+        "id": "4",
+        "title": "Quelle est la logique d'avoir autant de points différents?",
+        "description": "Chaque communauté a ses propres Points qui garantissent une indépendance totale. Vous pouvez les considérer comme une monnaie interne, échangeable avec un jeton CMN."
+      },
+      {
+        "id": "5",
+        "title": "Si j'ai une plus grande part dans la communauté, mon vote donnera-t-il une plus grande récompense à la publication?",
+        "description": "Votre part dans la communauté affectera la récompense de la publication/vote bien que ce ne soit pas le paramètre principal, mais la "popularité" de la publication n'a rien à voir avec votre part. "
+      },
+      {
+        "id": "6",
+        "title": "À quoi servent les communautés sur Commun?",
+        "description": "Consultez cet article pour découvrir les idées essentielles derrière les communautés à partir de l'exemple de <a href=\"https://commun.com/askcommun/@shtefan-daily/1586264773\" target=\"_blank\" rel=\"noopener noreferrer\">la communauté des jardiniers</a>"
+      },
+      {
+        "id": "7",
+        "title": "Comment créer ma communauté?",
+        "description": "Voici une explication rapide du fonctionnement de la création de la communauté.\n1. Vous devez avoir un solde de 10000 СMN\n2. Il est nécessaire de remplir tous les champs obligatoires, de télécharger des avatars, une image de couverture, etc.\n3. La transaction de 10 000 СMN va au compte proxy \n4. 1000 CMN sont brûlés, les jetons sont envoyés sur un compte cyber.null et retirés de la circulation. (vous pouvez le voir dans l'explorateur de blocs)\n5. Ensuite, la communauté est initialisée, 1 CMN est envoyé à la réserve, les 100 000 premiers points de communauté sont créés et envoyés sur le compte du créateur \n6. Le montant restant (8 999 CMN) est converti en points communautaires. \n7. 10% des points communautaires créés sont transférés sur le compte c.bounty. Ces points constituent le pool de distribution aux utilisateurs lors de l'inscription lorsqu'ils sélectionnent les 3 premières communautés. \n8. Les 90% restants vont au compte de l'utilisateur qui a créé la communauté. \n9. Il y a un abonnement automatique à la communauté créée et l'enregistrement de l'utilisateur qui l'a créé comme leader.\n\n\n Seul le propriétaire des points communautaires décide de la manière d'en disposer. 
+Les points peuvent être transférés à un autre utilisateur, reconvertis en jetons CMN, ou vous pouvez voter avec tous vos parts pour des publications ou des commentaires.\n Quelle que soit la manière dont le créateur de la communauté décide de disposer de ses points, la communauté continuera à fonctionner."
+      },
+      {
+        "id": "8",
+        "title": "Où vont les 1000 jetons CMN lorsque je crée ma communauté?",
+        "description": "
+Vous pouvez considérer 1000 CMN comme des frais, mais nous ne le prenons pas nous-mêmes. Nous brûlons 1000 jetons CMN et réduisons la quantité totale de CMN en circulation. À l'avenir, chaque élimination augmentera la valeur du jeton CMN et de tous les points. Nous prévoyons d'ajouter d'autres mécanismes d'élimination. \n Maintenant pour la participation. Ce que nous avons fait, ce ne sont pas les parts, bien que cela en rappelle. \n\n La communauté a deux soldes conditionnels. \n1. Le nombre de pièces en réserve. \n2. Le nombre de points en circulation. \n\n Quand quelqu'un achète des points, en fait, il crée de nouveaux points et place les jetons CMN de base dans le solde de réserve en guise de paiement de sécurité. Avec cela, l'augmentation du prix pour chaque point nouvellement créé se produit de manière exponentielle. Les jetons de base restent sur le solde de la communauté jusqu'à ce que le détenteur décide de les vendre. Dans le cas d'une vente, les points communautaires sont détruits et l'utilisateur reçoit un jeton CMN de base, selon la formule décrite dans le contrat intelligent. "
+      },
+      {
+        "id": "9",
+        "title": "Quels rôles existent sur Commun?",
+        "description": "Vous pouvez exécuter plusieurs rôles en tant qu'utilisateur de Commun.",
+        "children": [
+          {
+            "id": "91",
+            "title": "Auteur - Crée du contenu.",
+            "description": "Nous pensons que les commentaires sur les réseaux sociaux sont d'une importance cruciale. C’est pourquoi les commentaires sont récompensés selon les mêmes principes que les publications. Les publications avec des commentaires sont toujours plus intéressantes et engageantes que celles qui n'en ont pas. "
+          },
+          {
+            "id": "92",
+            "title": "Leaders de la communauté.",
+            "children": [
+              {
+                "id": "921",
+                "description": "Les membres de la communauté élisent les leaders en fonction du nombre des points communautaires. Chaque utilisateur a une voix pour choisir le leader, ainsi que le droit de soumettre sa candidature pour ce poste. Pour cela, il est important de dire aux autres utilisateurs pourquoi vous êtes un candidat approprié, quel est votre plan pour le développement de la communauté et l'attraction de nouveaux utilisateurs, et si possible insérer un lien vers vos publications dans l'application. Nous avons conçu l'élection selon les principes de la démocratie liquide. Il est possible de priver le leader de son autorité à tout moment en reprenant sa voix. Pour l'instant, le nombre de leaders nécessaires à la modération communautaire est de 3, mais ce nombre pourra augmenter à l'avenir. ",
+                "imageUrl": "/images/pages/faq/section-become-leader.png"
+              },
+              {
+                "id": "922",
+                "description": "Les leaders établissent les règles de la communauté. Ils sont aussi responsables de la description, de l'avatar et de l'image de couverture. Bientôt, il y aura d'autres moyens de définir la description de la communauté, et les leaders en seront également responsables."
+              },
+              {
+                "id": "923",
+                "description": "Les leaders établissent les règles de la communauté. Ils sont aussi responsables de la description, de l'avatar et de l'image de couverture. Bientôt, il y aura d'autres moyens de définir la description de la communauté, et les leaders en seront également responsables. Les leaders surveillent et modèrent le contenu publié par les auteurs. Ils suivent les plaintes et s'assurent que les autres utilisateurs respectent les règles de la communauté. Les dirigeants peuvent masquer le flux du contenu et même priver des récompenses pour ce contenu, mais uniquement si cela suit les règles."
+              }
+            ]
+          },
+          {
+            "id": "93",
+            "title": "Curateur - Évalue le contenu avec des votes positifs ou négatifs.",
+            "description": "Nous construisons des flux «tendance» et «épicé» sur la base de cette évaluation. Même si vous n'avez pas de points dans une communauté particulière, vous pouvez avoir un impact sur la promotion du contenu dans le flux. En outre, l'évaluation du contenu (positif ou négatif) a un impact sur la récompense des publications et des commentaires. "
+          },
+          {
+            "id": "94",
+            "title": "Annonceur.",
+            "description": "Nous avons un plan pour créer des mécanismes de monétisation supplémentaire des communautés grâce à des placements publicitaires en leur sein. Nous y travaillons actuellement et vous en parlerons plus tard."
+          },
+          {
+            "id": "95",
+            "title": "Leader de Commun.",
+            "description": "Avec d'autres leaders, il détermine le vecteur de développement de Commun. Le leader de Commun met en place les règles générales de la plateforme et prend des décisions sur les mises à jour des contrats intelligents. Le leader de Commun est élu par les détenteurs du jeton CMN de base."
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Quelles actions puis-je effectuer en général?",
+        "description": "Des actions générales sont accessibles à tous:",
+        "children": [
+          {
+            "id": "101",
+            "title": "Enregistrement.",
+            "description": "En vous inscrivant sur Commun, vous obtenez aussi votre compte sur le réseau CyberWay. Votre compte sur Commun est un compte blockchain CybeWay. À l'avenir, vous pourrez l'utiliser dans d'autres applications basées sur CyberWay. Vous pouvez en savoir plus sur le système transactionnel de CyberWay ici: (<a href=\"https://github.com/cyberway/cyberway/blob/master/White%20Paper\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/cyberway/cyberway/blob/master/White%20Paper</a>). Nous attirerons votre attention sur le fait que toutes les actions sur Commun sont gratuites et ne nécessitent pas de jetons du réseau CyberWay. Nos services fournissent la bande passante nécessaire à nos utilisateurs. Nous essayons de rendre le premier contact avec la technologie blockchain aussi simple que possible pour les utilisateurs qui ne sont pas (encore) passionnés. C'est la raison pour laquelle nous avons rendu possible l'enregistrement avec des mots de passe personnalisés et via d'autres réseaux sociaux populaires."
+          },
+          {
+            "id": "102",
+            "title": "Création de communautés.",
+            "description": "Il s'agit de la dernière fonctionnalité, mais nos utilisateurs ont déjà commencé à créer leurs communautés. Nous sommes très heureux que vous explorez notre plateforme et que vous utilisez tout son potentiel. En créant une communauté sur Commun, vous créez une communauté décentralisée qui fonctionne dans le cadre de la logique des contrats intelligents. Tous les rôles et actions décrits dans cet article sont définis dans des contrats intelligents. Personne ne peut donc le simuler ou le modifier sans l'autorisation directe de la communauté ou de ses utilisateurs."
+          },
+          {
+            "id": "103",
+            "title": "Signaler le contenu.",
+            "description": "Si un auteur a enfreint les règles de la communauté ou les règles de base de Commun, il est préférable de signaler le contenu publié. Les leaders vont le résoudre."
+          },
+          {
+            "id": "104",
+            "title": "Suivez / Ne plus suivre / Mettre la communauté sur liste noire.",
+            "description": ""Suivre" ajoute les messages de la communauté dans votre flux, "Ne plus suivre" les supprime et tout se passe comme d'habitude. Vous pouvez ajouter la communauté dans la liste noire, les messages de la communauté bloquée n'apparaîtront nulle part pour vous."
+          },
+          {
+            "id": "105",
+            "title": "Suivre / Ne plus suivre / Mettre l'utilisateur sur liste noire.",
+            "description": "Fonctionne de la même manière que les communautés."
+          },
+          {
+            "id": "106",
+            "title": "Transfert de jetons (CMN) et de points communautaires."
+          },
+          {
+            "id": "107",
+            "title": "Échange de jetons en points et vice-versa.",
+            "description": "L'échange fonctionne de manière algorithmique, et toute la logique est assurée par contrat intelligent. Nous aborderons ce sujet plus en détail dans l'article suivant."
+          },
+          {
+            "id": "108",
+            "title": "Échange des différentes crypto-monnaies en jetons Commun (CMN).",
+            "description": "Pour l'instant, les utilisateurs peuvent acquérir des jetons CMN avec une variété de crypto-monnaies (ce service est fourni par Change Hero). Nous travaillons sur la possibilité de rachat de jetons et sommes en train de négocier cela avec plusieurs fournisseurs."
+          },
+          {
+            "id": "109",
+            "title": "Participer au programme de référence.",
+            "description": "Chaque lien sur Commun est une référence. Postez-les sur d'autres réseaux sociaux, et lorsqu'un utilisateur s'inscrit sur Commun à partir de votre lien, vous obtenez des récompenses! 1 jeton CMN pour chaque utilisateur enregistré + 5% de ses achats sur Commun. "
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Qui peut devenir le leader?",
+        "description": "Bref, tout le monde.\n Dans le détail, les membres de la communauté élisent les leaders en fonction du nombre de points communautaires en leur possession. Chaque utilisateur a une voix pour élire leader, ainsi que le droit de soumettre sa candidature pour ce poste. Pour cela, il est important de dire aux autres utilisateurs pourquoi vous êtes un candidat approprié, quel est votre plan pour le développement de la communauté et l'attraction de nouveaux utilisateurs. Nous vous suggérons de placer un lien vers vos publications dans l'application. Nous avons conçu l'élection selon les principes de démocratie liquide. Il est possible de priver le leader de son autorité à tout moment en reprenant votre voix. Pour l'instant, le nombre de dirigeants nécessaires à la modération communautaire est de 3, mais ce nombre peut augmenter à l'avenir."
+      },
+      {
+        "id": "12",
+        "title": "Comment puis-je réclamer mes récompenses?",
+        "description": "Les récompenses n'apparaissent pas immédiatement. La mécanique peut être décrite comme une chaîne (ou une file d'attente) d'unités de récompense (pour chaque publication, vote ou commentaire), qui étape par étape vont dans votre portefeuille. Pour réclamer vos récompenses, vous devez effectuer des activités générales - votes, posts, commentaires. Ne soyez pas confus :) "
+      },
+      {
+        "id": "13",
+        "title": "Comment fonctionne le vote pour le leader?",
+        "description": "Les membres de la communauté élisent les leaders en fonction de leur nombre de points communautaires. Chaque utilisateur a une voix pour élire leader, ainsi que le droit de soumettre sa candidature pour ce poste. Pour cela, il est important de dire aux autres utilisateurs pourquoi vous êtes un candidat approprié, quel est votre plan pour le développement de la communauté et l'attraction de nouveaux utilisateurs. Nous vous suggérons de placer un lien vers vos publications dans l'application. Nous avons conçu l'élection selon les principes de démocratie liquide. Il est possible de priver le leader de son autorité à tout moment en reprenant votre voix. Pour l'instant, le nombre de dirigeants nécessaires à la modération communautaire est de 3, mais ce nombre peut augmenter à l'avenir."
+      },
+      {
+        "id": "14",
+        "title": "Les grandes communautés obtiennent-elles plus de récompenses?",
+        "description": "Chaque communauté a sa propre émission de points de communauté, et ils ne dépendent en aucun cas les uns des autres. Cependant, plus la communauté est grande, plus les points de commun sont fournis avec des jetons communs (en supposant que chaque abonné a dépensé ses jetons communs pour acheter des points de communauté) et plus le prix au point est élevé, ce qui signifie que la valeur des fonds propres sera plus élevée."
+      },
+      {
+        "id": "15",
+        "title": "Qu'est-ce que le portefeuille et comment fonctionne-t-il?",
+        "description": "Le portefeuille est votre coffre personnel dans laquelle vous pouvez effectuer et suivre vos transactions, telles que: such as:\n- Achat de jetons CMN;\n- Échange de points de communauté en jetons CMN et vice-versa; \n- Envoi de points à vos ami(e)s; \n- Suivi du solde des points de chaque communauté à laquelle vous êtes abonné; \n- Suivi de l'historique des transactions et des récompenses; \n Aussi, vous pouvez toujours voir la valeur nette de votre compte en jetons USD ou CMN. Il s'agit de la valeur totale de tous vos points de communauté, ainsi que des jetons CMN que vous détenez."
+      },
+      {
+        "id": "16",
+        "title": "Quel type d'autorisation est mis en œuvre sur Commun?",
+        "description": "Vous pouvez en apprendre davantage sur le processus d'autorisation et sa technologie dans cet <a href=\"https://commun.com/askcommun/@catraed/1583338375\" target=\"_blank\" rel=\"noopener noreferrer\">article</a>"
+      }
+    ]
+  }
+}

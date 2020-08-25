@@ -1079,7 +1079,10 @@
         }
       },
       "sell_commun": {
-        "address": {},
+        "address": {
+          "enter_address": "Enter your BTC address",
+          "address": "Your address"
+        },
         "select": {
           "fee": "PayMIR Fee",
           "pay": "You Pay",

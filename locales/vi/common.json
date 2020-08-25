@@ -1080,6 +1080,35 @@
           }
         }
       },
+      "sell_commun": {
+        "address": {
+          "enter_address": "Enter your BTC address",
+          "address": "Your address"
+        },
+        "select": {
+          "fee": "PayMIR Fee",
+          "pay": "You Pay",
+          "rate": "Rate",
+          "you_send": "You send",
+          "amount": "Amount",
+          "minimum_charge": "Minimum charge is {{amount}} {{symbol}}",
+          "you_get": "You get",
+          "sell": "Sell Commun"
+        },
+        "success": {
+          "completed": "Conversion completed",
+          "total_charged": "Total charged"
+        },
+        "common": {
+          "billing_info": {
+            "title": "The sell is made by",
+            "agree": "By clicking Sell, you agree to {{provider}}’s <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">terms of service.</a>"
+          },
+          "header": {
+            "title": "Sell"
+          }
+        }
+      },
       "history_filter": {
         "title": "Bộ lọc",
         "all": "Tất cả",

@@ -1085,6 +1085,35 @@
           }
         }
       },
+      "sell_commun": {
+        "address": {
+          "enter_address": "Введите свой BTC адрес",
+          "address": "Ваш адрес"
+        },
+        "select": {
+          "fee": "Комиссия PayMIR",
+          "pay": "Вы заплатите",
+          "rate": "Рейт",
+          "you_send": "Вы отправляете",
+          "amount": "Сумма",
+          "minimum_charge": "Минимальное значение {{amount}} {{symbol}}",
+          "you_get": "Вы получите",
+          "sell": "Обменять Commun"
+        },
+        "success": {
+          "completed": "Обмен успешен",
+          "total_charged": "Всего получено"
+        },
+        "common": {
+          "billing_info": {
+            "title": "Обмен совершается",
+            "agree": "Нажимая Далее, вы соглашаетсесь с <a href=\"{{termsLink}}\" target=\"_blank\" rel=\"noopener noreferrer\">условиями использования</a> {{provider}}"
+          },
+          "header": {
+            "title": "Обмен"
+          }
+        }
+      },
       "history_filter": {
         "title": "Фильтр",
         "all": "Все",

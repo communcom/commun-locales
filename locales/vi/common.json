@@ -416,7 +416,8 @@
         "bio": "Bio",
         "no_bio": "User not specified information about himself",
         "website": "Website",
-        "preferrable": "Preferrable contact"
+        "preferrable": "Preferrable contact",
+        "preferrable_mobile": "Preferrable"
       }
     },
     "community": {

@@ -368,6 +368,18 @@
         "empty": "Aucun abonnement",
         "empty-desc": "Vous n'êtes abonné à aucune communauté",
         "find": "Trouver des communautés"
+      },
+      "about": {
+        "tabs": {
+          "about": "About",
+          "messengers": "Messengers",
+          "links": "Social links"
+        },
+        "bio": "Bio",
+        "no_bio": "User not specified information about himself",
+        "website": "Website",
+        "preferrable": "Preferrable contact",
+        "preferrable_mobile": "Preferrable"
       }
     },
     "community": {

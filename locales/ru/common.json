@@ -1112,6 +1112,11 @@
           "header": {
             "title": "Обмен"
           }
+        },
+        "toastsMessages": {
+          "amount_less": "Сумма меньше минимального уровня PayMir",
+          "cant_get_amount": "Не могу получить сумму обмена",
+          "cant_trx": "Невозможно создать транзакцию"
         }
       },
       "history_filter": {

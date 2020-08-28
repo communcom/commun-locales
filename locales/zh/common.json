@@ -1069,6 +1069,11 @@
           },
           "errors": {
             "email_format": ""
+          },
+          "toastsMessages": {
+            "amount_less": "Amount is less than minimum PayMir level",
+            "cant_get_amount": "Can't get exchange amount",
+            "cant_trx": "Can't create transaction"
           }
         },
         "success": {

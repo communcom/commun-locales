@@ -718,6 +718,9 @@
       "title-rewarded": "This post has been rewarded",
       "desc-rewarded": "This publication was interesting for Community members",
       "learn_more": "Learn more about reward"
+    },
+    "donations_badge": {
+      "vote_post": "Vote for that post"
     }
   },
 

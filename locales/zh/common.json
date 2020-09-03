@@ -719,6 +719,9 @@
       "title-rewarded": "这篇文章已经获得了奖励",
       "desc-rewarded": "社区的成员对这篇文章很感兴趣",
       "learn_more": "了解更多关于奖励的信息"
+    },
+    "donations_badge": {
+      "vote_post": "为该职位投票"
     }
   },
 

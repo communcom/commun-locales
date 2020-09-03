@@ -726,6 +726,9 @@
       "title-rewarded": "Dieser Beitrag wurde belohnt",
       "desc-rewarded": "Dieser Beitrag war fur Mitglieder interessant",
       "learn_more": "Erfahren Sie mehr uber Belohnungen"
+    },
+    "donations_badge": {
+      "vote_post": "Stimmen Sie für diesen Beitrag"
     }
   },
 

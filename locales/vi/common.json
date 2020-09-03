@@ -727,6 +727,9 @@
       "title-rewarded": "Bài viết này đã được nhận thưởng",
       "desc-rewarded": "Bài viết này đã được các thành viên của cộng đồng yêu thích",
       "learn_more": "Tìm hiểu thêm về giải thưởng"
+    },
+    "donations_badge": {
+      "vote_post": "Bình chọn cho bài đăng đó"
     }
   },
 

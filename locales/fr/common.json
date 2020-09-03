@@ -688,6 +688,9 @@
       "title-rewarded": "Ce post a été récompensé",
       "desc-rewarded": "Cette publication était intéressante pour les membres de la communauté",
       "learn_more": "En savoir plus sur la récompense"
+    },
+    "donations_badge": {
+      "vote_post": "Votez pour ce poste"
     }
   },
 

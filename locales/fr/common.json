@@ -690,7 +690,9 @@
       "learn_more": "En savoir plus sur la récompense"
     },
     "donations_badge": {
-      "vote_post": "Votez pour ce poste"
+      "donate": "Faire un don",
+      "vote_post": "Votez pour ce poste",
+      "others": "et d'autres"
     }
   },
 
@@ -709,6 +711,15 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations"
+    },
+    "basic_transfer_modal": {
+      "buy": "Обменять поинты"
+    },
     "confirm_dialog": {
       "blocked_user": "Vous avez bloqué cet utilisateur. Voulez-vous débloquer et le suivre?",
       "blocked_community": "Vous avez bloqué cette communauté. Voulez-vous débloquer et la suivre?",

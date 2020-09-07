@@ -731,7 +731,9 @@
       "learn_more": "Узнайте больше о наградах"
     },
     "donations_badge": {
-      "vote_post": "Проголосуйте за этот пост"
+      "donate": "Пожертвовать",
+      "vote_post": "Проголосуйте за этот пост",
+      "others": "и другие"
     }
   },
 
@@ -750,6 +752,12 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations"
+    },
     "basic_transfer_modal": {
       "buy": "Обменять поинты"
     },

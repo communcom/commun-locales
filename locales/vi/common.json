@@ -729,7 +729,9 @@
       "learn_more": "Tìm hiểu thêm về giải thưởng"
     },
     "donations_badge": {
-      "vote_post": "Bình chọn cho bài đăng đó"
+      "donate": "Quyên góp",
+      "vote_post": "Bình chọn cho bài đăng đó",
+      "others": "và những người khác"
     }
   },
 
@@ -748,6 +750,15 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations"
+    },
+    "basic_transfer_modal": {
+      "buy": "Обменять поинты"
+    },
     "confirm_dialog": {
       "blocked_user": "Người dùng đã bị cấm. Bạn có muốn dỡ bỏ lệnh cấm và đăng kí lại?",
       "blocked_community": "Cộng đồng đã bị cấm. Bạn có muốn dỡ bỏ lệnh cấm và đăng kí lại?",

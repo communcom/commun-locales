@@ -728,7 +728,9 @@
       "learn_more": "Erfahren Sie mehr uber Belohnungen"
     },
     "donations_badge": {
-      "vote_post": "Stimmen Sie für diesen Beitrag"
+      "donate": "Spenden",
+      "vote_post": "Stimmen Sie für diesen Beitrag",
+      "others": "und andere"
     }
   },
 
@@ -747,6 +749,15 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations"
+    },
+    "basic_transfer_modal": {
+      "buy": "Обменять поинты"
+    },
     "confirm_dialog": {
       "blocked_user": "Der Benutzer ist gesperrt. Mochten Sie entsperren und abonnieren?",
       "blocked_community": "Die Gemeinschaft ist gesperrt. Mochten Sie entsperren und abonnieren??",

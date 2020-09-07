@@ -721,7 +721,9 @@
       "learn_more": "了解更多关于奖励的信息"
     },
     "donations_badge": {
-      "vote_post": "为该职位投票"
+      "donate": "捐",
+      "vote_post": "为该职位投票",
+      "others": "和别的"
     }
   },
 
@@ -740,6 +742,15 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations"
+    },
+    "basic_transfer_modal": {
+      "buy": "Обменять поинты"
+    },
     "basic_transfer_modal": {
       "buy": "Exchange points"
     },

@@ -720,7 +720,9 @@
       "learn_more": "Learn more about reward"
     },
     "donations_badge": {
-      "vote_post": "Vote for that post"
+      "donate": "Donate",
+      "vote_post": "Vote for that post",
+      "others": "and others"
     }
   },
 
@@ -739,6 +741,14 @@
   },
 
   "modals": {
+    "donations": {
+      "post_author": "{{author}}'s post",
+      "in_community": "in {{community}}",
+      "rewards": "Rewards",
+      "donations": "Donations",
+      "donate": "Donate",
+      "donators": "Donators"
+    },
     "basic_transfer_modal": {
       "buy": "Exchange points"
     },

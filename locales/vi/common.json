@@ -753,12 +753,10 @@
   "modals": {
     "donations": {
       "post_author": "{{author}}'s post",
+      "comment_author": "{{author}}'s comment",
       "in_community": "in {{community}}",
       "rewards": "Rewards",
       "donations": "Donations"
-    },
-    "basic_transfer_modal": {
-      "buy": "Обменять поинты"
     },
     "confirm_dialog": {
       "blocked_user": "Người dùng đã bị cấm. Bạn có muốn dỡ bỏ lệnh cấm và đăng kí lại?",
@@ -1177,6 +1175,7 @@
         "change_user": "Thay đổi người dùng",
         "amount": "Tổng",
         "hint": "Quá trình có thể mất một ít thời gian",
+        "buy": "Exchange points",
         "send": "Gửi đi",
         "fee_text": "Phí giao dịch: {{percent}}%",
         "toastsMessages": {

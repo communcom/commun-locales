@@ -744,14 +744,12 @@
   "modals": {
     "donations": {
       "post_author": "{{author}}'s post",
+      "comment_author": "{{author}}'s comment",
       "in_community": "in {{community}}",
       "rewards": "Rewards",
       "donations": "Donations",
       "donate": "Donate",
       "donators": "Donators"
-    },
-    "basic_transfer_modal": {
-      "buy": "Exchange points"
     },
     "confirm_dialog": {
       "blocked_user": "You have blocked this user. Do you want unblock and follow?",
@@ -1174,6 +1172,7 @@
         "change_user": "Change user",
         "amount": "Amount",
         "hint": "This transaction may take some time",
+        "buy": "Exchange points",
         "send": "Send",
         "fee_text": "{{percent}}% will be burned",
         "toastsMessages": {

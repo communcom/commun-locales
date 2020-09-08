@@ -752,12 +752,10 @@
   "modals": {
     "donations": {
       "post_author": "{{author}}'s post",
+      "comment_author": "{{author}}'s comment",
       "in_community": "in {{community}}",
       "rewards": "Rewards",
       "donations": "Donations"
-    },
-    "basic_transfer_modal": {
-      "buy": "Обменять поинты"
     },
     "confirm_dialog": {
       "blocked_user": "Der Benutzer ist gesperrt. Mochten Sie entsperren und abonnieren?",
@@ -1176,6 +1174,7 @@
         "change_user": "Benutzer andern",
         "amount": "Die Summe",
         "hint": "Die Operation kann einige Zeit dauern",
+        "buy": "Exchange points",
         "send": "Senden",
         "fee_text": "{{percent}}% wird brennen",
         "toastsMessages": {

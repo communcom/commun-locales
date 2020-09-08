@@ -755,14 +755,12 @@
   "modals": {
     "donations": {
       "post_author": "Пост {{author}}",
+      "comment_author": "Комментарий {{author}}",
       "in_community": "в {{community}}",
       "rewards": "Награды",
       "donations": "Пожертвования",
       "donate": "Пожертвовать",
       "donators": "Жертвователи"
-    },
-    "basic_transfer_modal": {
-      "buy": "Обменять поинты"
     },
     "confirm_dialog": {
       "blocked_user": "Пользователь заблокирован. Хотите разблокировать и подписаться?",
@@ -1181,6 +1179,7 @@
         "change_user": "Изменить пользователя",
         "amount": "Сумма",
         "hint": "Операция может занять некоторое время",
+        "buy": "Обменять поинты",
         "send": "Отправить",
         "fee_text": "{{percent}}% сгорит",
         "toastsMessages": {

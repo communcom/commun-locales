@@ -616,6 +616,7 @@
     },
     "comment": {
       "reply": "回复",
+      "donate": "Donate",
       "comment_body": {
         "deleted": "评论已删除",
         "invalid_format": "无效的评论格式"

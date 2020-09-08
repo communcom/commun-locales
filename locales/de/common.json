@@ -622,6 +622,7 @@
     },
     "comment": {
       "reply": "Antworten",
+      "donate": "Donate",
       "comment_body": {
         "deleted": "Der Kommentar wurde geloscht",
         "invalid_format": "Ungultiges Kommentarformat"

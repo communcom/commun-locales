@@ -615,6 +615,7 @@
     },
     "comment": {
       "reply": "Reply",
+      "donate": "Donate",
       "comment_body": {
         "deleted": "Comment was deleted",
         "invalid_format": "Invalid comment format"

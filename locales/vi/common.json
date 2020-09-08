@@ -623,6 +623,7 @@
     },
     "comment": {
       "reply": "Trả lời",
+      "donate": "Donate",
       "comment_body": {
         "deleted": "Bình luận đã bị xóa",
         "invalid_format": "Bình luận không đúng mẫu"

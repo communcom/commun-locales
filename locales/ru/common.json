@@ -625,6 +625,7 @@
     },
     "comment": {
       "reply": "Ответить",
+      "donate": "Пожертвовать",
       "comment_body": {
         "deleted": "Комментарий был удален",
         "invalid_format": "Неверный формат комментария"
@@ -753,10 +754,12 @@
 
   "modals": {
     "donations": {
-      "post_author": "{{author}}'s post",
-      "in_community": "in {{community}}",
-      "rewards": "Rewards",
-      "donations": "Donations"
+      "post_author": "Пост {{author}}",
+      "in_community": "в {{community}}",
+      "rewards": "Награды",
+      "donations": "Пожертвования",
+      "donate": "Пожертвовать",
+      "donators": "Жертвователи"
     },
     "basic_transfer_modal": {
       "buy": "Обменять поинты"

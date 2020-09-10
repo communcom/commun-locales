@@ -749,7 +749,10 @@
       "rewards": "Rewards",
       "donations": "Donations",
       "donate": "Donate",
-      "donators": "Donators"
+      "donators": "Donators",
+      "no_found": "No donations",
+      "no_found_desc_post": "That post don't have donations yet",
+      "no_found_desc_comment": "That comment don't have donations yet"
     },
     "confirm_dialog": {
       "blocked_user": "You have blocked this user. Do you want unblock and follow?",

@@ -755,7 +755,12 @@
       "comment_author": "{{author}}'s comment",
       "in_community": "in {{community}}",
       "rewards": "Rewards",
-      "donations": "Donations"
+      "donations": "Donations",
+      "donate": "Donate",
+      "donators": "Donators",
+      "no_found": "No donations",
+      "no_found_desc_post": "That post don't have donations yet",
+      "no_found_desc_comment": "That comment don't have donations yet"
     },
     "confirm_dialog": {
       "blocked_user": "Der Benutzer ist gesperrt. Mochten Sie entsperren und abonnieren?",

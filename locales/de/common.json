@@ -758,6 +758,8 @@
       "donations": "Donations",
       "donate": "Donate",
       "donators": "Donators",
+      "claim_desc": "Wow! It was a really cool post!<br/> Click “Get reward” and collect",
+      "get_reward": "Get reward",
       "no_found": "No donations",
       "no_found_desc_post": "That post don't have donations yet",
       "no_found_desc_comment": "That comment don't have donations yet"

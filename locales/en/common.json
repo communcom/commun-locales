@@ -722,7 +722,7 @@
     },
     "donations_badge": {
       "donate": "Donate",
-      "vote_post": "Be the first donater",
+      "donate_post": "Be the first donater",
       "others": "and others"
     }
   },

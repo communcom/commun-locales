@@ -730,7 +730,7 @@
     },
     "donations_badge": {
       "donate": "Spenden",
-      "vote_post": "Be the first donater",
+      "donate_post": "Be the first donater",
       "others": "und andere"
     }
   },

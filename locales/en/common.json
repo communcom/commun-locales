@@ -7,6 +7,7 @@
     "my_feed": "My Feed",
     "see_all": "See all",
     "see_more": "See more",
+    "show_more": "Show more",
     "show_less": "Show less",
     "sign_in": "Sign in",
     "sign_up": "Sign up",
@@ -1285,6 +1286,9 @@
     },
     "trending_communities": {
       "title": "Trending communities"
+    },
+    "trending_tags": {
+      "title": "Trending tags"
     },
     "leader_in": {
       "title": "Leader in"

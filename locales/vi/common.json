@@ -6,6 +6,7 @@
     "my_feed": "Tin tức của tôi",
     "see_all": "Xem tất cả",
     "see_more": "Xem thêm",
+    "show_more": "Xem thêm",
     "show_less": "Ẩn bớt",
     "sign_in": "Đăng nhập",
     "sign_up": "Đăng kí",
@@ -1292,6 +1293,9 @@
     },
     "trending_communities": {
       "title": "Cộng đồng phổ biến"
+    },
+    "trending_tags": {
+      "title": "Trending tags"
     },
     "leader_in": {
       "title": "Dẫn đầu trong"

@@ -7,6 +7,7 @@
     "my_feed": "我的关注",
     "see_all": "查看全部",
     "see_more": "See more",
+    "show_more": "Show more",
     "show_less": "Show less",
     "sign_in": "登录",
     "sign_up": "注册",
@@ -1292,6 +1293,9 @@
     },
     "trending_communities": {
       "title": "流行社区"
+    },
+    "trending_tags": {
+      "title": "Trending tags"
     },
     "leader_in": {
       "title": "领导"

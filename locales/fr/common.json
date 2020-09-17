@@ -6,6 +6,7 @@
     "my_feed": "Mon Flux",
     "see_all": "Voir tout",
     "see_more": "Voir plus",
+    "show_more": "Voir plus",
     "show_less": "Montrer moins",
     "sign_in": "Se connecter",
     "sign_up": "S'inscrire",
@@ -1246,6 +1247,9 @@
     },
     "trending_communities": {
       "title": "Communautés tendance"
+    },
+    "trending_tags": {
+      "title": "Trending tags"
     },
     "leader_in": {
       "title": "Leader dans"

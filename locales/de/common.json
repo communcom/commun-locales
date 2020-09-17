@@ -6,6 +6,7 @@
     "my_feed": "Mein Feed",
     "see_all": "Sehen alles",
     "see_more": "Zeigen mehr",
+    "show_more": "Zeigen mehr",
     "show_less": "Zeigen weniger",
     "sign_in": "Anmelden",
     "sign_up": "Die Registrierung",
@@ -1291,6 +1292,9 @@
     },
     "trending_communities": {
       "title": "Beliebte Community"
+    },
+    "trending_tags": {
+      "title": "Trending tags"
     },
     "leader_in": {
       "title": "Ein Fuhrer in"

@@ -1342,7 +1342,11 @@
       }
     },
     "manage_community": {
-      "text": "Quản lý"
+      "reports": "Reports",
+      "proposals": "Proposals",
+      "ban": "Banned users",
+      "members": "Members",
+      "settings": "Settings"
     },
     "members": {
       "title_0": "Thành viên",

@@ -1333,7 +1333,11 @@
       }
     },
     "manage_community": {
-      "text": "Manage"
+      "reports": "Reports",
+      "proposals": "Proposals",
+      "ban": "Banned users",
+      "members": "Members",
+      "settings": "Settings"
     },
     "members": {
       "title": "Member",

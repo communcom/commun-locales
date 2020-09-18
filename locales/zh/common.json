@@ -1340,7 +1340,11 @@
       }
     },
     "manage_community": {
-      "text": "管理"
+      "reports": "Reports",
+      "proposals": "Proposals",
+      "ban": "Banned users",
+      "members": "Members",
+      "settings": "Settings"
     },
     "members": {
       "title": "成员",

@@ -1341,7 +1341,11 @@
       }
     },
     "manage_community": {
-      "text": "Kontrolle"
+      "reports": "Reports",
+      "proposals": "Proposals",
+      "ban": "Banned users",
+      "members": "Members",
+      "settings": "Settings"
     },
     "members": {
       "title_0": "Teilnehmer",

@@ -881,6 +881,13 @@
         "created": "Đề nghị đã được tạo"
       }
     },
+    "community_leader_mobile_menu": {
+      "reports": "Reports",
+      "proposals": "Proposals",
+      "ban": "Banned users",
+      "members": "Members",
+      "settings": "Settings"
+    },
     "share": {
       "title": "Chia sẻ"
     },

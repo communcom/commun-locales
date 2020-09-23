@@ -883,6 +883,13 @@
         "created": "Предложение создано"
       }
     },
+    "community_leader_mobile_menu": {
+      "reports": "Жалобы",
+      "proposals": "Предложения",
+      "ban": "Бан пользователей",
+      "members": "Подписчики",
+      "settings": "Настройки"
+    },
     "share": {
       "title": "Поделиться"
     },

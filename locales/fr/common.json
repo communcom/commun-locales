@@ -286,6 +286,7 @@
         "posts": "Publications",
         "comments": "Commentaires"
       },
+      "no_found_desc": "There is no chosen community",
       "proposals": {
         "no_found": "Aucune proposition",
         "no_found_desc": "Il n'y a pas de suggestions dans la communauté"
@@ -695,6 +696,10 @@
       "donate": "Faire un don",
       "donate_post": "Be the first donater",
       "others": "et d'autres"
+    },
+    "community_leaderboard_widget": {
+      "go_back": "Go back to community",
+      "choose": "Choose community"
     }
   },
 
@@ -1260,12 +1265,6 @@
     },
     "leader_in": {
       "title": "Leader dans"
-    },
-    "community_filter": {
-      "title": "Communautés",
-      "clear": "Effacer le filtre",
-      "no_found": "Rien n'est trouvé",
-      "empty": "Aucune communauté"
     },
     "following_you": {
       "user_subscribed": "{{user}} abonné à vous"

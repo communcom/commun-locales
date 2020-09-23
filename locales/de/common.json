@@ -322,6 +322,7 @@
         "posts": "Beitrage",
         "comments": "Kommentare"
       },
+      "no_found_desc": "There is no chosen community",
       "proposals": {
         "no_found": "Keine Vorschlage",
         "no_found_desc": "Es gibt jetzt keine Vorschlage in der Gemeinschaft"
@@ -733,6 +734,10 @@
       "donate": "Spenden",
       "donate_post": "Be the first donater",
       "others": "und andere"
+    },
+    "community_leaderboard_widget": {
+      "go_back": "Go back to community",
+      "choose": "Choose community"
     }
   },
 
@@ -1305,12 +1310,6 @@
     },
     "leader_in": {
       "title": "Ein Fuhrer in"
-    },
-    "community_filter": {
-      "title": "Gemeinden",
-      "clear": "Filter zurucksetzen",
-      "no_found": "Nichts gefunden",
-      "empty": "Keine Gemeinden"
     },
     "following_you": {
       "user_subscribed": "{{user}} dich abonniert"

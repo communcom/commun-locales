@@ -323,6 +323,7 @@
         "posts": "Посты",
         "comments": "Комментарии"
       },
+      "no_found_desc": "Не выбрано сообщество",
       "proposals": {
         "no_found": "Нет предложений",
         "no_found_desc": "Сейчас нет предложений в сообществе"
@@ -736,6 +737,10 @@
       "donate": "Пожертвовать",
       "donate_post": "Сделайте донат первым",
       "others": "и другие"
+    },
+    "community_leaderboard_widget": {
+      "go_back": "Вернуться в сообщество",
+      "choose": "Выберите сообщество"
     }
   },
 
@@ -1307,12 +1312,6 @@
     },
     "leader_in": {
       "title": "Лидер в"
-    },
-    "community_filter": {
-      "title": "Сообщества",
-      "clear": "Сбросить фильтр",
-      "no_found": "Ничего не найдено",
-      "empty": "Нет сообществ"
     },
     "following_you": {
       "user_subscribed": "{{user}} подписался на Вас"

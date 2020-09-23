@@ -313,6 +313,7 @@
         "posts": "文章",
         "comments": "评论"
       },
+      "no_found_desc": "There is no chosen community",
       "proposals": {
         "no_found": "没有提案",
         "no_found_desc": "本社区内没有提案"
@@ -726,6 +727,10 @@
       "donate": "捐",
       "donate_post": "Be the first donater",
       "others": "和别的"
+    },
+    "community_leaderboard_widget": {
+      "go_back": "Go back to community",
+      "choose": "Choose community"
     }
   },
 
@@ -1306,12 +1311,6 @@
     },
     "leader_in": {
       "title": "领导"
-    },
-    "community_filter": {
-      "title": "社区",
-      "clear": "清除过滤",
-      "no_found": "未找到",
-      "empty": "没有社区"
     },
     "following_you": {
       "user_subscribed": "{{user}} 关注你"

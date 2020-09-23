@@ -322,6 +322,7 @@
         "posts": "Bài đăng",
         "comments": "Bình luận"
       },
+      "no_found_desc": "There is no chosen community",
       "proposals": {
         "no_found": "Không có đề nghị",
         "no_found_desc": "Hiện tại không có đề nghị trong cộng đồng"
@@ -734,6 +735,10 @@
       "donate": "Quyên góp",
       "donate_post": "Be the first donater",
       "others": "và những người khác"
+    },
+    "community_leaderboard_widget": {
+      "go_back": "Go back to community",
+      "choose": "Choose community"
     }
   },
 
@@ -1306,12 +1311,6 @@
     },
     "leader_in": {
       "title": "Dẫn đầu trong"
-    },
-    "community_filter": {
-      "title": "Cộng đồng",
-      "clear": "Loại bỏ bộ lọc",
-      "no_found": "Không tìm thấy gì",
-      "empty": "Không có cộng đồng"
     },
     "following_you": {
       "user_subscribed": "{{user}} đã theo dõi bạn"

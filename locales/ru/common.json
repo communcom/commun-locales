@@ -321,7 +321,10 @@
         "proposals": "Предложения",
         "reports": "Жалобы",
         "posts": "Посты",
-        "comments": "Комментарии"
+        "comments": "Комментарии",
+        "leaders": "Лидеры",
+        "members": "Участники",
+        "banned": "Забаненные"
       },
       "no_found_desc": "Не выбрано сообщество",
       "proposals": {

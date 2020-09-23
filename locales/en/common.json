@@ -311,7 +311,10 @@
         "proposals": "Proposals",
         "reports": "Reports",
         "posts": "Posts",
-        "comments": "Comments"
+        "comments": "Comments",
+        "leaders": "Leaders",
+        "members": "Members",
+        "banned": "Banned"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

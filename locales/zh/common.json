@@ -311,7 +311,10 @@
         "proposals": "提案",
         "reports": "报告",
         "posts": "文章",
-        "comments": "评论"
+        "comments": "评论",
+        "leaders": "Leaders",
+        "members": "Members",
+        "banned": "Banned"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

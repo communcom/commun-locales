@@ -320,7 +320,10 @@
         "proposals": "Đề nghị",
         "reports": "Khiếu nại",
         "posts": "Bài đăng",
-        "comments": "Bình luận"
+        "comments": "Bình luận",
+        "leaders": "Leaders",
+        "members": "Members",
+        "banned": "Banned"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

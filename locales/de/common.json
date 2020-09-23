@@ -320,7 +320,10 @@
         "proposals": "Vorschlage",
         "reports": "Beschwerden",
         "posts": "Beitrage",
-        "comments": "Kommentare"
+        "comments": "Kommentare",
+        "leaders": "Leaders",
+        "members": "Members",
+        "banned": "Banned"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

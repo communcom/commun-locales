@@ -334,6 +334,9 @@
         "no_found": "Không có khiếu nại",
         "no_found_desc": "Hiện tại không có khiếu nại trong cộng đồng"
       },
+      "banned": {
+        "no_found": "No banned users"
+      },
       "cover_change": {
         "new_cover": "Ảnh bìa mới",
         "old_cover": "Ảnh bìa cũ",

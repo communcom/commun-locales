@@ -334,6 +334,9 @@
         "no_found": "keine Beschwerden",
         "no_found_desc": "Es gibt jetzt keine Beschwerden in der Gemeinschaft"
       },
+      "banned": {
+        "no_found": "No banned users"
+      },
       "cover_change": {
         "new_cover": "Neue Hulle",
         "old_cover": "Alte Hulle",

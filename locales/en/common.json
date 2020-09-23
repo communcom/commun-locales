@@ -325,6 +325,9 @@
         "no_found": "No reports",
         "no_found_desc": "There are no reports in the community"
       },
+      "banned": {
+        "no_found": "No banned users"
+      },
       "cover_change": {
         "new_cover": "New cover",
         "old_cover": "Old cover",

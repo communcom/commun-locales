@@ -298,6 +298,9 @@
         "no_found": "Aucun rapport",
         "no_found_desc": "Il n'y a pas de rapports dans la communauté"
       },
+      "banned": {
+        "no_found": "No banned users"
+      },
       "cover_change": {
         "new_cover": "Nouvelle couverture",
         "old_cover": "Ancienne couverture",

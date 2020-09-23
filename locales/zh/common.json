@@ -325,6 +325,9 @@
         "no_found": "报告",
         "no_found_desc": "社区里没有报告"
       },
+      "banned": {
+        "no_found": "No banned users"
+      },
       "cover_change": {
         "new_cover": "新封面",
         "old_cover": "旧封面",

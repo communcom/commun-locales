@@ -330,7 +330,8 @@
         "users": "Users",
         "updates": "Updates",
         "general": "General",
-        "rules": "Rules"
+        "rules": "Rules",
+        "settings": "Settings"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

@@ -321,7 +321,8 @@
         "users": "Users",
         "updates": "Updates",
         "general": "General",
-        "rules": "Rules"
+        "rules": "Rules",
+        "settings": "Settings"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {
@@ -543,7 +544,6 @@
     },
     "notification": {
       "comment": "评论",
-      "post": "文章",
       "post": "文章",
       "types": {
         "reply": "留下评论{{shortText}}",

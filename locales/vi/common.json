@@ -1,5 +1,7 @@
 {
   "common": {
+    "choose": "Choose",
+    "go_up": "Go up",
     "required": "Phần bắt buộc",
     "retry": "Thử lại",
     "feed": "Bản tin",

@@ -1,5 +1,7 @@
 {
   "common": {
+    "choose": "Choose",
+    "go_up": "Go up",
     "required": "Der Pflichtfelder",
     "retry": "Versuchen noch ein mal",
     "feed": "Der Feed",

@@ -287,7 +287,14 @@
         "comments": "Commentaires",
         "leaders": "Leaders",
         "members": "Members",
-        "banned": "Banned"
+        "banned": "Banned",
+        "all": "All",
+        "archive": "Archive",
+        "ban": "Ban",
+        "users": "Users",
+        "updates": "Updates",
+        "general": "General",
+        "rules": "Rules"
       },
       "no_found_desc": "There is no chosen community",
       "proposals": {

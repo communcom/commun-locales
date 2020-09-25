@@ -345,6 +345,46 @@
         "new_avatar": "New avatar",
         "old_avatar": "Old avatar",
         "no_avatar": "No avatar"
+      },
+      "settings": {
+        "sections": {
+          "general": "General",
+          "rules": "Rules"
+        },
+        "panels": {
+          "avatar": "Avatar",
+          "cover": "Cover photo",
+          "community": "Community name",
+          "description": "Description",
+          "language": "Language",
+          "website": "Community website",
+          "topics": "Topics",
+          "social_links": "Social links"
+        },
+        "buttons": {
+          "edit": "Edit",
+          "manage": "Manage",
+          "save": "Save & send to voting",
+          "cancel": "Cancel",
+          "add_new_topic": "Add New Topic",
+          "add_link": "Add link",
+          "new_rule": "New rule",
+          "add_rule": "Add rule"
+        },
+        "placeholders": {
+          "description": "Description",
+          "website": "Website",
+          "topic_name": "Topic name",
+          "add_link": "Add link",
+          "rule_name": "Rule name"
+        },
+        "menu": {
+          "edit_topic": "Edit topic",
+          "remove_topic": "Remove topic",
+          "edit_link": "Edit link",
+          "remove_link": "Remove link",
+          "delete_rule": "Delete"
+        }
       }
     },
     "communities": {

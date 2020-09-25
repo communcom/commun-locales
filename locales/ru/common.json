@@ -356,6 +356,44 @@
         "new_avatar": "Новый аватар",
         "old_avatar": "Старый аватар",
         "no_avatar": "Нет аватара"
+      },
+      "settings": {
+        "sections": {
+          "general": "Общие",
+          "rules": "Правила"
+        },
+        "panels": {
+          "avatar": "Аватар",
+          "cover": "Обложка",
+          "community": "Название комьюнити",
+          "description": "Описание",
+          "language": "Язык",
+          "website": "Веб-сайт сообщества",
+          "topics": "Топики",
+          "social_links": "Социальные сети"
+        },
+        "buttons": {
+          "edit": "Изменить",
+          "manage": "Управление",
+          "save": "Сохранить и отпавить на голосование",
+          "add_new_topic": "Добавить новый топик",
+          "add_link": "Добавить ссылку",
+          "new_rule": "Новое правило",
+          "add_rule": "Добавить правило"
+        },
+        "placeholders": {
+          "description": "Описание",
+          "website": "Веб-сайт",
+          "topic_name": "Имя топика",
+          "add_link": "Добавить ссылку",
+          "rule_name": "Имя правила"
+        },
+        "menu": {
+          "edit_topic": "Редактировать топик",
+          "remove_topic": "Удалить топик",
+          "edit_link": "Редактировать ссылку",
+          "remove_link": "Удалить ссылку"
+        }
       }
     },
     "communities": {

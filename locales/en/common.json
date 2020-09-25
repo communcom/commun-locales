@@ -1,5 +1,6 @@
 {
   "common": {
+    "choose": "Choose",
     "go_up": "Go up",
     "required": "Required",
     "retry": "Retry",

@@ -1,5 +1,7 @@
 {
   "common": {
+    "choose": "Choose",
+    "go_up": "Go up",
     "required": "Requis",
     "retry": "Réessayer",
     "feed": "Flux",

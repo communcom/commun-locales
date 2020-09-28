@@ -325,6 +325,7 @@
         "rules": "Rules",
         "settings": "Settings"
       },
+      "title": "Management",
       "no_found_desc": "There is no chosen community",
       "proposals": {
         "no_found": "No proposals",

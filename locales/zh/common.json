@@ -645,6 +645,8 @@
       }
     },
     "proposal_card": {
+      "ban_user": "Ban user",
+      "unban_user": "Unban user",
       "ban_comment": "禁止评论",
       "ban_post": "禁止发表",
       "not_implemented_type": "提案类型{{type}} 还未通过.",

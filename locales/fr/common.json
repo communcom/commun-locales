@@ -616,6 +616,8 @@
       }
     },
     "proposal_card": {
+      "ban_user": "Ban user",
+      "unban_user": "Unban user",
       "ban_comment": "Interdire commentaire",
       "ban_post": "Interdire publication",
       "not_implemented_type": "Type de proposition{{type}} pas encore implementé.",

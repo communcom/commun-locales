@@ -655,6 +655,8 @@
       }
     },
     "proposal_card": {
+      "ban_user": "Ban user",
+      "unban_user": "Unban user",
       "ban_comment": "Bình luận bị cấm",
       "ban_post": "Bài viết bị cấm",
       "not_implemented_type": "Đề xuất loại{{type}} sẽ không được thực hiện.",

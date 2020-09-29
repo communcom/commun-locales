@@ -13,6 +13,7 @@
     "sign_in": "登录",
     "sign_up": "注册",
     "accept": "同意",
+    "send": "Send",
     "cancel": "取消",
     "edit": "编辑",
     "save": "保存",
@@ -914,10 +915,18 @@
       "send": "发送"
     },
     "ban": {
-      "title": "Please select a ban reason",
+      "title": "Ban user",
+      "question": "Are you sure you want to block this user?",
       "ban_field": "Reason",
-      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
-      "send": "Send"
+      "send": "Yes, propose to ban",
+      "cancel": "No, keep user"
+    },
+    "unban": {
+      "title": "Unban user",
+      "question": "Unblock this user?",
+      "unban_field": "Reason",
+      "send": "Yes, propose to unban",
+      "cancel": "No, keep in banned"
     },
     "rule_edit": {
       "title": "添加规则",

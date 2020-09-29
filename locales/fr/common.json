@@ -13,6 +13,7 @@
     "sign_in": "Se connecter",
     "sign_up": "S'inscrire",
     "accept": "Accepter",
+    "send": "Send",
     "cancel": "Annuler",
     "edit": "Éditer",
     "save": "Enregistrer",
@@ -878,8 +879,21 @@
     "report": {
       "title": "Veuillez sélectionner un problème",
       "report_field": "Rapport",
-      "text": "Si quelqu'un est en danger immédiat, appelez les services d'urgence locaux. N'attendez pas.",
       "send": "Envoyer"
+    },
+    "ban": {
+      "title": "Ban user",
+      "question": "Are you sure you want to block this user?",
+      "ban_field": "Reason",
+      "send": "Yes, propose to ban",
+      "cancel": "No, keep user"
+    },
+    "unban": {
+      "title": "Unban user",
+      "question": "Unblock this user?",
+      "unban_field": "Reason",
+      "send": "Yes, propose to unban",
+      "cancel": "No, keep in banned"
     },
     "rule_edit": {
       "title": "Ajouter une règle",

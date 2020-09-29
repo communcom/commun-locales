@@ -13,6 +13,7 @@
     "sign_in": "Anmelden",
     "sign_up": "Die Registrierung",
     "accept": "Annehmen",
+    "send": "Send",
     "cancel": "Absagen",
     "edit": "Bearbeiten",
     "save": "Speichern",
@@ -923,10 +924,18 @@
       "send": "Senden"
     },
     "ban": {
-      "title": "Please select a ban reason",
+      "title": "Ban user",
+      "question": "Are you sure you want to block this user?",
       "ban_field": "Reason",
-      "text": "If someone is in immediate danger, call local emergency services. Don't wait.",
-      "send": "Send"
+      "send": "Yes, propose to ban",
+      "cancel": "No, keep user"
+    },
+    "unban": {
+      "title": "Unban user",
+      "question": "Unblock this user?",
+      "unban_field": "Reason",
+      "send": "Yes, propose to unban",
+      "cancel": "No, keep in banned"
     },
     "rule_edit": {
       "title": "Regel hinzufugen",

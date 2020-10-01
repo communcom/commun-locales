@@ -702,7 +702,8 @@
       }
     },
     "expiration_time": {
-      "expiring_in": "Expiring in {{expiration}}"
+      "expiring_in": "Expiring in {{expiration}}",
+      "expired": "Expired"
     },
     "comment": {
       "reply": "Antworten",

@@ -702,7 +702,8 @@
       }
     },
     "expiration_time": {
-      "expiring_in": "Истекает через {{expiration}}"
+      "expiring_in": "Истекает через {{expiration}}",
+      "expired": "Истекло"
     },
     "comment": {
       "reply": "Ответить",

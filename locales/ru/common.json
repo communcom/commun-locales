@@ -389,13 +389,18 @@
           "website": "Веб-сайт",
           "topic_name": "Имя топика",
           "add_link": "Добавить ссылку",
-          "rule_name": "Имя правила"
+          "rule_name": "Имя правила",
+          "rule": "Правило",
+          "new_topic": "Новый топик"
         },
         "menu": {
           "edit_topic": "Редактировать топик",
           "remove_topic": "Удалить топик",
           "edit_link": "Редактировать ссылку",
           "remove_link": "Удалить ссылку"
+        },
+        "text": {
+          "cant_edit": "Нельзя ректировать"
         }
       }
     },
@@ -484,7 +489,7 @@
         "posts": "Посты",
         "leaders": "Лидеры",
         "members": "Подписчики",
-        "description": "Описание",
+        "about": "Информация",
         "rules": "Правила",
         "settings": "Настройки"
       },
@@ -500,6 +505,19 @@
       "description": {
         "no_found": "Нет описания",
         "no_found_desc": "У сообщества нет описания"
+      },
+      "about": {
+        "title": "О сообществе",
+        "panels": {
+          "description": "Описание",
+          "language": "Язык",
+          "topics": "Топики"
+        },
+        "buttons": {
+          "edit": "Редактировать"
+        },
+        "empty_decsription": "У сообщества нет описания",
+        "empty_topics": "У сообщества нет топиков"
       },
       "banned": {
         "no_found": "Нет забаненных"

@@ -693,6 +693,9 @@
         "applied": "已通过提案"
       }
     },
+    "expiration_time": {
+      "expiring_in": "Expiring in {{expiration}}"
+    },
     "comment": {
       "reply": "回复",
       "donate": "Donate",

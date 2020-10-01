@@ -701,6 +701,9 @@
         "applied": "Vorschlag angewendet"
       }
     },
+    "expiration_time": {
+      "expiring_in": "Expiring in {{expiration}}"
+    },
     "comment": {
       "reply": "Antworten",
       "donate": "Donate",

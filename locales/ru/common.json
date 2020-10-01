@@ -701,6 +701,9 @@
         "applied": "Предложение применено"
       }
     },
+    "expiration_time": {
+      "expiring_in": "Истекает через {{expiration}}"
+    },
     "comment": {
       "reply": "Ответить",
       "donate": "Пожертвовать",

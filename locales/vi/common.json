@@ -684,6 +684,9 @@
         "applied": "Đề xuất được áp dụng"
       }
     },
+    "expiration_time": {
+      "expiring_in": "Expiring in {{expiration}}"
+    },
     "comment": {
       "reply": "Trả lời",
       "donate": "Donate",

@@ -664,6 +664,9 @@
         "applied": "La proposition a été appliquée"
       }
     },
+    "expiration_time": {
+      "expiring_in": "Expiring in {{expiration}}"
+    },
     "comment": {
       "reply": "Reply",
       "donate": "Donate",

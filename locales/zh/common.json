@@ -380,7 +380,9 @@
           "website": "Website",
           "topic_name": "Topic name",
           "add_link": "Add link",
-          "rule_name": "Rule name"
+          "rule_name": "Rule name",
+          "rule": "Rule",
+          "new_topic": "New topic"
         },
         "menu": {
           "edit_topic": "Edit topic",
@@ -388,6 +390,9 @@
           "edit_link": "Edit link",
           "remove_link": "Remove link",
           "delete_rule": "Delete"
+        },
+        "text": {
+          "cant_edit": "Can’t be edited"
         }
       }
     },
@@ -476,7 +481,7 @@
         "posts": "文章",
         "leaders": "领导者",
         "members": "成员",
-        "description": "说明",
+        "about": "About",
         "rules": "规则",
         "settings": "设置"
       },
@@ -492,6 +497,19 @@
       "description": {
         "no_found": "没有说明",
         "no_found_desc": "社区还没有说明"
+      },
+      "about": {
+        "title": "About",
+        "panels": {
+          "description": "Description",
+          "language": "Language",
+          "topics": "Topics"
+        },
+        "buttons": {
+          "edit": "Edit"
+        },
+        "empty_decsription": "Community hasn't description",
+        "empty_topics": "Community hasn't topics"
       },
       "members": {
         "no_found": "没有订阅用户"

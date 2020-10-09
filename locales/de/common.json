@@ -1366,8 +1366,11 @@
       }
     },
     "create_community": {
+      "wait": "It may take a while to create",
       "confirmation": "Die Bestatigung",
       "you_need": "Um eine Gemeinschaft aufzubauen <br /> braucht man <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Token Commun</span> .",
+      "total_balance": "Total balance Commun",
+      "exchange": "Exchange",
       "after_creating": "Nach der Grundung der Gemeinschaft:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Token Commun</span><br />",
       "burned": "verschwindet",
@@ -1376,7 +1379,8 @@
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} Points</span><br />",
       "transferred": "wird in Ihre Brieftasche ubertragen werden",
       "not_enough": "Sieht so aus, als hattest du nicht genug<br />Token Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\"> Token Commun</span> <br />braucht man um eine Gemeinschaft aufzubauen"
-    }
+    },
+    "create_community_data": {}
   },
 
   "widgets": {

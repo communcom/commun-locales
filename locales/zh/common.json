@@ -1365,8 +1365,11 @@
       }
     },
     "create_community": {
+      "wait": "It may take a while to create",
       "confirmation": "确认",
       "you_need": "你需要 <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区币CMN</span> <br /> 创建一个社区.",
+      "total_balance": "Total balance Commun",
+      "exchange": "Exchange",
       "after_creating": "创建社区后:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} 社区币CMN</span><br />",
       "burned": "会作为公共物品被燃烧",
@@ -1375,7 +1378,8 @@
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} 社区积分</span><br />",
       "transferred": "会转到你的钱包里",
       "not_enough": "你好像没有足够的<br />社区币CMN.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">社区币CMN</span> <br />在创建新的社区的时候需要"
-    }
+    },
+    "create_community_data": {}
   },
 
   "widgets": {

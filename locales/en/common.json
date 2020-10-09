@@ -1359,8 +1359,11 @@
       }
     },
     "create_community": {
+      "wait": "It may take a while to create",
       "confirmation": "Confirmation",
       "you_need": "You need <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br /> to create a community.",
+      "total_balance": "Total balance Commun",
+      "exchange": "Exchange",
       "after_creating": "After creating a community:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} Commun tokens</span><br />",
       "burned": "Will be burned for public goods",
@@ -1369,6 +1372,25 @@
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} points</span><br />",
       "transferred": "Will be transferred to your wallet",
       "not_enough": "It looks like you don't have enough<br />Commun tokens.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">Commun tokens</span> <br />required to create a community"
+    },
+    "create_community_data": {
+      "base": {
+        "title": "Create community",
+        "name": "Community name",
+        "name_placeholder": "Create community name",
+        "description": "Description",
+        "description_placeholder": "Tell here about your community"
+      },
+      "rules": {
+        "title": "Add community rules",
+        "description": "We’ve added some default rules for your community. You can edit, remove or add new rules for your community."
+      },
+      "information": {
+        "title": "Important information",
+        "description": "After pressing <span class=\"blue\">“Create community”</span> button below, tokens will be debited from your wallet and next time you will need at least <span class=\"blue\">3 votes from community leaders</span> to make any changes in community settings. If you want to make changes — go back and do it before saving.",
+        "agree": "I understand that after saving of all changes in current community I’ll need at least 3 leaders in current community to make changes next time.",
+        "submit": "Create community"
+      }
     }
   },
 

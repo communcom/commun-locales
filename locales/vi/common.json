@@ -1349,8 +1349,11 @@
       }
     },
     "create_community": {
+      "wait": "It may take a while to create",
       "confirmation": "Xác nhận",
       "you_need": "Để tạo lập một cộng đồng <br /> cần <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">token Commun</span> .",
+      "total_balance": "Total balance Commun",
+      "exchange": "Exchange",
       "after_creating": "Sau khi tạo lập cộng đồng:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} token Commun</span><br />",
       "burned": "chi phí",
@@ -1359,7 +1362,8 @@
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} điểm</span><br />",
       "transferred": "sẽ được chuyển vào ví điện tử của bạn",
       "not_enough": "Dường như bạn không đủ<br />token Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">token Commun</span> <br />cần để tạo lập cộng đồng"
-    }
+    },
+    "create_community_data": {}
   },
 
   "widgets": {

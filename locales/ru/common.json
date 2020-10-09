@@ -1365,8 +1365,11 @@
       }
     },
     "create_community": {
+      "wait": "Создание может занять некоторое время",
       "confirmation": "Подтверждение",
-      "you_need": "Для создания сообщества <br /> нужно <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> .",
+      "you_need": "Для создания сообщества <br /> нужно <span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span>",
+      "total_balance": "Баланс Commun",
+      "exchange": "Обменять",
       "after_creating": "После создания сообщества:",
       "burned_tokens": "<span class=\"blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}} токенов Commun</span><br />",
       "burned": "сгорит",
@@ -1375,6 +1378,25 @@
       "transferred_points": "<span class=\"blue bold\">{{COMMUNITY_CREATION_WALLET_POINTS_NUMBER}} поинтов</span><br />",
       "transferred": "будет переведено в Ваш кошелек",
       "not_enough": "Похоже, у Вас недостаточно<br />токенов Commun.<br /><span class=\"big blue bold\">{{COMMUNITY_CREATION_TOKENS_NUMBER}}</span> <span class=\"big blue semibold\">токенов Commun</span> <br />нужно для создания сообщества"
+    },
+    "create_community_data": {
+      "base": {
+        "title": "Создание сообщества",
+        "name": "Имя сообщества",
+        "name_placeholder": "Имя создаваемого сообщества",
+        "description": "Описание",
+        "description_placeholder": "Расскажите о вашем сообществе"
+      },
+      "rules": {
+        "title": "Добавьте правила сообщества",
+        "description": "Мы добавили несколько правил по умолчанию. Вы можете редактировать, удалять или добавлять новые правила для Вашего сообщества."
+      },
+      "information": {
+        "title": "Важная информация ",
+        "description": "После нажатия кнопки <span class=\"blue\">\"Создать сообщество\"</span>, токены будут списаны с Вашего кошелька. В дальнейшем Вам понадобится по крайней мере <span class=\"blue\">3 голоса от лидеров сообщества</span>, чтобы сделать любые изменения в его настройках. Если Вы хотите внести правки - вернитесь и сделайте их до сохранения.",
+        "agree": "Я понимаю, что после сохранения мне понадобится как минимум 3 лидера в текущем сообществе, чтобы внести изменения в следующий раз.",
+        "submit": "Создать сообщество"
+      }
     }
   },
 
